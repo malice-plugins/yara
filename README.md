@@ -11,8 +11,6 @@ Malice Yara Plugin
 
 This repository contains a **Dockerfile** of **malice/yara** for [Docker](https://www.docker.io/)'s [trusted build](https://index.docker.io/u/malice/yara/) published to the public [DockerHub](https://index.docker.io/).
 
-> **WARNING:** Work in progress.  Not ready yet.
-
 ### Dependencies
 
 * [gliderlabs/alpine:3.3](https://index.docker.io/_/gliderlabs/alpine/)
