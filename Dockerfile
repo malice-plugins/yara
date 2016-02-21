@@ -3,8 +3,8 @@ FROM gliderlabs/alpine:3.3
 MAINTAINER blacktop, https://github.com/blacktop
 
 COPY . /go/src/github.com/maliceio/malice-yara
-RUN apk-install python openssl file jansson
-RUN apk-install -t build-deps go git mercurial autoconf automake file-dev flex gcc git jansson-dev libc-dev libtool make openssl-dev python-dev \
+RUN apk-install openssl file jansson
+RUN apk-install -t build-deps go git mercurial autoconf automake file-dev flex gcc git jansson-dev libc-dev libtool make openssl-dev \
   && set -x \
   && cd /tmp/ \
   && git clone --recursive --branch v3.4.0 git://github.com/plusvic/yara \
@@ -15,8 +15,6 @@ RUN apk-install -t build-deps go git mercurial autoconf automake file-dev flex g
                  --with-crypto \
   && make \
   && make install \
-  && cd yara-python \
-  && python setup.py build install \
   && echo "Building info Go binary..." \
   && cd /go/src/github.com/maliceio/malice-yara \
   && export GOPATH=/go \
