@@ -24,8 +24,7 @@ RUN apk-install -t build-deps go git mercurial autoconf automake file-dev flex g
   && go version \
   && go get \
   && go build -ldflags "-X main.Version=$(cat VERSION) -X main.BuildTime=$(date -u +%Y%m%d)" -o /bin/scan \
-  && rm -rf /go \
-  && rm -rf /tmp/* \
+  && rm -rf /go /tmp/* \
   && apk del --purge build-deps
 
 VOLUME ["/malware"]
