@@ -158,32 +158,25 @@ func main() {
 			Destination: &rules,
 		},
 	}
-	app.Commands = []cli.Command{
-		{
-			Name:      "scan",
-			Aliases:   []string{"s"},
-			Usage:     "Scan file with YARA",
-			ArgsUsage: "FILE to scan with YARA",
-			Action: func(c *cli.Context) {
-				if c.Args().Present() {
-					path := c.Args().First()
-					// Check that file exists
-					if _, err := os.Stat(path); os.IsNotExist(err) {
-						assert(err)
-					}
-					yara := Yara{Results: scanFile(path, rules)}
-					if table {
-						printMarkDownTable(yara)
-					} else {
-						yaraJSON, err := json.Marshal(yara)
-						assert(err)
-						fmt.Println(string(yaraJSON))
-					}
-				} else {
-					log.Fatal(fmt.Errorf("Please supply a file to scan with YARA"))
-				}
-			},
-		},
+	app.ArgsUsage = "FILE to scan with YARA"
+	app.Action = func(c *cli.Context) {
+		if c.Args().Present() {
+			path := c.Args().First()
+			// Check that file exists
+			if _, err := os.Stat(path); os.IsNotExist(err) {
+				assert(err)
+			}
+			yara := Yara{Results: scanFile(path, rules)}
+			if table {
+				printMarkDownTable(yara)
+			} else {
+				yaraJSON, err := json.Marshal(yara)
+				assert(err)
+				fmt.Println(string(yaraJSON))
+			}
+		} else {
+			log.Fatal(fmt.Errorf("Please supply a file to scan with YARA"))
+		}
 	}
 
 	err := app.Run(os.Args)

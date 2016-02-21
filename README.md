@@ -33,7 +33,7 @@ $ docker run -v /path/to/malware:/malware:ro -v /path/to/rules:/rules:ro malice/
 
 Usage: yara [OPTIONS] COMMAND [arg...]
 
-Malice yara Plugin
+Malice YARA Plugin
 
 Version: v0.1.0, BuildTime: 20160214
 
@@ -41,14 +41,14 @@ Author:
   blacktop - <https://github.com/blacktop>
 
 Options:
-  --post, -p	POST results to Malice webhook [$MALICE_ENDPOINT]
-  --proxy, -x	proxy settings for Malice webhook endpoint [$MALICE_PROXY]
-  --table, -t	output as Markdown table
-  --help, -h	show help
-  --version, -v	print the version
+  --post, -p		POST results to Malice webhook [$MALICE_ENDPOINT]
+  --proxy, -x		proxy settings for Malice webhook endpoint [$MALICE_PROXY]
+  --table, -t		output as Markdown table
+  --rules "/rules"	YARA rules directory
+  --help, -h		show help
+  --version, -v		print the version
 
 Commands:
-  scan	Scan file with YARA
   help	Shows a list of commands or help for one command
 
 Run 'yara COMMAND --help' for more information on a command.
