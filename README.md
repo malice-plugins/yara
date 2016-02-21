@@ -25,9 +25,12 @@ This repository contains a **Dockerfile** of **malice/yara** for [Docker](https:
 
 ### Usage
 
-    docker run --rm malice/yara FILE
+    docker run --rm -v /path/to/rules:/rules:ro malice/yara FILE
 
+#### Or link your own malware folder
 ```bash
+$ docker run -v /path/to/malware:/malware:ro -v /path/to/rules:/rules:ro malice/yara FILE
+
 Usage: yara [OPTIONS] COMMAND [arg...]
 
 Malice yara Plugin
@@ -38,14 +41,15 @@ Author:
   blacktop - <https://github.com/blacktop>
 
 Options:
-  --table, -t	output as Markdown table
   --post, -p	POST results to Malice webhook [$MALICE_ENDPOINT]
   --proxy, -x	proxy settings for Malice webhook endpoint [$MALICE_PROXY]
+  --table, -t	output as Markdown table
   --help, -h	show help
   --version, -v	print the version
 
 Commands:
-  help		Shows a list of commands or help for one command
+  scan	Scan file with YARA
+  help	Shows a list of commands or help for one command
 
 Run 'yara COMMAND --help' for more information on a command.
 ```

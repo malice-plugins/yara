@@ -49,10 +49,11 @@ func printStatus(resp gorequest.Response, body string, errs []error) {
 // TODO: handle more than just the first Offset, handle multiple MatchStrings
 func printMarkDownTable(yara Yara) {
 	fmt.Println("#### yara")
-	table := clitable.New([]string{"Rule", "Description", "Offset", "Data"})
+	table := clitable.New([]string{"Rule", "Tags", "Description", "Offset", "Data"})
 	for _, match := range yara.Results.Matches {
 		table.AddRow(map[string]interface{}{
 			"Rule":        match.Rule,
+			"Tags":        match.Tags[0],
 			"Description": match.Meta["description"],
 			"Offset":      match.Strings[0].Offset,
 			"Data":        string(match.Strings[0].Data),
