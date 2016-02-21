@@ -15,6 +15,8 @@ RUN apk-install -t build-deps go git mercurial autoconf automake file-dev flex g
                  --with-crypto \
   && make \
   && make install \
+  && echo "Move example rules into rules directory..." \
+  && mv rules/* /rules \
   && echo "Building info Go binary..." \
   && cd /go/src/github.com/maliceio/malice-yara \
   && export GOPATH=/go \
