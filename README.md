@@ -9,16 +9,16 @@
 
 Malice Yara Plugin
 
-This repository contains a **Dockerfile** of **malice/yara** for [Docker](https://www.docker.io/)'s [trusted build](https://hub.docker.com/r/blacktop/yara/) published to the public [DockerHub](https://hub.docker.com/).
+This repository contains a **Dockerfile** of **malice/yara** for [Docker](https://www.docker.io/)'s [trusted build][hub] published to the public [DockerHub](https://hub.docker.com/).
 
 ### Dependencies
 
-* [gliderlabs/alpine:3.3](https://hub.docker.com/_/gliderlabs/alpine/)
+* [gliderlabs/alpine](https://hub.docker.com/_/gliderlabs/alpine/)
 
 ### Installation
 
 1. Install [Docker](https://www.docker.io/).
-2. Download [trusted build](https://hub.docker.com/r/malice/yara/) from public [DockerHub](https://hub.docker.com): `docker pull malice/yara`
+2. Download [trusted build][hub] from public [DockerHub](https://hub.docker.com): `docker pull malice/yara`
 
 ### Usage
 
