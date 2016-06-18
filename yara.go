@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/codegangsta/cli"
 	"github.com/crackcomm/go-clitable"
 	"github.com/hillu/go-yara"
 	"github.com/parnurzeal/gorequest"
+	"github.com/urfave/cli"
 )
 
 // Version stores the plugin's version
@@ -87,6 +87,7 @@ func scanFile(path string, rulesDir string) ResultsData {
 	assert(err)
 
 	comp, err := yara.NewCompiler()
+	assert(err)
 
 	for _, file := range fileList {
 		// fmt.Println(file)
@@ -100,6 +101,7 @@ func scanFile(path string, rulesDir string) ResultsData {
 
 	// args: filename string, flags ScanFlags, timeout time.Duration
 	matches, err := r.ScanFile(path, 0, 60)
+	assert(err)
 	yaraResults.Matches = matches
 	// fmt.Printf("Matches: %+v", matches)
 	return yaraResults
@@ -159,7 +161,7 @@ func main() {
 		},
 	}
 	app.ArgsUsage = "FILE to scan with YARA"
-	app.Action = func(c *cli.Context) {
+	app.Action = func(c *cli.Context) error {
 		if c.Args().Present() {
 			path := c.Args().First()
 			// Check that file exists
@@ -177,6 +179,7 @@ func main() {
 		} else {
 			log.Fatal(fmt.Errorf("Please supply a file to scan with YARA"))
 		}
+		return nil
 	}
 
 	err := app.Run(os.Args)
