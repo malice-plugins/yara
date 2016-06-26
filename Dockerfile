@@ -4,7 +4,7 @@ MAINTAINER blacktop, https://github.com/blacktop
 
 COPY . /go/src/github.com/maliceio/malice-yara
 COPY rules /rules
-RUN apk-install openssl file jansson
+RUN apk-install openssl file jansson ca-certificates
 RUN apk-install -t build-deps go git mercurial autoconf automake file-dev flex gcc git jansson-dev libc-dev libtool build-base openssl-dev \
   && set -x \
   && cd /tmp/ \

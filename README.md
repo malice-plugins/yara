@@ -1,30 +1,31 @@
 ![YARA-logo](https://raw.githubusercontent.com/maliceio/malice-yara/master/logo.png)
-# malice-yara
 
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
-[![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)][hub]
-[![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)][hub]
-[![Image Size](https://img.shields.io/imagelayers/image-size/malice/yara/latest.svg)](https://imagelayers.io/?images=malice/yara:latest)
-[![Image Layers](https://img.shields.io/imagelayers/layers/malice/yara/latest.svg)](https://imagelayers.io/?images=malice/yara:latest)
+malice-yara
+===========
+
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/)
 
 Malice Yara Plugin
 
-This repository contains a **Dockerfile** of **malice/yara** for [Docker](https://www.docker.io/)'s [trusted build][hub] published to the public [DockerHub](https://hub.docker.com/).
+This repository contains a **Dockerfile** of **malice/yara** for [Docker](https://www.docker.io/)'s [trusted build](https://hub.docker.com/r/malice/yara/) published to the public [DockerHub](https://hub.docker.com/).
 
 ### Dependencies
 
-* [gliderlabs/alpine](https://hub.docker.com/_/gliderlabs/alpine/)
+-	[gliderlabs/alpine](https://hub.docker.com/_/gliderlabs/alpine/)
 
 ### Installation
 
-1. Install [Docker](https://www.docker.io/).
-2. Download [trusted build][hub] from public [DockerHub](https://hub.docker.com): `docker pull malice/yara`
+1.	Install [Docker](https://www.docker.io/).
+2.	Download [trusted build](https://hub.docker.com/r/malice/yara/) from public [DockerHub](https://hub.docker.com): `docker pull malice/yara`
 
 ### Usage
 
-    docker run --rm -v /path/to/rules:/rules:ro malice/yara FILE
+```
+docker run --rm -v /path/to/rules:/rules:ro malice/yara FILE
+```
 
 #### Or link your own malware folder
+
 ```bash
 $ docker run -v /path/to/malware:/malware:ro -v /path/to/rules:/rules:ro malice/yara FILE
 
@@ -38,10 +39,12 @@ Author:
   blacktop - <https://github.com/blacktop>
 
 Options:
+  --verbose, -V		verbose output
+  --rethinkdb value	rethinkdb address for Malice to store results [$MALICE_RETHINKDB]
   --post, -p		POST results to Malice webhook [$MALICE_ENDPOINT]
   --proxy, -x		proxy settings for Malice webhook endpoint [$MALICE_PROXY]
   --table, -t		output as Markdown table
-  --rules "/rules"	YARA rules directory
+  --rules value		YARA rules directory (default: "/rules")
   --help, -h		show help
   --version, -v		print the version
 
@@ -54,6 +57,7 @@ Run 'yara COMMAND --help' for more information on a command.
 This will output to stdout and POST to malice results API webhook endpoint.
 
 ### Sample Output JSON:
+
 ```json
 {
   "yara": {
@@ -77,7 +81,9 @@ This will output to stdout and POST to malice results API webhook endpoint.
   }
 }
 ```
+
 ### Sample FILTERED Output JSON:
+
 ```bash
 $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 
@@ -89,18 +95,32 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 ```
 
 ### Sample Output STDOUT (Markdown Table):
+
 ---
+
 #### yara
-| Rule                                   | Description                                 | Offset | Data                                 | Tags |
-| -------------------------------------- | ------------------------------------------- | ------ | ------------------------------------ | ---- |
-| _Microsoft_Visual_Cpp_v50v60_MFC_      | Microsoft Visual C++ v5.0/v6.0 (MFC)        | 5204   | U��                                 |      |
-| _Borland_Delphi_v60__v70_              | Borland Delphi v6.0 - v7.0                  | 5204   | U��                                  |      |
-| _dUP_v2x_Patcher__wwwdiablo2oo2cjbnet_ | dUP v2.x Patcher --> www.diablo2oo2.cjb.net | 78     | This program cannot be run in DOS mo |      |
-| _Free_Pascal_v106_                     | Free Pascal v1.06                           | 14866  | ��@O�k                            |      |
-| _Armadillo_v171_                       | Armadillo v1.71                             | 23110  | U��j�h b@h�[@d�                      |      |
+
+| Rule                                    | Description                                 | Offset | Data                                 | Tags |
+|-----------------------------------------|---------------------------------------------|--------|--------------------------------------|------|
+| *Microsoft_Visual_Cpp_v50v60_MFC*       | Microsoft Visual C++ v5.0/v6.0 (MFC)        | 5204   | U��                                  |      |
+| *Borland_Delphi_v60\__v70*              | Borland Delphi v6.0 - v7.0                  | 5204   | U��                                  |      |
+| *dUP_v2x_Patcher\__wwwdiablo2oo2cjbnet* | dUP v2.x Patcher --> www.diablo2oo2.cjb.net | 78     | This program cannot be run in DOS mo |      |
+| *Free_Pascal_v106*                      | Free Pascal v1.06                           | 14866  | ��@O�k                               |      |
+| *Armadillo_v171*                        | Armadillo v1.71                             | 23110  | U��j�h b@h�[@d�                      |      |
+
 ---
+
+### To write results to [RethinkDB](https://rethinkdb.com)
+
+```bash
+$ docker volume create --name malice
+$ docker run -d -p 28015:28015 -p 8080:8080 -v malice:/data --name rethink rethinkdb
+$ docker run --rm -v /path/to/malware:/malware:ro --link rethink:rethink malice/yara -t FILE
+```
+
 ### To Run on OSX
- - Install [Homebrew](http://brew.sh)
+
+-	Install [Homebrew](http://brew.sh)
 
 ```bash
 $ brew install caskroom/cask/brew-cask
@@ -120,6 +140,5 @@ Find a bug? Want more features? Find something missing in the documentation? Let
 ### Credits
 
 ### License
-MIT Copyright (c) 2016 **blacktop**
 
-[hub]: https://hub.docker.com/r/malice/yara/
+MIT Copyright (c) 2016 **blacktop**

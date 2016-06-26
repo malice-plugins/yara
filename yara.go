@@ -1,17 +1,20 @@
 package main
 
 import (
+	"crypto/sha256"
 	"encoding/json"
 	"fmt"
-	"log"
+	"io/ioutil"
 	"os"
 	"path/filepath"
 	"time"
 
+	log "github.com/Sirupsen/logrus"
 	"github.com/crackcomm/go-clitable"
 	"github.com/hillu/go-yara"
 	"github.com/parnurzeal/gorequest"
 	"github.com/urfave/cli"
+	r "gopkg.in/dancannon/gorethink.v2"
 )
 
 // Version stores the plugin's version
@@ -20,6 +23,16 @@ var Version string
 // BuildTime stores the plugin's build time
 var BuildTime string
 
+const (
+	name     = "yara"
+	category = "av"
+)
+
+type pluginResults struct {
+	ID   string      `json:"id" gorethink:"id,omitempty"`
+	Data ResultsData `json:"yara" gorethink:"yara"`
+}
+
 // Yara json object
 type Yara struct {
 	Results ResultsData `json:"yara"`
@@ -27,7 +40,7 @@ type Yara struct {
 
 // ResultsData json object
 type ResultsData struct {
-	Matches []yara.MatchRule `json:"matches"`
+	Matches []yara.MatchRule `json:"matches" gorethink:"matches"`
 }
 
 func getopt(name, dfault string) string {
@@ -42,6 +55,19 @@ func assert(err error) {
 	if err != nil {
 		log.Fatal(err)
 	}
+}
+
+// getSHA256 calculates a file's sha256sum
+func getSHA256(name string) string {
+
+	dat, err := ioutil.ReadFile(name)
+	assert(err)
+
+	h256 := sha256.New()
+	_, err = h256.Write(dat)
+	assert(err)
+
+	return fmt.Sprintf("%x", h256.Sum(nil))
 }
 
 func printStatus(resp gorequest.Response, body string, errs []error) {
@@ -107,6 +133,47 @@ func scanFile(path string, rulesDir string) ResultsData {
 	return yaraResults
 }
 
+// writeToDatabase upserts plugin results into Database
+func writeToDatabase(results pluginResults) {
+
+	address := fmt.Sprintf("%s:28015", getopt("MALICE_RETHINKDB", "rethink"))
+
+	// connect to RethinkDB
+	session, err := r.Connect(r.ConnectOpts{
+		Address:  address,
+		Timeout:  5 * time.Second,
+		Database: "malice",
+	})
+	defer session.Close()
+
+	if err == nil {
+		res, err := r.Table("samples").Get(results.ID).Run(session)
+		assert(err)
+		defer res.Close()
+
+		if res.IsNil() {
+			// upsert into RethinkDB
+			resp, err := r.Table("samples").Insert(results, r.InsertOpts{Conflict: "replace"}).RunWrite(session)
+			assert(err)
+			log.Debug(resp)
+		} else {
+			resp, err := r.Table("samples").Get(results.ID).Update(map[string]interface{}{
+				"plugins": map[string]interface{}{
+					category: map[string]interface{}{
+						name: results.Data,
+					},
+				},
+			}).RunWrite(session)
+			assert(err)
+
+			log.Debug(resp)
+		}
+
+	} else {
+		log.Debug(err)
+	}
+}
+
 var appHelpTemplate = `Usage: {{.Name}} {{if .Flags}}[OPTIONS] {{end}}COMMAND [arg...]
 
 {{.Usage}}
@@ -137,7 +204,19 @@ func main() {
 	app.Usage = "Malice YARA Plugin"
 	var rules string
 	var table bool
+	var rethinkdb string
 	app.Flags = []cli.Flag{
+		cli.BoolFlag{
+			Name:  "verbose, V",
+			Usage: "verbose output",
+		},
+		cli.StringFlag{
+			Name:        "rethinkdb",
+			Value:       "",
+			Usage:       "rethinkdb address for Malice to store results",
+			EnvVar:      "MALICE_RETHINKDB",
+			Destination: &rethinkdb,
+		},
 		cli.BoolFlag{
 			Name:   "post, p",
 			Usage:  "POST results to Malice webhook",
@@ -168,7 +247,14 @@ func main() {
 			if _, err := os.Stat(path); os.IsNotExist(err) {
 				assert(err)
 			}
+			if c.Bool("verbose") {
+				log.SetLevel(log.DebugLevel)
+			}
 			yara := Yara{Results: scanFile(path, rules)}
+
+			// upsert into Database
+			writeToDatabase(pluginResults{ID: getSHA256(path), Data: yara.Results})
+
 			if table {
 				printMarkDownTable(yara)
 			} else {
