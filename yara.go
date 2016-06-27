@@ -247,13 +247,20 @@ func main() {
 			if _, err := os.Stat(path); os.IsNotExist(err) {
 				assert(err)
 			}
+
 			if c.Bool("verbose") {
 				log.SetLevel(log.DebugLevel)
+			} else {
+				r.Log.Out = ioutil.Discard
 			}
+
 			yara := Yara{Results: scanFile(path, rules)}
 
 			// upsert into Database
-			writeToDatabase(pluginResults{ID: getSHA256(path), Data: yara.Results})
+			writeToDatabase(pluginResults{
+				ID:   getopt("MALICE_SCANID", getSHA256(path)),
+				Data: yara.Results,
+			})
 
 			if table {
 				printMarkDownTable(yara)
