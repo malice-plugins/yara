@@ -7,7 +7,7 @@ malice-yara
 
 Malice Yara Plugin
 
-This repository contains a **Dockerfile** of **malice/yara** for [Docker](https://www.docker.io/)'s [trusted build](https://hub.docker.com/r/malice/yara/) published to the public [DockerHub](https://hub.docker.com/).
+This repository contains a **Dockerfile** of the [Yara](http://virustotal.github.io/yara/) malice plugin **malice/yara**.
 
 ### Dependencies
 
