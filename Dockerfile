@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine
+FROM malice/alpine
 
 MAINTAINER blacktop, https://github.com/blacktop
 

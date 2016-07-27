@@ -3,7 +3,7 @@
 malice-yara
 ===========
 
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Image](https://img.shields.io/badge/docker image-21.26 MB-blue.svg)](https://hub.docker.com/r/malice/virustotal/)
 
 Malice Yara Plugin
 
@@ -115,7 +115,7 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 ```bash
 $ docker volume create --name malice
 $ docker run -d -p 28015:28015 -p 8080:8080 -v malice:/data --name rethink rethinkdb
-$ docker run --rm -v /path/to/malware:/malware:ro --link rethink:rethink malice/yara -t FILE
+$ docker run --rm -v /path/to/malware:/malware:ro --link rethink malice/yara -t FILE
 ```
 
 ### To Run on OSX
@@ -135,7 +135,7 @@ $ eval $(docker-machine env malice)
 
 ### Issues
 
-Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/maliceio/malice-av/issues/new) and I'll get right on it.
+Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/maliceio/malice-yara/issues/new) and I'll get right on it.
 
 ### Credits
 
