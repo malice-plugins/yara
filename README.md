@@ -11,7 +11,7 @@ This repository contains a **Dockerfile** of the [Yara](http://virustotal.github
 
 ### Dependencies
 
--	[gliderlabs/alpine](https://hub.docker.com/_/gliderlabs/alpine/)
+-	[malice/alpine](https://hub.docker.com/r/malice/alpine/)
 
 ### Installation
 
