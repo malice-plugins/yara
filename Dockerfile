@@ -1,4 +1,4 @@
-FROM malice/alpine
+FROM malice/alpine:tini
 
 MAINTAINER blacktop, https://github.com/blacktop
 
@@ -8,7 +8,7 @@ RUN apk-install openssl file jansson ca-certificates
 RUN apk-install -t build-deps go git mercurial autoconf automake file-dev flex gcc git jansson-dev libc-dev libtool build-base openssl-dev \
   && set -x \
   && cd /tmp/ \
-  && git clone --recursive --branch v3.4.0 git://github.com/plusvic/yara \
+  && git clone --recursive --branch v3.4.0 git://github.com/VirusTotal/yara \
   && cd /tmp/yara \
   && ./bootstrap.sh \
   && ./configure --enable-cuckoo \
@@ -32,6 +32,6 @@ VOLUME ["/rules"]
 
 WORKDIR /malware
 
-ENTRYPOINT ["/bin/scan"]
+ENTRYPOINT ["gosu","malice","/sbin/tini","--","scan"]
 
 CMD ["--help"]
