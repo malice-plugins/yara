@@ -11,7 +11,7 @@ This repository contains a **Dockerfile** of the [Yara](http://virustotal.github
 
 ### Dependencies
 
--	[malice/alpine](https://hub.docker.com/r/malice/alpine/)
+-	[malice/alpine:tini](https://hub.docker.com/r/malice/alpine/)
 
 ### Installation
 
@@ -116,19 +116,6 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 $ docker volume create --name malice
 $ docker run -d -p 28015:28015 -p 8080:8080 -v malice:/data --name rethink rethinkdb
 $ docker run --rm -v /path/to/malware:/malware:ro --link rethink malice/yara -t FILE
-```
-
-### To Run on OSX
-
--	Install [Homebrew](http://brew.sh)
-
-```bash
-$ brew install caskroom/cask/brew-cask
-$ brew cask install virtualbox
-$ brew install docker
-$ brew install docker-machine
-$ docker-machine create --driver virtualbox malice
-$ eval $(docker-machine env malice)
 ```
 
 ### Documentation
