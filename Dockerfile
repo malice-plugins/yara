@@ -4,12 +4,12 @@ MAINTAINER blacktop, https://github.com/blacktop
 
 COPY . /go/src/github.com/maliceio/malice-yara
 COPY rules /rules
-RUN apk-install openssl file jansson ca-certificates
+RUN apk-install openssl file bison jansson ca-certificates
 RUN apk-install -t build-deps go git mercurial autoconf automake file-dev flex gcc git jansson-dev libc-dev libtool build-base openssl-dev \
   && set -x \
   && echo "Install Yara from source..." \
   && cd /tmp/ \
-  && git clone --recursive --branch v3.5.0 https://github.com/VirusTotal/yara.git \
+  && git clone --recursive --branch v3.4.0 https://github.com/VirusTotal/yara.git \
   && cd /tmp/yara \
   && ./bootstrap.sh \
   && ./configure --enable-cuckoo \
