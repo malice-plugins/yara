@@ -131,7 +131,7 @@ func main() {
 	app.Usage = "Malice YARA Plugin"
 	var rules string
 	var table bool
-	var rethinkdb string
+	var elasitcsearch string
 	app.Flags = []cli.Flag{
 		cli.BoolFlag{
 			Name:  "verbose, V",
