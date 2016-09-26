@@ -78,15 +78,15 @@ func scanFile(path string, rulesDir string) ResultsData {
 		fileList = append(fileList, path)
 		return nil
 	})
-	assert(err)
+	utils.Assert(err)
 
 	comp, err := yara.NewCompiler()
-	assert(err)
+	utils.Assert(err)
 
 	for _, file := range fileList {
 		// fmt.Println(file)
 		f, err := os.Open(file)
-		assert(err)
+		utils.Assert(err)
 		comp.AddFile(f, "malice")
 		f.Close()
 	}
@@ -95,7 +95,7 @@ func scanFile(path string, rulesDir string) ResultsData {
 
 	// args: filename string, flags ScanFlags, timeout time.Duration
 	matches, err := r.ScanFile(path, 0, 60)
-	assert(err)
+	utils.Assert(err)
 	yaraResults.Matches = matches
 	// fmt.Printf("Matches: %+v", matches)
 	return yaraResults
@@ -172,7 +172,7 @@ func main() {
 			path := c.Args().First()
 			// Check that file exists
 			if _, err := os.Stat(path); os.IsNotExist(err) {
-				assert(err)
+				utils.Assert(err)
 			}
 
 			if c.Bool("verbose") {
@@ -194,7 +194,7 @@ func main() {
 				printMarkDownTable(yara)
 			} else {
 				yaraJSON, err := json.Marshal(yara)
-				assert(err)
+				utils.Assert(err)
 				fmt.Println(string(yaraJSON))
 			}
 		} else {
@@ -204,5 +204,5 @@ func main() {
 	}
 
 	err := app.Run(os.Args)
-	assert(err)
+	utils.Assert(err)
 }
