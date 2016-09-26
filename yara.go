@@ -1,20 +1,19 @@
 package main
 
 import (
-	"crypto/sha256"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"time"
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/crackcomm/go-clitable"
+	"github.com/fatih/structs"
 	"github.com/hillu/go-yara"
-	"github.com/parnurzeal/gorequest"
+	"github.com/maliceio/malice/malice/database/elasticsearch"
+	"github.com/maliceio/malice/utils"
 	"github.com/urfave/cli"
-	r "gopkg.in/dancannon/gorethink.v2"
 )
 
 // Version stores the plugin's version
@@ -41,37 +40,6 @@ type Yara struct {
 // ResultsData json object
 type ResultsData struct {
 	Matches []yara.MatchRule `json:"matches" gorethink:"matches"`
-}
-
-func getopt(name, dfault string) string {
-	value := os.Getenv(name)
-	if value == "" {
-		value = dfault
-	}
-	return value
-}
-
-func assert(err error) {
-	if err != nil {
-		log.Fatal(err)
-	}
-}
-
-// getSHA256 calculates a file's sha256sum
-func getSHA256(name string) string {
-
-	dat, err := ioutil.ReadFile(name)
-	assert(err)
-
-	h256 := sha256.New()
-	_, err = h256.Write(dat)
-	assert(err)
-
-	return fmt.Sprintf("%x", h256.Sum(nil))
-}
-
-func printStatus(resp gorequest.Response, body string, errs []error) {
-	fmt.Println(resp.Status)
 }
 
 // TODO: handle more than just the first Offset, handle multiple MatchStrings
@@ -133,47 +101,6 @@ func scanFile(path string, rulesDir string) ResultsData {
 	return yaraResults
 }
 
-// writeToDatabase upserts plugin results into Database
-func writeToDatabase(results pluginResults) {
-
-	address := fmt.Sprintf("%s:28015", getopt("MALICE_RETHINKDB", "rethink"))
-
-	// connect to RethinkDB
-	session, err := r.Connect(r.ConnectOpts{
-		Address:  address,
-		Timeout:  5 * time.Second,
-		Database: "malice",
-	})
-	defer session.Close()
-
-	if err == nil {
-		res, err := r.Table("samples").Get(results.ID).Run(session)
-		assert(err)
-		defer res.Close()
-
-		if res.IsNil() {
-			// upsert into RethinkDB
-			resp, err := r.Table("samples").Insert(results, r.InsertOpts{Conflict: "replace"}).RunWrite(session)
-			assert(err)
-			log.Debug(resp)
-		} else {
-			resp, err := r.Table("samples").Get(results.ID).Update(map[string]interface{}{
-				"plugins": map[string]interface{}{
-					category: map[string]interface{}{
-						name: results.Data,
-					},
-				},
-			}).RunWrite(session)
-			assert(err)
-
-			log.Debug(resp)
-		}
-
-	} else {
-		log.Debug(err)
-	}
-}
-
 var appHelpTemplate = `Usage: {{.Name}} {{if .Flags}}[OPTIONS] {{end}}COMMAND [arg...]
 
 {{.Usage}}
@@ -211,11 +138,11 @@ func main() {
 			Usage: "verbose output",
 		},
 		cli.StringFlag{
-			Name:        "rethinkdb",
+			Name:        "elasitcsearch",
 			Value:       "",
-			Usage:       "rethinkdb address for Malice to store results",
-			EnvVar:      "MALICE_RETHINKDB",
-			Destination: &rethinkdb,
+			Usage:       "elasitcsearch address for Malice to store results",
+			EnvVar:      "MALICE_ELASTICSEARCH",
+			Destination: &elasitcsearch,
 		},
 		cli.BoolFlag{
 			Name:   "post, p",
@@ -250,16 +177,17 @@ func main() {
 
 			if c.Bool("verbose") {
 				log.SetLevel(log.DebugLevel)
-			} else {
-				r.Log.Out = ioutil.Discard
 			}
 
 			yara := Yara{Results: scanFile(path, rules)}
 
 			// upsert into Database
-			writeToDatabase(pluginResults{
-				ID:   getopt("MALICE_SCANID", getSHA256(path)),
-				Data: yara.Results,
+			elasticsearch.InitElasticSearch()
+			elasticsearch.WritePluginResultsToDatabase(elasticsearch.PluginResults{
+				ID:       utils.Getopt("MALICE_SCANID", utils.GetSHA256(path)),
+				Name:     name,
+				Category: category,
+				Data:     structs.Map(yara.Results),
 			})
 
 			if table {

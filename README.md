@@ -40,7 +40,7 @@ Author:
 
 Options:
   --verbose, -V		verbose output
-  --rethinkdb value	rethinkdb address for Malice to store results [$MALICE_RETHINKDB]
+  --elasitcsearch value elasitcsearch address for Malice to store results [$MALICE_ELASTICSEARCH]  
   --post, -p		POST results to Malice webhook [$MALICE_ENDPOINT]
   --proxy, -x		proxy settings for Malice webhook endpoint [$MALICE_PROXY]
   --table, -t		output as Markdown table
@@ -110,12 +110,12 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 
 ---
 
-### To write results to [RethinkDB](https://rethinkdb.com)
+### To write results to [ElasticSearch](https://www.elastic.co/products/elasticsearch)
 
 ```bash
 $ docker volume create --name malice
-$ docker run -d -p 28015:28015 -p 8080:8080 -v malice:/data --name rethink rethinkdb
-$ docker run --rm -v /path/to/malware:/malware:ro --link rethink malice/yara -t FILE
+$ docker run -d -p 9200:9200 -v malice:/data --name elastic elasticsearch
+$ docker run --rm -v /path/to/malware:/malware:ro --link elastic malice/yara -t FILE
 ```
 
 ### Documentation
@@ -123,8 +123,6 @@ $ docker run --rm -v /path/to/malware:/malware:ro --link rethink malice/yara -t 
 ### Issues
 
 Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/maliceio/malice-yara/issues/new) and I'll get right on it.
-
-### Credits
 
 ### License
 
