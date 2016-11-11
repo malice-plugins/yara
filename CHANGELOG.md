@@ -21,6 +21,10 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+-	Timeout to protect against bad files 
+
 ### Removed
 
 ### Changed
+
+-	Upgrade Golang to 1.7.3

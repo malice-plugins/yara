@@ -110,19 +110,33 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 
 ---
 
+Documentation
+-------------
+
 ### To write results to [ElasticSearch](https://www.elastic.co/products/elasticsearch)
 
 ```bash
 $ docker volume create --name malice
-$ docker run -d -p 9200:9200 -v malice:/data --name elastic elasticsearch
+$ docker run -d --name elastic \
+                -p 9200:9200 \
+                -v malice:/usr/share/elasticsearch/data \
+                 blacktop/elasticsearch
 $ docker run --rm -v /path/to/malware:/malware:ro --link elastic malice/yara -t FILE
 ```
-
-### Documentation
 
 ### Issues
 
 Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/maliceio/malice-yara/issues/new) and I'll get right on it.
+
+### CHANGELOG
+
+See [`CHANGELOG.md`](https://github.com/maliceio/malice-yara/blob/master/CHANGELOG.md)
+
+### Contributing
+
+[See all contributors on GitHub](https://github.com/maliceio/malice-yara/graphs/contributors).
+
+Please update the [CHANGELOG.md](https://github.com/maliceio/malice-yara/blob/master/CHANGELOG.md) and submit a [Pull Request on GitHub](https://help.github.com/articles/using-pull-requests/).
 
 ### License
 

@@ -2,14 +2,12 @@ NAME=yara
 VERSION=$(shell cat VERSION)
 DEV_RUN_OPTS ?= TEST
 dev:
-	docker build -f Dockerfile.dev -t $(NAME):dev .
+	docker build -f Dockerfile -t $(NAME):dev .
 	docker run --rm $(NAME):dev $(DEV_RUN_OPTS)
 
 build:
-	rm -rf build && mkdir build
-	docker build -t $(NAME):$(VERSION) .
-	sed -i.bu 's/docker image-.*-blue/docker image-$(shell docker images --format "{{.Size}}" $(NAME):$(VERSION))-blue/g' README.md
-	docker save $(NAME):$(VERSION) | gzip -9 > build/$(NAME)_$(VERSION).tgz
+	docker build -t malice/$(NAME):$(VERSION) .
+	sed -i.bu 's/docker image-.*-blue/docker image-$(shell docker images --format "{{.Size}}" malice/$(NAME):$(VERSION))-blue/g' README.md
 
 release:
 	rm -rf release && mkdir release
