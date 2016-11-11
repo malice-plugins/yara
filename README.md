@@ -124,6 +124,14 @@ $ docker run -d --name elastic \
 $ docker run --rm -v /path/to/malware:/malware:ro --link elastic malice/yara -t FILE
 ```
 
+### POST results to a webhook
+
+```bash
+$ docker run -v `pwd`:/malware:ro \
+             -e MALICE_ENDPOINT="https://malice.io:31337/scan/file" \
+             malice/yara --post evil.malware
+```
+
 ### Issues
 
 Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/maliceio/malice-yara/issues/new) and I'll get right on it.

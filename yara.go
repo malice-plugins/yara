@@ -1,7 +1,6 @@
 package main
 
 import (
-	"context"
 	"encoding/json"
 	"fmt"
 	"os"
@@ -72,53 +71,42 @@ func printMarkDownTable(yara Yara) {
 }
 
 // scanFile scans file with all yara rules in the rules folder
-func scanFile(ctx context.Context, path string, rulesDir string) ResultsData {
-	yaraResults := ResultsData{}
+func scanFile(path string, rulesDir string, timeout int) ResultsData {
 
+	yaraResults := ResultsData{}
 	fileList := []string{}
+
+	// walk rules directory
 	err := filepath.Walk(rulesDir, func(path string, f os.FileInfo, err error) error {
 		fileList = append(fileList, path)
 		return nil
 	})
 	utils.Assert(err)
 
-	c := make(chan struct {
-		mimetype string
-		err      error
-	}, 1)
+	// new yara compiler
+	comp, err := yara.NewCompiler()
+	utils.Assert(err)
 
-	go func() {
-		comp, err := yara.NewCompiler()
+	// compile all yara rules
+	for _, file := range fileList {
+		f, err := os.Open(file)
 		utils.Assert(err)
-
-		for _, file := range fileList {
-			// fmt.Println(file)
-			f, err := os.Open(file)
-			utils.Assert(err)
-			comp.AddFile(f, "malice")
-			f.Close()
-		}
-
-		r, err := comp.GetRules()
-
-		// args: filename string, flags ScanFlags, timeout time.Duration
-		matches, err := r.ScanFile(path, 0, 60)
-		utils.Assert(err)
-		yaraResults.Matches = matches
-		// fmt.Printf("Matches: %+v", matches)
-		return yaraResults
-	}()
-
-	select {
-	case <-ctx.Done():
-		<-c // Wait for mime
-		fmt.Println("Cancel the context")
-		return ctx.Err()
-	case ok := <-c:
-		utils.Assert(ok.err)
-		fi.Magic.Mime = ok.mimetype
-		return ok.err
+		comp.AddFile(f, "malice")
+		f.Close()
 	}
+
+	r, err := comp.GetRules()
+
+	matches, err := r.ScanFile(
+		path,    // filename string
+		0,       // flags ScanFlags
+		timeout, //timeout time.Duration
+	)
+	utils.Assert(err)
+
+	yaraResults.Matches = matches
+
+	return yaraResults
 }
 
 func main() {
@@ -166,7 +154,7 @@ func main() {
 		},
 		cli.IntFlag{
 			Name:   "timeout",
-			Value:  10,
+			Value:  60,
 			Usage:  "malice plugin timeout (in seconds)",
 			EnvVar: "MALICE_TIMEOUT",
 		},
@@ -180,9 +168,6 @@ func main() {
 	app.ArgsUsage = "FILE to scan with YARA"
 	app.Action = func(c *cli.Context) error {
 
-		ctx, cancel := context.WithTimeout(context.Background(), time.Duration(c.Int("timeout"))*time.Second)
-		defer cancel()
-
 		if c.Args().Present() {
 			path := c.Args().First()
 			// Check that file exists
@@ -194,7 +179,7 @@ func main() {
 				log.SetLevel(log.DebugLevel)
 			}
 
-			yara := Yara{Results: scanFile(ctx, path, rules)}
+			yara := Yara{Results: scanFile(path, rules, c.Int("timeout"))}
 
 			// upsert into Database
 			elasticsearch.InitElasticSearch(elastic)
