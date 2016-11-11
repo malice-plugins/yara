@@ -44,8 +44,8 @@ RUN apk-install -t .build-deps \
                     go \
   && cd /tmp \
   && wget https://raw.githubusercontent.com/maliceio/go-plugin-utils/master/scripts/upgrade-alpine-go.sh \
-  && chmod +x /upgrade-alpine-go.sh \
-  && ./tmp/upgrade-alpine-go.sh \
+  && chmod +x upgrade-alpine-go.sh \
+  && ./upgrade-alpine-go.sh \
   && echo "Building info Go binary..." \
   && cd /go/src/github.com/maliceio/malice-yara \
   && export GOPATH=/go \

@@ -98,9 +98,9 @@ func scanFile(path string, rulesDir string, timeout int) ResultsData {
 	r, err := comp.GetRules()
 
 	matches, err := r.ScanFile(
-		path,    // filename string
-		0,       // flags ScanFlags
-		timeout, //timeout time.Duration
+		path, // filename string
+		0,    // flags ScanFlags
+		time.Duration(timeout)*time.Second, //timeout time.Duration
 	)
 	utils.Assert(err)
 
