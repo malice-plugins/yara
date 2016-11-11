@@ -109,6 +109,10 @@ func scanFile(path string, rulesDir string, timeout int) ResultsData {
 	return yaraResults
 }
 
+func printStatus(resp gorequest.Response, body string, errs []error) {
+	fmt.Println(body)
+}
+
 func main() {
 
 	var (
@@ -148,9 +152,8 @@ func main() {
 			EnvVar: "MALICE_PROXY",
 		},
 		cli.BoolFlag{
-			Name:        "table, t",
-			Usage:       "output as Markdown table",
-			Destination: &table,
+			Name:  "table, t",
+			Usage: "output as Markdown table",
 		},
 		cli.IntFlag{
 			Name:   "timeout",
@@ -190,7 +193,7 @@ func main() {
 				Data:     structs.Map(yara.Results),
 			})
 
-			if table {
+			if c.Bool("table") {
 				printMarkDownTable(yara)
 			} else {
 				yaraJSON, err := json.Marshal(yara)
