@@ -1,4 +1,4 @@
-FROM malice/alpine:tini
+FROM malice/alpine
 
 MAINTAINER blacktop, https://github.com/blacktop
 
@@ -65,6 +65,6 @@ VOLUME ["/rules"]
 
 WORKDIR /malware
 
-ENTRYPOINT ["gosu","malice","/sbin/tini","--","scan"]
+ENTRYPOINT ["su-exec","malice","/sbin/tini","--","scan"]
 
 CMD ["--help"]
