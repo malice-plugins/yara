@@ -3,21 +3,20 @@ FROM malice/alpine
 MAINTAINER blacktop, https://github.com/blacktop
 
 # Install Yara
-RUN apk-install openssl file bison jansson ca-certificates
-RUN apk-install -t .build-deps \
-                   openssl-dev \
-                   jansson-dev \
-                   build-base \
-                   libc-dev \
-                   file-dev \
-                   automake \
-                   autoconf \
-                   libtool \
-                   flex \
-                   git \
-                   gcc \
-  && set -x \
-  && echo "Install Yara from source..." \
+RUN apk --update add --no-cache openssl file bison jansson ca-certificates
+RUN apk --update add --no-cache -t .build-deps \
+                                   openssl-dev \
+                                   jansson-dev \
+                                   build-base \
+                                   libc-dev \
+                                   file-dev \
+                                   automake \
+                                   autoconf \
+                                   libtool \
+                                   flex \
+                                   git \
+                                   gcc \
+  && echo "===> Install Yara from source..." \
   && cd /tmp \
   && git clone --recursive --branch v3.5.0 https://github.com/VirusTotal/yara.git \
   && cd /tmp/yara \
@@ -32,24 +31,19 @@ RUN apk-install -t .build-deps \
 
 # Install malice plugin
 COPY . /go/src/github.com/maliceio/malice-yara
-RUN apk-install -t .build-deps \
-                    build-base \
-                    mercurial \
-                    musl-dev \
-                    openssl \
-                    bash \
-                    wget \
-                    git \
-                    gcc \
-                    go \
-  && cd /tmp \
-  && wget https://raw.githubusercontent.com/maliceio/go-plugin-utils/master/scripts/upgrade-alpine-go.sh \
-  && chmod +x upgrade-alpine-go.sh \
-  && ./upgrade-alpine-go.sh \
-  && echo "Building info Go binary..." \
+RUN apk --update add --no-cache -t .build-deps \
+                                    build-base \
+                                    mercurial \
+                                    musl-dev \
+                                    openssl \
+                                    bash \
+                                    wget \
+                                    git \
+                                    gcc \
+                                    go \
+  && echo "===> Building info Go binary..." \
   && cd /go/src/github.com/maliceio/malice-yara \
   && export GOPATH=/go \
-  && export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH \
   && export CGO_CFLAGS="-I/usr/local/include" \
   && export CGO_LDFLAGS="-L/usr/local/lib" \
   && go version \
@@ -66,5 +60,4 @@ VOLUME ["/rules"]
 WORKDIR /malware
 
 ENTRYPOINT ["su-exec","malice","/sbin/tini","--","scan"]
-
 CMD ["--help"]

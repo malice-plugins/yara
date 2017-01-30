@@ -21,10 +21,11 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
--	Timeout to protect against bad files 
+-	Timeout to protect against bad files
 
 ### Removed
 
 ### Changed
 
+- upgrade to malice/alpine 3.5
 -	Upgrade Golang to 1.7.3

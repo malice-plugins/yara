@@ -13,7 +13,9 @@ dependencies:
 
 test:
   override:
-    - /bin/true
+    - docker images malice_yara
+    - docker run malice_yara -V /bin/sh | jq .
+    - docker run malice_yara -V /bin/sh | jq -r .yara.markdown
 
 deployment:
   # master:
