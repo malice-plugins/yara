@@ -41,7 +41,7 @@ RUN apk --update add --no-cache -t .build-deps \
                                     git \
                                     gcc \
                                     go \
-  && echo "===> Building info Go binary..." \
+  && echo "===> Building scan Go binary..." \
   && cd /go/src/github.com/maliceio/malice-yara \
   && export GOPATH=/go \
   && export CGO_CFLAGS="-I/usr/local/include" \
