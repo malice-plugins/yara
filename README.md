@@ -3,7 +3,7 @@
 malice-yara
 ===========
 
-[![Circle CI](https://circleci.com/gh/maliceio/malice-yara.png?style=shield)](https://circleci.com/gh/maliceio/malice-yara) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Image](https://img.shields.io/badge/docker image-38.7 MB-blue.svg)](https://hub.docker.com/r/malice/virustotal/)
+[![Circle CI](https://circleci.com/gh/maliceio/malice-yara.png?style=shield)](https://circleci.com/gh/maliceio/malice-yara) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Image](https://img.shields.io/badge/docker%20image-38.7%20MB-blue.svg)](https://hub.docker.com/r/malice/virustotal/)
 
 Malice Yara Plugin
 
@@ -33,7 +33,7 @@ Usage: yara [OPTIONS] COMMAND [arg...]
 
 Malice YARA Plugin
 
-Version: v0.1.0, BuildTime: 20160214
+Version: v0.1.0, BuildTime: 20170123
 
 Author:
   blacktop - <https://github.com/blacktop>
@@ -42,7 +42,8 @@ Options:
   --verbose, -V		verbose output
   --elasitcsearch value elasitcsearch address for Malice to store results [$MALICE_ELASTICSEARCH]
   --timeout value       malice plugin timeout (in seconds) (default: 60) [$MALICE_TIMEOUT]  
-  --post, -p		POST results to Malice webhook [$MALICE_ENDPOINT]
+  --callback, -c	    POST results to Malice webhook [$MALICE_ENDPOINT]
+  --timeout value       malice plugin timeout (in seconds) (default: 60) [$MALICE_TIMEOUT]    
   --proxy, -x		proxy settings for Malice webhook endpoint [$MALICE_PROXY]
   --table, -t		output as Markdown table
   --rules value		YARA rules directory (default: "/rules")
@@ -57,7 +58,10 @@ Run 'yara COMMAND --help' for more information on a command.
 
 This will output to stdout and POST to malice results API webhook endpoint.
 
-### Sample Output JSON:
+Sample Output
+-------------
+
+### JSON:
 
 ```json
 {
@@ -83,7 +87,7 @@ This will output to stdout and POST to malice results API webhook endpoint.
 }
 ```
 
-### Sample FILTERED Output JSON:
+### FILTERED Output JSON:
 
 ```bash
 $ cat JSON_OUTPUT | jq '.[][][] .Rule'
@@ -95,7 +99,7 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 "_Armadillo_v171_"
 ```
 
-### Sample Output STDOUT (Markdown Table):
+### STDOUT (Markdown Table):
 
 ---
 
@@ -114,24 +118,9 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 Documentation
 -------------
 
-### To write results to [ElasticSearch](https://www.elastic.co/products/elasticsearch)
-
-```bash
-$ docker volume create --name malice
-$ docker run -d --name elastic \
-                -p 9200:9200 \
-                -v malice:/usr/share/elasticsearch/data \
-                 blacktop/elasticsearch
-$ docker run --rm -v /path/to/malware:/malware:ro --link elastic malice/yara -t FILE
-```
-
-### POST results to a webhook
-
-```bash
-$ docker run -v `pwd`:/malware:ro \
-             -e MALICE_ENDPOINT="https://malice.io:31337/scan/file" \
-             malice/yara --post evil.malware
-```
+-	[To write results to ElasticSearch](https://github.com/maliceio/malice-yara/blob/master/docs/elasticsearch.md)
+-	[To create a Yara scan micro-service](https://github.com/maliceio/malice-yara/blob/master/docs/web.md)
+-	[To post results to a webhook](https://github.com/maliceio/malice-yara/blob/master/docs/callback.md)
 
 ### Issues
 

@@ -3,6 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
+	"net/http"
 	"os"
 	"path/filepath"
 	"time"
@@ -10,6 +12,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/crackcomm/go-clitable"
 	"github.com/fatih/structs"
+	"github.com/gorilla/mux"
 	"github.com/hillu/go-yara"
 	"github.com/maliceio/go-plugin-utils/database/elasticsearch"
 	"github.com/maliceio/go-plugin-utils/utils"
@@ -23,51 +26,27 @@ var Version string
 // BuildTime stores the plugin's build time
 var BuildTime string
 
+// yara rules directory
+var rules string
+
 const (
 	name     = "yara"
 	category = "av"
 )
 
 type pluginResults struct {
-	ID   string      `json:"id" gorethink:"id,omitempty"`
-	Data ResultsData `json:"yara" gorethink:"yara"`
+	ID   string      `json:"id" structs:"id"`
+	Data ResultsData `json:"yara" structs:"yara"`
 }
 
 // Yara json object
 type Yara struct {
-	Results ResultsData `json:"yara"`
+	Results ResultsData `json:"yara" structs:"yara"`
 }
 
 // ResultsData json object
 type ResultsData struct {
-	Matches []yara.MatchRule `json:"matches" gorethink:"matches"`
-}
-
-// TODO: handle more than just the first Offset, handle multiple MatchStrings
-func printMarkDownTable(yara Yara) {
-	fmt.Println("#### Yara")
-	if yara.Results.Matches != nil {
-		table := clitable.New([]string{"Rule", "Description", "Offset", "Data", "Tags"})
-		for _, match := range yara.Results.Matches {
-			var tags string
-			if len(match.Tags) == 0 {
-				tags = ""
-			} else {
-				tags = match.Tags[0]
-			}
-			table.AddRow(map[string]interface{}{
-				"Rule":        match.Rule,
-				"Description": match.Meta["description"],
-				"Offset":      match.Strings[0].Offset,
-				"Data":        string(match.Strings[0].Data),
-				"Tags":        tags,
-			})
-		}
-		table.Markdown = true
-		table.Print()
-	} else {
-		fmt.Println(" - No Matches")
-	}
+	Matches []yara.MatchRule `json:"matches" structs:"matches"`
 }
 
 // scanFile scans file with all yara rules in the rules folder
@@ -113,12 +92,82 @@ func printStatus(resp gorequest.Response, body string, errs []error) {
 	fmt.Println(body)
 }
 
+func webService() {
+	router := mux.NewRouter().StrictSlash(true)
+	router.HandleFunc("/scan", webAvScan).Methods("POST")
+	log.Info("web service listening on port :3993")
+	log.Fatal(http.ListenAndServe(":3993", router))
+}
+
+func webAvScan(w http.ResponseWriter, r *http.Request) {
+
+	r.ParseMultipartForm(32 << 20)
+	file, header, err := r.FormFile("malware")
+	if err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		fmt.Fprintln(w, "Please supply a valid file to scan.")
+		log.Error(err)
+	}
+	defer file.Close()
+
+	log.Debug("Uploaded fileName: ", header.Filename)
+
+	tmpfile, err := ioutil.TempFile("/malware", "web_")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer os.Remove(tmpfile.Name()) // clean up
+
+	data, err := ioutil.ReadAll(file)
+
+	if _, err = tmpfile.Write(data); err != nil {
+		log.Fatal(err)
+	}
+	if err = tmpfile.Close(); err != nil {
+		log.Fatal(err)
+	}
+
+	// Do AV scan
+	yara := scanFile(tmpfile.Name(), rules, 60)
+
+	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+	w.WriteHeader(http.StatusOK)
+
+	if err := json.NewEncoder(w).Encode(yara); err != nil {
+		log.Fatal(err)
+	}
+}
+
+// TODO: handle more than just the first Offset, handle multiple MatchStrings
+func printMarkDownTable(yara Yara) {
+	fmt.Println("#### Yara")
+	if yara.Results.Matches != nil {
+		table := clitable.New([]string{"Rule", "Description", "Offset", "Data", "Tags"})
+		for _, match := range yara.Results.Matches {
+			var tags string
+			if len(match.Tags) == 0 {
+				tags = ""
+			} else {
+				tags = match.Tags[0]
+			}
+			table.AddRow(map[string]interface{}{
+				"Rule":        match.Rule,
+				"Description": match.Meta["description"],
+				"Offset":      match.Strings[0].Offset,
+				"Data":        string(match.Strings[0].Data),
+				"Tags":        tags,
+			})
+		}
+		table.Markdown = true
+		table.Print()
+	} else {
+		fmt.Println(" - No Matches")
+	}
+}
+
 func main() {
 
-	var (
-		rules   string
-		elastic string
-	)
+	var elastic string
 
 	cli.AppHelpTemplate = utils.AppHelpTemplate
 	app := cli.NewApp()
@@ -142,7 +191,7 @@ func main() {
 			Destination: &elastic,
 		},
 		cli.BoolFlag{
-			Name:   "post, p",
+			Name:   "callback, c",
 			Usage:  "POST results to Malice webhook",
 			EnvVar: "MALICE_ENDPOINT",
 		},
@@ -168,18 +217,29 @@ func main() {
 			Destination: &rules,
 		},
 	}
+	app.Commands = []cli.Command{
+		{
+			Name:  "web",
+			Usage: "Create a Yara web service",
+			Action: func(c *cli.Context) error {
+				webService()
+				return nil
+			},
+		},
+	}
 	app.ArgsUsage = "FILE to scan with YARA"
 	app.Action = func(c *cli.Context) error {
+		if c.Bool("verbose") {
+			log.SetLevel(log.DebugLevel)
+		}
 
 		if c.Args().Present() {
-			path := c.Args().First()
-			// Check that file exists
+
+			path, err := filepath.Abs(c.Args().First())
+			utils.Assert(err)
+
 			if _, err := os.Stat(path); os.IsNotExist(err) {
 				utils.Assert(err)
-			}
-
-			if c.Bool("verbose") {
-				log.SetLevel(log.DebugLevel)
 			}
 
 			yara := Yara{Results: scanFile(path, rules, c.Int("timeout"))}
@@ -198,7 +258,7 @@ func main() {
 			} else {
 				yaraJSON, err := json.Marshal(yara)
 				utils.Assert(err)
-				if c.Bool("post") {
+				if c.Bool("callback") {
 					request := gorequest.New()
 					if c.Bool("proxy") {
 						request = gorequest.New().Proxy(os.Getenv("MALICE_PROXY"))

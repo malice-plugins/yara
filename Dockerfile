@@ -1,6 +1,6 @@
 FROM malice/alpine
 
-MAINTAINER blacktop, https://github.com/blacktop
+LABEL maintainer "https://github.com/blacktop"
 
 # Install Yara
 RUN apk --update add --no-cache openssl file bison jansson ca-certificates
