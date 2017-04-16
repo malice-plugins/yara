@@ -10,3 +10,6 @@ build
 circle.yml
 docker-entrypoint.sh
 logo.png
+docs/callback.md
+docs/elasticsearch.md
+docs/web.md
