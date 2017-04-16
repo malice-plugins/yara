@@ -3,7 +3,7 @@
 malice-yara
 ===========
 
-[![Circle CI](https://circleci.com/gh/maliceio/malice-yara.png?style=shield)](https://circleci.com/gh/maliceio/malice-yara) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Image](https://img.shields.io/badge/docker%20image-38.7%20MB-blue.svg)](https://hub.docker.com/r/malice/virustotal/)
+[![Circle CI](https://circleci.com/gh/maliceio/malice-yara.png?style=shield)](https://circleci.com/gh/maliceio/malice-yara) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Image](https://img.shields.io/badge/docker%20image-39.8%20MB-blue.svg)](https://hub.docker.com/r/malice/virustotal/)
 
 Malice Yara Plugin
 
