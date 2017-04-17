@@ -246,12 +246,17 @@ func main() {
 
 			// upsert into Database
 			elasticsearch.InitElasticSearch(elastic)
-			elasticsearch.WritePluginResultsToDatabase(elasticsearch.PluginResults{
+			err = elasticsearch.WritePluginResultsToDatabase(elasticsearch.PluginResults{
 				ID:       utils.Getopt("MALICE_SCANID", utils.GetSHA256(path)),
 				Name:     name,
 				Category: category,
 				Data:     structs.Map(yara.Results),
 			})
+			if err != nil {
+				log.WithFields(log.Fields{
+					"func": "elasticsearch.WritePluginResultsToDatabase",
+				}).Debug(err)
+			}
 
 			if c.Bool("table") {
 				printMarkDownTable(yara)
