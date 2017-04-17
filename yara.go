@@ -35,7 +35,7 @@ const (
 )
 
 type pluginResults struct {
-	ID   string      `json:"id" structs:"id"`
+	ID   string      `json:"id" structs:"id,omitempty"`
 	Data ResultsData `json:"yara" structs:"yara"`
 }
 
