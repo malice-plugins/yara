@@ -276,7 +276,6 @@ func main() {
 			}
 
 			if c.Bool("table") {
-				printMarkDownTable(yara)
 				fmt.Printf(yara.Results.MarkDown)
 			} else {
 				yara.Results.MarkDown = ""
