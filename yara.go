@@ -1,8 +1,10 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
+	"html/template"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -14,8 +16,8 @@ import (
 	"github.com/fatih/structs"
 	"github.com/gorilla/mux"
 	"github.com/hillu/go-yara"
-	"github.com/maliceio/go-plugin-utils/database/elasticsearch"
-	"github.com/maliceio/go-plugin-utils/utils"
+	"github.com/malice-plugins/go-plugin-utils/database/elasticsearch"
+	"github.com/malice-plugins/go-plugin-utils/utils"
 	"github.com/parnurzeal/gorequest"
 	"github.com/urfave/cli"
 )
@@ -46,7 +48,8 @@ type Yara struct {
 
 // ResultsData json object
 type ResultsData struct {
-	Matches []yara.MatchRule `json:"matches" structs:"matches"`
+	Matches  []yara.MatchRule `json:"matches" structs:"matches"`
+	MarkDown string           `json:"markdown,omitempty" structs:"markdown,omitempty"`
 }
 
 // scanFile scans file with all yara rules in the rules folder
@@ -86,6 +89,19 @@ func scanFile(path string, rulesDir string, timeout int) ResultsData {
 	yaraResults.Matches = matches
 
 	return yaraResults
+}
+
+func generateMarkDownTable(y Yara) string {
+	var tplOut bytes.Buffer
+
+	t := template.Must(template.New("yara").Parse(tpl))
+
+	err := t.Execute(&tplOut, y)
+	if err != nil {
+		log.Println("executing template:", err)
+	}
+
+	return tplOut.String()
 }
 
 func printStatus(resp gorequest.Response, body string, errs []error) {
@@ -243,6 +259,7 @@ func main() {
 			}
 
 			yara := Yara{Results: scanFile(path, rules, c.Int("timeout"))}
+			yara.Results.MarkDown = generateMarkDownTable(yara)
 
 			// upsert into Database
 			elasticsearch.InitElasticSearch(elastic)
@@ -260,7 +277,9 @@ func main() {
 
 			if c.Bool("table") {
 				printMarkDownTable(yara)
+				fmt.Printf(yara.Results.MarkDown)
 			} else {
+				yara.Results.MarkDown = ""
 				yaraJSON, err := json.Marshal(yara)
 				utils.Assert(err)
 				if c.Bool("callback") {
