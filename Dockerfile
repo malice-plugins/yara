@@ -2,6 +2,11 @@ FROM malice/alpine
 
 LABEL maintainer "https://github.com/blacktop"
 
+LABEL malice.plugin.repository = "https://github.com/malice-plugins/yara.git"
+LABEL malice.plugin.category="av"
+LABEL malice.plugin.mime="*"
+LABEL malice.plugin.docker.engine="*"
+
 # Install Yara
 RUN apk --update add --no-cache openssl file bison jansson ca-certificates
 RUN apk --update add --no-cache -t .build-deps \
