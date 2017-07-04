@@ -6,8 +6,9 @@ const tpl = `#### Yara
 | Rule        | Description  | Offset      | Data        | Tags        |
 |-------------|--------------|-------------|-------------|-------------|
 {{- range .Results.Matches }}
-| ` + "`" + `{{ .Rule }}` + "`" + ` | {{ index .Meta "description" }} | ` + "`" + `{{ printf "%#x" (index .Strings 0).Offset }}` + "`" + ` | {{ printf "%q" (index .Strings 0).Data }} | {{ .Tags }} |
+| ` + "`" + `{{ .Rule }}` + "`" + ` | {{ index .Meta "description" }} | ` + "`" + `{{ printf "%#x" (index .Strings 0).Offset }}` + "`" + ` | {{ printf "%.25q" (index .Strings 0).Data }} | {{ .Tags }} |
 {{- end }}
+> NOTE: **Data** truncated to 25 characters
 {{ end -}}
 `
 
