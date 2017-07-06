@@ -7,6 +7,8 @@ LABEL malice.plugin.category="av"
 LABEL malice.plugin.mime="*"
 LABEL malice.plugin.docker.engine="*"
 
+ENV YARA 3.6.3
+
 # Install Yara
 RUN apk --update add --no-cache openssl file bison jansson ca-certificates
 RUN apk --update add --no-cache -t .build-deps \
@@ -23,7 +25,7 @@ RUN apk --update add --no-cache -t .build-deps \
                                    gcc \
   && echo "===> Install Yara from source..." \
   && cd /tmp \
-  && git clone --recursive --branch v3.6.0 https://github.com/VirusTotal/yara.git \
+  && git clone --recursive --branch v${YARA} https://github.com/VirusTotal/yara.git \
   && cd /tmp/yara \
   && ./bootstrap.sh \
   && ./configure --enable-cuckoo \
