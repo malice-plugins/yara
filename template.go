@@ -9,7 +9,7 @@ const tpl = `#### Yara
 | ` + "`" + `{{ .Rule }}` + "`" + ` | {{ index .Meta "description" }} | ` + "`" + `{{ printf "%#x" (index .Strings 0).Offset }}` + "`" + ` | {{ printf "%.25q" (index .Strings 0).Data }} | {{ .Tags }} |
 {{- end }}
 > NOTE: **Data** truncated to 25 characters
-{{ end -}}
+{{- end }}
 `
 
 // code-ified escaped data
