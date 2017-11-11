@@ -29,8 +29,7 @@ RUN apk --update add --no-cache -t .build-deps \
   && cd /tmp/yara \
   && ./bootstrap.sh \
   && sync \
-  && ./configure --with-crypto \
-                 --enable-magic \
+  && ./configure --enable-magic \
                  --enable-cuckoo \
                  --enable-dotnet \
   && make \
