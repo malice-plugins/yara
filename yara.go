@@ -12,10 +12,10 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
+	"github.com/VirusTotal/go-yara"
 	"github.com/crackcomm/go-clitable"
 	"github.com/fatih/structs"
 	"github.com/gorilla/mux"
-	"github.com/hillu/go-yara"
 	"github.com/malice-plugins/go-plugin-utils/database/elasticsearch"
 	"github.com/malice-plugins/go-plugin-utils/utils"
 	"github.com/parnurzeal/gorequest"
@@ -60,7 +60,9 @@ func scanFile(path string, rulesDir string, timeout int) ResultsData {
 
 	// walk rules directory
 	err := filepath.Walk(rulesDir, func(path string, f os.FileInfo, err error) error {
-		fileList = append(fileList, path)
+		if !f.IsDir() {
+			fileList = append(fileList, path)
+		}
 		return nil
 	})
 	utils.Assert(err)
@@ -73,7 +75,8 @@ func scanFile(path string, rulesDir string, timeout int) ResultsData {
 	for _, file := range fileList {
 		f, err := os.Open(file)
 		utils.Assert(err)
-		comp.AddFile(f, "malice")
+		log.Debug("Adding rule: ", file)
+		utils.Assert(comp.AddFile(f, "malice"))
 		f.Close()
 	}
 

@@ -57,9 +57,10 @@ RUN apk --update add --no-cache -t .build-deps \
   && export GOPATH=/go \
   && export CGO_CFLAGS="-I/usr/local/include" \
   && export CGO_LDFLAGS="-L/usr/local/lib -lyara" \
+  && export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig" \
   && go version \
   && go get \
-  && go build -ldflags "-X main.Version=$(cat VERSION) -X main.BuildTime=$(date -u +%Y%m%d)" -o /bin/scan \
+  && CGO_ENABLED=1 go build -ldflags "-X main.Version=$(cat VERSION) -X main.BuildTime=$(date -u +%Y%m%d)" -o /bin/scan \
   && rm -rf /go /usr/local/go /usr/lib/go /tmp/* \
   && apk del --purge .build-deps
 
