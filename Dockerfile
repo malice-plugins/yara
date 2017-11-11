@@ -7,7 +7,7 @@ LABEL malice.plugin.category="av"
 LABEL malice.plugin.mime="*"
 LABEL malice.plugin.docker.engine="*"
 
-ENV YARA 3.6.3
+ENV YARA 3.7.0
 
 # Install Yara
 RUN apk --update add --no-cache openssl file bison jansson ca-certificates
@@ -28,9 +28,11 @@ RUN apk --update add --no-cache -t .build-deps \
   && git clone --recursive --branch v${YARA} https://github.com/VirusTotal/yara.git \
   && cd /tmp/yara \
   && ./bootstrap.sh \
-  && ./configure --enable-cuckoo \
+  && sync \
+  && ./configure --with-crypto \
                  --enable-magic \
-                 --with-crypto \
+                 --enable-cuckoo \
+                 --enable-dotnet \
   && make \
   && make install \
   && rm -rf /tmp/* \
@@ -39,6 +41,8 @@ RUN apk --update add --no-cache -t .build-deps \
 # Install malice plugin
 COPY . /go/src/github.com/maliceio/malice-yara
 RUN apk --update add --no-cache -t .build-deps \
+                                    openssl-dev \
+                                    jansson-dev \
                                     build-base \
                                     mercurial \
                                     musl-dev \
@@ -52,7 +56,7 @@ RUN apk --update add --no-cache -t .build-deps \
   && cd /go/src/github.com/maliceio/malice-yara \
   && export GOPATH=/go \
   && export CGO_CFLAGS="-I/usr/local/include" \
-  && export CGO_LDFLAGS="-L/usr/local/lib" \
+  && export CGO_LDFLAGS="-L/usr/local/lib -lyara" \
   && go version \
   && go get \
   && go build -ldflags "-X main.Version=$(cat VERSION) -X main.BuildTime=$(date -u +%Y%m%d)" -o /bin/scan \
