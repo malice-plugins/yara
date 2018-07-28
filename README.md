@@ -1,4 +1,4 @@
-![YARA-logo](https://raw.githubusercontent.com/maliceio/malice-yara/master/logo.png)
+![YARA-logo](https://raw.githubusercontent.com/malice-plugins/yara/master/logo.png)
 
 # malice-yara
 
@@ -59,7 +59,7 @@ This will output to stdout and POST to malice results API webhook endpoint.
 
 ## Sample Output
 
-### JSON:
+### [JSON](https://github.com/malice-plugins/yara/blob/master/docs/results.json)
 
 ```json
 {
@@ -97,7 +97,7 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 "_Armadillo_v171_"
 ```
 
-### Markdown:
+### [Markdown](https://github.com/malice-plugins/yara/blob/master/docs/SAMPLE.md)
 
 ---
 
@@ -115,23 +115,23 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 
 ## Documentation
 
-- [To write results to ElasticSearch](https://github.com/maliceio/malice-yara/blob/master/docs/elasticsearch.md)
-- [To create a Yara scan micro-service](https://github.com/maliceio/malice-yara/blob/master/docs/web.md)
-- [To post results to a webhook](https://github.com/maliceio/malice-yara/blob/master/docs/callback.md)
+- [To write results to ElasticSearch](https://github.com/malice-plugins/yara/blob/master/docs/elasticsearch.md)
+- [To create a Yara scan micro-service](https://github.com/malice-plugins/yara/blob/master/docs/web.md)
+- [To post results to a webhook](https://github.com/malice-plugins/yara/blob/master/docs/callback.md)
 
 ### Issues
 
-Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/maliceio/malice-yara/issues/new) and I'll get right on it.
+Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/malice-plugins/yara/issues/new) and I'll get right on it.
 
 ### CHANGELOG
 
-See [`CHANGELOG.md`](https://github.com/maliceio/malice-yara/blob/master/CHANGELOG.md)
+See [`CHANGELOG.md`](https://github.com/malice-plugins/yara/blob/master/CHANGELOG.md)
 
 ### Contributing
 
-[See all contributors on GitHub](https://github.com/maliceio/malice-yara/graphs/contributors).
+[See all contributors on GitHub](https://github.com/malice-plugins/yara/graphs/contributors).
 
-Please update the [CHANGELOG.md](https://github.com/maliceio/malice-yara/blob/master/CHANGELOG.md) and submit a [Pull Request on GitHub](https://help.github.com/articles/using-pull-requests/).
+Please update the [CHANGELOG.md](https://github.com/malice-plugins/yara/blob/master/CHANGELOG.md) and submit a [Pull Request on GitHub](https://help.github.com/articles/using-pull-requests/).
 
 ### License
 
