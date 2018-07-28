@@ -4,7 +4,7 @@
       {
         "Rule": "Contains_PE_File",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "author": "Didier Stevens (https://DidierStevens.com)",
           "description": "Detect a PE file inside a byte sequence",
@@ -21,7 +21,7 @@
       {
         "Rule": "maldoc_function_prolog_signature",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "author": "Didier Stevens (https://DidierStevens.com)"
         },
@@ -186,7 +186,7 @@
       {
         "Rule": "maldoc_structured_exception_handling",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "author": "Didier Stevens (https://DidierStevens.com)"
         },
@@ -201,7 +201,7 @@
       {
         "Rule": "maldoc_suspicious_strings",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "author": "Didier Stevens (https://DidierStevens.com)"
         },
@@ -246,7 +246,7 @@
       {
         "Rule": "PEiD_00138_Armadillo_v1_71_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "[Armadillo v1.71]",
           "ep_only": "false"
@@ -262,7 +262,7 @@
       {
         "Rule": "PEiD_00497_dUP_v2_x_Patcher_____www_diablo2oo2_cjb_net_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "[dUP v2.x Patcher --> www.diablo2oo2.cjb.net]",
           "ep_only": "false"
@@ -278,7 +278,7 @@
       {
         "Rule": "PEiD_00729_Free_Pascal_1_06_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "[Free Pascal 1.06]",
           "ep_only": "false"
@@ -294,7 +294,7 @@
       {
         "Rule": "PEiD_01101_Microsoft_Visual_C___v5_0_v6_0__MFC__",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "[Microsoft Visual C++ v5.0/v6.0 (MFC)]",
           "ep_only": "true"
@@ -310,7 +310,7 @@
       {
         "Rule": "PEiD_01108_Microsoft_Visual_C___v6_0_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "[Microsoft Visual C++ v6.0]",
           "ep_only": "false"
@@ -326,7 +326,7 @@
       {
         "Rule": "PEiD_01110_Microsoft_Visual_C___v6_0_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "[Microsoft Visual C++ v6.0]",
           "ep_only": "false"
@@ -342,7 +342,7 @@
       {
         "Rule": "PEiD_01125_Microsoft_Visual_C___",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "[Microsoft Visual C++]",
           "ep_only": "false"
@@ -358,7 +358,7 @@
       {
         "Rule": "_dUP_v2x_Patcher__wwwdiablo2oo2cjbnet_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "dUP v2.x Patcher --> www.diablo2oo2.cjb.net"
         },
@@ -373,7 +373,7 @@
       {
         "Rule": "_Microsoft_Visual_Cpp_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "Microsoft Visual C++"
         },
@@ -388,7 +388,7 @@
       {
         "Rule": "_Free_Pascal_v106_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "Free Pascal v1.06"
         },
@@ -403,7 +403,7 @@
       {
         "Rule": "_Armadillo_v171_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "Armadillo v1.71"
         },
@@ -418,7 +418,7 @@
       {
         "Rule": "_Microsoft_Visual_Cpp_v60_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "Microsoft Visual C++ v6.0"
         },
@@ -438,7 +438,7 @@
       {
         "Rule": "_Microsoft_Visual_Cpp_v50v60_MFC_",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
           "description": "Microsoft Visual C++ v5.0/v6.0 (MFC)"
         },

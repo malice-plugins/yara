@@ -1,9 +1,8 @@
 ![YARA-logo](https://raw.githubusercontent.com/maliceio/malice-yara/master/logo.png)
 
-malice-yara
-===========
+# malice-yara
 
-[![Circle CI](https://circleci.com/gh/malice-plugins/yara.png?style=shield)](https://circleci.com/gh/malice-plugins/yara) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Image](https://img.shields.io/badge/docker%20image-38.5MB-blue.svg)](https://hub.docker.com/r/malice/virustotal/)
+[![Circle CI](https://circleci.com/gh/malice-plugins/yara.png?style=shield)](https://circleci.com/gh/malice-plugins/yara) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Image](https://img.shields.io/badge/docker%20image-57MB-blue.svg)](https://hub.docker.com/r/malice/virustotal/)
 
 Malice Yara Plugin
 
@@ -11,12 +10,12 @@ This repository contains a **Dockerfile** of the [Yara](http://virustotal.github
 
 ### Dependencies
 
--	[malice/alpine](https://hub.docker.com/r/malice/alpine/)
+- [malice/alpine](https://hub.docker.com/r/malice/alpine/)
 
 ### Installation
 
-1.	Install [Docker](https://www.docker.io/).
-2.	Download [trusted build](https://hub.docker.com/r/malice/yara/) from public [DockerHub](https://hub.docker.com): `docker pull malice/yara`
+1.  Install [Docker](https://www.docker.io/).
+2.  Download [trusted build](https://hub.docker.com/r/malice/yara/) from public [DockerHub](https://hub.docker.com): `docker pull malice/yara`
 
 ### Usage
 
@@ -41,9 +40,9 @@ Author:
 Options:
   --verbose, -V		verbose output
   --elasitcsearch value elasitcsearch address for Malice to store results [$MALICE_ELASTICSEARCH]
-  --timeout value       malice plugin timeout (in seconds) (default: 60) [$MALICE_TIMEOUT]  
+  --timeout value       malice plugin timeout (in seconds) (default: 60) [$MALICE_TIMEOUT]
   --callback, -c	    POST results to Malice webhook [$MALICE_ENDPOINT]
-  --timeout value       malice plugin timeout (in seconds) (default: 60) [$MALICE_TIMEOUT]    
+  --timeout value       malice plugin timeout (in seconds) (default: 60) [$MALICE_TIMEOUT]
   --proxy, -x		proxy settings for Malice webhook endpoint [$MALICE_PROXY]
   --table, -t		output as Markdown table
   --rules value		YARA rules directory (default: "/rules")
@@ -58,8 +57,7 @@ Run 'yara COMMAND --help' for more information on a command.
 
 This will output to stdout and POST to malice results API webhook endpoint.
 
-Sample Output
--------------
+## Sample Output
 
 ### JSON:
 
@@ -105,22 +103,21 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 
 #### yara
 
-| Rule                                    | Description                                 | Offset | Data                                 | Tags |
-|-----------------------------------------|---------------------------------------------|--------|--------------------------------------|------|
-| *Microsoft_Visual_Cpp_v50v60_MFC*       | Microsoft Visual C++ v5.0/v6.0 (MFC)        | 5204   | U��                                  |      |
-| *Borland_Delphi_v60\__v70*              | Borland Delphi v6.0 - v7.0                  | 5204   | U��                                  |      |
-| *dUP_v2x_Patcher\__wwwdiablo2oo2cjbnet* | dUP v2.x Patcher --> www.diablo2oo2.cjb.net | 78     | This program cannot be run in DOS mo |      |
-| *Free_Pascal_v106*                      | Free Pascal v1.06                           | 14866  | ��@O�k                               |      |
-| *Armadillo_v171*                        | Armadillo v1.71                             | 23110  | U��j�h b@h�[@d�                      |      |
+| Rule                                     | Description                                 | Offset | Data                                 | Tags |
+| ---------------------------------------- | ------------------------------------------- | ------ | ------------------------------------ | ---- |
+| _Microsoft_Visual_Cpp_v50v60_MFC_        | Microsoft Visual C++ v5.0/v6.0 (MFC)        | 5204   | U��                                  |      |
+| _Borland_Delphi_v60\_\_v70_              | Borland Delphi v6.0 - v7.0                  | 5204   | U��                                  |      |
+| _dUP_v2x_Patcher\_\_wwwdiablo2oo2cjbnet_ | dUP v2.x Patcher --> www.diablo2oo2.cjb.net | 78     | This program cannot be run in DOS mo |      |
+| _Free_Pascal_v106_                       | Free Pascal v1.06                           | 14866  | ��@O�k                               |      |
+| _Armadillo_v171_                         | Armadillo v1.71                             | 23110  | U��j�h b@h�[@d�                      |      |
 
 ---
 
-Documentation
--------------
+## Documentation
 
--	[To write results to ElasticSearch](https://github.com/maliceio/malice-yara/blob/master/docs/elasticsearch.md)
--	[To create a Yara scan micro-service](https://github.com/maliceio/malice-yara/blob/master/docs/web.md)
--	[To post results to a webhook](https://github.com/maliceio/malice-yara/blob/master/docs/callback.md)
+- [To write results to ElasticSearch](https://github.com/maliceio/malice-yara/blob/master/docs/elasticsearch.md)
+- [To create a Yara scan micro-service](https://github.com/maliceio/malice-yara/blob/master/docs/web.md)
+- [To post results to a webhook](https://github.com/maliceio/malice-yara/blob/master/docs/callback.md)
 
 ### Issues
 
@@ -138,4 +135,4 @@ Please update the [CHANGELOG.md](https://github.com/maliceio/malice-yara/blob/ma
 
 ### License
 
-MIT Copyright (c) 2016-2017 **blacktop**
+MIT Copyright (c) 2016 **blacktop**

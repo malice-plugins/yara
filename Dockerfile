@@ -7,22 +7,22 @@ LABEL malice.plugin.category="av"
 LABEL malice.plugin.mime="*"
 LABEL malice.plugin.docker.engine="*"
 
-ENV YARA 3.7.0
+ENV YARA 3.7.1
 
 # Install Yara
 RUN apk --update add --no-cache openssl file bison jansson ca-certificates
 RUN apk --update add --no-cache -t .build-deps \
-                                   openssl-dev \
-                                   jansson-dev \
-                                   build-base \
-                                   libc-dev \
-                                   file-dev \
-                                   automake \
-                                   autoconf \
-                                   libtool \
-                                   flex \
-                                   git \
-                                   gcc \
+  openssl-dev \
+  jansson-dev \
+  build-base \
+  libc-dev \
+  file-dev \
+  automake \
+  autoconf \
+  libtool \
+  flex \
+  git \
+  gcc \
   && echo "===> Install Yara from source..." \
   && cd /tmp \
   && git clone --recursive --branch v${YARA} https://github.com/VirusTotal/yara.git \
@@ -30,8 +30,8 @@ RUN apk --update add --no-cache -t .build-deps \
   && ./bootstrap.sh \
   && sync \
   && ./configure --enable-magic \
-                 --enable-cuckoo \
-                 --enable-dotnet \
+  --enable-cuckoo \
+  --enable-dotnet \
   && make \
   && make install \
   && rm -rf /tmp/* \
@@ -40,17 +40,17 @@ RUN apk --update add --no-cache -t .build-deps \
 # Install malice plugin
 COPY . /go/src/github.com/maliceio/malice-yara
 RUN apk --update add --no-cache -t .build-deps \
-                                    openssl-dev \
-                                    jansson-dev \
-                                    build-base \
-                                    mercurial \
-                                    musl-dev \
-                                    openssl \
-                                    bash \
-                                    wget \
-                                    git \
-                                    gcc \
-                                    go \
+  openssl-dev \
+  jansson-dev \
+  build-base \
+  mercurial \
+  musl-dev \
+  openssl \
+  bash \
+  wget \
+  git \
+  gcc \
+  go \
   && echo "===> Building scan Go binary..." \
   && cd /go/src/github.com/maliceio/malice-yara \
   && export GOPATH=/go \

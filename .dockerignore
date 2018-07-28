@@ -1,5 +1,11 @@
 # Ignore .git folder
 .git*
+.gitignore
+
+.circleci*
+docs*
+vendor*
+test*
 
 CHANGELOG.md
 LICENSE
@@ -7,9 +13,5 @@ Makefile
 README.md
 README.md.bu
 build
-circle.yml
 docker-entrypoint.sh
 logo.png
-docs/callback.md
-docs/elasticsearch.md
-docs/web.md
