@@ -113,11 +113,11 @@ func printStatus(resp gorequest.Response, body string, errs []error) {
 	fmt.Println(body)
 }
 
-func webService() {
+func webService() error {
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/scan", webAvScan).Methods("POST")
 	log.Info("web service listening on port :3993")
-	log.Fatal(http.ListenAndServe(":3993", router))
+	return http.ListenAndServe(":3993", router)
 }
 
 func webAvScan(w http.ResponseWriter, r *http.Request) {
@@ -243,8 +243,7 @@ func main() {
 			Name:  "web",
 			Usage: "Create a Yara web service",
 			Action: func(c *cli.Context) error {
-				webService()
-				return nil
+				return webService()
 			},
 		},
 	}

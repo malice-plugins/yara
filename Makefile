@@ -3,10 +3,11 @@ ORG=malice
 NAME=yara
 CATEGORY=av
 VERSION=$(shell cat VERSION)
-MALWARE=test/malware
+MALWARE=tests/malware
+NOT_MALWARE=tests/not.malware
 
 
-all: build size tag test test_markdown
+all: build size tag test test_markdown test_web
 
 .PHONY: build
 build:
@@ -35,7 +36,10 @@ tar:
 .PHONY: start_elasticsearch
 start_elasticsearch:
 ifeq ("$(shell docker inspect -f {{.State.Running}} elasticsearch)", "true")
-	@echo "===> elasticsearch already running"
+	@echo "===> elasticsearch already running.  Stopping now..."
+	@docker rm -f elasticsearch || true
+	@echo "===> Starting elasticsearch"
+	@docker run --init -d --name elasticsearch -p 9200:9200 malice/elasticsearch:6.3; sleep 10
 else
 	@echo "===> Starting elasticsearch"
 	@docker rm -f elasticsearch || true
@@ -46,7 +50,7 @@ endif
 malware:
 ifeq (,$(wildcard $(MALWARE)))
 	wget https://github.com/maliceio/malice-av/raw/master/samples/befb88b89c2eb401900a68e9f5b78764203f2b48264fcc3f7121bf04a57fd408 -O $(MALWARE)
-	cd test; echo "TEST" > not.malware
+	cd tests; echo "TEST" > not.malware
 endif
 
 .PHONY: test
@@ -71,6 +75,18 @@ test_markdown: test_elastic
 	cat docs/elastic.json | jq -r '.hits.hits[] ._source.plugins.${CATEGORY}.${NAME}.markdown' > docs/SAMPLE.md
 	docker container rm -f elasticsearch
 
+.PHONY: test_web
+test_web: malware stop
+	@echo "===> ${NAME} web service"
+	@docker run --init -d -p 3993:3993 malice/yara web
+	http -f localhost:3993/scan malware@$(MALWARE)
+	http -f localhost:3993/scan malware@$(NOT_MALWARE)
+
+.PHONY: stop
+stop:
+	@echo "===> Stopping container ${NAME}"
+	@docker container rm -f $(NAME) || true
+
 .PHONY: circle
 circle: ci-size
 	@sed -i.bu 's/docker%20image-.*-blue/docker%20image-$(shell cat .circleci/size)-blue/' README.md
@@ -86,9 +102,10 @@ ci-size: ci-build
 	@http https://circleci.com/api/v1.1/project/github/${REPO}/$(shell cat .circleci/build_num)/artifacts${CIRCLE_TOKEN} | jq -r ".[] | .url" | xargs wget -q -P .circleci
 
 clean:
-	rm -rf test
+	rm -rf tests/*malware*
 	docker-clean stop
 	docker image rm $(ORG)/$(NAME):$(VERSION)
+	docker image rm $(ORG)/$(NAME):latest
 
 # Absolutely awesome: http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
 help:

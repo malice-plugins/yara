@@ -53,22 +53,21 @@ RUN apk --update add --no-cache -t .build-deps \
   go \
   && echo "===> Building scan Go binary..." \
   && cd /go/src/github.com/maliceio/malice-yara \
+  && echo " * copy yara rules" \
+  && mkdir /rules \
+  && mv rules /rules \
   && export GOPATH=/go \
   && export CGO_CFLAGS="-I/usr/local/include" \
   && export CGO_LDFLAGS="-L/usr/local/lib -lyara" \
   && export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig" \
   && go version \
   && go get \
-  && CGO_ENABLED=1 go build -ldflags "-X main.Version=$(cat VERSION) -X main.BuildTime=$(date -u +%Y%m%d)" -o /bin/scan \
+  && CGO_ENABLED=1 go build -ldflags "-s -w -X main.Version=$(cat VERSION) -X main.BuildTime=$(date -u +%Y%m%d)" -o /bin/scan \
   && rm -rf /go /usr/local/go /usr/lib/go /tmp/* \
   && apk del --purge .build-deps
-
-COPY rules /rules
-
-VOLUME ["/malware"]
-VOLUME ["/rules"]
 
 WORKDIR /malware
 
 ENTRYPOINT ["su-exec","malice","/sbin/tini","--","scan"]
+# ENTRYPOINT ["scan"]
 CMD ["--help"]
