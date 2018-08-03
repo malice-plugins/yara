@@ -1,4 +1,4 @@
-# Create a Yara scan micro-service
+# Create a `yara` scan micro-service
 
 ```bash
 $ docker run -d -p 3993:3993 malice/yara web
