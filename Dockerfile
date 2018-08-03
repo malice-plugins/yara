@@ -50,6 +50,7 @@ RUN apk --update add --no-cache -t .build-deps \
   wget \
   git \
   gcc \
+  dep \
   go \
   && echo "===> Building scan Go binary..." \
   && cd /go/src/github.com/maliceio/malice-yara \
@@ -61,13 +62,12 @@ RUN apk --update add --no-cache -t .build-deps \
   && export CGO_LDFLAGS="-L/usr/local/lib -lyara" \
   && export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig" \
   && go version \
-  && go get \
+  && dep ensure \
   && CGO_ENABLED=1 go build -ldflags "-s -w -X main.Version=$(cat VERSION) -X main.BuildTime=$(date -u +%Y%m%d)" -o /bin/scan \
   && rm -rf /go /usr/local/go /usr/lib/go /tmp/* \
   && apk del --purge .build-deps
 
 WORKDIR /malware
 
-ENTRYPOINT ["su-exec","malice","/sbin/tini","--","scan"]
-# ENTRYPOINT ["scan"]
+ENTRYPOINT ["su-exec","malice","scan"]
 CMD ["--help"]
