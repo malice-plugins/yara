@@ -57,6 +57,7 @@ type ResultsData struct {
 	MarkDown string           `json:"markdown,omitempty" structs:"markdown,omitempty"`
 }
 
+// compileRules compiles the yara rules
 func compileRules(rulesDir string) error {
 
 	fileList := []string{}
@@ -80,10 +81,17 @@ func compileRules(rulesDir string) error {
 
 	// compile all yara rules
 	for _, file := range fileList {
+
 		f, err := os.Open(file)
-		utils.Assert(err)
+		if err != nil {
+			return err
+		}
+
 		log.Debug("Adding rule: ", file)
-		utils.Assert(yaraCompiler.AddFile(f, "malice"))
+		err = yaraCompiler.AddFile(f, "malice")
+		if err != nil {
+			return err
+		}
 		f.Close()
 	}
 
