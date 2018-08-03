@@ -33,6 +33,9 @@ var BuildTime string
 // yara rules directory
 var rules string
 
+// yara rule compiler
+var yaraCompiler *yara.Compiler
+
 const (
 	name     = "yara"
 	category = "av"
@@ -54,10 +57,8 @@ type ResultsData struct {
 	MarkDown string           `json:"markdown,omitempty" structs:"markdown,omitempty"`
 }
 
-// scanFile scans file with all yara rules in the rules folder
-func scanFile(path string, rulesDir string, timeout int) ResultsData {
+func compileRules(rulesDir string) error {
 
-	yaraResults := ResultsData{}
 	fileList := []string{}
 
 	// walk rules directory
@@ -67,23 +68,39 @@ func scanFile(path string, rulesDir string, timeout int) ResultsData {
 		}
 		return nil
 	})
-	utils.Assert(err)
+	if err != nil {
+		return err
+	}
 
 	// new yara compiler
-	comp, err := yara.NewCompiler()
-	utils.Assert(err)
+	yaraCompiler, err := yara.NewCompiler()
+	if err != nil {
+		return err
+	}
 
 	// compile all yara rules
 	for _, file := range fileList {
 		f, err := os.Open(file)
 		utils.Assert(err)
 		log.Debug("Adding rule: ", file)
-		utils.Assert(comp.AddFile(f, "malice"))
+		utils.Assert(yaraCompiler.AddFile(f, "malice"))
 		f.Close()
 	}
 
-	r, err := comp.GetRules()
+	return nil
+}
 
+// scanFile scans file with all yara rules in the rules folder
+func scanFile(path string, rulesDir string, timeout int) ResultsData {
+
+	yaraResults := ResultsData{}
+
+	// comile rules if they haven't been compiled yet
+	if yaraCompiler == nil {
+		utils.Assert(compileRules(rulesDir))
+	}
+
+	r, err := yaraCompiler.GetRules()
 	matches, err := r.ScanFile(
 		path, // filename string
 		0,    // flags ScanFlags
