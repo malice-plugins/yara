@@ -73,7 +73,7 @@ func compileRules(rulesDir string) error {
 	}
 
 	// new yara compiler
-	yaraCompiler, err := yara.NewCompiler()
+	yaraCompiler, err = yara.NewCompiler()
 	if err != nil {
 		return err
 	}
