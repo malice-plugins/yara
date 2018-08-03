@@ -39,11 +39,11 @@ ifeq ("$(shell docker inspect -f {{.State.Running}} elasticsearch)", "true")
 	@echo "===> elasticsearch already running.  Stopping now..."
 	@docker rm -f elasticsearch || true
 	@echo "===> Starting elasticsearch"
-	@docker run --init -d --name elasticsearch -p 9200:9200 malice/elasticsearch:6.3; sleep 10
+	@docker run --init -d --name elasticsearch -p 9200:9200 malice/elasticsearch:6.3; sleep 15
 else
 	@echo "===> Starting elasticsearch"
 	@docker rm -f elasticsearch || true
-	@docker run --init -d --name elasticsearch -p 9200:9200 malice/elasticsearch:6.3; sleep 10
+	@docker run --init -d --name elasticsearch -p 9200:9200 malice/elasticsearch:6.3; sleep 15
 endif
 
 .PHONY: malware
@@ -78,7 +78,7 @@ test_markdown: test_elastic
 .PHONY: test_web
 test_web: malware stop
 	@echo "===> ${NAME} web service"
-	@docker run --init -d -p 3993:3993 malice/yara web
+	@docker run --init -d --name $(NAME) -p 3993:3993 -v `pwd`/rules:/rules malice/yara -V web
 	http -f localhost:3993/scan malware@$(MALWARE)
 	http -f localhost:3993/scan malware@$(NOT_MALWARE)
 
