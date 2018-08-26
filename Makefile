@@ -18,6 +18,10 @@ build:
 build.neo23x0:
 	cd $(VERSION); docker build -t $(ORG)/$(NAME):neo23x0 -f Dockerfile.neo23x0 .
 
+.PHONY: build.rules
+build.rules:
+	cd $(VERSION); docker build -t $(ORG)/$(NAME):rules -f Dockerfile.rules .
+
 .PHONY: size
 size:
 	sed -i.bu 's/docker%20image-.*-blue/docker%20image-$(shell docker images --format "{{.Size}}" $(ORG)/$(NAME):$(VERSION)| cut -d' ' -f1)-blue/' README.md
