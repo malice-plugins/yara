@@ -119,6 +119,11 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 - [To create a Yara scan micro-service](https://github.com/malice-plugins/yara/blob/master/docs/web.md)
 - [To post results to a webhook](https://github.com/malice-plugins/yara/blob/master/docs/callback.md)
 
+## TODO
+
+- [ ] add rules _(tagged?)_ from https://github.com/Yara-Rules/rules
+- [x] add rules _(tagged?)_ from https://github.com/Neo23x0/signature-base
+
 ### Issues
 
 Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/malice-plugins/yara/issues/new) and I'll get right on it.

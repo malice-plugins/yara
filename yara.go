@@ -70,13 +70,13 @@ func compileRules(rulesDir string) error {
 		return nil
 	})
 	if err != nil {
-		return err
+		return errors.Wrap(err, "failed walking rules filepath")
 	}
 
 	// new yara compiler
 	yaraCompiler, err = yara.NewCompiler()
 	if err != nil {
-		return err
+		return errors.Wrap(err, "failed to create new yara compiler")
 	}
 
 	// compile all yara rules
@@ -84,13 +84,18 @@ func compileRules(rulesDir string) error {
 
 		f, err := os.Open(file)
 		if err != nil {
-			return err
+			return errors.Wrap(err, "failed to open rule")
 		}
 
 		log.Debug("Adding rule: ", file)
 		err = yaraCompiler.AddFile(f, "malice")
 		if err != nil {
-			return err
+			for _, er := range yaraCompiler.Errors {
+				fmt.Println(er)
+			}
+			log.WithFields(log.Fields{
+				"rule": file,
+			}).Error(errors.Wrap(err, "failed to add rule to compiler"))
 		}
 		f.Close()
 	}
@@ -110,11 +115,11 @@ func scanFile(path string, rulesDir string, timeout int) ResultsData {
 
 	r, err := yaraCompiler.GetRules()
 	matches, err := r.ScanFile(
-		path, // filename string
-		0,    // flags ScanFlags
+		path,                               // filename string
+		0,                                  // flags ScanFlags
 		time.Duration(timeout)*time.Second, //timeout time.Duration
 	)
-	utils.Assert(err)
+	utils.Assert(errors.Wrapf(err, "failed to scan file: %s", path))
 
 	yaraResults.Matches = matches
 
@@ -281,10 +286,11 @@ func main() {
 		if c.Args().Present() {
 
 			path, err := filepath.Abs(c.Args().First())
-			utils.Assert(err)
-
+			if err != nil {
+				return errors.Wrap(err, "failed to get path from args")
+			}
 			if _, err := os.Stat(path); os.IsNotExist(err) {
-				utils.Assert(err)
+				return errors.Wrap(err, "input file does not exist")
 			}
 
 			yara := Yara{Results: scanFile(path, rules, c.Int("timeout"))}
@@ -312,7 +318,9 @@ func main() {
 			} else {
 				yara.Results.MarkDown = ""
 				yaraJSON, err := json.Marshal(yara)
-				utils.Assert(err)
+				if err != nil {
+					return errors.Wrap(err, "failed to marshal JSON")
+				}
 				if c.Bool("callback") {
 					request := gorequest.New()
 					if c.Bool("proxy") {

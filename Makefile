@@ -2,7 +2,7 @@ REPO=malice-plugins/yara
 ORG=malice
 NAME=yara
 CATEGORY=av
-VERSION=$(shell cat VERSION)
+VERSION?=$(shell cat VERSION)
 
 MALWARE=tests/malware
 NOT_MALWARE=tests/not.malware
@@ -13,6 +13,10 @@ all: build size tag test_all
 .PHONY: build
 build:
 	cd $(VERSION); docker build -t $(ORG)/$(NAME):$(VERSION) .
+
+.PHONY: build.neo23x0
+build.neo23x0:
+	cd $(VERSION); docker build -t $(ORG)/$(NAME):neo23x0 -f Dockerfile.neo23x0 .
 
 .PHONY: size
 size:
