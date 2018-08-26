@@ -12,18 +12,29 @@ This repository contains a **Dockerfile** of the [Yara](http://virustotal.github
 
 - [malice/alpine](https://hub.docker.com/r/malice/alpine/)
 
-### Installation
+## Image Tags
+
+```
+REPOSITORY          TAG                 SIZE
+malice/yara         latest              51.9MB
+malice/yara         0.1.0               51.9MB
+malice/yara         neo23x0             51.3MB
+```
+
+> **NOTE:** tag `neo23x0` contains all of the [signature-base](https://github.com/Neo23x0/signature-base/tree/master/yara) rules
+
+## Installation
 
 1.  Install [Docker](https://www.docker.io/).
 2.  Download [trusted build](https://hub.docker.com/r/malice/yara/) from public [DockerHub](https://hub.docker.com): `docker pull malice/yara`
 
-### Usage
+## Usage
 
 ```
 docker run --rm -v /path/to/rules:/rules:ro malice/yara FILE
 ```
 
-#### Or link your own malware folder
+### Or link your own malware folder
 
 ```bash
 $ docker run -v /path/to/malware:/malware:ro -v /path/to/rules:/rules:ro malice/yara FILE
@@ -124,20 +135,20 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 - [ ] add rules _(tagged?)_ from https://github.com/Yara-Rules/rules
 - [x] add rules _(tagged?)_ from https://github.com/Neo23x0/signature-base
 
-### Issues
+## Issues
 
 Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/malice-plugins/yara/issues/new) and I'll get right on it.
 
-### CHANGELOG
+## CHANGELOG
 
 See [`CHANGELOG.md`](https://github.com/malice-plugins/yara/blob/master/CHANGELOG.md)
 
-### Contributing
+## Contributing
 
 [See all contributors on GitHub](https://github.com/malice-plugins/yara/graphs/contributors).
 
 Please update the [CHANGELOG.md](https://github.com/malice-plugins/yara/blob/master/CHANGELOG.md) and submit a [Pull Request on GitHub](https://help.github.com/articles/using-pull-requests/).
 
-### License
+## License
 
 MIT Copyright (c) 2016 **blacktop**
