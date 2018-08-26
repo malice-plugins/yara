@@ -31,13 +31,13 @@ malice/yara         neo23x0             51.3MB
 ## Usage
 
 ```
-docker run --rm -v /path/to/rules:/rules:ro malice/yara FILE
+docker run --rm -v /path/to/rules:/rules:ro malice/yara:neo23x0 FILE
 ```
 
 ### Or link your own malware folder
 
 ```bash
-$ docker run -v /path/to/malware:/malware:ro -v /path/to/rules:/rules:ro malice/yara FILE
+$ docker run -v /path/to/malware:/malware:ro -v /path/to/rules:/rules:ro malice/yara:neo23x0 FILE
 
 Usage: yara [OPTIONS] COMMAND [arg...]
 
@@ -77,17 +77,34 @@ This will output to stdout and POST to malice results API webhook endpoint.
   "yara": {
     "matches": [
       {
-        "Rule": "_First_Publisher_Graphics_format_",
+        "Rule": "APT30_Generic_7",
         "Namespace": "malice",
-        "Tags": [],
+        "Tags": null,
         "Meta": {
-          "description": "First Publisher Graphics format"
+          "author": "Florian Roth",
+          "date": "2015/04/13",
+          "description": "FireEye APT30 Report Sample",
+          "hash0": "2415f661046fdbe3eea8cd276b6f13354019b1a6",
+          "hash1": "e814914079af78d9f1b71000fee3c29d31d9b586",
+          "hash2": "0263de239ccef669c47399856d481e3361408e90",
+          "reference": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
+          "super_rule": 1
         },
         "Strings": [
           {
-            "Name": "$1",
-            "Offset": 2425,
-            "Data": "AAAAAAAAHwE="
+            "Name": "$s1",
+            "Offset": 29824,
+            "Data": "WGphcG9yXyphdGE="
+          },
+          {
+            "Name": "$s2",
+            "Offset": 29848,
+            "Data": "WGphcG9yX28qYXRh"
+          },
+          {
+            "Name": "$s4",
+            "Offset": 29864,
+            "Data": "T3VvcGFp"
           }
         ]
       }
@@ -112,15 +129,13 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 
 ---
 
-#### yara
+#### Yara
 
-| Rule                                     | Description                                 | Offset | Data                                 | Tags |
-| ---------------------------------------- | ------------------------------------------- | ------ | ------------------------------------ | ---- |
-| _Microsoft_Visual_Cpp_v50v60_MFC_        | Microsoft Visual C++ v5.0/v6.0 (MFC)        | 5204   | U��                                  |      |
-| _Borland_Delphi_v60\_\_v70_              | Borland Delphi v6.0 - v7.0                  | 5204   | U��                                  |      |
-| _dUP_v2x_Patcher\_\_wwwdiablo2oo2cjbnet_ | dUP v2.x Patcher --> www.diablo2oo2.cjb.net | 78     | This program cannot be run in DOS mo |      |
-| _Free_Pascal_v106_                       | Free Pascal v1.06                           | 14866  | ��@O�k                               |      |
-| _Armadillo_v171_                         | Armadillo v1.71                             | 23110  | U��j�h b@h�[@d�                      |      |
+| Rule              | Description                 | Offset   | Data                    | Tags |
+| ----------------- | --------------------------- | -------- | ----------------------- | ---- |
+| `APT30_Generic_7` | FireEye APT30 Report Sample | `0x7480` | &#34;Xjapor\_\*ata&#34; | []   |
+
+> NOTE: **Data** truncated to 25 characters
 
 ---
 
