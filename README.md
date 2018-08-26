@@ -87,6 +87,7 @@ This will output to stdout and POST to malice results API webhook endpoint.
           "hash0": "2415f661046fdbe3eea8cd276b6f13354019b1a6",
           "hash1": "e814914079af78d9f1b71000fee3c29d31d9b586",
           "hash2": "0263de239ccef669c47399856d481e3361408e90",
+          "license": "https://creativecommons.org/licenses/by-nc/4.0/",
           "reference": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
           "super_rule": 1
         },
@@ -133,7 +134,7 @@ $ cat JSON_OUTPUT | jq '.[][][] .Rule'
 
 | Rule              | Description                 | Offset   | Data                    | Tags |
 | ----------------- | --------------------------- | -------- | ----------------------- | ---- |
-| `APT30_Generic_7` | FireEye APT30 Report Sample | `0x7480` | &#34;Xjapor\_\*ata&#34; | []   |
+| `APT30_Generic_7` | FireEye APT30 Report Sample | `0x7480` | `&#34;Xjapor_*ata&#34;` | []   |
 
 > NOTE: **Data** truncated to 25 characters
 
