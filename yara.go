@@ -24,21 +24,22 @@ import (
 	"github.com/urfave/cli"
 )
 
-// Version stores the plugin's version
-var Version string
-
-// BuildTime stores the plugin's build time
-var BuildTime string
-
-// yara rules directory
-var rules string
-
-// yara rule compiler
-var yaraCompiler *yara.Compiler
-
 const (
 	name     = "yara"
 	category = "av"
+)
+
+var (
+	// Version stores the plugin's version
+	Version string
+	// BuildTime stores the plugin's build time
+	BuildTime string
+	// yara rules directory
+	rules string
+	// blacklisted rules that can't compile
+	blacklisted []string
+	// yara rule compiler
+	yaraCompiler *yara.Compiler
 )
 
 type pluginResults struct {
@@ -82,6 +83,10 @@ func compileRules(rulesDir string) error {
 	// compile all yara rules
 	for _, file := range fileList {
 
+		if utils.StringInSlice(file, blacklisted) {
+			continue
+		}
+
 		f, err := os.Open(file)
 		if err != nil {
 			return errors.Wrap(err, "failed to open rule")
@@ -90,12 +95,24 @@ func compileRules(rulesDir string) error {
 		log.Debug("Adding rule: ", file)
 		err = yaraCompiler.AddFile(f, "malice")
 		if err != nil {
+			blacklisted = append(blacklisted, file)
 			for _, er := range yaraCompiler.Errors {
-				fmt.Println(er)
+				log.WithFields(log.Fields{
+					"rule":    er.Filename,
+					"line_no": er.Line,
+				}).Error(er.Text)
 			}
-			log.WithFields(log.Fields{
-				"rule": file,
-			}).Error(errors.Wrap(err, "failed to add rule to compiler"))
+			// for _, wr := range yaraCompiler.Warnings {
+			// 	log.Warn(wr)
+			// }
+			f.Close()
+
+			// destroy unstable YR_COMPILER
+			// (see https://github.com/hillu/go-yara/issues/32#issuecomment-416040753)
+			log.Debug("destroying unstable yara compiler")
+			yaraCompiler.Destroy()
+			log.Debug("recreating yara compiler")
+			utils.Assert(compileRules(rulesDir))
 		}
 		f.Close()
 	}
