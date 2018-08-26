@@ -64,6 +64,7 @@ RUN apk --update add --no-cache -t .build-deps \
   && rm /rules/yara/generic_anomalies.yar \
   && rm /rules/yara/thor_inverse_matches.yar \
   && rm /rules/yara/yara_mixed_ext_vars.yar \
+  && echo " * building scan binary" \
   && cd /go/src/github.com/maliceio/malice-yara \
   && export GOPATH=/go \
   && export CGO_CFLAGS="-I/usr/local/include" \

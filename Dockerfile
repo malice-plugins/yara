@@ -7,7 +7,7 @@ LABEL malice.plugin.category="av"
 LABEL malice.plugin.mime="*"
 LABEL malice.plugin.docker.engine="*"
 
-ENV YARA 3.7.1
+ENV YARA 3.8.1
 
 # Install Yara
 RUN apk --update add --no-cache openssl file bison jansson ca-certificates
