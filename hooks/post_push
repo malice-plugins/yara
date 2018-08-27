@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+VERSION=$(cat VERSION)
+
+echo "===> Tagging $IMAGE_NAME as $DOCKER_REPO:$VERSION"
+docker tag $IMAGE_NAME $DOCKER_REPO:$VERSION
+echo "===> Pushing $DOCKER_REPO:$VERSION"
+docker push $DOCKER_REPO:$VERSION

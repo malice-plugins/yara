@@ -63,7 +63,7 @@ RUN apk --update add --no-cache -t .build-deps \
   && export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig" \
   && go version \
   && dep ensure \
-  && CGO_ENABLED=1 go build -ldflags "-s -w -X main.Version=$(cat VERSION) -X main.BuildTime=$(date -u +%Y%m%d)" -o /bin/scan \
+  && CGO_ENABLED=1 go build -ldflags "-s -w -X main.Version=v$(cat VERSION) -X main.BuildTime=$(date -u +%Y%m%d)" -o /bin/scan \
   && rm -rf /go /usr/local/go /usr/lib/go /tmp/* \
   && apk del --purge .build-deps
 
