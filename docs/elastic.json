@@ -1,5 +1,5 @@
 {
-  "took": 64,
+  "took": 46,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -14,43 +14,459 @@
       {
         "_index": "malice",
         "_type": "samples",
-        "_id": "iKFmeGUBIZJL-fcscyBf",
+        "_id": "EFOmnGUBlp9CG-J-khlW",
         "_score": 1,
         "_source": {
           "plugins": {
             "av": {
               "yara": {
-                "markdown": "#### Yara\n| Rule        | Description  | Offset      | Data        | Tags        |\n|-------------|--------------|-------------|-------------|-------------|\n| `APT30_Generic_7` | FireEye APT30 Report Sample | `0x7480` | `&#34;Xjapor_*ata&#34;` | [] |\n> NOTE: **Data** truncated to 25 characters\n",
+                "markdown": "#### Yara\n| Rule        | Description  | Offset      | Data        | Tags        |\n|-------------|--------------|-------------|-------------|-------------|\n| `Contains_PE_File` | Detect a PE file inside a byte sequence | `0x0` | `&#34;MZ&#34;` | [] |\n| `maldoc_function_prolog_signature` |  | `0x1454` | `&#34;U\\x8b\\xec\\x81\\xec&#34;` | [] |\n| `maldoc_structured_exception_handling` |  | `0x5a55` | `&#34;d\\xa1\\x00\\x00\\x00\\x00&#34;` | [] |\n| `maldoc_suspicious_strings` |  | `0x67ec` | `&#34;CloseHandle&#34;` | [] |\n| `PEiD_00138_Armadillo_v1_71_` | [Armadillo v1.71] | `0x5a46` | `&#34;U\\x8b\\xecj\\xffh b@\\x00h\\xc6[@\\x00d\\xa1&#34;` | [] |\n| `PEiD_00497_dUP_v2_x_Patcher_____www_diablo2oo2_cjb_net_` | [dUP v2.x Patcher --&gt; www.diablo2oo2.cjb.net] | `0x4e` | `&#34;This program cannot be ru&#34;` | [] |\n| `PEiD_00729_Free_Pascal_1_06_` | [Free Pascal 1.06] | `0x3a12` | `&#34;\\xc6\\x05\\xc0\\x84@\\x00O\\xe8k\\x04\\x00\\x00&#34;` | [] |\n| `PEiD_01101_Microsoft_Visual_C___v5_0_v6_0__MFC__` | [Microsoft Visual C&#43;&#43; v5.0/v6.0 (MFC)] | `0x5a46` | `&#34;U\\x8b\\xecj\\xffh b@\\x00h\\xc6[@\\x00d\\xa1\\x00\\x00\\x00\\x00P&#34;` | [] |\n| `PEiD_01108_Microsoft_Visual_C___v6_0_` | [Microsoft Visual C&#43;&#43; v6.0] | `0x5a46` | `&#34;U\\x8b\\xecj\\xffh b@\\x00h\\xc6[@\\x00d\\xa1\\x00\\x00\\x00\\x00Pd\\x89%&#34;` | [] |\n| `PEiD_01110_Microsoft_Visual_C___v6_0_` | [Microsoft Visual C&#43;&#43; v6.0] | `0x5a46` | `&#34;U\\x8b\\xecj\\xffh b@\\x00h\\xc6[@\\x00d\\xa1\\x00\\x00\\x00\\x00Pd\\x89%&#34;` | [] |\n| `PEiD_01125_Microsoft_Visual_C___` | [Microsoft Visual C&#43;&#43;] | `0x5a46` | `&#34;U\\x8b\\xecj\\xffh b@\\x00h\\xc6[@\\x00d\\xa1\\x00\\x00\\x00\\x00Pd\\x89%&#34;` | [] |\n| `_dUP_v2x_Patcher__wwwdiablo2oo2cjbnet_` | dUP v2.x Patcher --&gt; www.diablo2oo2.cjb.net | `0x4e` | `&#34;This program cannot be ru&#34;` | [] |\n| `_Microsoft_Visual_Cpp_` | Microsoft Visual C&#43;&#43; | `0x5a46` | `&#34;U\\x8b\\xecj\\xffh b@\\x00h\\xc6[@\\x00d\\xa1\\x00\\x00\\x00\\x00Pd\\x89%&#34;` | [] |\n| `_Free_Pascal_v106_` | Free Pascal v1.06 | `0x3a12` | `&#34;\\xc6\\x05\\xc0\\x84@\\x00O\\xe8k\\x04\\x00\\x00&#34;` | [] |\n| `_Armadillo_v171_` | Armadillo v1.71 | `0x5a46` | `&#34;U\\x8b\\xecj\\xffh b@\\x00h\\xc6[@\\x00d\\xa1&#34;` | [] |\n| `_Microsoft_Visual_Cpp_v60_` | Microsoft Visual C&#43;&#43; v6.0 | `0x5a46` | `&#34;U\\x8b\\xecj\\xffh b@\\x00h\\xc6[@\\x00d\\xa1\\x00\\x00\\x00\\x00Pd\\x89%&#34;` | [] |\n| `_Microsoft_Visual_Cpp_v50v60_MFC_` | Microsoft Visual C&#43;&#43; v5.0/v6.0 (MFC) | `0x5a46` | `&#34;U\\x8b\\xecj\\xffh b@\\x00h\\xc6[@\\x00d\\xa1\\x00\\x00\\x00\\x00P&#34;` | [] |\n> NOTE: **Data** truncated to 25 characters\n",
                 "matches": [
                   {
                     "Meta": {
-                      "author": "Florian Roth",
-                      "date": "2015/04/13",
-                      "description": "FireEye APT30 Report Sample",
-                      "hash0": "2415f661046fdbe3eea8cd276b6f13354019b1a6",
-                      "hash1": "e814914079af78d9f1b71000fee3c29d31d9b586",
-                      "hash2": "0263de239ccef669c47399856d481e3361408e90",
-                      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
-                      "reference": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
-                      "super_rule": 1
+                      "author": "Didier Stevens (https://DidierStevens.com)",
+                      "description": "Detect a PE file inside a byte sequence",
+                      "method": "Find string MZ followed by string PE at the correct offset (AddressOfNewExeHeader)"
                     },
                     "Namespace": "malice",
-                    "Rule": "APT30_Generic_7",
+                    "Rule": "Contains_PE_File",
                     "Strings": [
                       {
-                        "Data": "WGphcG9yXyphdGE=",
-                        "Name": "$s1",
-                        "Offset": 29824
+                        "Data": "TVo=",
+                        "Name": "$a",
+                        "Offset": 0
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "author": "Didier Stevens (https://DidierStevens.com)"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "maldoc_function_prolog_signature",
+                    "Strings": [
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 5204
                       },
                       {
-                        "Data": "WGphcG9yX28qYXRh",
-                        "Name": "$s2",
-                        "Offset": 29848
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 5588
                       },
                       {
-                        "Data": "T3VvcGFp",
-                        "Name": "$s4",
-                        "Offset": 29864
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 5796
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 6399
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 7171
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 8005
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 8284
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 8559
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 8939
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 9154
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 9480
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 10329
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 10475
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 10919
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 12187
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 12487
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 13198
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 13515
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 14694
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 15170
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 15649
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 16046
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 16580
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 16704
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 17236
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 18005
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 18386
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 18569
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 19368
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 19934
+                      },
+                      {
+                        "Data": "VYvsgew=",
+                        "Name": "$a1",
+                        "Offset": 20762
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "author": "Didier Stevens (https://DidierStevens.com)"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "maldoc_structured_exception_handling",
+                    "Strings": [
+                      {
+                        "Data": "ZKEAAAAA",
+                        "Name": "$a2",
+                        "Offset": 23125
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "author": "Didier Stevens (https://DidierStevens.com)"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "maldoc_suspicious_strings",
+                    "Strings": [
+                      {
+                        "Data": "Q2xvc2VIYW5kbGU=",
+                        "Name": "$a01",
+                        "Offset": 26604
+                      },
+                      {
+                        "Data": "Q3JlYXRlRmlsZQ==",
+                        "Name": "$a02",
+                        "Offset": 26454
+                      },
+                      {
+                        "Data": "R2V0UHJvY0FkZHI=",
+                        "Name": "$a03",
+                        "Offset": 26508
+                      },
+                      {
+                        "Data": "R2V0V2luZG93c0RpcmVjdG9yeQ==",
+                        "Name": "$a06",
+                        "Offset": 26710
+                      },
+                      {
+                        "Data": "TG9hZExpYnJhcnk=",
+                        "Name": "$a09",
+                        "Offset": 26494
+                      },
+                      {
+                        "Data": "UmVhZEZpbGU=",
+                        "Name": "$a10",
+                        "Offset": 26038
+                      },
+                      {
+                        "Data": "V3JpdGVGaWxl",
+                        "Name": "$a16",
+                        "Offset": 26482
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "[Armadillo v1.71]",
+                      "ep_only": "false"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "PEiD_00138_Armadillo_v1_71_",
+                    "Strings": [
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKE=",
+                        "Name": "$a",
+                        "Offset": 23110
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "[dUP v2.x Patcher --> www.diablo2oo2.cjb.net]",
+                      "ep_only": "false"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "PEiD_00497_dUP_v2_x_Patcher_____www_diablo2oo2_cjb_net_",
+                    "Strings": [
+                      {
+                        "Data": "VGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v",
+                        "Name": "$a",
+                        "Offset": 78
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "[Free Pascal 1.06]",
+                      "ep_only": "false"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "PEiD_00729_Free_Pascal_1_06_",
+                    "Strings": [
+                      {
+                        "Data": "xgXAhEAAT+hrBAAA",
+                        "Name": "$a",
+                        "Offset": 14866
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "[Microsoft Visual C++ v5.0/v6.0 (MFC)]",
+                      "ep_only": "true"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "PEiD_01101_Microsoft_Visual_C___v5_0_v6_0__MFC__",
+                    "Strings": [
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKEAAAAAUA==",
+                        "Name": "$a",
+                        "Offset": 23110
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "[Microsoft Visual C++ v6.0]",
+                      "ep_only": "false"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "PEiD_01108_Microsoft_Visual_C___v6_0_",
+                    "Strings": [
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKEAAAAAUGSJJQAAAACD7GhTVlc=",
+                        "Name": "$a",
+                        "Offset": 23110
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "[Microsoft Visual C++ v6.0]",
+                      "ep_only": "false"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "PEiD_01110_Microsoft_Visual_C___v6_0_",
+                    "Strings": [
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKEAAAAAUGSJJQAAAACD7GhTVleJZegz24ld/GoC/xU0YUAAWYMNpIdAAP8=",
+                        "Name": "$a",
+                        "Offset": 23110
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "[Microsoft Visual C++]",
+                      "ep_only": "false"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "PEiD_01125_Microsoft_Visual_C___",
+                    "Strings": [
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKEAAAAAUGSJJQAAAAA=",
+                        "Name": "$a",
+                        "Offset": 23110
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "dUP v2.x Patcher --> www.diablo2oo2.cjb.net"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "_dUP_v2x_Patcher__wwwdiablo2oo2cjbnet_",
+                    "Strings": [
+                      {
+                        "Data": "VGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v",
+                        "Name": "$0",
+                        "Offset": 78
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "Microsoft Visual C++"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "_Microsoft_Visual_Cpp_",
+                    "Strings": [
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKEAAAAAUGSJJQAAAAA=",
+                        "Name": "$0",
+                        "Offset": 23110
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "Free Pascal v1.06"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "_Free_Pascal_v106_",
+                    "Strings": [
+                      {
+                        "Data": "xgXAhEAAT+hrBAAA",
+                        "Name": "$0",
+                        "Offset": 14866
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "Armadillo v1.71"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "_Armadillo_v171_",
+                    "Strings": [
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKE=",
+                        "Name": "$0",
+                        "Offset": 23110
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "Microsoft Visual C++ v6.0"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "_Microsoft_Visual_Cpp_v60_",
+                    "Strings": [
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKEAAAAAUGSJJQAAAACD7GhTVleJZegz24ld/GoC/xU0YUAAWYMNpIdAAP8=",
+                        "Name": "$1",
+                        "Offset": 23110
+                      },
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKEAAAAAUGSJJQAAAACD7GhTVlc=",
+                        "Name": "$2",
+                        "Offset": 23110
+                      }
+                    ],
+                    "Tags": null
+                  },
+                  {
+                    "Meta": {
+                      "description": "Microsoft Visual C++ v5.0/v6.0 (MFC)"
+                    },
+                    "Namespace": "malice",
+                    "Rule": "_Microsoft_Visual_Cpp_v50v60_MFC_",
+                    "Strings": [
+                      {
+                        "Data": "VYvsav9oIGJAAGjGW0AAZKEAAAAAUA==",
+                        "Name": "$0",
+                        "Offset": 23110
                       }
                     ],
                     "Tags": null
@@ -59,7 +475,7 @@
               }
             }
           },
-          "scan_date": "2018-08-26T22:41:44.792088302Z"
+          "scan_date": "2018-09-02T23:38:06.79482848Z"
         }
       }
     ]
