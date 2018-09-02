@@ -16,9 +16,9 @@ import (
 	"github.com/fatih/structs"
 	"github.com/gorilla/mux"
 	yara "github.com/hillu/go-yara"
-	"github.com/malice-plugins/go-plugin-utils/database"
-	"github.com/malice-plugins/go-plugin-utils/database/elasticsearch"
-	"github.com/malice-plugins/go-plugin-utils/utils"
+	"github.com/malice-plugins/pkgs/database"
+	"github.com/malice-plugins/pkgs/database/elasticsearch"
+	"github.com/malice-plugins/pkgs/utils"
 	"github.com/parnurzeal/gorequest"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"
@@ -40,6 +40,8 @@ var (
 	blacklisted []string
 	// yara rule compiler
 	yaraCompiler *yara.Compiler
+	// es is the elasticsearch database object
+	es elasticsearch.Database
 )
 
 type pluginResults struct {
@@ -235,8 +237,6 @@ func printMarkDownTable(yara Yara) {
 
 func main() {
 
-	es := elasticsearch.Database{Index: "malice", Type: "samples"}
-
 	cli.AppHelpTemplate = utils.AppHelpTemplate
 	app := cli.NewApp()
 
@@ -252,11 +252,11 @@ func main() {
 			Usage: "verbose output",
 		},
 		cli.StringFlag{
-			Name:        "elasitcsearch",
+			Name:        "elasticsearch",
 			Value:       "",
-			Usage:       "elasitcsearch address for Malice to store results",
-			EnvVar:      "MALICE_ELASTICSEARCH",
-			Destination: &es.Host,
+			Usage:       "elasticsearch url for Malice to store results",
+			EnvVar:      "MALICE_ELASTICSEARCH_URL",
+			Destination: &es.URL,
 		},
 		cli.BoolFlag{
 			Name:   "callback, c",
@@ -314,10 +314,10 @@ func main() {
 			yara.Results.MarkDown = generateMarkDownTable(yara)
 
 			// upsert into Database
-			if len(c.String("elasitcsearch")) > 0 {
+			if len(c.String("elasticsearch")) > 0 {
 				err := es.Init()
 				if err != nil {
-					return errors.Wrap(err, "failed to initalize elasitcsearch")
+					return errors.Wrap(err, "failed to initalize elasticsearch")
 				}
 				err = es.StorePluginResults(database.PluginResults{
 					ID:       utils.Getopt("MALICE_SCANID", utils.GetSHA256(path)),

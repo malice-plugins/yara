@@ -2,7 +2,7 @@
 
 # malice-yara
 
-[![Circle CI](https://circleci.com/gh/malice-plugins/yara.png?style=shield)](https://circleci.com/gh/malice-plugins/yara) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Image](https://img.shields.io/badge/docker%20image-51.9MB-blue.svg)](https://hub.docker.com/r/malice/virustotal/)
+[![Circle CI](https://circleci.com/gh/malice-plugins/yara.png?style=shield)](https://circleci.com/gh/malice-plugins/yara) [![License](https://img.shields.io/badge/licence-Apache%202.0-blue.svg)](LICENSE) [![Docker Stars](https://img.shields.io/docker/stars/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/yara.svg)](https://hub.docker.com/r/malice/yara/) [![Docker Image](https://img.shields.io/badge/docker%20image-53.2MB-blue.svg)](https://hub.docker.com/r/malice/virustotal/)
 
 Malice Yara Plugin
 
@@ -43,25 +43,25 @@ Usage: yara [OPTIONS] COMMAND [arg...]
 
 Malice YARA Plugin
 
-Version: v0.1.0, BuildTime: 20170123
+Version: v0.1.0, BuildTime: 20180902
 
 Author:
   blacktop - <https://github.com/blacktop>
 
 Options:
-  --verbose, -V		verbose output
-  --elasitcsearch value elasitcsearch address for Malice to store results [$MALICE_ELASTICSEARCH]
-  --timeout value       malice plugin timeout (in seconds) (default: 60) [$MALICE_TIMEOUT]
-  --callback, -c	    POST results to Malice webhook [$MALICE_ENDPOINT]
-  --timeout value       malice plugin timeout (in seconds) (default: 60) [$MALICE_TIMEOUT]
-  --proxy, -x		proxy settings for Malice webhook endpoint [$MALICE_PROXY]
-  --table, -t		output as Markdown table
-  --rules value		YARA rules directory (default: "/rules")
-  --help, -h		show help
-  --version, -v		print the version
+  --verbose, -V          verbose output
+  --elasticsearch value  elasticsearch url for Malice to store results [$MALICE_ELASTICSEARCH_URL]
+  --callback, -c         POST results to Malice webhook [$MALICE_ENDPOINT]
+  --proxy, -x            proxy settings for Malice webhook endpoint [$MALICE_PROXY]
+  --table, -t            output as Markdown table
+  --timeout value        malice plugin timeout (in seconds) (default: 60) [$MALICE_TIMEOUT]
+  --rules value          YARA rules directory (default: "/rules")
+  --help, -h             show help
+  --version, -v          print the version
 
 Commands:
-  help	Shows a list of commands or help for one command
+  web   Create a Yara web service
+  help  Shows a list of commands or help for one command
 
 Run 'yara COMMAND --help' for more information on a command.
 ```

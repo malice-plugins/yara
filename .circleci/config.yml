@@ -3,15 +3,15 @@ jobs:
   build:
     working_directory: /app
     docker:
-      - image: docker:17.10.0-ce
+      - image: docker:18.03.1-ce-git
     steps:
       - checkout
       - setup_remote_docker:
-          version: 17.10.0-ce
+          version: 18.03.1-ce
       - run:
           name: Install dependencies
           command: |
-            apk add --no-cache curl jq
+            apk add --no-cache jq
       - restore_cache:
           keys:
             - v1-{{ .Branch }}
