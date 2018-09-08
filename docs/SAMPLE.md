@@ -21,3 +21,7 @@
 | `_Microsoft_Visual_Cpp_v50v60_MFC_`                       | Microsoft Visual C&#43;&#43; v5.0/v6.0 (MFC)     | `0x5a46` | `&#34;U\x8b\xecj\xffh b@\x00h\xc6[@\x00d\xa1\x00\x00\x00\x00P&#34;`       | []   |
 
 > NOTE: **Data** truncated to 25 characters
+
+#### Yara
+
+- No Matches Found
