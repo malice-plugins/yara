@@ -38,6 +38,7 @@ var (
 	rules string
 	// blacklisted rules that can't compile
 	blacklisted []string
+	path        string
 	// yara rule compiler
 	yaraCompiler *yara.Compiler
 	// es is the elasticsearch database object
