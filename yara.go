@@ -60,6 +60,16 @@ type ResultsData struct {
 	MarkDown string           `json:"markdown,omitempty" structs:"markdown,omitempty"`
 }
 
+func assert(err error) {
+	if err != nil {
+		log.WithFields(log.Fields{
+			"plugin":   name,
+			"category": category,
+			"path":     path,
+		}).Fatal(err)
+	}
+}
+
 // compileRules compiles the yara rules
 func compileRules(rulesDir string) error {
 
@@ -114,7 +124,7 @@ func compileRules(rulesDir string) error {
 			log.Debug("destroying unstable yara compiler")
 			yaraCompiler.Destroy()
 			log.Debug("recreating yara compiler")
-			utils.Assert(compileRules(rulesDir))
+			assert(compileRules(rulesDir))
 		}
 		f.Close()
 	}
@@ -129,7 +139,7 @@ func scanFile(path string, rulesDir string, timeout int) ResultsData {
 
 	// comile rules if they haven't been compiled yet
 	if yaraCompiler == nil {
-		utils.Assert(compileRules(rulesDir))
+		assert(compileRules(rulesDir))
 	}
 
 	r, err := yaraCompiler.GetRules()
@@ -138,7 +148,7 @@ func scanFile(path string, rulesDir string, timeout int) ResultsData {
 		0,                                  // flags ScanFlags
 		time.Duration(timeout)*time.Second, //timeout time.Duration
 	)
-	utils.Assert(errors.Wrapf(err, "failed to scan file: %s", path))
+	assert(errors.Wrapf(err, "failed to scan file: %s", path))
 
 	yaraResults.Matches = matches
 
@@ -359,5 +369,5 @@ func main() {
 	}
 
 	err := app.Run(os.Args)
-	utils.Assert(err)
+	assert(err)
 }
