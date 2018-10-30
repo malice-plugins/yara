@@ -11,6 +11,7 @@ rule _Nullsoft_Install_System_v20_
 	condition:
 		$0
 }
+
 rule _Vx_Keypress1212_
 {
 	meta:
@@ -20,6 +21,7 @@ rule _Vx_Keypress1212_
 	condition:
 		$0 at entrypoint
 }
+
 rule _E2C_by_DoP_
 {
 	meta:
@@ -29,6 +31,7 @@ rule _E2C_by_DoP_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MSLRH_v032a__emadicius_h_
 {
 	meta:
@@ -38,6 +41,7 @@ rule _MSLRH_v032a__emadicius_h_
 	condition:
 		$0
 }
+
 rule _LaunchAnywhere_v4001_
 {
 	meta:
@@ -47,6 +51,7 @@ rule _LaunchAnywhere_v4001_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v09781_
 {
 	meta:
@@ -56,6 +61,7 @@ rule _PECompact_v09781_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_Full_Edition_117_iBox_LZMA__Ap0x_
 {
 	meta:
@@ -65,6 +71,7 @@ rule _RLPack_Full_Edition_117_iBox_LZMA__Ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_v14_
 {
 	meta:
@@ -74,6 +81,7 @@ rule _Petite_v14_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VcAsm_Protector__VcAsm_
 {
 	meta:
@@ -83,6 +91,7 @@ rule _VcAsm_Protector__VcAsm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESpin_v01__Cyberbob_h_
 {
 	meta:
@@ -92,6 +101,7 @@ rule _PESpin_v01__Cyberbob_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v134__v140b1_
 {
 	meta:
@@ -101,6 +111,7 @@ rule _PECompact_v134__v140b1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v14xp_
 {
 	meta:
@@ -110,6 +121,7 @@ rule _PECompact_v14xp_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VcasmProtector_10e__vcasm_
 {
 	meta:
@@ -119,6 +131,7 @@ rule _VcasmProtector_10e__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_290_LZMA_Delphi_stub__Markus_Oberhumer_Laszlo_Molnar__John_Reiser_
 {
 	meta:
@@ -128,6 +141,7 @@ rule _UPX_290_LZMA_Delphi_stub__Markus_Oberhumer_Laszlo_Molnar__John_Reiser_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SLR_OPTLINK_
 {
 	meta:
@@ -137,6 +151,7 @@ rule _SLR_OPTLINK_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXPressor_v14__CGSoftLabs_h_
 {
 	meta:
@@ -146,6 +161,7 @@ rule _eXPressor_v14__CGSoftLabs_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WinZip_32bit_SFX_v6x_module_
 {
 	meta:
@@ -155,6 +171,7 @@ rule _WinZip_32bit_SFX_v6x_module_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ROD_High_TECH__Ayman_
 {
 	meta:
@@ -164,6 +181,7 @@ rule _ROD_High_TECH__Ayman_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v155_
 {
 	meta:
@@ -173,6 +191,7 @@ rule _PECompact_v155_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v100_
 {
 	meta:
@@ -182,6 +201,7 @@ rule _PECompact_v100_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v260_
 {
 	meta:
@@ -191,6 +211,7 @@ rule _Armadillo_v260_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_VirusConstructorbased_
 {
 	meta:
@@ -201,6 +222,7 @@ rule _Vx_VirusConstructorbased_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _EXECryptor_V21X__softcompletecom_
 {
 	meta:
@@ -210,6 +232,7 @@ rule _EXECryptor_V21X__softcompletecom_
 	condition:
 		$0
 }
+
 rule _WWPack32_v100_v111_v112_v120_
 {
 	meta:
@@ -219,6 +242,7 @@ rule _WWPack32_v100_v111_v112_v120_
 	condition:
 		$0 at entrypoint
 }
+
 rule _A3E_TXT2COM_
 {
 	meta:
@@ -228,6 +252,7 @@ rule _A3E_TXT2COM_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PUNiSHER_V15_FEUERRADER_
 {
 	meta:
@@ -237,6 +262,7 @@ rule _PUNiSHER_V15_FEUERRADER_
 	condition:
 		$0
 }
+
 rule _PECompact_v140__v145_
 {
 	meta:
@@ -246,6 +272,7 @@ rule _PECompact_v140__v145_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v180_
 {
 	meta:
@@ -256,6 +283,7 @@ rule _Armadillo_v180_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _BJFnt_v12_RC_
 {
 	meta:
@@ -265,6 +293,7 @@ rule _BJFnt_v12_RC_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_V036__Dwing_
 {
 	meta:
@@ -274,6 +303,7 @@ rule _Upack_V036__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MASM32_
 {
 	meta:
@@ -283,6 +313,7 @@ rule _MASM32_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_V01XV02X__Dwing_
 {
 	meta:
@@ -292,6 +323,7 @@ rule _Upack_V01XV02X__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ChinaProtect__dummy____SignByfly_
 {
 	meta:
@@ -301,6 +333,7 @@ rule _ChinaProtect__dummy____SignByfly_
 	condition:
 		$0
 }
+
 rule _eXPressor_V1451__CGSoftLabs_
 {
 	meta:
@@ -311,6 +344,7 @@ rule _eXPressor_V1451__CGSoftLabs_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Necropolis1963_
 {
 	meta:
@@ -320,6 +354,7 @@ rule _Vx_Necropolis1963_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CrypWrap_vxx_
 {
 	meta:
@@ -329,6 +364,7 @@ rule _CrypWrap_vxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_PESHiELD_025__Anorganix_
 {
 	meta:
@@ -339,6 +375,7 @@ rule _PseudoSigner_01_PESHiELD_025__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Borland_Delphi__Microsoft_Visual_Cpp_
 {
 	meta:
@@ -350,6 +387,7 @@ rule _FSG_v110_Eng__dulekxt__Borland_Delphi__Microsoft_Visual_Cpp_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _MESS_v120_
 {
 	meta:
@@ -359,6 +397,7 @@ rule _MESS_v120_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_REALBasic__Anorganix_
 {
 	meta:
@@ -369,6 +408,7 @@ rule _PseudoSigner_02_REALBasic__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Hymn1865_
 {
 	meta:
@@ -378,6 +418,7 @@ rule _Vx_Hymn1865_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Alex_Protector_v04_beta_1_by_Alex_
 {
 	meta:
@@ -388,6 +429,7 @@ rule _Alex_Protector_v04_beta_1_by_Alex_
 	condition:
 		$0 or $1
 }
+
 rule _Shrinker_v32_
 {
 	meta:
@@ -397,6 +439,7 @@ rule _Shrinker_v32_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXPressor_V145x__CGSoftLabs_
 {
 	meta:
@@ -406,6 +449,7 @@ rule _eXPressor_V145x__CGSoftLabs_
 	condition:
 		$0 at entrypoint
 }
+
 rule _dUP_v2x_Patcher__wwwdiablo2oo2cjbnet_
 {
 	meta:
@@ -415,6 +459,7 @@ rule _dUP_v2x_Patcher__wwwdiablo2oo2cjbnet_
 	condition:
 		$0
 }
+
 rule _EXE32Pack_v136_
 {
 	meta:
@@ -424,6 +469,7 @@ rule _EXE32Pack_v136_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v19x_
 {
 	meta:
@@ -433,6 +479,7 @@ rule _Armadillo_v19x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Alex_Protector_10_beta_2_by_Alex_
 {
 	meta:
@@ -443,6 +490,7 @@ rule _Alex_Protector_10_beta_2_by_Alex_
 	condition:
 		$0 or $1
 }
+
 rule _LCC_Win32_v1x_
 {
 	meta:
@@ -452,6 +500,7 @@ rule _LCC_Win32_v1x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PROPACK_v208_emphasis_on_packed_size_locked_
 {
 	meta:
@@ -461,6 +510,7 @@ rule _PROPACK_v208_emphasis_on_packed_size_locked_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PCPEC_alpha__preview_
 {
 	meta:
@@ -470,6 +520,7 @@ rule _PCPEC_alpha__preview_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Packanoid__Arkanoid_
 {
 	meta:
@@ -479,6 +530,7 @@ rule _Packanoid__Arkanoid_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v211c_
 {
 	meta:
@@ -488,6 +540,7 @@ rule _ASPack_v211c_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Symantec_C_v400_p_Libraries_
 {
 	meta:
@@ -497,6 +550,7 @@ rule _Symantec_C_v400_p_Libraries_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DIET_v144_v145f_
 {
 	meta:
@@ -506,6 +560,7 @@ rule _DIET_v144_v145f_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v210b2_
 {
 	meta:
@@ -516,6 +571,7 @@ rule _Armadillo_v210b2_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PENinja_modified_
 {
 	meta:
@@ -525,6 +581,7 @@ rule _PENinja_modified_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CodeCrypt_v014b_
 {
 	meta:
@@ -534,6 +591,7 @@ rule _CodeCrypt_v014b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ENIGMA_Protector_V10V12_Sukhov_Vladimir_
 {
 	meta:
@@ -543,6 +601,7 @@ rule _ENIGMA_Protector_V10V12_Sukhov_Vladimir_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_70_DLL_
 {
 	meta:
@@ -552,6 +611,7 @@ rule _Microsoft_Visual_Cpp_70_DLL_
 	condition:
 		$0
 }
+
 rule _PseudoSigner_02_PESHiELD_025__Anorganix_
 {
 	meta:
@@ -562,6 +622,7 @@ rule _PseudoSigner_02_PESHiELD_025__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _yP_v10b_by_Ashkbiz_Danehkar_
 {
 	meta:
@@ -571,6 +632,7 @@ rule _yP_v10b_by_Ashkbiz_Danehkar_
 	condition:
 		$0
 }
+
 rule _UPX_v0761_dos_exe_
 {
 	meta:
@@ -580,6 +642,7 @@ rule _UPX_v0761_dos_exe_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Private_exe_Protector_V20__SetiSoft_Team_
 {
 	meta:
@@ -589,6 +652,7 @@ rule _Private_exe_Protector_V20__SetiSoft_Team_
 	condition:
 		$0
 }
+
 rule _RLP_V073beta__ap0x_
 {
 	meta:
@@ -598,6 +662,7 @@ rule _RLP_V073beta__ap0x_
 	condition:
 		$0
 }
+
 rule _WWPACK_v305c4_Modified_
 {
 	meta:
@@ -607,6 +672,7 @@ rule _WWPACK_v305c4_Modified_
 	condition:
 		$0 at entrypoint
 }
+
 rule _nPack_v11xxx__NEOx_
 {
 	meta:
@@ -616,6 +682,7 @@ rule _nPack_v11xxx__NEOx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESpin_v13beta__Cyberbob_h_
 {
 	meta:
@@ -625,6 +692,7 @@ rule _PESpin_v13beta__Cyberbob_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _InstallAnywhere_61__Zero_G_Software_Inc_
 {
 	meta:
@@ -634,6 +702,7 @@ rule _InstallAnywhere_61__Zero_G_Software_Inc_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Shrink_v10_
 {
 	meta:
@@ -643,6 +712,7 @@ rule _Shrink_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Diminisher_v01__Teraphy_
 {
 	meta:
@@ -652,6 +722,7 @@ rule _PE_Diminisher_v01__Teraphy_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Pack_Master_v10_
 {
 	meta:
@@ -662,6 +733,7 @@ rule _Pack_Master_v10_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_02_Borland_Delphi_DLL__Anorganix_
 {
 	meta:
@@ -672,6 +744,7 @@ rule _PseudoSigner_02_Borland_Delphi_DLL__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Borland_Delphi__Microsoft_Visual_Cpp__ASM_
 {
 	meta:
@@ -681,6 +754,7 @@ rule _FSG_v110_Eng__dulekxt__Borland_Delphi__Microsoft_Visual_Cpp__ASM_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Sentinel_SuperPro_Automatic_Protection_v640__Safenet_
 {
 	meta:
@@ -690,6 +764,7 @@ rule _Sentinel_SuperPro_Automatic_Protection_v640__Safenet_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ENIGMA_Protector_V11V12_Sukhov_Vladimir_
 {
 	meta:
@@ -699,6 +774,7 @@ rule _ENIGMA_Protector_V11V12_Sukhov_Vladimir_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Macromedia_Windows_Flash_ProjectorPlayer_v60_
 {
 	meta:
@@ -708,6 +784,7 @@ rule _Macromedia_Windows_Flash_ProjectorPlayer_v60_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DevCpp_4992__Bloodshed_Software_
 {
 	meta:
@@ -717,6 +794,7 @@ rule _DevCpp_4992__Bloodshed_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_v073beta__ap0x_h_
 {
 	meta:
@@ -726,6 +804,7 @@ rule _RLPack_v073beta__ap0x_h_
 	condition:
 		$0
 }
+
 rule _PcShare__v40___
 {
 	meta:
@@ -735,6 +814,7 @@ rule _PcShare__v40___
 	condition:
 		$0 at entrypoint
 }
+
 rule _EmbedPE_v124__cyclotron_
 {
 	meta:
@@ -744,6 +824,7 @@ rule _EmbedPE_v124__cyclotron_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Soft_Defender_v10__v11_
 {
 	meta:
@@ -753,6 +834,7 @@ rule _Soft_Defender_v10__v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v031_beta__Dwing_
 {
 	meta:
@@ -762,6 +844,7 @@ rule _Upack_v031_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ENIGMA_Protector_V11_CracKed_By_shoooo__fly__Sukhov_Vladimir_
 {
 	meta:
@@ -771,6 +854,7 @@ rule _ENIGMA_Protector_V11_CracKed_By_shoooo__fly__Sukhov_Vladimir_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v096_
 {
 	meta:
@@ -780,6 +864,7 @@ rule _tElock_v096_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v2001_
 {
 	meta:
@@ -789,6 +874,7 @@ rule _ASPack_v2001_
 	condition:
 		$0 at entrypoint
 }
+
 rule _LTC_v13_
 {
 	meta:
@@ -798,6 +884,7 @@ rule _LTC_v13_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEiDBundle_v101__BoB__BobSoft_
 {
 	meta:
@@ -807,6 +894,7 @@ rule _PEiDBundle_v101__BoB__BobSoft_
 	condition:
 		$0 at entrypoint
 }
+
 rule _HACKSTOP_v110p1_
 {
 	meta:
@@ -817,6 +905,7 @@ rule _HACKSTOP_v110p1_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PECompact_v140b2__v140b4_
 {
 	meta:
@@ -826,6 +915,7 @@ rule _PECompact_v140b2__v140b4_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Kuku448_
 {
 	meta:
@@ -835,6 +925,7 @@ rule _Vx_Kuku448_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPacK_V31__LiuXingPing_
 {
 	meta:
@@ -844,6 +935,7 @@ rule _NsPacK_V31__LiuXingPing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _GHF_Protector_pack_only__GPcH_
 {
 	meta:
@@ -853,6 +945,7 @@ rule _GHF_Protector_pack_only__GPcH_
 	condition:
 		$0
 }
+
 rule _Vx_Necropolis_
 {
 	meta:
@@ -862,6 +955,7 @@ rule _Vx_Necropolis_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_DEF_10__Anorganix_
 {
 	meta:
@@ -872,6 +966,7 @@ rule _PseudoSigner_01_DEF_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v110_Eng__bartxt__WinRARSFX_
 {
 	meta:
@@ -882,6 +977,7 @@ rule _FSG_v110_Eng__bartxt__WinRARSFX_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _LCCWin32_
 {
 	meta:
@@ -891,6 +987,7 @@ rule _LCCWin32_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Lock_NT_v201_
 {
 	meta:
@@ -900,6 +997,7 @@ rule _PE_Lock_NT_v201_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Dropper_Creator_V01__Conflict_
 {
 	meta:
@@ -909,6 +1007,7 @@ rule _Dropper_Creator_V01__Conflict_
 	condition:
 		$0
 }
+
 rule _PowerBASICCC_30x_
 {
 	meta:
@@ -918,6 +1017,7 @@ rule _PowerBASICCC_30x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MS_RunTime_Library_1992_11_
 {
 	meta:
@@ -927,6 +1027,7 @@ rule _MS_RunTime_Library_1992_11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FreePascal_200_Win32__Brczi_Gbor_Pierre_Muller__Peter_Vreman_
 {
 	meta:
@@ -937,6 +1038,7 @@ rule _FreePascal_200_Win32__Brczi_Gbor_Pierre_Muller__Peter_Vreman_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _SCAN_AV_
 {
 	meta:
@@ -946,6 +1048,7 @@ rule _SCAN_AV_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Zortech_C_v30_
 {
 	meta:
@@ -955,6 +1058,7 @@ rule _Zortech_C_v30_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v156_
 {
 	meta:
@@ -964,6 +1068,7 @@ rule _PECompact_v156_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CodeCrypt_v016b__v0163b_
 {
 	meta:
@@ -973,6 +1078,7 @@ rule _CodeCrypt_v016b__v0163b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v305c4_Unextractable_p_Password_checking_
 {
 	meta:
@@ -982,6 +1088,7 @@ rule _WWPACK_v305c4_Unextractable_p_Password_checking_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_12__c1998_Ian_Luck_h_
 {
 	meta:
@@ -991,6 +1098,7 @@ rule _Petite_12__c1998_Ian_Luck_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Duals_eXe_10_
 {
 	meta:
@@ -1001,6 +1109,7 @@ rule _Duals_eXe_10_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Symantec_C_v210_v400_or_Zortech_C_v30r1_
 {
 	meta:
@@ -1010,6 +1119,7 @@ rule _Symantec_C_v210_v400_or_Zortech_C_v30r1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _yodas_Protector_v10b__Ashkbiz_Danehkar_h_
 {
 	meta:
@@ -1019,6 +1129,7 @@ rule _yodas_Protector_v10b__Ashkbiz_Danehkar_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SDProtector_1x__Randy_Li_
 {
 	meta:
@@ -1028,6 +1139,7 @@ rule _SDProtector_1x__Randy_Li_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Program_Protector_XP_v10_
 {
 	meta:
@@ -1037,6 +1149,7 @@ rule _Program_Protector_XP_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _32Lite_v003a_
 {
 	meta:
@@ -1046,6 +1159,7 @@ rule _32Lite_v003a_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v190c_
 {
 	meta:
@@ -1056,6 +1170,7 @@ rule _Armadillo_v190c_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__MASM32__TASM32__Microsoft_Visual_Basic_
 {
 	meta:
@@ -1065,6 +1180,7 @@ rule _FSG_v110_Eng__dulekxt__MASM32__TASM32__Microsoft_Visual_Basic_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Borland_Delphi_50_KOLMCK__Anorganix_
 {
 	meta:
@@ -1076,6 +1192,7 @@ rule _PseudoSigner_01_Borland_Delphi_50_KOLMCK__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _UPX_v081__v084_Modified_
 {
 	meta:
@@ -1085,6 +1202,7 @@ rule _UPX_v081__v084_Modified_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_PEX_099__Anorganix_
 {
 	meta:
@@ -1095,6 +1213,7 @@ rule _PseudoSigner_01_PEX_099__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _BobSoft_Mini_Delphi__BoB__BobSoft_
 {
 	meta:
@@ -1106,6 +1225,7 @@ rule _BobSoft_Mini_Delphi__BoB__BobSoft_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _RECrypt_v07x__Crudd_RET_h1_
 {
 	meta:
@@ -1115,6 +1235,7 @@ rule _RECrypt_v07x__Crudd_RET_h1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Packer_v70_by_TurboPower_Software_
 {
 	meta:
@@ -1124,6 +1245,7 @@ rule _EXE_Packer_v70_by_TurboPower_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Fusion_10__jaNooNi_
 {
 	meta:
@@ -1133,6 +1255,7 @@ rule _Fusion_10__jaNooNi_
 	condition:
 		$0 at entrypoint
 }
+
 rule _yodas_Protector_v1033_exescrcom__Ashkbiz_Danehkar_h_
 {
 	meta:
@@ -1142,6 +1265,7 @@ rule _yodas_Protector_v1033_exescrcom__Ashkbiz_Danehkar_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RCryptor_v1__Vaska_
 {
 	meta:
@@ -1151,6 +1275,7 @@ rule _RCryptor_v1__Vaska_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Prepared_by_SLR_OPTLINK_
 {
 	meta:
@@ -1160,6 +1285,7 @@ rule _Prepared_by_SLR_OPTLINK_
 	condition:
 		$0 at entrypoint
 }
+
 rule _yodas_Protector_10_beta__Ashkbiz_Danehkar_
 {
 	meta:
@@ -1169,6 +1295,7 @@ rule _yodas_Protector_10_beta__Ashkbiz_Danehkar_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Crypt_15__BitShape_Software_
 {
 	meta:
@@ -1178,6 +1305,7 @@ rule _PE_Crypt_15__BitShape_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_MinGW_GCC_2x__Anorganix_
 {
 	meta:
@@ -1188,6 +1316,7 @@ rule _PseudoSigner_02_MinGW_GCC_2x__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Private_EXE_v20a_
 {
 	meta:
@@ -1198,6 +1327,7 @@ rule _Private_EXE_v20a_
 	condition:
 		$0 at entrypoint or $1
 }
+
 rule _BeRoEXEPacker_v100__BeRo__Farbrausch_
 {
 	meta:
@@ -1210,6 +1340,7 @@ rule _BeRoEXEPacker_v100__BeRo__Farbrausch_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint
 }
+
 rule _ACProtect_14x__RISCO_soft_
 {
 	meta:
@@ -1220,6 +1351,7 @@ rule _ACProtect_14x__RISCO_soft_
 	condition:
 		$0 or $1
 }
+
 rule _ASProtect_v12__Alexey_Solodovnikov_h1_
 {
 	meta:
@@ -1229,6 +1361,7 @@ rule _ASProtect_v12__Alexey_Solodovnikov_h1_
 	condition:
 		$0
 }
+
 rule _ASPack_v100b_
 {
 	meta:
@@ -1239,6 +1372,7 @@ rule _ASPack_v100b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPX_Modified_Stub_c__Farbrausch_Consumer_Consulting_
 {
 	meta:
@@ -1248,6 +1382,7 @@ rule _UPX_Modified_Stub_c__Farbrausch_Consumer_Consulting_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VcAsm_Protector_V10X_VcAsm_
 {
 	meta:
@@ -1257,6 +1392,7 @@ rule _VcAsm_Protector_V10X_VcAsm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_C_19901992_
 {
 	meta:
@@ -1266,6 +1402,7 @@ rule _Microsoft_C_19901992_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXPressor_v1451__CGSoftLabs_h_
 {
 	meta:
@@ -1276,6 +1413,7 @@ rule _eXPressor_v1451__CGSoftLabs_h_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_ASPack_2xx_Heuristic__Anorganix_
 {
 	meta:
@@ -1286,6 +1424,7 @@ rule _PseudoSigner_01_ASPack_2xx_Heuristic__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_02_LCC_Win32_DLL__Anorganix_
 {
 	meta:
@@ -1296,6 +1435,7 @@ rule _PseudoSigner_02_LCC_Win32_DLL__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _WebCops_EXE__LINK_Data_Security_
 {
 	meta:
@@ -1305,6 +1445,7 @@ rule _WebCops_EXE__LINK_Data_Security_
 	condition:
 		$0 at entrypoint
 }
+
 rule _REC_C0ded_by_ROSE_
 {
 	meta:
@@ -1314,6 +1455,7 @@ rule _REC_C0ded_by_ROSE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_14__c199899_Ian_Luck_h_
 {
 	meta:
@@ -1323,6 +1465,7 @@ rule _Petite_14__c199899_Ian_Luck_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Inno_Setup_Module_v109a_
 {
 	meta:
@@ -1332,6 +1475,7 @@ rule _Inno_Setup_Module_v109a_
 	condition:
 		$0 at entrypoint
 }
+
 rule _TurboBAT_v310__50_Patched_
 {
 	meta:
@@ -1341,6 +1485,7 @@ rule _TurboBAT_v310__50_Patched_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Basic_Compiler_v560_198297_
 {
 	meta:
@@ -1350,6 +1495,7 @@ rule _Microsoft_Basic_Compiler_v560_198297_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEStubOEP_v1x_
 {
 	meta:
@@ -1359,6 +1505,7 @@ rule _PEStubOEP_v1x_
 	condition:
 		$0
 }
+
 rule _eXPressor_V13__CGSoftLabs_
 {
 	meta:
@@ -1368,6 +1515,7 @@ rule _eXPressor_V13__CGSoftLabs_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ExeSafeguard_v10__simonzh_h_
 {
 	meta:
@@ -1378,6 +1526,7 @@ rule _ExeSafeguard_v10__simonzh_h_
 	condition:
 		$0 or $1
 }
+
 rule _Microsoft_Visual_Cpp_v4x_
 {
 	meta:
@@ -1387,6 +1536,7 @@ rule _Microsoft_Visual_Cpp_v4x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Mew_11_SE_v12_Eng__Northfox_
 {
 	meta:
@@ -1396,6 +1546,7 @@ rule _Mew_11_SE_v12_Eng__Northfox_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v072_
 {
 	meta:
@@ -1405,6 +1556,7 @@ rule _UPX_v072_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FileShield_
 {
 	meta:
@@ -1414,6 +1566,7 @@ rule _FileShield_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_Protector_v10x_2_
 {
 	meta:
@@ -1423,6 +1576,7 @@ rule _UPX_Protector_v10x_2_
 	condition:
 		$0
 }
+
 rule _RLPack__Ap0x_
 {
 	meta:
@@ -1434,6 +1588,7 @@ rule _RLPack__Ap0x_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _aPack_v098b__Jibz_
 {
 	meta:
@@ -1443,6 +1598,7 @@ rule _aPack_v098b__Jibz_
 	condition:
 		$0
 }
+
 rule _Noodlecrypt2__rsc_
 {
 	meta:
@@ -1452,6 +1608,7 @@ rule _Noodlecrypt2__rsc_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SLVc0deProtector_v11__SLV_h_
 {
 	meta:
@@ -1461,6 +1618,7 @@ rule _SLVc0deProtector_v11__SLV_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MicroJoiner_16__coban2k_
 {
 	meta:
@@ -1470,6 +1628,7 @@ rule _MicroJoiner_16__coban2k_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PCIENC_Cryptor_
 {
 	meta:
@@ -1479,6 +1638,7 @@ rule _PCIENC_Cryptor_
 	condition:
 		$0
 }
+
 rule _TurboBAT_v310__50_
 {
 	meta:
@@ -1488,6 +1648,7 @@ rule _TurboBAT_v310__50_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_
 {
 	meta:
@@ -1499,6 +1660,7 @@ rule _Microsoft_Visual_Cpp_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _EXECryptor_V21X__SoftCompletecom_
 {
 	meta:
@@ -1508,6 +1670,7 @@ rule _EXECryptor_V21X__SoftCompletecom_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v2xx_
 {
 	meta:
@@ -1519,6 +1682,7 @@ rule _ASPack_v2xx_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _Metrowerks_CodeWarrior_DLL_v20_
 {
 	meta:
@@ -1528,6 +1692,7 @@ rule _Metrowerks_CodeWarrior_DLL_v20_
 	condition:
 		$0
 }
+
 rule _PseudoSigner_02_VideoLanClient__Anorganix_
 {
 	meta:
@@ -1538,6 +1703,7 @@ rule _PseudoSigner_02_VideoLanClient__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Spanz_
 {
 	meta:
@@ -1547,6 +1713,7 @@ rule _Vx_Spanz_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v024__v028alpha__Sign_by_hot_UNP_
 {
 	meta:
@@ -1556,6 +1723,7 @@ rule _Upack_v024__v028alpha__Sign_by_hot_UNP_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE32Pack_v137_
 {
 	meta:
@@ -1565,6 +1733,7 @@ rule _EXE32Pack_v137_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v035_alpha__Sign_by_hot_UNP_
 {
 	meta:
@@ -1574,6 +1743,7 @@ rule _Upack_v035_alpha__Sign_by_hot_UNP_
 	condition:
 		$0
 }
+
 rule _Zurenava_DOS_Extender_v045_v049_
 {
 	meta:
@@ -1583,6 +1753,7 @@ rule _Zurenava_DOS_Extender_v045_v049_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SmokesCrypt_v12_
 {
 	meta:
@@ -1592,6 +1763,7 @@ rule _SmokesCrypt_v12_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_01x_beta__Dwing_
 {
 	meta:
@@ -1601,6 +1773,7 @@ rule _Upack_01x_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v211b_
 {
 	meta:
@@ -1610,6 +1783,7 @@ rule _ASPack_v211b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_v1304__Obsidium_Software_
 {
 	meta:
@@ -1619,6 +1793,7 @@ rule _Obsidium_v1304__Obsidium_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _InstallShield_2000_
 {
 	meta:
@@ -1628,6 +1803,7 @@ rule _InstallShield_2000_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UltraPro_V10__SafeNet_
 {
 	meta:
@@ -1637,6 +1813,7 @@ rule _UltraPro_V10__SafeNet_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CipherWall_SelfExtratorDecryptor_GUI_v15_
 {
 	meta:
@@ -1647,6 +1824,7 @@ rule _CipherWall_SelfExtratorDecryptor_GUI_v15_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v110_Eng__bartxt_
 {
 	meta:
@@ -1656,6 +1834,7 @@ rule _FSG_v110_Eng__bartxt_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PolyEnE_001p_by_Lennart_Hedlund_
 {
 	meta:
@@ -1665,6 +1844,7 @@ rule _PolyEnE_001p_by_Lennart_Hedlund_
 	condition:
 		$0
 }
+
 rule _ACProtect_v190g__Risco_software_Inc_
 {
 	meta:
@@ -1674,6 +1854,7 @@ rule _ACProtect_v190g__Risco_software_Inc_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Stealth_v274_
 {
 	meta:
@@ -1684,6 +1865,7 @@ rule _EXE_Stealth_v274_
 	condition:
 		$0 or $1
 }
+
 rule _tElock_v095_
 {
 	meta:
@@ -1693,6 +1875,7 @@ rule _tElock_v095_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPack_v31__North_Star_h_
 {
 	meta:
@@ -1702,6 +1885,7 @@ rule _NsPack_v31__North_Star_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_131__dulekxt_
 {
 	meta:
@@ -1711,6 +1895,7 @@ rule _FSG_131__dulekxt_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RJcrush_v100_
 {
 	meta:
@@ -1720,6 +1905,7 @@ rule _RJcrush_v100_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v20__bartxt_
 {
 	meta:
@@ -1729,6 +1915,7 @@ rule _FSG_v20__bartxt_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ACProtect_V14X__risco_
 {
 	meta:
@@ -1738,6 +1925,7 @@ rule _ACProtect_V14X__risco_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_Armadillo_300__Anorganix_
 {
 	meta:
@@ -1748,6 +1936,7 @@ rule _PseudoSigner_02_Armadillo_300__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _NTkrnl_Secure_Suite_V01_DLL__NTkrnl_Software_
 {
 	meta:
@@ -1757,6 +1946,7 @@ rule _NTkrnl_Secure_Suite_V01_DLL__NTkrnl_Software_
 	condition:
 		$0
 }
+
 rule _PENinja_
 {
 	meta:
@@ -1766,6 +1956,7 @@ rule _PENinja_
 	condition:
 		$0 at entrypoint
 }
+
 rule _StarForce_V3X__StarForce_Copy_Protection_System_
 {
 	meta:
@@ -1775,6 +1966,7 @@ rule _StarForce_V3X__StarForce_Copy_Protection_System_
 	condition:
 		$0 at entrypoint
 }
+
 rule _XPack_v142_
 {
 	meta:
@@ -1784,6 +1976,7 @@ rule _XPack_v142_
 	condition:
 		$0
 }
+
 rule _ENIGMA_Protector_V1X_Sukhov_Vladimir_
 {
 	meta:
@@ -1793,6 +1986,7 @@ rule _ENIGMA_Protector_V1X_Sukhov_Vladimir_
 	condition:
 		$0
 }
+
 rule _A_program_by_Jupiter__
 {
 	meta:
@@ -1802,6 +1996,7 @@ rule _A_program_by_Jupiter__
 	condition:
 		$0 at entrypoint
 }
+
 rule _PolyCryptor_by_SMT_Version_v3v4_
 {
 	meta:
@@ -1811,6 +2006,7 @@ rule _PolyCryptor_by_SMT_Version_v3v4_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MinGW_GCC_DLL_v2xx_
 {
 	meta:
@@ -1820,6 +2016,7 @@ rule _MinGW_GCC_DLL_v2xx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v2000_
 {
 	meta:
@@ -1829,6 +2026,7 @@ rule _ASPack_v2000_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MinGW_GCC_v2x_
 {
 	meta:
@@ -1839,6 +2037,7 @@ rule _MinGW_GCC_v2x_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_v160a_
 {
 	meta:
@@ -1849,6 +2048,7 @@ rule _Armadillo_v160a_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_v300a_
 {
 	meta:
@@ -1859,6 +2059,7 @@ rule _Armadillo_v300a_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _xPEP_03x__xIkUg_
 {
 	meta:
@@ -1868,6 +2069,7 @@ rule _xPEP_03x__xIkUg_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SoftComp_1x__BG_Soft_PT_
 {
 	meta:
@@ -1877,6 +2079,7 @@ rule _SoftComp_1x__BG_Soft_PT_
 	condition:
 		$0
 }
+
 rule _Vx_VCL_encrypted_
 {
 	meta:
@@ -1887,6 +2090,7 @@ rule _Vx_VCL_encrypted_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_VCL_
 {
 	meta:
@@ -1896,6 +2100,7 @@ rule _Vx_VCL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXpressor_v11__CGSoftLabs_
 {
 	meta:
@@ -1906,6 +2111,7 @@ rule _eXpressor_v11__CGSoftLabs_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_v25x__v26x_
 {
 	meta:
@@ -1916,6 +2122,7 @@ rule _Armadillo_v25x__v26x_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _RLPack_Full_Edition_117_DLL_aPLib__Ap0x_
 {
 	meta:
@@ -1925,6 +2132,7 @@ rule _RLPack_Full_Edition_117_DLL_aPLib__Ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Pack_v099_
 {
 	meta:
@@ -1934,6 +2142,7 @@ rule _PE_Pack_v099_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PUNiSHER_v15_DEMO__FEUERRADERAHTeam_
 {
 	meta:
@@ -1943,6 +2152,7 @@ rule _PUNiSHER_v15_DEMO__FEUERRADERAHTeam_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v033__v034_Beta__Sign_by_hot_UNP_
 {
 	meta:
@@ -1952,6 +2162,7 @@ rule _Upack_v033__v034_Beta__Sign_by_hot_UNP_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEZip_v10_by_BaGIE_
 {
 	meta:
@@ -1961,6 +2172,7 @@ rule _PEZip_v10_by_BaGIE_
 	condition:
 		$0
 }
+
 rule _CreateInstall_Stub_vxx_
 {
 	meta:
@@ -1971,6 +2183,7 @@ rule _CreateInstall_Stub_vxx_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _CRYPT_Version_17_c_Dismember_EXE_
 {
 	meta:
@@ -1980,6 +2193,7 @@ rule _CRYPT_Version_17_c_Dismember_EXE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SuckStop_v111_
 {
 	meta:
@@ -1989,6 +2203,7 @@ rule _SuckStop_v111_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v021Beta__Sign_by_hot_UNP_
 {
 	meta:
@@ -1998,6 +2213,7 @@ rule _Upack_v021Beta__Sign_by_hot_UNP_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v305c4_Unextractable_p_Virus_Shield_
 {
 	meta:
@@ -2007,6 +2223,7 @@ rule _WWPACK_v305c4_Unextractable_p_Virus_Shield_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VProtector_V10D__vcasm_
 {
 	meta:
@@ -2016,6 +2233,7 @@ rule _VProtector_V10D__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PC_Shrinker_v020_
 {
 	meta:
@@ -2025,6 +2243,7 @@ rule _PC_Shrinker_v020_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v0896__v102__v105_v124__Markus__Laszlo_overlay_
 {
 	meta:
@@ -2034,6 +2253,7 @@ rule _UPX_v0896__v102__v105_v124__Markus__Laszlo_overlay_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ActiveMARK_5x__Trymedia_SystemsInc_h_
 {
 	meta:
@@ -2044,6 +2264,7 @@ rule _ActiveMARK_5x__Trymedia_SystemsInc_h_
 	condition:
 		$0 or $1
 }
+
 rule _PEProtect_09_by_Cristoph_Gabler_1998_
 {
 	meta:
@@ -2053,6 +2274,7 @@ rule _PEProtect_09_by_Cristoph_Gabler_1998_
 	condition:
 		$0
 }
+
 rule _Free_Pascal_v106_
 {
 	meta:
@@ -2062,6 +2284,7 @@ rule _Free_Pascal_v106_
 	condition:
 		$0
 }
+
 rule _RSCs_Process_Patcher_v14_
 {
 	meta:
@@ -2071,6 +2294,7 @@ rule _RSCs_Process_Patcher_v14_
 	condition:
 		$0
 }
+
 rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Basic_50__60_
 {
 	meta:
@@ -2080,6 +2304,7 @@ rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Basic_50__60_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Themida_1201_compressed__Oreans_Technologies_h_
 {
 	meta:
@@ -2089,6 +2314,7 @@ rule _Themida_1201_compressed__Oreans_Technologies_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SoftProtect__SoftProtectbyru_
 {
 	meta:
@@ -2098,6 +2324,7 @@ rule _SoftProtect__SoftProtectbyru_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPXLock_v10__CyberDoom_
 {
 	meta:
@@ -2107,6 +2334,7 @@ rule _UPXLock_v10__CyberDoom_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v220b1_
 {
 	meta:
@@ -2117,6 +2345,7 @@ rule _Armadillo_v220b1_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPack_v011_
 {
 	meta:
@@ -2126,6 +2355,7 @@ rule _UPack_v011_
 	condition:
 		$0
 }
+
 rule _FSG_v11_
 {
 	meta:
@@ -2135,6 +2365,7 @@ rule _FSG_v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECrypter_
 {
 	meta:
@@ -2144,6 +2375,7 @@ rule _PECrypter_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_joiner__Amok_
 {
 	meta:
@@ -2153,6 +2385,7 @@ rule _EXE_joiner__Amok_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Name_of_the_Packer_v10_
 {
 	meta:
@@ -2162,6 +2395,7 @@ rule _Name_of_the_Packer_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v11_MTEb_
 {
 	meta:
@@ -2171,6 +2405,7 @@ rule _ASProtect_v11_MTEb_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PAKSFX_Archive_
 {
 	meta:
@@ -2180,6 +2415,7 @@ rule _PAKSFX_Archive_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DevCpp_v4_
 {
 	meta:
@@ -2189,6 +2425,7 @@ rule _DevCpp_v4_
 	condition:
 		$0
 }
+
 rule _PCrypt_v351_
 {
 	meta:
@@ -2198,6 +2435,7 @@ rule _PCrypt_v351_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_WATCOM_CCpp_EXE__Anorganix_
 {
 	meta:
@@ -2208,6 +2446,7 @@ rule _PseudoSigner_02_WATCOM_CCpp_EXE__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Grazie883_
 {
 	meta:
@@ -2217,6 +2456,7 @@ rule _Vx_Grazie883_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Blade_Joiner_v15_
 {
 	meta:
@@ -2226,6 +2466,7 @@ rule _Blade_Joiner_v15_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v2xx_
 {
 	meta:
@@ -2235,6 +2476,7 @@ rule _PECompact_v2xx_
 	condition:
 		$0
 }
+
 rule _EncryptPE_12003518__WFS_
 {
 	meta:
@@ -2244,6 +2486,7 @@ rule _EncryptPE_12003518__WFS_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_MinGW_GCC_2x__Anorganix_
 {
 	meta:
@@ -2254,6 +2497,7 @@ rule _PseudoSigner_01_MinGW_GCC_2x__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PEiDBundle_v100__v101__BoB__BobSoft_
 {
 	meta:
@@ -2263,6 +2507,7 @@ rule _PEiDBundle_v100__v101__BoB__BobSoft_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VProtector_V10_Build_20041213_test__vcasm_
 {
 	meta:
@@ -2272,6 +2517,7 @@ rule _VProtector_V10_Build_20041213_test__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SEAAXE_v22_
 {
 	meta:
@@ -2281,6 +2527,7 @@ rule _SEAAXE_v22_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Simple_UPX_Cryptor_V3042005__MANtiCORE_
 {
 	meta:
@@ -2290,6 +2537,7 @@ rule _Simple_UPX_Cryptor_V3042005__MANtiCORE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Crunch_5_Fusion_4_
 {
 	meta:
@@ -2299,6 +2547,7 @@ rule _Crunch_5_Fusion_4_
 	condition:
 		$0
 }
+
 rule _PseudoSigner_01_Microsoft_Visual_Cpp_70_DLL__Anorganix_
 {
 	meta:
@@ -2309,6 +2558,7 @@ rule _PseudoSigner_01_Microsoft_Visual_Cpp_70_DLL__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_v190b1_
 {
 	meta:
@@ -2319,6 +2569,7 @@ rule _Armadillo_v190b1_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Microsoft_Visual_Basic_50_
 {
 	meta:
@@ -2328,6 +2579,7 @@ rule _Microsoft_Visual_Basic_50_
 	condition:
 		$0
 }
+
 rule _Pksmart_10b_
 {
 	meta:
@@ -2337,6 +2589,7 @@ rule _Pksmart_10b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_Full_Edition_117_iBox_aPLib__Ap0x_
 {
 	meta:
@@ -2346,6 +2599,7 @@ rule _RLPack_Full_Edition_117_iBox_aPLib__Ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Neolite_20__Anorganix_
 {
 	meta:
@@ -2357,6 +2611,7 @@ rule _PseudoSigner_01_Neolite_20__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _ASProtect_v12x_New_Strain_
 {
 	meta:
@@ -2366,6 +2621,7 @@ rule _ASProtect_v12x_New_Strain_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_SYP_
 {
 	meta:
@@ -2375,6 +2631,7 @@ rule _Vx_SYP_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v305c4_Extractable_p_Password_checking_
 {
 	meta:
@@ -2384,6 +2641,7 @@ rule _WWPACK_v305c4_Extractable_p_Password_checking_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ENIGMA_Protector_V112_Sukhov_Vladimir_
 {
 	meta:
@@ -2393,6 +2651,7 @@ rule _ENIGMA_Protector_V112_Sukhov_Vladimir_
 	condition:
 		$0 at entrypoint
 }
+
 rule _nPack_v11_150200_Beta__NEOx_
 {
 	meta:
@@ -2402,6 +2661,7 @@ rule _nPack_v11_150200_Beta__NEOx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Nullsoft_PiMP_Install_System_v1x_
 {
 	meta:
@@ -2411,6 +2671,7 @@ rule _Nullsoft_PiMP_Install_System_v1x_
 	condition:
 		$0
 }
+
 rule _PseudoSigner_01_PENinja_131__Anorganix_
 {
 	meta:
@@ -2421,6 +2682,7 @@ rule _PseudoSigner_01_PENinja_131__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PKLITE_v200b_extra_
 {
 	meta:
@@ -2430,6 +2692,7 @@ rule _PKLITE_v200b_extra_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Nullsoft_Install_System_v20_RC2_
 {
 	meta:
@@ -2439,6 +2702,7 @@ rule _Nullsoft_Install_System_v20_RC2_
 	condition:
 		$0
 }
+
 rule _PKLITE_v100c_2_
 {
 	meta:
@@ -2448,6 +2712,7 @@ rule _PKLITE_v100c_2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_Full_Edition_117_DLL_LZMA__Ap0x_
 {
 	meta:
@@ -2457,6 +2722,7 @@ rule _RLPack_Full_Edition_117_DLL_LZMA__Ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v182_
 {
 	meta:
@@ -2467,6 +2733,7 @@ rule _Armadillo_v182_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PocketPC_ARM_
 {
 	meta:
@@ -2476,6 +2743,7 @@ rule _PocketPC_ARM_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PLINK86_1984_1985_
 {
 	meta:
@@ -2485,6 +2753,7 @@ rule _PLINK86_1984_1985_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Software_Compress_v12__BG_Software_Protect_Technologies_
 {
 	meta:
@@ -2494,6 +2763,7 @@ rule _Software_Compress_v12__BG_Software_Protect_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_14_
 {
 	meta:
@@ -2503,6 +2773,7 @@ rule _Petite_14_
 	condition:
 		$0
 }
+
 rule _Password_protector_my_SMT_
 {
 	meta:
@@ -2512,6 +2783,7 @@ rule _Password_protector_my_SMT_
 	condition:
 		$0 at entrypoint
 }
+
 rule _aPack_v098_m_
 {
 	meta:
@@ -2521,6 +2793,7 @@ rule _aPack_v098_m_
 	condition:
 		$0
 }
+
 rule _Armadillo_v171_
 {
 	meta:
@@ -2530,6 +2803,7 @@ rule _Armadillo_v171_
 	condition:
 		$0 at entrypoint
 }
+
 rule _yodas_Crypter_13__Ashkbiz_Danehkar_
 {
 	meta:
@@ -2539,6 +2813,7 @@ rule _yodas_Crypter_13__Ashkbiz_Danehkar_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_TrojanTelefoon_
 {
 	meta:
@@ -2548,6 +2823,7 @@ rule _Vx_TrojanTelefoon_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v0978_
 {
 	meta:
@@ -2557,6 +2833,7 @@ rule _PECompact_v0978_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PocketPC_SHA_
 {
 	meta:
@@ -2566,6 +2843,7 @@ rule _PocketPC_SHA_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Lattice_C_v101_
 {
 	meta:
@@ -2575,6 +2853,7 @@ rule _Lattice_C_v101_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WinZip_SelfExtractor_22_personal_edition__WinZip_Computing_h_
 {
 	meta:
@@ -2584,6 +2863,7 @@ rule _WinZip_SelfExtractor_22_personal_edition__WinZip_Computing_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _XCR_v012_
 {
 	meta:
@@ -2593,6 +2873,7 @@ rule _XCR_v012_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXEPACK_LINK_v360_v364_v365_or_50121_
 {
 	meta:
@@ -2602,6 +2883,7 @@ rule _EXEPACK_LINK_v360_v364_v365_or_50121_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SCRAM_v08a1_
 {
 	meta:
@@ -2611,6 +2893,7 @@ rule _SCRAM_v08a1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CERBERUS_v20_
 {
 	meta:
@@ -2620,6 +2903,7 @@ rule _CERBERUS_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Gamehouse_Media_Protector_Version_Unknown_
 {
 	meta:
@@ -2629,6 +2913,7 @@ rule _Gamehouse_Media_Protector_Version_Unknown_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v301_v305_
 {
 	meta:
@@ -2639,6 +2924,7 @@ rule _Armadillo_v301_v305_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_Borland_Delphi_60__70__Anorganix_
 {
 	meta:
@@ -2649,6 +2935,7 @@ rule _PseudoSigner_01_Borland_Delphi_60__70__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _SoftDefender_1x__Randy_Li_
 {
 	meta:
@@ -2658,6 +2945,7 @@ rule _SoftDefender_1x__Randy_Li_
 	condition:
 		$0 at entrypoint
 }
+
 rule _with_added_PK_signature_
 {
 	meta:
@@ -2667,6 +2955,7 @@ rule _with_added_PK_signature_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v133_Eng__dulekxt_
 {
 	meta:
@@ -2678,6 +2967,7 @@ rule _FSG_v133_Eng__dulekxt_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _by_Central_Point_Software_
 {
 	meta:
@@ -2687,6 +2977,7 @@ rule _by_Central_Point_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_August_16th_Iron_Maiden_
 {
 	meta:
@@ -2696,6 +2987,7 @@ rule _Vx_August_16th_Iron_Maiden_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v02Beta_
 {
 	meta:
@@ -2705,6 +2997,7 @@ rule _Upack_v02Beta_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXECryptor_v153_
 {
 	meta:
@@ -2715,6 +3008,7 @@ rule _EXECryptor_v153_
 	condition:
 		$0 or $1
 }
+
 rule _SOFTWrapper_for_Win9xNT_Evaluation_Version_
 {
 	meta:
@@ -2724,6 +3018,7 @@ rule _SOFTWrapper_for_Win9xNT_Evaluation_Version_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Mew_10_v10_Eng__Northfox_
 {
 	meta:
@@ -2733,6 +3028,7 @@ rule _Mew_10_v10_Eng__Northfox_
 	condition:
 		$0 at entrypoint
 }
+
 rule _themida_1005__httpwwworeanscom_
 {
 	meta:
@@ -2742,6 +3038,7 @@ rule _themida_1005__httpwwworeanscom_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CrypKey_v5__v6_
 {
 	meta:
@@ -2751,6 +3048,7 @@ rule _CrypKey_v5__v6_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEBundle_v02__v20x_
 {
 	meta:
@@ -2760,6 +3058,7 @@ rule _PEBundle_v02__v20x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXECryptor_v151x_
 {
 	meta:
@@ -2770,6 +3069,7 @@ rule _EXECryptor_v151x_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PESHiELD_v025_
 {
 	meta:
@@ -2779,6 +3079,7 @@ rule _PESHiELD_v025_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vcasm_Protector_V1X__vcasm_
 {
 	meta:
@@ -2788,6 +3089,7 @@ rule _Vcasm_Protector_V1X__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Macromedia_Windows_Flash_ProjectorPlayer_v40_
 {
 	meta:
@@ -2797,6 +3099,7 @@ rule _Macromedia_Windows_Flash_ProjectorPlayer_v40_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PCGuard_v303d_v305d_
 {
 	meta:
@@ -2806,6 +3109,7 @@ rule _PCGuard_v303d_v305d_
 	condition:
 		$0 at entrypoint
 }
+
 rule _XJ__XPAL__LiNSoN_
 {
 	meta:
@@ -2815,6 +3119,7 @@ rule _XJ__XPAL__LiNSoN_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ExeShield_v37__ExeShield_Team_h_
 {
 	meta:
@@ -2824,6 +3129,7 @@ rule _ExeShield_v37__ExeShield_Team_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_C_v104_
 {
 	meta:
@@ -2833,6 +3139,7 @@ rule _Microsoft_C_v104_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v172__v173_
 {
 	meta:
@@ -2842,6 +3149,7 @@ rule _Armadillo_v172__v173_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECrc32_088__ZhouJinYu_
 {
 	meta:
@@ -2851,6 +3159,7 @@ rule _PECrc32_088__ZhouJinYu_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_FSG_10__Anorganix_
 {
 	meta:
@@ -2861,6 +3170,7 @@ rule _PseudoSigner_01_FSG_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _beria_v007_public_WIP__symbiont_h_
 {
 	meta:
@@ -2870,6 +3180,7 @@ rule _beria_v007_public_WIP__symbiont_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BeRoEXEPacker_v100_DLL_LZBRS__BeRo__Farbrausch_
 {
 	meta:
@@ -2879,6 +3190,7 @@ rule _BeRoEXEPacker_v100_DLL_LZBRS__BeRo__Farbrausch_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_Yodas_Protector_102__Anorganix_
 {
 	meta:
@@ -2889,6 +3201,7 @@ rule _PseudoSigner_02_Yodas_Protector_102__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Upack_v037__v038_Beta_Strip_base_relocation_table_Option_Sign_by_hot_UNP_
 {
 	meta:
@@ -2898,6 +3211,7 @@ rule _Upack_v037__v038_Beta_Strip_base_relocation_table_Option_Sign_by_hot_UNP_
 	condition:
 		$0
 }
+
 rule _HACKSTOP_v119_
 {
 	meta:
@@ -2907,6 +3221,7 @@ rule _HACKSTOP_v119_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v260b2_
 {
 	meta:
@@ -2916,6 +3231,7 @@ rule _Armadillo_v260b2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v130_Eng__dulekxt_
 {
 	meta:
@@ -2925,6 +3241,7 @@ rule _FSG_v130_Eng__dulekxt_
 	condition:
 		$0 at entrypoint
 }
+
 rule _JAM_v211_
 {
 	meta:
@@ -2934,6 +3251,7 @@ rule _JAM_v211_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v305c4_Extr_Passwcheck_Vir_shield_
 {
 	meta:
@@ -2943,6 +3261,7 @@ rule _WWPACK_v305c4_Extr_Passwcheck_Vir_shield_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPack_v23__North_Star_h_
 {
 	meta:
@@ -2952,6 +3271,7 @@ rule _NsPack_v23__North_Star_h_
 	condition:
 		$0
 }
+
 rule _PECompact_v147__v150_
 {
 	meta:
@@ -2961,6 +3281,7 @@ rule _PECompact_v147__v150_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_FullEdition_V11X__ap0x____SignByfly_
 {
 	meta:
@@ -2970,6 +3291,7 @@ rule _RLPack_FullEdition_V11X__ap0x____SignByfly_
 	condition:
 		$0
 }
+
 rule _CPAV_
 {
 	meta:
@@ -2979,6 +3301,7 @@ rule _CPAV_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PassEXE_v20_
 {
 	meta:
@@ -2988,6 +3311,7 @@ rule _PassEXE_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Shield_V05__Smoke_
 {
 	meta:
@@ -2997,6 +3321,7 @@ rule _EXE_Shield_V05__Smoke_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_098_Special_Build__forgot__heXer_
 {
 	meta:
@@ -3006,6 +3331,7 @@ rule _tElock_098_Special_Build__forgot__heXer_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Shrinker_33_
 {
 	meta:
@@ -3015,6 +3341,7 @@ rule _Shrinker_33_
 	condition:
 		$0
 }
+
 rule _Stony_Brook_Pascalp_v70_
 {
 	meta:
@@ -3024,6 +3351,7 @@ rule _Stony_Brook_Pascalp_v70_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v0761_pe_exe_
 {
 	meta:
@@ -3033,6 +3361,7 @@ rule _UPX_v0761_pe_exe_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Ding_Boys_PElock_Phantasm_v10__v11_
 {
 	meta:
@@ -3042,6 +3371,7 @@ rule _Ding_Boys_PElock_Phantasm_v10__v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPXShit_006_
 {
 	meta:
@@ -3051,6 +3381,7 @@ rule _UPXShit_006_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WinUpack_v030_beta__By_Dwing_
 {
 	meta:
@@ -3060,6 +3391,7 @@ rule _WinUpack_v030_beta__By_Dwing_
 	condition:
 		$0
 }
+
 rule _FSG_v110_Eng__dulekxt__Borland_Delphi__Borland_Cpp_
 {
 	meta:
@@ -3072,6 +3404,7 @@ rule _FSG_v110_Eng__dulekxt__Borland_Delphi__Borland_Cpp_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint
 }
+
 rule _Stony_Brook_Pascal_v614_
 {
 	meta:
@@ -3081,6 +3414,7 @@ rule _Stony_Brook_Pascal_v614_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Launcher_Generator_v103_
 {
 	meta:
@@ -3090,6 +3424,7 @@ rule _Launcher_Generator_v103_
 	condition:
 		$0
 }
+
 rule _Ding_Boys_PElock_v007_
 {
 	meta:
@@ -3099,6 +3434,7 @@ rule _Ding_Boys_PElock_v007_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Lock_NT_v203_
 {
 	meta:
@@ -3108,6 +3444,7 @@ rule _PE_Lock_NT_v203_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Exact_Audio_Copy__UnknownCompiler_
 {
 	meta:
@@ -3117,6 +3454,7 @@ rule _Exact_Audio_Copy__UnknownCompiler_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CExe_v10a_
 {
 	meta:
@@ -3127,6 +3465,7 @@ rule _CExe_v10a_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPX_290_LZMA__Markus_Oberhumer_Laszlo_Molnar__John_Reiser_
 {
 	meta:
@@ -3137,6 +3476,7 @@ rule _UPX_290_LZMA__Markus_Oberhumer_Laszlo_Molnar__John_Reiser_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _CAN2EXE_v001_
 {
 	meta:
@@ -3146,6 +3486,7 @@ rule _CAN2EXE_v001_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v183_
 {
 	meta:
@@ -3156,6 +3497,7 @@ rule _Armadillo_v183_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PKLITE32_v11_
 {
 	meta:
@@ -3168,6 +3510,7 @@ rule _PKLITE32_v11_
 	condition:
 		$0 at entrypoint or $1 or $2 at entrypoint or $3 at entrypoint
 }
+
 rule _Turbo_C_1988_
 {
 	meta:
@@ -3177,6 +3520,7 @@ rule _Turbo_C_1988_
 	condition:
 		$0 at entrypoint
 }
+
 rule _TopSpeed_v301_1989_
 {
 	meta:
@@ -3186,6 +3530,7 @@ rule _TopSpeed_v301_1989_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Haryanto_
 {
 	meta:
@@ -3195,6 +3540,7 @@ rule _Vx_Haryanto_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Danish_tiny_
 {
 	meta:
@@ -3204,6 +3550,7 @@ rule _Vx_Danish_tiny_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CodeLock_vxx_
 {
 	meta:
@@ -3213,6 +3560,7 @@ rule _CodeLock_vxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RCryptor_v16b__v16c__Vaska_
 {
 	meta:
@@ -3222,6 +3570,7 @@ rule _RCryptor_v16b__v16c__Vaska_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKLITE32_11_
 {
 	meta:
@@ -3231,6 +3580,7 @@ rule _PKLITE32_11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_80_Debug_
 {
 	meta:
@@ -3240,6 +3590,7 @@ rule _Microsoft_Visual_Cpp_80_Debug_
 	condition:
 		$0 at entrypoint
 }
+
 rule _624_Six_to_Four_v10_
 {
 	meta:
@@ -3249,6 +3600,7 @@ rule _624_Six_to_Four_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Macromedia_Flash_Projector_60__Anorganix_
 {
 	meta:
@@ -3259,6 +3611,7 @@ rule _PseudoSigner_01_Macromedia_Flash_Projector_60__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _yodas_Protector_10xAshkbiz_Danehkar_
 {
 	meta:
@@ -3268,6 +3621,7 @@ rule _yodas_Protector_10xAshkbiz_Danehkar_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v10_
 {
 	meta:
@@ -3278,6 +3632,7 @@ rule _FSG_v10_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _CrunchPE_v30xx_
 {
 	meta:
@@ -3287,6 +3642,7 @@ rule _CrunchPE_v30xx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Virogens_PE_Shrinker_v014_
 {
 	meta:
@@ -3296,6 +3652,7 @@ rule _Virogens_PE_Shrinker_v014_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v11_MTEc_
 {
 	meta:
@@ -3305,6 +3662,7 @@ rule _ASProtect_v11_MTEc_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Eddie2100_
 {
 	meta:
@@ -3314,6 +3672,7 @@ rule _Vx_Eddie2100_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_ExeSmasher__Anorganix_
 {
 	meta:
@@ -3324,6 +3683,7 @@ rule _PseudoSigner_01_ExeSmasher__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _HACKSTOP_v110_v111_
 {
 	meta:
@@ -3333,6 +3693,7 @@ rule _HACKSTOP_v110_v111_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DevCpp_v5_
 {
 	meta:
@@ -3342,6 +3703,7 @@ rule _DevCpp_v5_
 	condition:
 		$0
 }
+
 rule _MinGW_v32x_Dll_WinMain_
 {
 	meta:
@@ -3351,6 +3713,7 @@ rule _MinGW_v32x_Dll_WinMain_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESPin_v13__Cyberbob_h_
 {
 	meta:
@@ -3360,6 +3723,7 @@ rule _PESPin_v13__Cyberbob_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _LameCrypt__LaZaRus_
 {
 	meta:
@@ -3369,6 +3733,7 @@ rule _LameCrypt__LaZaRus_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CreateInstall_v200335_
 {
 	meta:
@@ -3379,6 +3744,7 @@ rule _CreateInstall_v200335_
 	condition:
 		$0 or $1
 }
+
 rule _APatch_GUI_v11_
 {
 	meta:
@@ -3388,6 +3754,7 @@ rule _APatch_GUI_v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Borland_Delphi_20_
 {
 	meta:
@@ -3397,6 +3764,7 @@ rule _FSG_v110_Eng__dulekxt__Borland_Delphi_20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VProtector_V11__vcasm_
 {
 	meta:
@@ -3406,6 +3774,7 @@ rule _VProtector_V11__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _HACKSTOP_v111c_
 {
 	meta:
@@ -3415,6 +3784,7 @@ rule _HACKSTOP_v111c_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_NorthStar_PE_Shrinker_13__Anorganix_
 {
 	meta:
@@ -3425,6 +3795,7 @@ rule _PseudoSigner_02_NorthStar_PE_Shrinker_13__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Involuntary1349_
 {
 	meta:
@@ -3434,6 +3805,7 @@ rule _Vx_Involuntary1349_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CodeCrypt_v0164_
 {
 	meta:
@@ -3443,6 +3815,7 @@ rule _CodeCrypt_v0164_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Krypton_v03_
 {
 	meta:
@@ -3452,6 +3825,7 @@ rule _Krypton_v03_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CryptoLock_v202_Eng__Ryan_Thian_
 {
 	meta:
@@ -3465,6 +3839,7 @@ rule _CryptoLock_v202_Eng__Ryan_Thian_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint or $4 at entrypoint
 }
+
 rule _CRYPT_Version_17_c_Dismember_COM_
 {
 	meta:
@@ -3474,6 +3849,7 @@ rule _CRYPT_Version_17_c_Dismember_COM_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NTkrnl_Secure_Suite__NTkrnl_team_h_
 {
 	meta:
@@ -3483,6 +3859,7 @@ rule _NTkrnl_Secure_Suite__NTkrnl_team_h_
 	condition:
 		$0
 }
+
 rule _Nullsoft_Install_System_v20a0_
 {
 	meta:
@@ -3492,6 +3869,7 @@ rule _Nullsoft_Install_System_v20a0_
 	condition:
 		$0
 }
+
 rule _PEX_v099_
 {
 	meta:
@@ -3501,6 +3879,7 @@ rule _PEX_v099_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v060__v061_
 {
 	meta:
@@ -3510,6 +3889,7 @@ rule _UPX_v060__v061_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PELOCKnt_204_
 {
 	meta:
@@ -3519,6 +3899,7 @@ rule _PELOCKnt_204_
 	condition:
 		$0 at entrypoint
 }
+
 rule _nMacro_recorder_10_
 {
 	meta:
@@ -3528,6 +3909,7 @@ rule _nMacro_recorder_10_
 	condition:
 		$0
 }
+
 rule _E__
 {
 	meta:
@@ -3537,6 +3919,7 @@ rule _E__
 	condition:
 		$0 at entrypoint
 }
+
 rule _iPB_Protect_013__017__forgot_
 {
 	meta:
@@ -3546,6 +3929,7 @@ rule _iPB_Protect_013__017__forgot_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Crunch_4_
 {
 	meta:
@@ -3555,6 +3939,7 @@ rule _Crunch_4_
 	condition:
 		$0
 }
+
 rule _y0das_Crypter_v10_
 {
 	meta:
@@ -3564,6 +3949,7 @@ rule _y0das_Crypter_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Trainer_Creation_Kit_v5_Trainer_
 {
 	meta:
@@ -3573,6 +3959,7 @@ rule _Trainer_Creation_Kit_v5_Trainer_
 	condition:
 		$0
 }
+
 rule _SoftSentry_v30_
 {
 	meta:
@@ -3582,6 +3969,7 @@ rule _SoftSentry_v30_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v302_v302a_v304_Relocations_pack_
 {
 	meta:
@@ -3591,6 +3979,7 @@ rule _WWPACK_v302_v302a_v304_Relocations_pack_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Exe_Locker_10__IonIce_
 {
 	meta:
@@ -3600,6 +3989,7 @@ rule _Exe_Locker_10__IonIce_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Pe123__v200644_
 {
 	meta:
@@ -3609,6 +3999,7 @@ rule _Pe123__v200644_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Igor_
 {
 	meta:
@@ -3618,6 +4009,7 @@ rule _Vx_Igor_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Crinkler_V01V02__Rune_LHStubbe_and_Aske_Simon_Christensen_
 {
 	meta:
@@ -3627,6 +4019,7 @@ rule _Crinkler_V01V02__Rune_LHStubbe_and_Aske_Simon_Christensen_
 	condition:
 		$0 at entrypoint
 }
+
 rule _XPack_167_com_
 {
 	meta:
@@ -3636,6 +4029,7 @@ rule _XPack_167_com_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_v_after_v14_
 {
 	meta:
@@ -3645,6 +4039,7 @@ rule _Petite_v_after_v14_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_C_Library_1985_
 {
 	meta:
@@ -3654,6 +4049,7 @@ rule _Microsoft_C_Library_1985_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SVK_Protector_v13x_Eng__Pavol_Cerven_
 {
 	meta:
@@ -3663,6 +4059,7 @@ rule _SVK_Protector_v13x_Eng__Pavol_Cerven_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Private_exe_Protector_V18XV19X__SetiSoft_Team_
 {
 	meta:
@@ -3672,6 +4069,7 @@ rule _Private_exe_Protector_V18XV19X__SetiSoft_Team_
 	condition:
 		$0
 }
+
 rule _Symantec_Visual_Cafe_v30_
 {
 	meta:
@@ -3681,6 +4079,7 @@ rule _Symantec_Visual_Cafe_v30_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PassLock_2000_v10_Eng__MoonlightSoftware_
 {
 	meta:
@@ -3691,6 +4090,7 @@ rule _PassLock_2000_v10_Eng__MoonlightSoftware_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _KGB_SFX_
 {
 	meta:
@@ -3700,6 +4100,7 @@ rule _KGB_SFX_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPacK_V34V35__LiuXingPing_
 {
 	meta:
@@ -3709,6 +4110,7 @@ rule _NsPacK_V34V35__LiuXingPing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Excalibur_103__forgot_
 {
 	meta:
@@ -3718,6 +4120,7 @@ rule _Excalibur_103__forgot_
 	condition:
 		$0 at entrypoint
 }
+
 rule _XCR_v013_
 {
 	meta:
@@ -3727,6 +4130,7 @@ rule _XCR_v013_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Guardant_Stealth_aka_Novex_Dongle_
 {
 	meta:
@@ -3736,6 +4140,7 @@ rule _Guardant_Stealth_aka_Novex_Dongle_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v120_Eng__dulekxt__Borland_Cpp_
 {
 	meta:
@@ -3746,6 +4151,7 @@ rule _FSG_v120_Eng__dulekxt__Borland_Cpp_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Free_Pascal_v1010_win32_console_
 {
 	meta:
@@ -3755,6 +4161,7 @@ rule _Free_Pascal_v1010_win32_console_
 	condition:
 		$0
 }
+
 rule _DOS32_v33_DOSExtender_and_Loader_
 {
 	meta:
@@ -3764,6 +4171,7 @@ rule _DOS32_v33_DOSExtender_and_Loader_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SVKProtector_v1051_
 {
 	meta:
@@ -3773,6 +4181,7 @@ rule _SVKProtector_v1051_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v42_
 {
 	meta:
@@ -3783,6 +4192,7 @@ rule _Microsoft_Visual_Cpp_v42_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _CrunchPE_v50_
 {
 	meta:
@@ -3792,6 +4202,7 @@ rule _CrunchPE_v50_
 	condition:
 		$0
 }
+
 rule _MinGW_v32x__mainCRTStartup_
 {
 	meta:
@@ -3801,6 +4212,7 @@ rule _MinGW_v32x__mainCRTStartup_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SDProtector_BasicPro_Edition_110__Randy_Li_h_
 {
 	meta:
@@ -3810,6 +4222,7 @@ rule _SDProtector_BasicPro_Edition_110__Randy_Li_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _AHPack_01__FEUERRADER_
 {
 	meta:
@@ -3819,6 +4232,7 @@ rule _AHPack_01__FEUERRADER_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v071_
 {
 	meta:
@@ -3828,6 +4242,7 @@ rule _tElock_v071_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v022__v023Beta__Sign_by_hot_UNP_
 {
 	meta:
@@ -3837,6 +4252,7 @@ rule _Upack_v022__v023Beta__Sign_by_hot_UNP_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Macromedia_Windows_Flash_ProjectorPlayer_v50_
 {
 	meta:
@@ -3846,6 +4262,7 @@ rule _Macromedia_Windows_Flash_ProjectorPlayer_v50_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Trilobytes_JPEG_graphics_Library_
 {
 	meta:
@@ -3855,6 +4272,7 @@ rule _Trilobytes_JPEG_graphics_Library_
 	condition:
 		$0
 }
+
 rule _eXPressor_v12__CGSoftLabs_
 {
 	meta:
@@ -3864,6 +4282,7 @@ rule _eXPressor_v12__CGSoftLabs_
 	condition:
 		$0
 }
+
 rule _Shrink_Wrap_v14_
 {
 	meta:
@@ -3873,6 +4292,7 @@ rule _Shrink_Wrap_v14_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_CrunchPE_Heuristic__Anorganix_
 {
 	meta:
@@ -3883,6 +4303,7 @@ rule _PseudoSigner_02_CrunchPE_Heuristic__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Eddie1028_
 {
 	meta:
@@ -3892,6 +4313,7 @@ rule _Vx_Eddie1028_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_GRUNT4Family_
 {
 	meta:
@@ -3901,6 +4323,7 @@ rule _Vx_GRUNT4Family_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v098_
 {
 	meta:
@@ -3910,6 +4333,7 @@ rule _PECompact_v098_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_CDCops_II__Anorganix_
 {
 	meta:
@@ -3920,6 +4344,7 @@ rule _PseudoSigner_02_CDCops_II__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Zortech_C_v200_1988_1989_
 {
 	meta:
@@ -3929,6 +4354,7 @@ rule _Zortech_C_v200_1988_1989_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ActiveMARKTM_R5311140__Trymedia_
 {
 	meta:
@@ -3938,6 +4364,7 @@ rule _ActiveMARKTM_R5311140__Trymedia_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Number_One_
 {
 	meta:
@@ -3947,6 +4374,7 @@ rule _Vx_Number_One_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MS_RunTime_Library_1990_07_
 {
 	meta:
@@ -3956,6 +4384,7 @@ rule _MS_RunTime_Library_1990_07_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v0971__v0976_
 {
 	meta:
@@ -3965,6 +4394,7 @@ rule _PECompact_v0971__v0976_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ExeTools_COM2EXE_
 {
 	meta:
@@ -3974,6 +4404,7 @@ rule _ExeTools_COM2EXE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_SKE_21x_dll__Alexey_Solodovnikov_h_
 {
 	meta:
@@ -3984,6 +4415,7 @@ rule _ASProtect_SKE_21x_dll__Alexey_Solodovnikov_h_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FixupPak_v120_
 {
 	meta:
@@ -3994,6 +4426,7 @@ rule _FixupPak_v120_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Exe_Guarder_v18__Exeiconcom_h_
 {
 	meta:
@@ -4004,6 +4437,7 @@ rule _Exe_Guarder_v18__Exeiconcom_h_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_MEW_11_SE_10__Anorganix_
 {
 	meta:
@@ -4014,6 +4448,7 @@ rule _PseudoSigner_01_MEW_11_SE_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Microsoft_Visual_C_20_
 {
 	meta:
@@ -4023,6 +4458,7 @@ rule _Microsoft_Visual_C_20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_p_ECLiPSE_layer_
 {
 	meta:
@@ -4032,6 +4468,7 @@ rule _UPX_p_ECLiPSE_layer_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NET_executable_
 {
 	meta:
@@ -4041,6 +4478,7 @@ rule _NET_executable_
 	condition:
 		$0 at entrypoint
 }
+
 rule _yodas_Crypter_13Ashkbiz_Danehkar_
 {
 	meta:
@@ -4050,6 +4488,7 @@ rule _yodas_Crypter_13Ashkbiz_Danehkar_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Nullsoft_Install_System_v1xx_
 {
 	meta:
@@ -4060,6 +4499,7 @@ rule _Nullsoft_Install_System_v1xx_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v60_SPx_
 {
 	meta:
@@ -4070,6 +4510,7 @@ rule _Microsoft_Visual_Cpp_v60_SPx_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _TXT2COM_v206_
 {
 	meta:
@@ -4079,6 +4520,7 @@ rule _TXT2COM_v206_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DIET_v100d_
 {
 	meta:
@@ -4088,6 +4530,7 @@ rule _DIET_v100d_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEShit_
 {
 	meta:
@@ -4097,6 +4540,7 @@ rule _PEShit_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BeRoEXEPacker_v100_LZMA__BeRo__Farbrausch_
 {
 	meta:
@@ -4106,6 +4550,7 @@ rule _BeRoEXEPacker_v100_LZMA__BeRo__Farbrausch_
 	condition:
 		$0 at entrypoint
 }
+
 rule _AcidCrypt_
 {
 	meta:
@@ -4116,6 +4561,7 @@ rule _AcidCrypt_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v13_
 {
 	meta:
@@ -4126,6 +4572,7 @@ rule _FSG_v13_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPX_Modified_Stub_b__Farbrausch_Consumer_Consulting_
 {
 	meta:
@@ -4135,6 +4582,7 @@ rule _UPX_Modified_Stub_b__Farbrausch_Consumer_Consulting_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unknown_packer_07_
 {
 	meta:
@@ -4144,6 +4592,7 @@ rule _Unknown_packer_07_
 	condition:
 		$0 at entrypoint
 }
+
 rule _HACKSTOP_v118_
 {
 	meta:
@@ -4153,6 +4602,7 @@ rule _HACKSTOP_v118_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v260b1_
 {
 	meta:
@@ -4162,6 +4612,7 @@ rule _Armadillo_v260b1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _AdFlt2_
 {
 	meta:
@@ -4171,6 +4622,7 @@ rule _AdFlt2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MinGW_v32x_Dll_mainCRTStartup_
 {
 	meta:
@@ -4180,6 +4632,7 @@ rule _MinGW_v32x_Dll_mainCRTStartup_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SimplePack_V11XV12X_Method2__bagie_
 {
 	meta:
@@ -4189,6 +4642,7 @@ rule _SimplePack_V11XV12X_Method2__bagie_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXECryptor_vxxxx_
 {
 	meta:
@@ -4198,6 +4652,7 @@ rule _EXECryptor_vxxxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SoftSentry_v211_
 {
 	meta:
@@ -4207,6 +4662,7 @@ rule _SoftSentry_v211_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RECrypt_v07x__Crudd_RET_h2_
 {
 	meta:
@@ -4216,6 +4672,7 @@ rule _RECrypt_v07x__Crudd_RET_h2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_JDPack_1x__JDProtect_09__Anorganix_
 {
 	meta:
@@ -4226,6 +4683,7 @@ rule _PseudoSigner_01_JDPack_1x__JDProtect_09__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ASPack_v1061b_
 {
 	meta:
@@ -4236,6 +4694,7 @@ rule _ASPack_v1061b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _SEAAXE_
 {
 	meta:
@@ -4245,6 +4704,7 @@ rule _SEAAXE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_C_19881989_
 {
 	meta:
@@ -4254,6 +4714,7 @@ rule _Microsoft_C_19881989_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Aluwain_v809_
 {
 	meta:
@@ -4263,6 +4724,7 @@ rule _Aluwain_v809_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Lockless_Intro_Pack__Anorganix_
 {
 	meta:
@@ -4273,6 +4735,7 @@ rule _PseudoSigner_01_Lockless_Intro_Pack__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_02_Borland_Delphi_Setup_Module__Anorganix_
 {
 	meta:
@@ -4283,6 +4746,7 @@ rule _PseudoSigner_02_Borland_Delphi_Setup_Module__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _EXE2COM_Encrypted_without_selfcheck_
 {
 	meta:
@@ -4292,6 +4756,7 @@ rule _EXE2COM_Encrypted_without_selfcheck_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_v1304__Obsidium_Software_h_
 {
 	meta:
@@ -4301,6 +4766,7 @@ rule _Obsidium_v1304__Obsidium_Software_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PrivateEXE_v20a_
 {
 	meta:
@@ -4311,6 +4777,7 @@ rule _PrivateEXE_v20a_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Obsiduim_1304__Obsiduim_Software_
 {
 	meta:
@@ -4320,6 +4787,7 @@ rule _Obsiduim_1304__Obsiduim_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v085f_
 {
 	meta:
@@ -4329,6 +4797,7 @@ rule _tElock_v085f_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v190b3_
 {
 	meta:
@@ -4339,6 +4808,7 @@ rule _Armadillo_v190b3_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Microsoft_Visual_C_v70__Basic_NET_
 {
 	meta:
@@ -4348,6 +4818,7 @@ rule _Microsoft_Visual_C_v70__Basic_NET_
 	condition:
 		$0
 }
+
 rule _EXEJoiner_v10_
 {
 	meta:
@@ -4358,6 +4829,7 @@ rule _EXEJoiner_v10_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ORiEN_v211__212__Fisun_Alexander_
 {
 	meta:
@@ -4367,6 +4839,7 @@ rule _ORiEN_v211__212__Fisun_Alexander_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_Patch__Sign_by_hot_UNP_
 {
 	meta:
@@ -4377,6 +4850,7 @@ rule _Upack_Patch__Sign_by_hot_UNP_
 	condition:
 		$0 at entrypoint or $1
 }
+
 rule _RLPack_10_beta__ap0x_
 {
 	meta:
@@ -4386,6 +4860,7 @@ rule _RLPack_10_beta__ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_117p_
 {
 	meta:
@@ -4395,6 +4870,7 @@ rule _RLPack_117p_
 	condition:
 		$0 at entrypoint
 }
+
 rule _y0das_Crypter_v11_
 {
 	meta:
@@ -4404,6 +4880,7 @@ rule _y0das_Crypter_v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Adys_Glue_v010_
 {
 	meta:
@@ -4413,6 +4890,7 @@ rule _Adys_Glue_v010_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_CrunchPE_Heuristic__Anorganix_
 {
 	meta:
@@ -4423,6 +4901,7 @@ rule _PseudoSigner_01_CrunchPE_Heuristic__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _eXPressor_120_Beta_PE_Packer_
 {
 	meta:
@@ -4432,6 +4911,7 @@ rule _eXPressor_120_Beta_PE_Packer_
 	condition:
 		$0 at entrypoint
 }
+
 rule _W32Jeefo_PE_File_Infector_
 {
 	meta:
@@ -4441,6 +4921,7 @@ rule _W32Jeefo_PE_File_Infector_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE2COM_Limited_
 {
 	meta:
@@ -4450,6 +4931,7 @@ rule _EXE2COM_Limited_
 	condition:
 		$0 at entrypoint
 }
+
 rule _StarForce_Protection_Driver__Protection_Technology_
 {
 	meta:
@@ -4459,6 +4941,7 @@ rule _StarForce_Protection_Driver__Protection_Technology_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PolyEnE_V001p__Lennart_Hedlund_
 {
 	meta:
@@ -4468,6 +4951,7 @@ rule _PolyEnE_V001p__Lennart_Hedlund_
 	condition:
 		$0
 }
+
 rule _PeX_v099_Eng__bartCrackPl_
 {
 	meta:
@@ -4477,6 +4961,7 @@ rule _PeX_v099_Eng__bartCrackPl_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WATCOM_CCpp_32_RunTime_System_1989_1994_
 {
 	meta:
@@ -4486,6 +4971,7 @@ rule _WATCOM_CCpp_32_RunTime_System_1989_1994_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CDCops_II_
 {
 	meta:
@@ -4495,6 +4981,7 @@ rule _CDCops_II_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SmartE__Microsoft_
 {
 	meta:
@@ -4504,6 +4991,7 @@ rule _SmartE__Microsoft_
 	condition:
 		$0 at entrypoint
 }
+
 rule _aPack_v098b_DSES_not_saved_
 {
 	meta:
@@ -4513,6 +5001,7 @@ rule _aPack_v098b_DSES_not_saved_
 	condition:
 		$0
 }
+
 rule _NsPack_14_by_North_Star_Liu_Xing_Ping_
 {
 	meta:
@@ -4522,6 +5011,7 @@ rule _NsPack_14_by_North_Star_Liu_Xing_Ping_
 	condition:
 		$0
 }
+
 rule _PEArmor_049__Hying_
 {
 	meta:
@@ -4531,6 +5021,7 @@ rule _PEArmor_049__Hying_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Stones_PE_Encryptor_v20_
 {
 	meta:
@@ -4540,6 +5031,7 @@ rule _Stones_PE_Encryptor_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v60_DLL_
 {
 	meta:
@@ -4552,6 +5044,7 @@ rule _Microsoft_Visual_Cpp_v60_DLL_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3
 }
+
 rule _UCEXE_v23_v24_
 {
 	meta:
@@ -4561,6 +5054,7 @@ rule _UCEXE_v23_v24_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_Alternative_stub_
 {
 	meta:
@@ -4570,6 +5064,7 @@ rule _UPX_Alternative_stub_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXERefactor_V01__random_
 {
 	meta:
@@ -4579,6 +5074,7 @@ rule _EXERefactor_V01__random_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WinRAR_32bit_SFX_Module_
 {
 	meta:
@@ -4588,6 +5084,7 @@ rule _WinRAR_32bit_SFX_Module_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_FORTRAN_
 {
 	meta:
@@ -4597,6 +5094,7 @@ rule _Microsoft_FORTRAN_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_MTE_nonencrypted_
 {
 	meta:
@@ -4606,6 +5104,7 @@ rule _Vx_MTE_nonencrypted_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Goats_PE_Mutilator_16_
 {
 	meta:
@@ -4615,6 +5114,7 @@ rule _Goats_PE_Mutilator_16_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v123_RC1_
 {
 	meta:
@@ -4624,6 +5124,7 @@ rule _ASProtect_v123_RC1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PCShrink_v040b_
 {
 	meta:
@@ -4633,6 +5134,7 @@ rule _PCShrink_v040b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CopyControl_v303_
 {
 	meta:
@@ -4642,6 +5144,7 @@ rule _CopyControl_v303_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DJoin_v07_public_xor_encryption__drmist_
 {
 	meta:
@@ -4651,6 +5154,7 @@ rule _DJoin_v07_public_xor_encryption__drmist_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Com4mail_v10_
 {
 	meta:
@@ -4660,6 +5164,7 @@ rule _Com4mail_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v106b_
 {
 	meta:
@@ -4671,6 +5176,7 @@ rule _ASPack_v106b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _EXE32Pack_v138_
 {
 	meta:
@@ -4680,6 +5186,7 @@ rule _EXE32Pack_v138_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Turbo_C_1987_or_Borland_Cpp_1991_
 {
 	meta:
@@ -4689,6 +5196,7 @@ rule _Turbo_C_1987_or_Borland_Cpp_1991_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ExeSmasher_vxx_
 {
 	meta:
@@ -4698,6 +5206,7 @@ rule _ExeSmasher_vxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Krypton_v02_
 {
 	meta:
@@ -4707,6 +5216,7 @@ rule _Krypton_v02_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_60_
 {
 	meta:
@@ -4726,6 +5236,7 @@ rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_60_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint or $4 at entrypoint or $5 at entrypoint or $6 at entrypoint or $7 at entrypoint or $8 at entrypoint or $9 at entrypoint or $10 at entrypoint
 }
+
 rule _kryptor_5_
 {
 	meta:
@@ -4735,6 +5246,7 @@ rule _kryptor_5_
 	condition:
 		$0 at entrypoint
 }
+
 rule _JDPack_V200__JDPack_
 {
 	meta:
@@ -4744,6 +5256,7 @@ rule _JDPack_V200__JDPack_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SVKProtector_v132_
 {
 	meta:
@@ -4753,6 +5266,7 @@ rule _SVKProtector_v132_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_020_beta__Dwing_
 {
 	meta:
@@ -4762,6 +5276,7 @@ rule _Upack_020_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_VOB_ProtectCD_5__Anorganix_
 {
 	meta:
@@ -4772,6 +5287,7 @@ rule _PseudoSigner_02_VOB_ProtectCD_5__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ThemidaWinLicense_V1000V1800_Oreans_Technologies_
 {
 	meta:
@@ -4781,6 +5297,7 @@ rule _ThemidaWinLicense_V1000V1800_Oreans_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EmbedPE_113__cyclotron_
 {
 	meta:
@@ -4791,6 +5308,7 @@ rule _EmbedPE_113__cyclotron_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _EXE_Stealth_v271_
 {
 	meta:
@@ -4800,6 +5318,7 @@ rule _EXE_Stealth_v271_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v42_DLL_
 {
 	meta:
@@ -4809,6 +5328,7 @@ rule _Microsoft_Visual_Cpp_v42_DLL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_Full_Edition_117_aPLib__Ap0x_
 {
 	meta:
@@ -4818,6 +5338,7 @@ rule _RLPack_Full_Edition_117_aPLib__Ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Basic__MASM32_
 {
 	meta:
@@ -4827,6 +5348,7 @@ rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Basic__MASM32_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MoleBox_V2X__MoleStudiocom_
 {
 	meta:
@@ -4836,6 +5358,7 @@ rule _MoleBox_V2X__MoleStudiocom_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Reflexive_Arcade_Wrapper_
 {
 	meta:
@@ -4845,6 +5368,7 @@ rule _Reflexive_Arcade_Wrapper_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PC_PE_Encryptor_Alpha_preview_
 {
 	meta:
@@ -4854,6 +5378,7 @@ rule _PC_PE_Encryptor_Alpha_preview_
 	condition:
 		$0 at entrypoint
 }
+
 rule _yodas_Protector_v101__Ashkbiz_Danehkar_h_
 {
 	meta:
@@ -4863,6 +5388,7 @@ rule _yodas_Protector_v101__Ashkbiz_Danehkar_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Crunch_v40_
 {
 	meta:
@@ -4873,6 +5399,7 @@ rule _Crunch_v40_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Copy_Protector_v20_
 {
 	meta:
@@ -4882,6 +5409,7 @@ rule _Copy_Protector_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _North_Star_PE_Shrinker_13__Liuxingping_
 {
 	meta:
@@ -4891,6 +5419,7 @@ rule _North_Star_PE_Shrinker_13__Liuxingping_
 	condition:
 		$0 at entrypoint
 }
+
 rule _dUP_2x_Patcher__wwwdiablo2oo2cjbnet_
 {
 	meta:
@@ -4900,6 +5429,7 @@ rule _dUP_2x_Patcher__wwwdiablo2oo2cjbnet_
 	condition:
 		$0
 }
+
 rule _ASProtect_SKE_21x_exe__Alexey_Solodovnikov_h_
 {
 	meta:
@@ -4910,6 +5440,7 @@ rule _ASProtect_SKE_21x_exe__Alexey_Solodovnikov_h_
 	condition:
 		$0 or $1
 }
+
 rule _WinUpack_v039_final__By_Dwing_c2005_h1_
 {
 	meta:
@@ -4919,6 +5450,7 @@ rule _WinUpack_v039_final__By_Dwing_c2005_h1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_DxPack_10__Anorganix_
 {
 	meta:
@@ -4929,6 +5461,7 @@ rule _PseudoSigner_02_DxPack_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Upack_Patch_or_any_Version__Sign_by_hot_UNP_
 {
 	meta:
@@ -4938,6 +5471,7 @@ rule _Upack_Patch_or_any_Version__Sign_by_hot_UNP_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CrunchPE_v40_
 {
 	meta:
@@ -4947,6 +5481,7 @@ rule _CrunchPE_v40_
 	condition:
 		$0
 }
+
 rule _Wise_Installer_Stub_v11010291_
 {
 	meta:
@@ -4956,6 +5491,7 @@ rule _Wise_Installer_Stub_v11010291_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKTINY_v10_with_TINYPROG_v38_
 {
 	meta:
@@ -4965,6 +5501,7 @@ rule _PKTINY_v10_with_TINYPROG_v38_
 	condition:
 		$0 at entrypoint
 }
+
 rule _nBinder_v40_
 {
 	meta:
@@ -4974,6 +5511,7 @@ rule _nBinder_v40_
 	condition:
 		$0
 }
+
 rule _Unknown_packer_08_
 {
 	meta:
@@ -4983,6 +5521,7 @@ rule _Unknown_packer_08_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ESO_Eclipse_Operating_System_v208_p_DOS_Extender_
 {
 	meta:
@@ -4992,6 +5531,7 @@ rule _ESO_Eclipse_Operating_System_v208_p_DOS_Extender_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WARNING__TROJAN__ADinjector_
 {
 	meta:
@@ -5001,6 +5541,7 @@ rule _WARNING__TROJAN__ADinjector_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESpin_v01__Cyberbob_
 {
 	meta:
@@ -5010,6 +5551,7 @@ rule _PESpin_v01__Cyberbob_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v0896__v102__v105__v122_Modified_
 {
 	meta:
@@ -5019,6 +5561,7 @@ rule _UPX_v0896__v102__v105__v122_Modified_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE2COM_Method_1_
 {
 	meta:
@@ -5028,6 +5571,7 @@ rule _EXE2COM_Method_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKLITE32_11__PKWARE_Inc_
 {
 	meta:
@@ -5037,6 +5581,7 @@ rule _PKLITE32_11__PKWARE_Inc_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v310_
 {
 	meta:
@@ -5047,6 +5592,7 @@ rule _Armadillo_v310_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _RCryptor_v16x__Vaska_
 {
 	meta:
@@ -5056,6 +5602,7 @@ rule _RCryptor_v16x__Vaska_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VcasmProtector_11__12__vcasm_
 {
 	meta:
@@ -5065,6 +5612,7 @@ rule _VcasmProtector_11__12__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPXSCRAMBLER_306__OnToL_
 {
 	meta:
@@ -5074,6 +5622,7 @@ rule _UPXSCRAMBLER_306__OnToL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_22__c199899_Ian_Luck_h_
 {
 	meta:
@@ -5083,6 +5632,7 @@ rule _Petite_22__c199899_Ian_Luck_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Simple_UPX_Cryptor_v3042005_One_layer_encryption__MANtiCORE_
 {
 	meta:
@@ -5092,6 +5642,7 @@ rule _Simple_UPX_Cryptor_v3042005_One_layer_encryption__MANtiCORE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VBOX_v43__v46_
 {
 	meta:
@@ -5102,6 +5653,7 @@ rule _VBOX_v43__v46_
 	condition:
 		$0 or $1
 }
+
 rule _PseudoSigner_01_PECompact_14p__Anorganix_
 {
 	meta:
@@ -5112,6 +5664,7 @@ rule _PseudoSigner_01_PECompact_14p__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Exe_Locker_v10__IonIce_
 {
 	meta:
@@ -5122,6 +5675,7 @@ rule _Exe_Locker_v10__IonIce_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _tElock_v070_
 {
 	meta:
@@ -5131,6 +5685,7 @@ rule _tElock_v070_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Microsoft_Visual_Cpp_620__Anorganix_
 {
 	meta:
@@ -5141,6 +5696,7 @@ rule _PseudoSigner_01_Microsoft_Visual_Cpp_620__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PECompact_v120__v1201_
 {
 	meta:
@@ -5150,6 +5706,7 @@ rule _PECompact_v120__v1201_
 	condition:
 		$0 at entrypoint
 }
+
 rule _XPack_167_
 {
 	meta:
@@ -5159,6 +5716,7 @@ rule _XPack_167_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Native_UD_Packer_11_Modded_Poison_Ivy_Shellcode__okkixot_
 {
 	meta:
@@ -5168,6 +5726,7 @@ rule _Native_UD_Packer_11_Modded_Poison_Ivy_Shellcode__okkixot_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v71_EXE_
 {
 	meta:
@@ -5178,6 +5737,7 @@ rule _Microsoft_Visual_Cpp_v71_EXE_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_PE_Intro_10__Anorganix_
 {
 	meta:
@@ -5188,6 +5748,7 @@ rule _PseudoSigner_01_PE_Intro_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _HASP_HL_Protection_V1X__Aladdin_
 {
 	meta:
@@ -5197,6 +5758,7 @@ rule _HASP_HL_Protection_V1X__Aladdin_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Go32Stub_v200_DOSExtender_
 {
 	meta:
@@ -5206,6 +5768,7 @@ rule _Go32Stub_v200_DOSExtender_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NTkrnl_Secure_Suite__NTkrnl_Team_Blue_
 {
 	meta:
@@ -5215,6 +5778,7 @@ rule _NTkrnl_Secure_Suite__NTkrnl_Team_Blue_
 	condition:
 		$0
 }
+
 rule _PKLITE_v120_
 {
 	meta:
@@ -5224,6 +5788,7 @@ rule _PKLITE_v120_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PCGuard_v405d_v410d_v415d_
 {
 	meta:
@@ -5233,6 +5798,7 @@ rule _PCGuard_v405d_v410d_v415d_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MEW_11_SE_v11___Northfox_HCC_
 {
 	meta:
@@ -5242,6 +5808,7 @@ rule _MEW_11_SE_v11___Northfox_HCC_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_FSG_10__Anorganix_
 {
 	meta:
@@ -5252,6 +5819,7 @@ rule _PseudoSigner_02_FSG_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_Yodas_Protector_102__Anorganix_
 {
 	meta:
@@ -5262,6 +5830,7 @@ rule _PseudoSigner_01_Yodas_Protector_102__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ExeLock_v100_
 {
 	meta:
@@ -5271,6 +5840,7 @@ rule _ExeLock_v100_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Themida__Oreans_Technologies_2004_
 {
 	meta:
@@ -5280,6 +5850,7 @@ rule _Themida__Oreans_Technologies_2004_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Turbo_or_Borland_Pascal_v70_
 {
 	meta:
@@ -5289,6 +5860,7 @@ rule _Turbo_or_Borland_Pascal_v70_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Mew_10_execoder_10__Northfox_HCC_
 {
 	meta:
@@ -5298,6 +5870,7 @@ rule _Mew_10_execoder_10__Northfox_HCC_
 	condition:
 		$0 at entrypoint
 }
+
 rule _TASM__MASM_
 {
 	meta:
@@ -5307,6 +5880,7 @@ rule _TASM__MASM_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BeRoEXEPacker_v100_LZBRS__BeRo__Farbrausch_
 {
 	meta:
@@ -5316,6 +5890,7 @@ rule _BeRoEXEPacker_v100_LZBRS__BeRo__Farbrausch_
 	condition:
 		$0 at entrypoint
 }
+
 rule _KGCrypt_vxx_
 {
 	meta:
@@ -5325,6 +5900,7 @@ rule _KGCrypt_vxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Apex_c_beta__500mhz_
 {
 	meta:
@@ -5335,6 +5911,7 @@ rule _Apex_c_beta__500mhz_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v12_
 {
 	meta:
@@ -5345,6 +5922,7 @@ rule _FSG_v12_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _nSpack_V13__LiuXingPing_
 {
 	meta:
@@ -5354,6 +5932,7 @@ rule _nSpack_V13__LiuXingPing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ORiEN_v211_DEMO_
 {
 	meta:
@@ -5363,6 +5942,7 @@ rule _ORiEN_v211_DEMO_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unknown_packer_06_
 {
 	meta:
@@ -5372,6 +5952,7 @@ rule _Unknown_packer_06_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Private_EXE_Protector_20__SetiSoft_
 {
 	meta:
@@ -5381,6 +5962,7 @@ rule _Private_EXE_Protector_20__SetiSoft_
 	condition:
 		$0
 }
+
 rule _Turbo_Pascal_v20_1984_
 {
 	meta:
@@ -5390,6 +5972,7 @@ rule _Turbo_Pascal_v20_1984_
 	condition:
 		$0 at entrypoint
 }
+
 rule _COP_v10_c_1988_
 {
 	meta:
@@ -5399,6 +5982,7 @@ rule _COP_v10_c_1988_
 	condition:
 		$0 at entrypoint
 }
+
 rule _y0das_Crypter_v12_
 {
 	meta:
@@ -5408,6 +5992,7 @@ rule _y0das_Crypter_v12_
 	condition:
 		$0 at entrypoint
 }
+
 rule _TXT2COM_ReadAMatic_v10_
 {
 	meta:
@@ -5417,6 +6002,7 @@ rule _TXT2COM_ReadAMatic_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Cruncher_v10_
 {
 	meta:
@@ -5426,6 +6012,7 @@ rule _Cruncher_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Doom666_
 {
 	meta:
@@ -5435,6 +6022,7 @@ rule _Vx_Doom666_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Free_Pascal_v09910_
 {
 	meta:
@@ -5444,6 +6032,7 @@ rule _Free_Pascal_v09910_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Crypt32_v102_
 {
 	meta:
@@ -5453,6 +6042,7 @@ rule _PE_Crypt32_v102_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE32Pack_v139_
 {
 	meta:
@@ -5462,6 +6052,7 @@ rule _EXE32Pack_v139_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MEW_5_10__Northfox_
 {
 	meta:
@@ -5471,6 +6062,7 @@ rule _MEW_5_10__Northfox_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Krypton_v05_
 {
 	meta:
@@ -5480,6 +6072,7 @@ rule _Krypton_v05_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EP_v20_
 {
 	meta:
@@ -5489,6 +6082,7 @@ rule _EP_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEMangle_
 {
 	meta:
@@ -5498,6 +6092,7 @@ rule _PEMangle_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NFO_v1x_modified_
 {
 	meta:
@@ -5507,6 +6102,7 @@ rule _NFO_v1x_modified_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_V1304__Obsidium_Software_
 {
 	meta:
@@ -5516,6 +6112,7 @@ rule _Obsidium_V1304__Obsidium_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_PE_Pack_099__Anorganix_
 {
 	meta:
@@ -5526,6 +6123,7 @@ rule _PseudoSigner_02_PE_Pack_099__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Exe_Shield_v27_
 {
 	meta:
@@ -5535,6 +6133,7 @@ rule _Exe_Shield_v27_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPack32_v1x_
 {
 	meta:
@@ -5544,6 +6143,7 @@ rule _WWPack32_v1x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Morphine_v33__Silent_Software__Silent_Shield_c2005_
 {
 	meta:
@@ -5553,6 +6153,7 @@ rule _Morphine_v33__Silent_Software__Silent_Shield_c2005_
 	condition:
 		$0
 }
+
 rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_50__60_
 {
 	meta:
@@ -5562,6 +6163,7 @@ rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_50__60_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Themida_1201__Oreans_Technologies_h_
 {
 	meta:
@@ -5571,6 +6173,7 @@ rule _Themida_1201__Oreans_Technologies_h_
 	condition:
 		$0
 }
+
 rule _SPLayer_v008_
 {
 	meta:
@@ -5580,6 +6183,7 @@ rule _SPLayer_v008_
 	condition:
 		$0
 }
+
 rule _PKLITE_v100c_1_
 {
 	meta:
@@ -5589,6 +6193,7 @@ rule _PKLITE_v100c_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_60__70_
 {
 	meta:
@@ -5605,6 +6210,7 @@ rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_60__70_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint or $4 at entrypoint or $5 at entrypoint or $6 at entrypoint or $7 at entrypoint
 }
+
 rule _SDProtect__Randy_Li_
 {
 	meta:
@@ -5614,6 +6220,7 @@ rule _SDProtect__Randy_Li_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v190b2_
 {
 	meta:
@@ -5624,6 +6231,7 @@ rule _Armadillo_v190b2_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ASPack_v211_
 {
 	meta:
@@ -5633,6 +6241,7 @@ rule _ASPack_v211_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v099_
 {
 	meta:
@@ -5642,6 +6251,7 @@ rule _tElock_v099_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v071_DLL_
 {
 	meta:
@@ -5651,6 +6261,7 @@ rule _UPX_v071_DLL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DBPE_v233_
 {
 	meta:
@@ -5660,6 +6271,7 @@ rule _DBPE_v233_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FASM_v15x_
 {
 	meta:
@@ -5669,6 +6281,7 @@ rule _FASM_v15x_
 	condition:
 		$0
 }
+
 rule _PseudoSigner_02_PEX_099__Anorganix_
 {
 	meta:
@@ -5679,6 +6292,7 @@ rule _PseudoSigner_02_PEX_099__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _InstallAnywhere_61_Zero_G_Software_Inc_
 {
 	meta:
@@ -5688,6 +6302,7 @@ rule _InstallAnywhere_61_Zero_G_Software_Inc_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PeCompact_2xx__BitSum_Technologies_
 {
 	meta:
@@ -5697,6 +6312,7 @@ rule _PeCompact_2xx__BitSum_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESHiELD_v01b_MTE_
 {
 	meta:
@@ -5706,6 +6322,7 @@ rule _PESHiELD_v01b_MTE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CC_v261_Beta_
 {
 	meta:
@@ -5715,6 +6332,7 @@ rule _CC_v261_Beta_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXpressor_v12__CGSoftLabs_
 {
 	meta:
@@ -5724,6 +6342,7 @@ rule _eXpressor_v12__CGSoftLabs_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Safe_20_
 {
 	meta:
@@ -5733,6 +6352,7 @@ rule _Safe_20_
 	condition:
 		$0
 }
+
 rule _Microsoft_Visual_Cpp_60_DLL_
 {
 	meta:
@@ -5742,6 +6362,7 @@ rule _Microsoft_Visual_Cpp_60_DLL_
 	condition:
 		$0
 }
+
 rule _EPW_v130_
 {
 	meta:
@@ -5751,6 +6372,7 @@ rule _EPW_v130_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEQuake_V006__forgat_
 {
 	meta:
@@ -5760,6 +6382,7 @@ rule _PEQuake_V006__forgat_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DEF_v10_
 {
 	meta:
@@ -5770,6 +6393,7 @@ rule _DEF_v10_
 	condition:
 		$0 or $1 at entrypoint
 }
+
 rule _MSLRH_v032a__emadicius_
 {
 	meta:
@@ -5779,6 +6403,7 @@ rule _MSLRH_v032a__emadicius_
 	condition:
 		$0
 }
+
 rule _ASProtect_v11_MTE_
 {
 	meta:
@@ -5788,6 +6413,7 @@ rule _ASProtect_v11_MTE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BlackEnergy_DDoS_Bot_Crypter_
 {
 	meta:
@@ -5797,6 +6423,7 @@ rule _BlackEnergy_DDoS_Bot_Crypter_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKLITE_v112_v115_v120_1_
 {
 	meta:
@@ -5806,6 +6433,7 @@ rule _PKLITE_v112_v115_v120_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v302_v302a_Extractable_
 {
 	meta:
@@ -5815,6 +6443,7 @@ rule _WWPACK_v302_v302a_Extractable_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Borland_Cpp_
 {
 	meta:
@@ -5826,6 +6455,7 @@ rule _FSG_v110_Eng__dulekxt__Borland_Cpp_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _MEGALITE_v120a_
 {
 	meta:
@@ -5835,6 +6465,7 @@ rule _MEGALITE_v120a_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ZipWorxSecureEXE_v25__ZipWORX_Technologies_LLC_h_
 {
 	meta:
@@ -5844,6 +6475,7 @@ rule _ZipWorxSecureEXE_v25__ZipWORX_Technologies_LLC_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v71_DLL_Debug_
 {
 	meta:
@@ -5853,6 +6485,7 @@ rule _Microsoft_Visual_Cpp_v71_DLL_Debug_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Freshbind_v20__gFresh_
 {
 	meta:
@@ -5862,6 +6495,7 @@ rule _Freshbind_v20__gFresh_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Shrinker_34_
 {
 	meta:
@@ -5871,6 +6505,7 @@ rule _Shrinker_34_
 	condition:
 		$0
 }
+
 rule _DJoin_v07_public_RC4_encryption__drmist_
 {
 	meta:
@@ -5880,6 +6515,7 @@ rule _DJoin_v07_public_RC4_encryption__drmist_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EncryptPE_22004810__22005314__WFS_
 {
 	meta:
@@ -5889,6 +6525,7 @@ rule _EncryptPE_22004810__22005314__WFS_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v110b2_
 {
 	meta:
@@ -5898,6 +6535,7 @@ rule _PECompact_v110b2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Embed_PE_v113__cyclotron_
 {
 	meta:
@@ -5907,6 +6545,7 @@ rule _Embed_PE_v113__cyclotron_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unknown_encryptor_1_
 {
 	meta:
@@ -5916,6 +6555,7 @@ rule _Unknown_encryptor_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Watcom_CCpp_
 {
 	meta:
@@ -5925,6 +6565,7 @@ rule _Watcom_CCpp_
 	condition:
 		$0
 }
+
 rule _DEF_10__bartxt_
 {
 	meta:
@@ -5935,6 +6576,7 @@ rule _DEF_10__bartxt_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _bambam_V001__bedrock_
 {
 	meta:
@@ -5944,6 +6586,7 @@ rule _bambam_V001__bedrock_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unknown_Protected_Mode_compiler_2_
 {
 	meta:
@@ -5953,6 +6596,7 @@ rule _Unknown_Protected_Mode_compiler_2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_ASProtect__Anorganix_
 {
 	meta:
@@ -5963,6 +6607,7 @@ rule _PseudoSigner_01_ASProtect__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _SafeDiscSafeCast_2xx__3xx__Macrovision_
 {
 	meta:
@@ -5972,6 +6617,7 @@ rule _SafeDiscSafeCast_2xx__3xx__Macrovision_
 	condition:
 		$0 at entrypoint
 }
+
 rule _COMPACK_v51_
 {
 	meta:
@@ -5981,6 +6627,7 @@ rule _COMPACK_v51_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEncrypt_v30_
 {
 	meta:
@@ -5990,6 +6637,7 @@ rule _PEncrypt_v30_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WATCOM_CCpp_32_RunTime_System_19881994_
 {
 	meta:
@@ -5999,6 +6647,7 @@ rule _WATCOM_CCpp_32_RunTime_System_19881994_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Silicon_Realms_Install_Stub_
 {
 	meta:
@@ -6008,6 +6657,7 @@ rule _Silicon_Realms_Install_Stub_
 	condition:
 		$0
 }
+
 rule _Microsoft_CAB_SFX_
 {
 	meta:
@@ -6017,6 +6667,7 @@ rule _Microsoft_CAB_SFX_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MicroJoiner_15__coban2k_
 {
 	meta:
@@ -6026,6 +6677,7 @@ rule _MicroJoiner_15__coban2k_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_30_old_crap_
 {
 	meta:
@@ -6035,6 +6687,7 @@ rule _Microsoft_Visual_Cpp_30_old_crap_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v051_
 {
 	meta:
@@ -6044,6 +6697,7 @@ rule _tElock_v051_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPXFreak_v01_Borland_Delphi__HMX0101_
 {
 	meta:
@@ -6053,6 +6707,7 @@ rule _UPXFreak_v01_Borland_Delphi__HMX0101_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXECryptor_224__StrongbitSoftComplete_Development_h3_
 {
 	meta:
@@ -6063,6 +6718,7 @@ rule _EXECryptor_224__StrongbitSoftComplete_Development_h3_
 	condition:
 		$0 or $1
 }
+
 rule _Unknown_packer_05_
 {
 	meta:
@@ -6072,6 +6728,7 @@ rule _Unknown_packer_05_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Setup_Factory_v6003_Setup_Launcher_
 {
 	meta:
@@ -6081,6 +6738,7 @@ rule _Setup_Factory_v6003_Setup_Launcher_
 	condition:
 		$0
 }
+
 rule _Enigma_protector_110_unregistered_
 {
 	meta:
@@ -6091,6 +6749,7 @@ rule _Enigma_protector_110_unregistered_
 	condition:
 		$0 or $1
 }
+
 rule _InstallShield_Custom_
 {
 	meta:
@@ -6100,6 +6759,7 @@ rule _InstallShield_Custom_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CrunchPE_
 {
 	meta:
@@ -6109,6 +6769,7 @@ rule _CrunchPE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SCRAM_vC5_
 {
 	meta:
@@ -6118,6 +6779,7 @@ rule _SCRAM_vC5_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Inno_Setup_Module_v129_
 {
 	meta:
@@ -6127,6 +6789,7 @@ rule _Inno_Setup_Module_v129_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v071b7_
 {
 	meta:
@@ -6136,6 +6799,7 @@ rule _tElock_v071b7_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Exe_Shield_v27b_
 {
 	meta:
@@ -6146,6 +6810,7 @@ rule _Exe_Shield_v27b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_UPX_06__Anorganix_
 {
 	meta:
@@ -6156,6 +6821,7 @@ rule _PseudoSigner_01_UPX_06__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Shrinker_v34_
 {
 	meta:
@@ -6166,6 +6832,7 @@ rule _Shrinker_v34_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Enigma_protector_110111__Vladimir_Sukhov_
 {
 	meta:
@@ -6175,6 +6842,7 @@ rule _Enigma_protector_110111__Vladimir_Sukhov_
 	condition:
 		$0
 }
+
 rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_60__ASM_
 {
 	meta:
@@ -6184,6 +6852,7 @@ rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_60__ASM_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Protector_093__CRYPToCRACk_
 {
 	meta:
@@ -6193,6 +6862,7 @@ rule _PE_Protector_093__CRYPToCRACk_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Phoenix927_
 {
 	meta:
@@ -6202,6 +6872,7 @@ rule _Vx_Phoenix927_
 	condition:
 		$0 at entrypoint
 }
+
 rule _LamerStop_v10c_c_Stefan_Esser_
 {
 	meta:
@@ -6211,6 +6882,7 @@ rule _LamerStop_v10c_c_Stefan_Esser_
 	condition:
 		$0 at entrypoint
 }
+
 rule _unknown__jac_
 {
 	meta:
@@ -6220,6 +6892,7 @@ rule _unknown__jac_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v060_
 {
 	meta:
@@ -6229,6 +6902,7 @@ rule _tElock_v060_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Goats_Mutilator_v16__Goat_e0f_
 {
 	meta:
@@ -6239,6 +6913,7 @@ rule _Goats_Mutilator_v16__Goat_e0f_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Packanoid_v1__Arkanoid_
 {
 	meta:
@@ -6248,6 +6923,7 @@ rule _Packanoid_v1__Arkanoid_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Software_Compress_v14_LITE__BG_Software_Protect_Technologies_h_
 {
 	meta:
@@ -6257,6 +6933,7 @@ rule _Software_Compress_v14_LITE__BG_Software_Protect_Technologies_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_CodeSafe_20__Anorganix_
 {
 	meta:
@@ -6267,6 +6944,7 @@ rule _PseudoSigner_01_CodeSafe_20__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _VideoLanClient_
 {
 	meta:
@@ -6276,6 +6954,7 @@ rule _VideoLanClient_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXPressor_v120b_
 {
 	meta:
@@ -6285,6 +6964,7 @@ rule _eXPressor_v120b_
 	condition:
 		$0
 }
+
 rule _Packman_V0001__Bubbasoft_
 {
 	meta:
@@ -6294,6 +6974,7 @@ rule _Packman_V0001__Bubbasoft_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_MEW_11_SE_10__Anorganix_
 {
 	meta:
@@ -6304,6 +6985,7 @@ rule _PseudoSigner_02_MEW_11_SE_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PGMPACK_v013_
 {
 	meta:
@@ -6313,6 +6995,7 @@ rule _PGMPACK_v013_
 	condition:
 		$0 at entrypoint
 }
+
 rule _diPacker_V1X__diProtector_Software_
 {
 	meta:
@@ -6322,6 +7005,7 @@ rule _diPacker_V1X__diProtector_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Explosion1000_
 {
 	meta:
@@ -6331,6 +7015,7 @@ rule _Vx_Explosion1000_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Protection_Plus_vxx_
 {
 	meta:
@@ -6340,6 +7025,7 @@ rule _Protection_Plus_vxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_C_for_Windows_1_
 {
 	meta:
@@ -6349,6 +7035,7 @@ rule _Microsoft_C_for_Windows_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CrunchPE_v10xx_
 {
 	meta:
@@ -6358,6 +7045,7 @@ rule _CrunchPE_v10xx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_PE_Protect_09__Anorganix_
 {
 	meta:
@@ -6368,6 +7056,7 @@ rule _PseudoSigner_01_PE_Protect_09__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Exe_Shield_vxx_
 {
 	meta:
@@ -6377,6 +7066,7 @@ rule _Exe_Shield_vxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VMProtect_v125__PolyTech_
 {
 	meta:
@@ -8028,6 +8718,7 @@ rule _VMProtect_v125__PolyTech_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint or $4 at entrypoint or $5 at entrypoint or $6 at entrypoint or $7 at entrypoint or $8 at entrypoint or $9 at entrypoint or $10 at entrypoint or $11 at entrypoint or $12 at entrypoint or $13 at entrypoint or $14 at entrypoint or $15 at entrypoint or $16 at entrypoint or $17 at entrypoint or $18 at entrypoint or $19 at entrypoint or $20 at entrypoint or $21 at entrypoint or $22 at entrypoint or $23 at entrypoint or $24 at entrypoint or $25 at entrypoint or $26 at entrypoint or $27 at entrypoint or $28 at entrypoint or $29 at entrypoint or $30 at entrypoint or $31 at entrypoint or $32 at entrypoint or $33 at entrypoint or $34 at entrypoint or $35 at entrypoint or $36 at entrypoint or $37 at entrypoint or $38 at entrypoint or $39 at entrypoint or $40 at entrypoint or $41 at entrypoint or $42 at entrypoint or $43 at entrypoint or $44 at entrypoint or $45 at entrypoint or $46 at entrypoint or $47 at entrypoint or $48 at entrypoint or $49 at entrypoint or $50 at entrypoint or $51 at entrypoint or $52 at entrypoint or $53 at entrypoint or $54 at entrypoint or $55 at entrypoint or $56 at entrypoint or $57 at entrypoint or $58 at entrypoint or $59 at entrypoint or $60 at entrypoint or $61 at entrypoint or $62 at entrypoint or $63 at entrypoint or $64 at entrypoint or $65 at entrypoint or $66 at entrypoint or $67 at entrypoint or $68 at entrypoint or $69 at entrypoint or $70 at entrypoint or $71 at entrypoint or $72 at entrypoint or $73 at entrypoint or $74 at entrypoint or $75 at entrypoint or $76 at entrypoint or $77 at entrypoint or $78 at entrypoint or $79 at entrypoint or $80 at entrypoint or $81 at entrypoint or $82 at entrypoint or $83 at entrypoint or $84 at entrypoint or $85 at entrypoint or $86 at entrypoint or $87 at entrypoint or $88 at entrypoint or $89 at entrypoint or $90 at entrypoint or $91 at entrypoint or $92 at entrypoint or $93 at entrypoint or $94 at entrypoint or $95 at entrypoint or $96 at entrypoint or $97 at entrypoint or $98 at entrypoint or $99 at entrypoint or $100 at entrypoint or $101 at entrypoint or $102 at entrypoint or $103 at entrypoint or $104 at entrypoint or $105 at entrypoint or $106 at entrypoint or $107 at entrypoint or $108 at entrypoint or $109 at entrypoint or $110 at entrypoint or $111 at entrypoint or $112 at entrypoint or $113 at entrypoint or $114 at entrypoint or $115 at entrypoint or $116 at entrypoint or $117 at entrypoint or $118 at entrypoint or $119 at entrypoint or $120 at entrypoint or $121 at entrypoint or $122 at entrypoint or $123 at entrypoint or $124 at entrypoint or $125 at entrypoint or $126 at entrypoint or $127 at entrypoint or $128 at entrypoint or $129 at entrypoint or $130 at entrypoint or $131 at entrypoint or $132 at entrypoint or $133 at entrypoint or $134 at entrypoint or $135 at entrypoint or $136 at entrypoint or $137 at entrypoint or $138 at entrypoint or $139 at entrypoint or $140 at entrypoint or $141 at entrypoint or $142 at entrypoint or $143 at entrypoint or $144 at entrypoint or $145 at entrypoint or $146 at entrypoint or $147 at entrypoint or $148 at entrypoint or $149 at entrypoint or $150 at entrypoint or $151 at entrypoint or $152 at entrypoint or $153 at entrypoint or $154 at entrypoint or $155 at entrypoint or $156 at entrypoint or $157 at entrypoint or $158 at entrypoint or $159 at entrypoint or $160 at entrypoint or $161 at entrypoint or $162 at entrypoint or $163 at entrypoint or $164 at entrypoint or $165 at entrypoint or $166 at entrypoint or $167 at entrypoint or $168 at entrypoint or $169 at entrypoint or $170 at entrypoint or $171 at entrypoint or $172 at entrypoint or $173 at entrypoint or $174 at entrypoint or $175 at entrypoint or $176 at entrypoint or $177 at entrypoint or $178 at entrypoint or $179 at entrypoint or $180 at entrypoint or $181 at entrypoint or $182 at entrypoint or $183 at entrypoint or $184 at entrypoint or $185 at entrypoint or $186 at entrypoint or $187 at entrypoint or $188 at entrypoint or $189 at entrypoint or $190 at entrypoint or $191 at entrypoint or $192 at entrypoint or $193 at entrypoint or $194 at entrypoint or $195 at entrypoint or $196 at entrypoint or $197 at entrypoint or $198 at entrypoint or $199 at entrypoint or $200 at entrypoint or $201 at entrypoint or $202 at entrypoint or $203 at entrypoint or $204 at entrypoint or $205 at entrypoint or $206 at entrypoint or $207 at entrypoint or $208 at entrypoint or $209 at entrypoint or $210 at entrypoint or $211 at entrypoint or $212 at entrypoint or $213 at entrypoint or $214 at entrypoint or $215 at entrypoint or $216 at entrypoint or $217 at entrypoint or $218 at entrypoint or $219 at entrypoint or $220 at entrypoint or $221 at entrypoint or $222 at entrypoint or $223 at entrypoint or $224 at entrypoint or $225 at entrypoint or $226 at entrypoint or $227 at entrypoint or $228 at entrypoint or $229 at entrypoint or $230 at entrypoint or $231 at entrypoint or $232 at entrypoint or $233 at entrypoint or $234 at entrypoint or $235 at entrypoint or $236 at entrypoint or $237 at entrypoint or $238 at entrypoint or $239 at entrypoint or $240 at entrypoint or $241 at entrypoint or $242 at entrypoint or $243 at entrypoint or $244 at entrypoint or $245 at entrypoint or $246 at entrypoint or $247 at entrypoint or $248 at entrypoint or $249 at entrypoint or $250 at entrypoint or $251 at entrypoint or $252 at entrypoint or $253 at entrypoint or $254 at entrypoint or $255 at entrypoint or $256 at entrypoint or $257 at entrypoint or $258 at entrypoint or $259 at entrypoint or $260 at entrypoint or $261 at entrypoint or $262 at entrypoint or $263 at entrypoint or $264 at entrypoint or $265 at entrypoint or $266 at entrypoint or $267 at entrypoint or $268 at entrypoint or $269 at entrypoint or $270 at entrypoint or $271 at entrypoint or $272 at entrypoint or $273 at entrypoint or $274 at entrypoint or $275 at entrypoint or $276 at entrypoint or $277 at entrypoint or $278 at entrypoint or $279 at entrypoint or $280 at entrypoint or $281 at entrypoint or $282 at entrypoint or $283 at entrypoint or $284 at entrypoint or $285 at entrypoint or $286 at entrypoint or $287 at entrypoint or $288 at entrypoint or $289 at entrypoint or $290 at entrypoint or $291 at entrypoint or $292 at entrypoint or $293 at entrypoint or $294 at entrypoint or $295 at entrypoint or $296 at entrypoint or $297 at entrypoint or $298 at entrypoint or $299 at entrypoint or $300 at entrypoint or $301 at entrypoint or $302 at entrypoint or $303 at entrypoint or $304 at entrypoint or $305 at entrypoint or $306 at entrypoint or $307 at entrypoint or $308 at entrypoint or $309 at entrypoint or $310 at entrypoint or $311 at entrypoint or $312 at entrypoint or $313 at entrypoint or $314 at entrypoint or $315 at entrypoint or $316 at entrypoint or $317 at entrypoint or $318 at entrypoint or $319 at entrypoint or $320 at entrypoint or $321 at entrypoint or $322 at entrypoint or $323 at entrypoint or $324 at entrypoint or $325 at entrypoint or $326 at entrypoint or $327 at entrypoint or $328 at entrypoint or $329 at entrypoint or $330 at entrypoint or $331 at entrypoint or $332 at entrypoint or $333 at entrypoint or $334 at entrypoint or $335 at entrypoint or $336 at entrypoint or $337 at entrypoint or $338 at entrypoint or $339 at entrypoint or $340 at entrypoint or $341 at entrypoint or $342 at entrypoint or $343 at entrypoint or $344 at entrypoint or $345 at entrypoint or $346 at entrypoint or $347 at entrypoint or $348 at entrypoint or $349 at entrypoint or $350 at entrypoint or $351 at entrypoint or $352 at entrypoint or $353 at entrypoint or $354 at entrypoint or $355 at entrypoint or $356 at entrypoint or $357 at entrypoint or $358 at entrypoint or $359 at entrypoint or $360 at entrypoint or $361 at entrypoint or $362 at entrypoint or $363 at entrypoint or $364 at entrypoint or $365 at entrypoint or $366 at entrypoint or $367 at entrypoint or $368 at entrypoint or $369 at entrypoint or $370 at entrypoint or $371 at entrypoint or $372 at entrypoint or $373 at entrypoint or $374 at entrypoint or $375 at entrypoint or $376 at entrypoint or $377 at entrypoint or $378 at entrypoint or $379 at entrypoint or $380 at entrypoint or $381 at entrypoint or $382 at entrypoint or $383 at entrypoint or $384 at entrypoint or $385 at entrypoint or $386 at entrypoint or $387 at entrypoint or $388 at entrypoint or $389 at entrypoint or $390 at entrypoint or $391 at entrypoint or $392 at entrypoint or $393 at entrypoint or $394 at entrypoint or $395 at entrypoint or $396 at entrypoint or $397 at entrypoint or $398 at entrypoint or $399 at entrypoint or $400 at entrypoint or $401 at entrypoint or $402 at entrypoint or $403 at entrypoint or $404 at entrypoint or $405 at entrypoint or $406 at entrypoint or $407 at entrypoint or $408 at entrypoint or $409 at entrypoint or $410 at entrypoint or $411 at entrypoint or $412 at entrypoint or $413 at entrypoint or $414 at entrypoint or $415 at entrypoint or $416 at entrypoint or $417 at entrypoint or $418 at entrypoint or $419 at entrypoint or $420 at entrypoint or $421 at entrypoint or $422 at entrypoint or $423 at entrypoint or $424 at entrypoint or $425 at entrypoint or $426 at entrypoint or $427 at entrypoint or $428 at entrypoint or $429 at entrypoint or $430 at entrypoint or $431 at entrypoint or $432 at entrypoint or $433 at entrypoint or $434 at entrypoint or $435 at entrypoint or $436 at entrypoint or $437 at entrypoint or $438 at entrypoint or $439 at entrypoint or $440 at entrypoint or $441 at entrypoint or $442 at entrypoint or $443 at entrypoint or $444 at entrypoint or $445 at entrypoint or $446 at entrypoint or $447 at entrypoint or $448 at entrypoint or $449 at entrypoint or $450 at entrypoint or $451 at entrypoint or $452 at entrypoint or $453 at entrypoint or $454 at entrypoint or $455 at entrypoint or $456 at entrypoint or $457 at entrypoint or $458 at entrypoint or $459 at entrypoint or $460 at entrypoint or $461 at entrypoint or $462 at entrypoint or $463 at entrypoint or $464 at entrypoint or $465 at entrypoint or $466 at entrypoint or $467 at entrypoint or $468 at entrypoint or $469 at entrypoint or $470 at entrypoint or $471 at entrypoint or $472 at entrypoint or $473 at entrypoint or $474 at entrypoint or $475 at entrypoint or $476 at entrypoint or $477 at entrypoint or $478 at entrypoint or $479 at entrypoint or $480 at entrypoint or $481 at entrypoint or $482 at entrypoint or $483 at entrypoint or $484 at entrypoint or $485 at entrypoint or $486 at entrypoint or $487 at entrypoint or $488 at entrypoint or $489 at entrypoint or $490 at entrypoint or $491 at entrypoint or $492 at entrypoint or $493 at entrypoint or $494 at entrypoint or $495 at entrypoint or $496 at entrypoint or $497 at entrypoint or $498 at entrypoint or $499 at entrypoint or $500 at entrypoint or $501 at entrypoint or $502 at entrypoint or $503 at entrypoint or $504 at entrypoint or $505 at entrypoint or $506 at entrypoint or $507 at entrypoint or $508 at entrypoint or $509 at entrypoint or $510 at entrypoint or $511 at entrypoint or $512 at entrypoint or $513 at entrypoint or $514 at entrypoint or $515 at entrypoint or $516 at entrypoint or $517 at entrypoint or $518 at entrypoint or $519 at entrypoint or $520 at entrypoint or $521 at entrypoint or $522 at entrypoint or $523 at entrypoint or $524 at entrypoint or $525 at entrypoint or $526 at entrypoint or $527 at entrypoint or $528 at entrypoint or $529 at entrypoint or $530 at entrypoint or $531 at entrypoint or $532 at entrypoint or $533 at entrypoint or $534 at entrypoint or $535 at entrypoint or $536 at entrypoint or $537 at entrypoint or $538 at entrypoint or $539 at entrypoint or $540 at entrypoint or $541 at entrypoint or $542 at entrypoint or $543 at entrypoint or $544 at entrypoint or $545 at entrypoint or $546 at entrypoint or $547 at entrypoint or $548 at entrypoint or $549 at entrypoint or $550 at entrypoint or $551 at entrypoint or $552 at entrypoint or $553 at entrypoint or $554 at entrypoint or $555 at entrypoint or $556 at entrypoint or $557 at entrypoint or $558 at entrypoint or $559 at entrypoint or $560 at entrypoint or $561 at entrypoint or $562 at entrypoint or $563 at entrypoint or $564 at entrypoint or $565 at entrypoint or $566 at entrypoint or $567 at entrypoint or $568 at entrypoint or $569 at entrypoint or $570 at entrypoint or $571 at entrypoint or $572 at entrypoint or $573 at entrypoint or $574 at entrypoint or $575 at entrypoint or $576 at entrypoint or $577 at entrypoint or $578 at entrypoint or $579 at entrypoint or $580 at entrypoint or $581 at entrypoint or $582 at entrypoint or $583 at entrypoint or $584 at entrypoint or $585 at entrypoint or $586 at entrypoint or $587 at entrypoint or $588 at entrypoint or $589 at entrypoint or $590 at entrypoint or $591 at entrypoint or $592 at entrypoint or $593 at entrypoint or $594 at entrypoint or $595 at entrypoint or $596 at entrypoint or $597 at entrypoint or $598 at entrypoint or $599 at entrypoint or $600 at entrypoint or $601 at entrypoint or $602 at entrypoint or $603 at entrypoint or $604 at entrypoint or $605 at entrypoint or $606 at entrypoint or $607 at entrypoint or $608 at entrypoint or $609 at entrypoint or $610 at entrypoint or $611 at entrypoint or $612 at entrypoint or $613 at entrypoint or $614 at entrypoint or $615 at entrypoint or $616 at entrypoint or $617 at entrypoint or $618 at entrypoint or $619 at entrypoint or $620 at entrypoint or $621 at entrypoint or $622 at entrypoint or $623 at entrypoint or $624 at entrypoint or $625 at entrypoint or $626 at entrypoint or $627 at entrypoint or $628 at entrypoint or $629 at entrypoint or $630 at entrypoint or $631 at entrypoint or $632 at entrypoint or $633 at entrypoint or $634 at entrypoint or $635 at entrypoint or $636 at entrypoint or $637 at entrypoint or $638 at entrypoint or $639 at entrypoint or $640 at entrypoint or $641 at entrypoint or $642 at entrypoint or $643 at entrypoint or $644 at entrypoint or $645 at entrypoint or $646 at entrypoint or $647 at entrypoint or $648 at entrypoint or $649 at entrypoint or $650 at entrypoint or $651 at entrypoint or $652 at entrypoint or $653 at entrypoint or $654 at entrypoint or $655 at entrypoint or $656 at entrypoint or $657 at entrypoint or $658 at entrypoint or $659 at entrypoint or $660 at entrypoint or $661 at entrypoint or $662 at entrypoint or $663 at entrypoint or $664 at entrypoint or $665 at entrypoint or $666 at entrypoint or $667 at entrypoint or $668 at entrypoint or $669 at entrypoint or $670 at entrypoint or $671 at entrypoint or $672 at entrypoint or $673 at entrypoint or $674 at entrypoint or $675 at entrypoint or $676 at entrypoint or $677 at entrypoint or $678 at entrypoint or $679 at entrypoint or $680 at entrypoint or $681 at entrypoint or $682 at entrypoint or $683 at entrypoint or $684 at entrypoint or $685 at entrypoint or $686 at entrypoint or $687 at entrypoint or $688 at entrypoint or $689 at entrypoint or $690 at entrypoint or $691 at entrypoint or $692 at entrypoint or $693 at entrypoint or $694 at entrypoint or $695 at entrypoint or $696 at entrypoint or $697 at entrypoint or $698 at entrypoint or $699 at entrypoint or $700 at entrypoint or $701 at entrypoint or $702 at entrypoint or $703 at entrypoint or $704 at entrypoint or $705 at entrypoint or $706 at entrypoint or $707 at entrypoint or $708 at entrypoint or $709 at entrypoint or $710 at entrypoint or $711 at entrypoint or $712 at entrypoint or $713 at entrypoint or $714 at entrypoint or $715 at entrypoint or $716 at entrypoint or $717 at entrypoint or $718 at entrypoint or $719 at entrypoint or $720 at entrypoint or $721 at entrypoint or $722 at entrypoint or $723 at entrypoint or $724 at entrypoint or $725 at entrypoint or $726 at entrypoint or $727 at entrypoint or $728 at entrypoint or $729 at entrypoint or $730 at entrypoint or $731 at entrypoint or $732 at entrypoint or $733 at entrypoint or $734 at entrypoint or $735 at entrypoint or $736 at entrypoint or $737 at entrypoint or $738 at entrypoint or $739 at entrypoint or $740 at entrypoint or $741 at entrypoint or $742 at entrypoint or $743 at entrypoint or $744 at entrypoint or $745 at entrypoint or $746 at entrypoint or $747 at entrypoint or $748 at entrypoint or $749 at entrypoint or $750 at entrypoint or $751 at entrypoint or $752 at entrypoint or $753 at entrypoint or $754 at entrypoint or $755 at entrypoint or $756 at entrypoint or $757 at entrypoint or $758 at entrypoint or $759 at entrypoint or $760 at entrypoint or $761 at entrypoint or $762 at entrypoint or $763 at entrypoint or $764 at entrypoint or $765 at entrypoint or $766 at entrypoint or $767 at entrypoint or $768 at entrypoint or $769 at entrypoint or $770 at entrypoint or $771 at entrypoint or $772 at entrypoint or $773 at entrypoint or $774 at entrypoint or $775 at entrypoint or $776 at entrypoint or $777 at entrypoint or $778 at entrypoint or $779 at entrypoint or $780 at entrypoint or $781 at entrypoint or $782 at entrypoint or $783 at entrypoint or $784 at entrypoint or $785 at entrypoint or $786 at entrypoint or $787 at entrypoint or $788 at entrypoint or $789 at entrypoint or $790 at entrypoint or $791 at entrypoint or $792 at entrypoint or $793 at entrypoint or $794 at entrypoint or $795 at entrypoint or $796 at entrypoint or $797 at entrypoint or $798 at entrypoint or $799 at entrypoint or $800 at entrypoint or $801 at entrypoint or $802 at entrypoint or $803 at entrypoint or $804 at entrypoint or $805 at entrypoint or $806 at entrypoint or $807 at entrypoint or $808 at entrypoint or $809 at entrypoint or $810 at entrypoint or $811 at entrypoint or $812 at entrypoint or $813 at entrypoint or $814 at entrypoint or $815 at entrypoint or $816 at entrypoint or $817 at entrypoint or $818 at entrypoint or $819 at entrypoint or $820 at entrypoint or $821 at entrypoint or $822 at entrypoint or $823 at entrypoint or $824 at entrypoint or $825 at entrypoint or $826 at entrypoint or $827 at entrypoint or $828 at entrypoint or $829 at entrypoint or $830 at entrypoint or $831 at entrypoint or $832 at entrypoint or $833 at entrypoint or $834 at entrypoint or $835 at entrypoint or $836 at entrypoint or $837 at entrypoint or $838 at entrypoint or $839 at entrypoint or $840 at entrypoint or $841 at entrypoint or $842 at entrypoint or $843 at entrypoint or $844 at entrypoint or $845 at entrypoint or $846 at entrypoint or $847 at entrypoint or $848 at entrypoint or $849 at entrypoint or $850 at entrypoint or $851 at entrypoint or $852 at entrypoint or $853 at entrypoint or $854 at entrypoint or $855 at entrypoint or $856 at entrypoint or $857 at entrypoint or $858 at entrypoint or $859 at entrypoint or $860 at entrypoint or $861 at entrypoint or $862 at entrypoint or $863 at entrypoint or $864 at entrypoint or $865 at entrypoint or $866 at entrypoint or $867 at entrypoint or $868 at entrypoint or $869 at entrypoint or $870 at entrypoint or $871 at entrypoint or $872 at entrypoint or $873 at entrypoint or $874 at entrypoint or $875 at entrypoint or $876 at entrypoint or $877 at entrypoint or $878 at entrypoint or $879 at entrypoint or $880 at entrypoint or $881 at entrypoint or $882 at entrypoint or $883 at entrypoint or $884 at entrypoint or $885 at entrypoint or $886 at entrypoint or $887 at entrypoint or $888 at entrypoint or $889 at entrypoint or $890 at entrypoint or $891 at entrypoint or $892 at entrypoint or $893 at entrypoint or $894 at entrypoint or $895 at entrypoint or $896 at entrypoint or $897 at entrypoint or $898 at entrypoint or $899 at entrypoint or $900 at entrypoint or $901 at entrypoint or $902 at entrypoint or $903 at entrypoint or $904 at entrypoint or $905 at entrypoint or $906 at entrypoint or $907 at entrypoint or $908 at entrypoint or $909 at entrypoint or $910 at entrypoint or $911 at entrypoint or $912 at entrypoint or $913 at entrypoint or $914 at entrypoint or $915 at entrypoint or $916 at entrypoint or $917 at entrypoint or $918 at entrypoint or $919 at entrypoint or $920 at entrypoint or $921 at entrypoint or $922 at entrypoint or $923 at entrypoint or $924 at entrypoint or $925 at entrypoint or $926 at entrypoint or $927 at entrypoint or $928 at entrypoint or $929 at entrypoint or $930 at entrypoint or $931 at entrypoint or $932 at entrypoint or $933 at entrypoint or $934 at entrypoint or $935 at entrypoint or $936 at entrypoint or $937 at entrypoint or $938 at entrypoint or $939 at entrypoint or $940 at entrypoint or $941 at entrypoint or $942 at entrypoint or $943 at entrypoint or $944 at entrypoint or $945 at entrypoint or $946 at entrypoint or $947 at entrypoint or $948 at entrypoint or $949 at entrypoint or $950 at entrypoint or $951 at entrypoint or $952 at entrypoint or $953 at entrypoint or $954 at entrypoint or $955 at entrypoint or $956 at entrypoint or $957 at entrypoint or $958 at entrypoint or $959 at entrypoint or $960 at entrypoint or $961 at entrypoint or $962 at entrypoint or $963 at entrypoint or $964 at entrypoint or $965 at entrypoint or $966 at entrypoint or $967 at entrypoint or $968 at entrypoint or $969 at entrypoint or $970 at entrypoint or $971 at entrypoint or $972 at entrypoint or $973 at entrypoint or $974 at entrypoint or $975 at entrypoint or $976 at entrypoint or $977 at entrypoint or $978 at entrypoint or $979 at entrypoint or $980 at entrypoint or $981 at entrypoint or $982 at entrypoint or $983 at entrypoint or $984 at entrypoint or $985 at entrypoint or $986 at entrypoint or $987 at entrypoint or $988 at entrypoint or $989 at entrypoint or $990 at entrypoint or $991 at entrypoint or $992 at entrypoint or $993 at entrypoint or $994 at entrypoint or $995 at entrypoint or $996 at entrypoint or $997 at entrypoint or $998 at entrypoint or $999 at entrypoint or $1000 at entrypoint or $1001 at entrypoint or $1002 at entrypoint or $1003 at entrypoint or $1004 at entrypoint or $1005 at entrypoint or $1006 at entrypoint or $1007 at entrypoint or $1008 at entrypoint or $1009 at entrypoint or $1010 at entrypoint or $1011 at entrypoint or $1012 at entrypoint or $1013 at entrypoint or $1014 at entrypoint or $1015 at entrypoint or $1016 at entrypoint or $1017 at entrypoint or $1018 at entrypoint or $1019 at entrypoint or $1020 at entrypoint or $1021 at entrypoint or $1022 at entrypoint or $1023 at entrypoint or $1024 at entrypoint or $1025 at entrypoint or $1026 at entrypoint or $1027 at entrypoint or $1028 at entrypoint or $1029 at entrypoint or $1030 at entrypoint or $1031 at entrypoint or $1032 at entrypoint or $1033 at entrypoint or $1034 at entrypoint or $1035 at entrypoint or $1036 at entrypoint or $1037 at entrypoint or $1038 at entrypoint or $1039 at entrypoint or $1040 at entrypoint or $1041 at entrypoint or $1042 at entrypoint or $1043 at entrypoint or $1044 at entrypoint or $1045 at entrypoint or $1046 at entrypoint or $1047 at entrypoint or $1048 at entrypoint or $1049 at entrypoint or $1050 at entrypoint or $1051 or $1052 at entrypoint or $1053 at entrypoint or $1054 at entrypoint or $1055 at entrypoint or $1056 at entrypoint or $1057 at entrypoint or $1058 at entrypoint or $1059 at entrypoint or $1060 at entrypoint or $1061 at entrypoint or $1062 at entrypoint or $1063 at entrypoint or $1064 at entrypoint or $1065 at entrypoint or $1066 at entrypoint or $1067 at entrypoint or $1068 at entrypoint or $1069 at entrypoint or $1070 at entrypoint or $1071 at entrypoint or $1072 at entrypoint or $1073 at entrypoint or $1074 at entrypoint or $1075 at entrypoint or $1076 at entrypoint or $1077 at entrypoint or $1078 at entrypoint or $1079 at entrypoint or $1080 at entrypoint or $1081 at entrypoint or $1082 at entrypoint or $1083 at entrypoint or $1084 at entrypoint or $1085 at entrypoint or $1086 at entrypoint or $1087 at entrypoint or $1088 at entrypoint or $1089 at entrypoint or $1090 at entrypoint or $1091 at entrypoint or $1092 at entrypoint or $1093 at entrypoint or $1094 at entrypoint or $1095 at entrypoint or $1096 at entrypoint or $1097 at entrypoint or $1098 at entrypoint or $1099 at entrypoint or $1100 at entrypoint or $1101 at entrypoint or $1102 at entrypoint or $1103 at entrypoint or $1104 at entrypoint or $1105 at entrypoint or $1106 at entrypoint or $1107 at entrypoint or $1108 at entrypoint or $1109 at entrypoint or $1110 at entrypoint or $1111 at entrypoint or $1112 at entrypoint or $1113 at entrypoint or $1114 at entrypoint or $1115 at entrypoint or $1116 at entrypoint or $1117 at entrypoint or $1118 at entrypoint or $1119 at entrypoint or $1120 at entrypoint or $1121 at entrypoint or $1122 at entrypoint or $1123 at entrypoint or $1124 at entrypoint or $1125 at entrypoint or $1126 at entrypoint or $1127 at entrypoint or $1128 at entrypoint or $1129 at entrypoint or $1130 at entrypoint or $1131 at entrypoint or $1132 at entrypoint or $1133 at entrypoint or $1134 at entrypoint or $1135 at entrypoint or $1136 at entrypoint or $1137 at entrypoint or $1138 at entrypoint or $1139 at entrypoint or $1140 at entrypoint or $1141 at entrypoint or $1142 at entrypoint or $1143 at entrypoint or $1144 at entrypoint or $1145 at entrypoint or $1146 at entrypoint or $1147 at entrypoint or $1148 at entrypoint or $1149 at entrypoint or $1150 at entrypoint or $1151 at entrypoint or $1152 at entrypoint or $1153 at entrypoint or $1154 at entrypoint or $1155 at entrypoint or $1156 at entrypoint or $1157 at entrypoint or $1158 at entrypoint or $1159 at entrypoint or $1160 at entrypoint or $1161 at entrypoint or $1162 at entrypoint or $1163 at entrypoint or $1164 at entrypoint or $1165 at entrypoint or $1166 at entrypoint or $1167 at entrypoint or $1168 at entrypoint or $1169 at entrypoint or $1170 at entrypoint or $1171 at entrypoint or $1172 at entrypoint or $1173 at entrypoint or $1174 at entrypoint or $1175 at entrypoint or $1176 at entrypoint or $1177 at entrypoint or $1178 at entrypoint or $1179 at entrypoint or $1180 at entrypoint or $1181 at entrypoint or $1182 at entrypoint or $1183 at entrypoint or $1184 at entrypoint or $1185 at entrypoint or $1186 at entrypoint or $1187 at entrypoint or $1188 at entrypoint or $1189 at entrypoint or $1190 at entrypoint or $1191 at entrypoint or $1192 at entrypoint or $1193 at entrypoint or $1194 at entrypoint or $1195 at entrypoint or $1196 at entrypoint or $1197 at entrypoint or $1198 at entrypoint or $1199 at entrypoint or $1200 at entrypoint or $1201 at entrypoint or $1202 at entrypoint or $1203 at entrypoint or $1204 at entrypoint or $1205 at entrypoint or $1206 at entrypoint or $1207 at entrypoint or $1208 at entrypoint or $1209 at entrypoint or $1210 at entrypoint or $1211 at entrypoint or $1212 at entrypoint or $1213 at entrypoint or $1214 at entrypoint or $1215 at entrypoint or $1216 at entrypoint or $1217 at entrypoint or $1218 at entrypoint or $1219 at entrypoint or $1220 at entrypoint or $1221 at entrypoint or $1222 at entrypoint or $1223 at entrypoint or $1224 at entrypoint or $1225 at entrypoint or $1226 at entrypoint or $1227 at entrypoint or $1228 at entrypoint or $1229 at entrypoint or $1230 at entrypoint or $1231 at entrypoint or $1232 at entrypoint or $1233 at entrypoint or $1234 at entrypoint or $1235 at entrypoint or $1236 at entrypoint or $1237 at entrypoint or $1238 at entrypoint or $1239 at entrypoint or $1240 at entrypoint or $1241 at entrypoint or $1242 at entrypoint or $1243 at entrypoint or $1244 at entrypoint or $1245 at entrypoint or $1246 at entrypoint or $1247 at entrypoint or $1248 at entrypoint or $1249 at entrypoint or $1250 at entrypoint or $1251 at entrypoint or $1252 at entrypoint or $1253 at entrypoint or $1254 at entrypoint or $1255 at entrypoint or $1256 at entrypoint or $1257 at entrypoint or $1258 at entrypoint or $1259 at entrypoint or $1260 at entrypoint or $1261 at entrypoint or $1262 at entrypoint or $1263 at entrypoint or $1264 at entrypoint or $1265 at entrypoint or $1266 at entrypoint or $1267 at entrypoint or $1268 at entrypoint or $1269 at entrypoint or $1270 at entrypoint or $1271 at entrypoint or $1272 at entrypoint or $1273 at entrypoint or $1274 at entrypoint or $1275 at entrypoint or $1276 at entrypoint or $1277 at entrypoint or $1278 at entrypoint or $1279 at entrypoint or $1280 at entrypoint or $1281 at entrypoint or $1282 at entrypoint or $1283 at entrypoint or $1284 at entrypoint or $1285 at entrypoint or $1286 at entrypoint or $1287 at entrypoint or $1288 at entrypoint or $1289 at entrypoint or $1290 at entrypoint or $1291 at entrypoint or $1292 at entrypoint or $1293 at entrypoint or $1294 at entrypoint or $1295 at entrypoint or $1296 at entrypoint or $1297 at entrypoint or $1298 at entrypoint or $1299 at entrypoint or $1300 at entrypoint or $1301 at entrypoint or $1302 at entrypoint or $1303 at entrypoint or $1304 at entrypoint or $1305 at entrypoint or $1306 at entrypoint or $1307 at entrypoint or $1308 at entrypoint or $1309 at entrypoint or $1310 at entrypoint or $1311 at entrypoint or $1312 at entrypoint or $1313 at entrypoint or $1314 at entrypoint or $1315 at entrypoint or $1316 at entrypoint or $1317 at entrypoint or $1318 at entrypoint or $1319 at entrypoint or $1320 at entrypoint or $1321 at entrypoint or $1322 at entrypoint or $1323 at entrypoint or $1324 at entrypoint or $1325 at entrypoint or $1326 at entrypoint or $1327 at entrypoint or $1328 at entrypoint or $1329 at entrypoint or $1330 at entrypoint or $1331 at entrypoint or $1332 at entrypoint or $1333 at entrypoint or $1334 at entrypoint or $1335 at entrypoint or $1336 at entrypoint or $1337 at entrypoint or $1338 at entrypoint or $1339 at entrypoint or $1340 at entrypoint or $1341 at entrypoint or $1342 at entrypoint or $1343 at entrypoint or $1344 at entrypoint or $1345 at entrypoint or $1346 at entrypoint or $1347 at entrypoint or $1348 at entrypoint or $1349 at entrypoint or $1350 at entrypoint or $1351 at entrypoint or $1352 at entrypoint or $1353 at entrypoint or $1354 at entrypoint or $1355 at entrypoint or $1356 at entrypoint or $1357 at entrypoint or $1358 at entrypoint or $1359 at entrypoint or $1360 at entrypoint or $1361 at entrypoint or $1362 at entrypoint or $1363 at entrypoint or $1364 at entrypoint or $1365 at entrypoint or $1366 at entrypoint or $1367 at entrypoint or $1368 at entrypoint or $1369 at entrypoint or $1370 at entrypoint or $1371 at entrypoint or $1372 at entrypoint or $1373 at entrypoint or $1374 at entrypoint or $1375 at entrypoint or $1376 at entrypoint or $1377 at entrypoint or $1378 at entrypoint or $1379 at entrypoint or $1380 at entrypoint or $1381 at entrypoint or $1382 at entrypoint or $1383 at entrypoint or $1384 at entrypoint or $1385 at entrypoint or $1386 at entrypoint or $1387 at entrypoint or $1388 at entrypoint or $1389 at entrypoint or $1390 at entrypoint or $1391 at entrypoint or $1392 at entrypoint or $1393 at entrypoint or $1394 at entrypoint or $1395 at entrypoint or $1396 at entrypoint or $1397 at entrypoint or $1398 at entrypoint or $1399 at entrypoint or $1400 at entrypoint or $1401 at entrypoint or $1402 at entrypoint or $1403 at entrypoint or $1404 at entrypoint or $1405 at entrypoint or $1406 at entrypoint or $1407 at entrypoint or $1408 at entrypoint or $1409 at entrypoint or $1410 at entrypoint or $1411 at entrypoint or $1412 at entrypoint or $1413 at entrypoint or $1414 at entrypoint or $1415 at entrypoint or $1416 at entrypoint or $1417 at entrypoint or $1418 at entrypoint or $1419 at entrypoint or $1420 at entrypoint or $1421 at entrypoint or $1422 at entrypoint or $1423 at entrypoint or $1424 at entrypoint or $1425 at entrypoint or $1426 at entrypoint or $1427 at entrypoint or $1428 at entrypoint or $1429 at entrypoint or $1430 at entrypoint or $1431 at entrypoint or $1432 at entrypoint or $1433 at entrypoint or $1434 at entrypoint or $1435 at entrypoint or $1436 at entrypoint or $1437 at entrypoint or $1438 at entrypoint or $1439 at entrypoint or $1440 at entrypoint or $1441 at entrypoint or $1442 at entrypoint or $1443 at entrypoint or $1444 at entrypoint or $1445 at entrypoint or $1446 at entrypoint or $1447 at entrypoint or $1448 at entrypoint or $1449 at entrypoint or $1450 at entrypoint or $1451 at entrypoint or $1452 at entrypoint or $1453 at entrypoint or $1454 at entrypoint or $1455 at entrypoint or $1456 at entrypoint or $1457 at entrypoint or $1458 at entrypoint or $1459 at entrypoint or $1460 at entrypoint or $1461 at entrypoint or $1462 at entrypoint or $1463 at entrypoint or $1464 at entrypoint or $1465 at entrypoint or $1466 at entrypoint or $1467 at entrypoint or $1468 at entrypoint or $1469 at entrypoint or $1470 at entrypoint or $1471 at entrypoint or $1472 at entrypoint or $1473 at entrypoint or $1474 at entrypoint or $1475 at entrypoint or $1476 at entrypoint or $1477 at entrypoint or $1478 at entrypoint or $1479 at entrypoint or $1480 at entrypoint or $1481 at entrypoint or $1482 at entrypoint or $1483 at entrypoint or $1484 at entrypoint or $1485 at entrypoint or $1486 at entrypoint or $1487 at entrypoint or $1488 at entrypoint or $1489 at entrypoint or $1490 at entrypoint or $1491 at entrypoint or $1492 at entrypoint or $1493 at entrypoint or $1494 at entrypoint or $1495 at entrypoint or $1496 at entrypoint or $1497 at entrypoint or $1498 at entrypoint or $1499 at entrypoint or $1500 at entrypoint or $1501 at entrypoint or $1502 at entrypoint or $1503 at entrypoint or $1504 at entrypoint or $1505 at entrypoint or $1506 at entrypoint or $1507 at entrypoint or $1508 at entrypoint or $1509 at entrypoint or $1510 at entrypoint or $1511 at entrypoint or $1512 at entrypoint or $1513 at entrypoint or $1514 at entrypoint or $1515 at entrypoint or $1516 at entrypoint or $1517 at entrypoint or $1518 at entrypoint or $1519 at entrypoint or $1520 at entrypoint or $1521 at entrypoint or $1522 at entrypoint or $1523 or $1524 at entrypoint or $1525 at entrypoint or $1526 at entrypoint or $1527 at entrypoint or $1528 at entrypoint or $1529 at entrypoint or $1530 at entrypoint or $1531 at entrypoint or $1532 at entrypoint or $1533 at entrypoint or $1534 at entrypoint or $1535 at entrypoint or $1536 at entrypoint or $1537 at entrypoint or $1538 at entrypoint or $1539 at entrypoint or $1540 at entrypoint or $1541 at entrypoint or $1542 at entrypoint or $1543 at entrypoint or $1544 at entrypoint or $1545 at entrypoint or $1546 at entrypoint or $1547 at entrypoint or $1548 at entrypoint or $1549 at entrypoint or $1550 at entrypoint or $1551 at entrypoint or $1552 at entrypoint or $1553 at entrypoint or $1554 at entrypoint or $1555 at entrypoint or $1556 at entrypoint or $1557 at entrypoint or $1558 at entrypoint or $1559 at entrypoint or $1560 at entrypoint or $1561 at entrypoint or $1562 at entrypoint or $1563 at entrypoint or $1564 at entrypoint or $1565 at entrypoint or $1566 at entrypoint or $1567 at entrypoint or $1568 at entrypoint or $1569 at entrypoint or $1570 at entrypoint or $1571 at entrypoint or $1572 at entrypoint or $1573 at entrypoint or $1574 at entrypoint or $1575 at entrypoint or $1576 at entrypoint or $1577 at entrypoint or $1578 at entrypoint or $1579 at entrypoint or $1580 at entrypoint or $1581 at entrypoint or $1582 at entrypoint or $1583 at entrypoint or $1584 at entrypoint or $1585 at entrypoint or $1586 at entrypoint or $1587 at entrypoint or $1588 at entrypoint or $1589 at entrypoint or $1590 at entrypoint or $1591 at entrypoint or $1592 at entrypoint or $1593 at entrypoint or $1594 at entrypoint or $1595 at entrypoint or $1596 at entrypoint or $1597 at entrypoint or $1598 at entrypoint or $1599 at entrypoint or $1600 at entrypoint or $1601 at entrypoint or $1602 at entrypoint or $1603 at entrypoint or $1604 at entrypoint or $1605 at entrypoint or $1606 at entrypoint or $1607 at entrypoint or $1608 at entrypoint or $1609 at entrypoint or $1610 at entrypoint or $1611 at entrypoint or $1612 at entrypoint or $1613 at entrypoint or $1614 at entrypoint or $1615 at entrypoint or $1616 at entrypoint or $1617 at entrypoint or $1618 at entrypoint or $1619 at entrypoint or $1620 at entrypoint or $1621 at entrypoint or $1622 at entrypoint or $1623 at entrypoint or $1624 at entrypoint or $1625 at entrypoint or $1626 at entrypoint or $1627 at entrypoint or $1628 at entrypoint or $1629 at entrypoint or $1630 at entrypoint or $1631 at entrypoint or $1632 at entrypoint or $1633 at entrypoint or $1634 at entrypoint or $1635 at entrypoint or $1636 at entrypoint or $1637 at entrypoint or $1638 at entrypoint or $1639 at entrypoint or $1640 at entrypoint or $1641 at entrypoint or $1642 at entrypoint
 }
+
 rule _UPX_050__070_
 {
 	meta:
@@ -8037,6 +8728,7 @@ rule _UPX_050__070_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_LTC_13__Anorganix_
 {
 	meta:
@@ -8047,6 +8739,7 @@ rule _PseudoSigner_01_LTC_13__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Turbo_C_1990_or_Turbo_C_1988_
 {
 	meta:
@@ -8056,6 +8749,7 @@ rule _Turbo_C_1990_or_Turbo_C_1988_
 	condition:
 		$0 at entrypoint
 }
+
 rule _nPack_V112002006Beta__NEOxuinC_
 {
 	meta:
@@ -8065,6 +8759,7 @@ rule _nPack_V112002006Beta__NEOxuinC_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKLITE_v100_v103_
 {
 	meta:
@@ -8074,6 +8769,7 @@ rule _PKLITE_v100_v103_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v105b_
 {
 	meta:
@@ -8084,6 +8780,7 @@ rule _ASPack_v105b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_02_LCC_Win32_1x__Anorganix_
 {
 	meta:
@@ -8094,6 +8791,7 @@ rule _PseudoSigner_02_LCC_Win32_1x__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Hyings_PEArmor_075exe__Hying_CCG_h_
 {
 	meta:
@@ -8103,6 +8801,7 @@ rule _Hyings_PEArmor_075exe__Hying_CCG_h_
 	condition:
 		$0
 }
+
 rule _tElock_v071b2_
 {
 	meta:
@@ -8112,6 +8811,7 @@ rule _tElock_v071b2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v090_
 {
 	meta:
@@ -8121,6 +8821,7 @@ rule _tElock_v090_
 	condition:
 		$0 at entrypoint
 }
+
 rule _STNPEE_113_
 {
 	meta:
@@ -8130,6 +8831,7 @@ rule _STNPEE_113_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v305c4_Unextr_Passwcheck_Vir_shield_
 {
 	meta:
@@ -8139,6 +8841,7 @@ rule _WWPACK_v305c4_Unextr_Passwcheck_Vir_shield_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEQuake_v006_by_fORGAT_
 {
 	meta:
@@ -8148,6 +8851,7 @@ rule _PEQuake_v006_by_fORGAT_
 	condition:
 		$0
 }
+
 rule _FSG_v120_Eng__dulekxt__Borland_Delphi__Microsoft_Visual_Cpp_
 {
 	meta:
@@ -8158,6 +8862,7 @@ rule _FSG_v120_Eng__dulekxt__Borland_Delphi__Microsoft_Visual_Cpp_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Inbuild_v10_hard_
 {
 	meta:
@@ -8167,6 +8872,7 @@ rule _Inbuild_v10_hard_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEBundle_v20b5__v23_
 {
 	meta:
@@ -8176,6 +8882,7 @@ rule _PEBundle_v20b5__v23_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Crypt_v100v101_
 {
 	meta:
@@ -8185,6 +8892,7 @@ rule _PE_Crypt_v100v101_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_REALBasic__Anorganix_
 {
 	meta:
@@ -8195,6 +8903,7 @@ rule _PseudoSigner_01_REALBasic__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PKLITE_v112_v115_v120_2_
 {
 	meta:
@@ -8204,6 +8913,7 @@ rule _PKLITE_v112_v115_v120_2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Trivial25_
 {
 	meta:
@@ -8213,6 +8923,7 @@ rule _Vx_Trivial25_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v099_Special_Build__heXer__forgot_
 {
 	meta:
@@ -8222,6 +8933,7 @@ rule _tElock_v099_Special_Build__heXer__forgot_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Inno_Setup_Module_v2018_
 {
 	meta:
@@ -8231,6 +8943,7 @@ rule _Inno_Setup_Module_v2018_
 	condition:
 		$0
 }
+
 rule _Upack_v036_beta__Dwing_
 {
 	meta:
@@ -8240,6 +8953,7 @@ rule _Upack_v036_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXPressor_12__CGSoftLabs_
 {
 	meta:
@@ -8249,6 +8963,7 @@ rule _eXPressor_12__CGSoftLabs_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SPEC_b3_
 {
 	meta:
@@ -8258,6 +8973,7 @@ rule _SPEC_b3_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v123_RC4_build_0807_dll__Alexey_Solodovnikov_h_
 {
 	meta:
@@ -8268,6 +8984,7 @@ rule _ASProtect_v123_RC4_build_0807_dll__Alexey_Solodovnikov_h_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Compiler_
 {
 	meta:
@@ -8277,6 +8994,7 @@ rule _Vx_Compiler_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_C__Basic_NET_
 {
 	meta:
@@ -8286,6 +9004,7 @@ rule _Microsoft_Visual_C__Basic_NET_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Turbo_C_or_Borland_Cpp_
 {
 	meta:
@@ -8295,6 +9014,7 @@ rule _Turbo_C_or_Borland_Cpp_
 	condition:
 		$0 at entrypoint
 }
+
 rule _dePACK__deNULL_
 {
 	meta:
@@ -8304,6 +9024,7 @@ rule _dePACK__deNULL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v303_
 {
 	meta:
@@ -8313,6 +9034,7 @@ rule _WWPACK_v303_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BeRo_Tiny_Pascal__BeRo_
 {
 	meta:
@@ -8323,6 +9045,7 @@ rule _BeRo_Tiny_Pascal__BeRo_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ASProtect_V2X_DLL__Alexey_Solodovnikov_
 {
 	meta:
@@ -8332,6 +9055,7 @@ rule _ASProtect_V2X_DLL__Alexey_Solodovnikov_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PC_Shrinker_v071_
 {
 	meta:
@@ -8341,6 +9065,7 @@ rule _PC_Shrinker_v071_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_CDCops_II__Anorganix_
 {
 	meta:
@@ -8351,6 +9076,7 @@ rule _PseudoSigner_01_CDCops_II__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _SafeDisc_v4_
 {
 	meta:
@@ -8360,6 +9086,7 @@ rule _SafeDisc_v4_
 	condition:
 		$0
 }
+
 rule _PE_Password_v02_SMTSMF_
 {
 	meta:
@@ -8369,6 +9096,7 @@ rule _PE_Password_v02_SMTSMF_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EncryptPE_V22006115__WFS_
 {
 	meta:
@@ -8378,6 +9106,7 @@ rule _EncryptPE_V22006115__WFS_
 	condition:
 		$0
 }
+
 rule _Krypton_v04_
 {
 	meta:
@@ -8387,6 +9116,7 @@ rule _Krypton_v04_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_v1331__Obsidium_Software_h_
 {
 	meta:
@@ -8396,6 +9126,7 @@ rule _Obsidium_v1331__Obsidium_Software_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v110b3_
 {
 	meta:
@@ -8405,6 +9136,7 @@ rule _PECompact_v110b3_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_Gleam_100__Anorganix_
 {
 	meta:
@@ -8415,6 +9147,7 @@ rule _PseudoSigner_02_Gleam_100__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _WATCOM_CCpp_RunTime_systempDOS4GW_DOS_Extender_198893_
 {
 	meta:
@@ -8424,6 +9157,7 @@ rule _WATCOM_CCpp_RunTime_systempDOS4GW_DOS_Extender_198893_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MS_RunTime_Library_1987_
 {
 	meta:
@@ -8433,6 +9167,7 @@ rule _MS_RunTime_Library_1987_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_V037V039__Dwing_
 {
 	meta:
@@ -8442,6 +9177,7 @@ rule _Upack_V037V039__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEncrypt_v31_
 {
 	meta:
@@ -8451,6 +9187,7 @@ rule _PEncrypt_v31_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PeCompact2_253276__BitSum_Technologies_
 {
 	meta:
@@ -8460,6 +9197,7 @@ rule _PeCompact2_253276__BitSum_Technologies_
 	condition:
 		$0
 }
+
 rule _PseudoSigner_02_Borland_Cpp_DLL_Method_2__Anorganix_
 {
 	meta:
@@ -8470,6 +9208,7 @@ rule _PseudoSigner_02_Borland_Cpp_DLL_Method_2__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Virogen_Crypt_v075_
 {
 	meta:
@@ -8479,6 +9218,7 @@ rule _Virogen_Crypt_v075_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unknown_Protected_Mode_compiler_1_
 {
 	meta:
@@ -8488,6 +9228,7 @@ rule _Unknown_Protected_Mode_compiler_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_ZCode_101__Anorganix_
 {
 	meta:
@@ -8498,6 +9239,7 @@ rule _PseudoSigner_02_ZCode_101__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _JDPack_2x__JDPack_
 {
 	meta:
@@ -8507,6 +9249,7 @@ rule _JDPack_2x__JDPack_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_PE_Intro_10__Anorganix_
 {
 	meta:
@@ -8517,6 +9260,7 @@ rule _PseudoSigner_02_PE_Intro_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _SEN_Debug_Protector_
 {
 	meta:
@@ -8526,6 +9270,7 @@ rule _SEN_Debug_Protector_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v125_
 {
 	meta:
@@ -8535,6 +9280,7 @@ rule _PECompact_v125_
 	condition:
 		$0 at entrypoint
 }
+
 rule _REC_v032_
 {
 	meta:
@@ -8544,6 +9290,7 @@ rule _REC_v032_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Sentinel_SuperPro_Automatic_Protection_v641__Safenet_
 {
 	meta:
@@ -8553,6 +9300,7 @@ rule _Sentinel_SuperPro_Automatic_Protection_v641__Safenet_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_Lockless_Intro_Pack__Anorganix_
 {
 	meta:
@@ -8563,6 +9311,7 @@ rule _PseudoSigner_02_Lockless_Intro_Pack__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _tElock_v098_
 {
 	meta:
@@ -8572,6 +9321,7 @@ rule _tElock_v098_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXEStealth_v275a__WebtoolMaster_h_
 {
 	meta:
@@ -8581,6 +9331,7 @@ rule _EXEStealth_v275a__WebtoolMaster_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPacK_V30__LiuXingPing_
 {
 	meta:
@@ -8590,6 +9341,7 @@ rule _NsPacK_V30__LiuXingPing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEPACK_v10_by_ANAKiN_1998__
 {
 	meta:
@@ -8599,6 +9351,7 @@ rule _PEPACK_v10_by_ANAKiN_1998__
 	condition:
 		$0 at entrypoint
 }
+
 rule _Software_Compress_V12__BG_Software_Protect_Technologies_
 {
 	meta:
@@ -8608,6 +9361,7 @@ rule _Software_Compress_V12__BG_Software_Protect_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v212_
 {
 	meta:
@@ -8618,6 +9372,7 @@ rule _ASPack_v212_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v50_
 {
 	meta:
@@ -8627,6 +9382,7 @@ rule _Microsoft_Visual_Cpp_v50_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NFO_v10_
 {
 	meta:
@@ -8636,6 +9392,7 @@ rule _NFO_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v305c4_Unextractable_
 {
 	meta:
@@ -8645,6 +9402,7 @@ rule _WWPACK_v305c4_Unextractable_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Crunch_V50__Bitarts_
 {
 	meta:
@@ -8654,6 +9412,7 @@ rule _Crunch_V50__Bitarts_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_Protector_v10x_
 {
 	meta:
@@ -8663,6 +9422,7 @@ rule _UPX_Protector_v10x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_13017__Obsidium_software_
 {
 	meta:
@@ -8672,6 +9432,7 @@ rule _Obsidium_13017__Obsidium_software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ACProtect_109g__Risco_software_Inc_
 {
 	meta:
@@ -8682,6 +9443,7 @@ rule _ACProtect_109g__Risco_software_Inc_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Obsidium_v1300__Obsidium_Software_h_
 {
 	meta:
@@ -8692,6 +9454,7 @@ rule _Obsidium_v1300__Obsidium_Software_h_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _XPEOR_v099b_
 {
 	meta:
@@ -8702,6 +9465,7 @@ rule _XPEOR_v099b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Microsoft_Visual_Basic_v60_
 {
 	meta:
@@ -8711,6 +9475,7 @@ rule _Microsoft_Visual_Basic_v60_
 	condition:
 		$0
 }
+
 rule _Themida_10xx__1800_compressed_engine__Oreans_Technologies_
 {
 	meta:
@@ -8720,6 +9485,7 @@ rule _Themida_10xx__1800_compressed_engine__Oreans_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v0896__v102__v105_v122_Delphi_stub_
 {
 	meta:
@@ -8729,6 +9495,7 @@ rule _UPX_v0896__v102__v105_v122_Delphi_stub_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_4x__LCC_Win32_1x_
 {
 	meta:
@@ -8738,6 +9505,7 @@ rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_4x__LCC_Win32_1x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Gardian_Angel_10_
 {
 	meta:
@@ -8747,6 +9515,7 @@ rule _Gardian_Angel_10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _nBinder_v361_
 {
 	meta:
@@ -8756,6 +9525,7 @@ rule _nBinder_v361_
 	condition:
 		$0
 }
+
 rule _PECompact_v167_
 {
 	meta:
@@ -8765,6 +9535,7 @@ rule _PECompact_v167_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Einstein_
 {
 	meta:
@@ -8774,6 +9545,7 @@ rule _Vx_Einstein_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ReversingLabsProtector_074_beta__Ap0x_
 {
 	meta:
@@ -8783,6 +9555,7 @@ rule _ReversingLabsProtector_074_beta__Ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_VideoLanClient__Anorganix_
 {
 	meta:
@@ -8793,6 +9566,7 @@ rule _PseudoSigner_01_VideoLanClient__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PECompact_v146_
 {
 	meta:
@@ -8802,6 +9576,7 @@ rule _PECompact_v146_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MetaWare_High_C_RunTime_Library_p_Phar_Lap_DOS_Extender_198389_
 {
 	meta:
@@ -8811,6 +9586,7 @@ rule _MetaWare_High_C_RunTime_Library_p_Phar_Lap_DOS_Extender_198389_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v20_beta__Jeremy_Collake_
 {
 	meta:
@@ -8820,6 +9596,7 @@ rule _PECompact_v20_beta__Jeremy_Collake_
 	condition:
 		$0 at entrypoint
 }
+
 rule _kryptor_9_
 {
 	meta:
@@ -8829,6 +9606,7 @@ rule _kryptor_9_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Borland_Cpp_1999_
 {
 	meta:
@@ -8838,6 +9616,7 @@ rule _FSG_v110_Eng__dulekxt__Borland_Cpp_1999_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ShellModify_01__pll621_
 {
 	meta:
@@ -8847,6 +9626,7 @@ rule _ShellModify_01__pll621_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Ding_Boys_PElock_Phantasm_v08_
 {
 	meta:
@@ -8856,6 +9636,7 @@ rule _Ding_Boys_PElock_Phantasm_v08_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v010__v012Beta__Sign_by_hot_UNP_
 {
 	meta:
@@ -8865,6 +9646,7 @@ rule _Upack_v010__v012Beta__Sign_by_hot_UNP_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v029_Beta__v031_Beta__Sign_by_hot_UNP_
 {
 	meta:
@@ -8874,6 +9656,7 @@ rule _Upack_v029_Beta__v031_Beta__Sign_by_hot_UNP_
 	condition:
 		$0
 }
+
 rule _BopCrypt_v10_
 {
 	meta:
@@ -8883,6 +9666,7 @@ rule _BopCrypt_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v100_Eng__dulekxt_
 {
 	meta:
@@ -8893,6 +9677,7 @@ rule _FSG_v100_Eng__dulekxt_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _SLVc0deProtector_060__SLV__ICU_
 {
 	meta:
@@ -8902,6 +9687,7 @@ rule _SLVc0deProtector_060__SLV__ICU_
 	condition:
 		$0
 }
+
 rule _ASPack_v10801_
 {
 	meta:
@@ -8918,6 +9704,7 @@ rule _ASPack_v10801_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint or $4 at entrypoint or $5 at entrypoint or $6 at entrypoint or $7 at entrypoint
 }
+
 rule _LCC_Win32_DLL_
 {
 	meta:
@@ -8927,6 +9714,7 @@ rule _LCC_Win32_DLL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp__
 {
 	meta:
@@ -8936,6 +9724,7 @@ rule _Microsoft_Visual_Cpp__
 	condition:
 		$0 at entrypoint
 }
+
 rule _VProtector_V10E__vcasm_
 {
 	meta:
@@ -8945,6 +9734,7 @@ rule _VProtector_V10E__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PENightMare_v13_
 {
 	meta:
@@ -8954,6 +9744,7 @@ rule _PENightMare_v13_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v1xx__v2xx_
 {
 	meta:
@@ -8963,6 +9754,7 @@ rule _Armadillo_v1xx__v2xx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WATCOM_CCpp_32_RunTime_System_19881995_
 {
 	meta:
@@ -8973,6 +9765,7 @@ rule _WATCOM_CCpp_32_RunTime_System_19881995_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__MASM32_
 {
 	meta:
@@ -8982,6 +9775,7 @@ rule _FSG_v110_Eng__dulekxt__MASM32_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Alloy_4x__PGWare_LLC_
 {
 	meta:
@@ -8992,6 +9786,7 @@ rule _Alloy_4x__PGWare_LLC_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _RatPacker_Glue_stub_
 {
 	meta:
@@ -9002,6 +9797,7 @@ rule _RatPacker_Glue_stub_
 	condition:
 		$0 at entrypoint or $1
 }
+
 rule _Microsoft_Visual_Basic_v50v60_
 {
 	meta:
@@ -9011,6 +9807,7 @@ rule _Microsoft_Visual_Basic_v50v60_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PolyCrypt_PE__214b215__JLab_Software_Creations_hoep_
 {
 	meta:
@@ -9020,6 +9817,7 @@ rule _PolyCrypt_PE__214b215__JLab_Software_Creations_hoep_
 	condition:
 		$0
 }
+
 rule _Unknown_packer_04_
 {
 	meta:
@@ -9029,6 +9827,7 @@ rule _Unknown_packer_04_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXPressor_v12__CGSoftLabs_h_
 {
 	meta:
@@ -9039,6 +9838,7 @@ rule _eXPressor_v12__CGSoftLabs_h_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UNITA3_tm_by_Sanitary_Equipment_Research_
 {
 	meta:
@@ -9048,6 +9848,7 @@ rule _UNITA3_tm_by_Sanitary_Equipment_Research_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Feokt_
 {
 	meta:
@@ -9057,6 +9858,7 @@ rule _Feokt_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEBundle_v310_
 {
 	meta:
@@ -9066,6 +9868,7 @@ rule _PEBundle_v310_
 	condition:
 		$0
 }
+
 rule _Private_EXE_Protector_18__SetiSoft_
 {
 	meta:
@@ -9075,6 +9878,7 @@ rule _Private_EXE_Protector_18__SetiSoft_
 	condition:
 		$0
 }
+
 rule _SPEC_b2_
 {
 	meta:
@@ -9084,6 +9888,7 @@ rule _SPEC_b2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RCryptor_v16__Vaska_
 {
 	meta:
@@ -9093,6 +9898,7 @@ rule _RCryptor_v16__Vaska_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Pack_Master_10_PEX_Clone__Anorganix_
 {
 	meta:
@@ -9104,6 +9910,7 @@ rule _PseudoSigner_01_Pack_Master_10_PEX_Clone__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _ASPack_v211d_
 {
 	meta:
@@ -9113,6 +9920,7 @@ rule _ASPack_v211d_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ExeJoiner_10__Yoda_f2f_
 {
 	meta:
@@ -9123,6 +9931,7 @@ rule _ExeJoiner_10__Yoda_f2f_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Shrink_v20_
 {
 	meta:
@@ -9132,6 +9941,7 @@ rule _Shrink_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EPW_v12_
 {
 	meta:
@@ -9141,6 +9951,7 @@ rule _EPW_v12_
 	condition:
 		$0 at entrypoint
 }
+
 rule _AINEXE_v21_
 {
 	meta:
@@ -9150,6 +9961,7 @@ rule _AINEXE_v21_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MetaWare_High_C_p_Phar_Lap_DOS_Extender_198389_
 {
 	meta:
@@ -9159,6 +9971,7 @@ rule _MetaWare_High_C_p_Phar_Lap_DOS_Extender_198389_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v0896__v102__v105__v122_DLL_
 {
 	meta:
@@ -9168,6 +9981,7 @@ rule _UPX_v0896__v102__v105__v122_DLL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BeRoEXEPacker_v100_DLL_LZMA__BeRo__Farbrausch_
 {
 	meta:
@@ -9177,6 +9991,7 @@ rule _BeRoEXEPacker_v100_DLL_LZMA__BeRo__Farbrausch_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MSLRH_V031__emadicius_
 {
 	meta:
@@ -9186,6 +10001,7 @@ rule _MSLRH_V031__emadicius_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v120_Eng__dulekxt__MASM32__TASM32_
 {
 	meta:
@@ -9196,6 +10012,7 @@ rule _FSG_v120_Eng__dulekxt__MASM32__TASM32_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_SK_
 {
 	meta:
@@ -9205,6 +10022,7 @@ rule _Vx_SK_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Packanoid_10__ackanoid_
 {
 	meta:
@@ -9214,6 +10032,7 @@ rule _Packanoid_10__ackanoid_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MingWin32_GCC_3x_
 {
 	meta:
@@ -9223,6 +10042,7 @@ rule _MingWin32_GCC_3x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MingWin32_v_h_
 {
 	meta:
@@ -9232,6 +10052,7 @@ rule _MingWin32_v_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Thinstall_25___h_
 {
 	meta:
@@ -9241,6 +10062,7 @@ rule _Thinstall_25___h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Hardlock_dongle_Alladin_
 {
 	meta:
@@ -9250,6 +10072,7 @@ rule _Hardlock_dongle_Alladin_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PGMPACK_v014_
 {
 	meta:
@@ -9259,6 +10082,7 @@ rule _PGMPACK_v014_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_C_for_Windows_2_
 {
 	meta:
@@ -9268,6 +10092,7 @@ rule _Microsoft_C_for_Windows_2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Cpp_19901992_
 {
 	meta:
@@ -9277,6 +10102,7 @@ rule _Microsoft_Cpp_19901992_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_CIH_Version_12_TTIT__WIN95CIH__
 {
 	meta:
@@ -9286,6 +10112,7 @@ rule _Vx_CIH_Version_12_TTIT__WIN95CIH__
 	condition:
 		$0 at entrypoint
 }
+
 rule _MS_FORTRAN_Library_19_
 {
 	meta:
@@ -9296,6 +10123,7 @@ rule _MS_FORTRAN_Library_19_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_60_DLL_Debug_
 {
 	meta:
@@ -9305,6 +10133,7 @@ rule _Microsoft_Visual_Cpp_60_DLL_Debug_
 	condition:
 		$0
 }
+
 rule _EXECryptor_224__StrongbitSoftComplete_Development_h1_
 {
 	meta:
@@ -9315,6 +10144,7 @@ rule _EXECryptor_224__StrongbitSoftComplete_Development_h1_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Private_EXE_Protector_197__SetiSoft_h_
 {
 	meta:
@@ -9324,6 +10154,7 @@ rule _Private_EXE_Protector_197__SetiSoft_h_
 	condition:
 		$0
 }
+
 rule _Free_Pascal_v1010_win32_GUI_
 {
 	meta:
@@ -9333,6 +10164,7 @@ rule _Free_Pascal_v1010_win32_GUI_
 	condition:
 		$0
 }
+
 rule _EXE_Shield_v01b__v03b_v03__SMoKE_
 {
 	meta:
@@ -9342,6 +10174,7 @@ rule _EXE_Shield_v01b__v03b_v03__SMoKE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v20_
 {
 	meta:
@@ -9351,6 +10184,7 @@ rule _ASProtect_v20_
 	condition:
 		$0
 }
+
 rule _EXE_Stealth_v272_
 {
 	meta:
@@ -9360,6 +10194,7 @@ rule _EXE_Stealth_v272_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SecureEXE_30__ZipWorx_
 {
 	meta:
@@ -9369,6 +10204,7 @@ rule _SecureEXE_30__ZipWorx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RARSFX_Archive_1_
 {
 	meta:
@@ -9378,6 +10214,7 @@ rule _RARSFX_Archive_1_
 	condition:
 		$0
 }
+
 rule _eXPressor_v14__CGSoftLabs_
 {
 	meta:
@@ -9387,6 +10224,7 @@ rule _eXPressor_v14__CGSoftLabs_
 	condition:
 		$0
 }
+
 rule _tElock_v098b1_
 {
 	meta:
@@ -9396,6 +10234,7 @@ rule _tElock_v098b1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Elicense_System_V4000__ViaTech_Inc_
 {
 	meta:
@@ -9405,6 +10244,7 @@ rule _Elicense_System_V4000__ViaTech_Inc_
 	condition:
 		$0
 }
+
 rule _VOB_ProtectCD_
 {
 	meta:
@@ -9414,6 +10254,7 @@ rule _VOB_ProtectCD_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PowerBASICCC_40_
 {
 	meta:
@@ -9423,6 +10264,7 @@ rule _PowerBASICCC_40_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v030_beta__Dwing_
 {
 	meta:
@@ -9432,6 +10274,7 @@ rule _Upack_v030_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MoleBox_v20_
 {
 	meta:
@@ -9441,6 +10284,7 @@ rule _MoleBox_v20_
 	condition:
 		$0
 }
+
 rule _BookManager_v9510_
 {
 	meta:
@@ -9450,6 +10294,7 @@ rule _BookManager_v9510_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Stealth_PE_v11_
 {
 	meta:
@@ -9459,6 +10304,7 @@ rule _Stealth_PE_v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BeRoEXEPacker_v100_DLL__BeRo__Farbrausch_
 {
 	meta:
@@ -9471,6 +10317,7 @@ rule _BeRoEXEPacker_v100_DLL__BeRo__Farbrausch_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint
 }
+
 rule _PEArmor_V07X__Hying_
 {
 	meta:
@@ -9480,6 +10327,7 @@ rule _PEArmor_V07X__Hying_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v166_
 {
 	meta:
@@ -9489,6 +10337,7 @@ rule _PECompact_v166_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Stealth_v25_
 {
 	meta:
@@ -9499,6 +10348,7 @@ rule _EXE_Stealth_v25_
 	condition:
 		$0 or $1
 }
+
 rule _UPXShit_v01__500mhz_
 {
 	meta:
@@ -9510,6 +10360,7 @@ rule _UPXShit_v01__500mhz_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _PESHiELD_v02__v02b__v02b2_
 {
 	meta:
@@ -9519,6 +10370,7 @@ rule _PESHiELD_v02__v02b__v02b2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_V112V114_LZMA_430__ap0x_
 {
 	meta:
@@ -9528,6 +10380,7 @@ rule _RLPack_V112V114_LZMA_430__ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v253b3_
 {
 	meta:
@@ -9537,6 +10390,7 @@ rule _Armadillo_v253b3_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_PE_Protect_09__Anorganix_
 {
 	meta:
@@ -9547,6 +10401,7 @@ rule _PseudoSigner_02_PE_Protect_09__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _nbuild_v10_soft_
 {
 	meta:
@@ -9556,6 +10411,7 @@ rule _nbuild_v10_soft_
 	condition:
 		$0 at entrypoint
 }
+
 rule _hyings_PEArmor_V076__hying_
 {
 	meta:
@@ -9565,6 +10421,7 @@ rule _hyings_PEArmor_V076__hying_
 	condition:
 		$0 at entrypoint
 }
+
 rule _USERNAME_v300_
 {
 	meta:
@@ -9574,6 +10431,7 @@ rule _USERNAME_v300_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SDProtector_Pro_Edition_116__Randy_Li_h_
 {
 	meta:
@@ -9583,6 +10441,7 @@ rule _SDProtector_Pro_Edition_116__Randy_Li_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _North_Star_PE_Shrinker_v13_by_Liuxingping_
 {
 	meta:
@@ -9592,6 +10451,7 @@ rule _North_Star_PE_Shrinker_v13_by_Liuxingping_
 	condition:
 		$0
 }
+
 rule _RSCs_Process_Patcher_v151_
 {
 	meta:
@@ -9601,6 +10461,7 @@ rule _RSCs_Process_Patcher_v151_
 	condition:
 		$0
 }
+
 rule _ARCSFX_Archive_
 {
 	meta:
@@ -9610,6 +10471,7 @@ rule _ARCSFX_Archive_
 	condition:
 		$0 at entrypoint
 }
+
 rule _hmimys_Protect_v10_
 {
 	meta:
@@ -9619,6 +10481,7 @@ rule _hmimys_Protect_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SimplePack_V10X__bagie_
 {
 	meta:
@@ -9628,6 +10491,7 @@ rule _SimplePack_V10X__bagie_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v60_
 {
 	meta:
@@ -9639,6 +10503,7 @@ rule _Microsoft_Visual_Cpp_v60_
 	condition:
 		$0 at entrypoint or $1 or $2
 }
+
 rule _Nakedbind_10__nakedcrew_
 {
 	meta:
@@ -9648,6 +10513,7 @@ rule _Nakedbind_10__nakedcrew_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v092a_
 {
 	meta:
@@ -9657,6 +10523,7 @@ rule _tElock_v092a_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DxPack_V086__Dxd_
 {
 	meta:
@@ -9667,6 +10534,7 @@ rule _DxPack_V086__Dxd_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_v251_
 {
 	meta:
@@ -9676,6 +10544,7 @@ rule _Armadillo_v251_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v261_
 {
 	meta:
@@ -9685,6 +10554,7 @@ rule _Armadillo_v261_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Modification_of_Hi924_
 {
 	meta:
@@ -9694,6 +10564,7 @@ rule _Vx_Modification_of_Hi924_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Inno_Setup_Module_v304betav306v307_
 {
 	meta:
@@ -9703,6 +10574,7 @@ rule _Inno_Setup_Module_v304betav306v307_
 	condition:
 		$0
 }
+
 rule _ZCode_Win32PE_Protector_v101_
 {
 	meta:
@@ -9712,6 +10584,7 @@ rule _ZCode_Win32PE_Protector_v101_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Basic_v50_
 {
 	meta:
@@ -9721,6 +10594,7 @@ rule _Microsoft_Visual_Basic_v50_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v123_RC4_build_0807_exe__Alexey_Solodovnikov_h_
 {
 	meta:
@@ -9731,6 +10605,7 @@ rule _ASProtect_v123_RC4_build_0807_exe__Alexey_Solodovnikov_h_
 	condition:
 		$0 or $1
 }
+
 rule _ASPack_v107b_
 {
 	meta:
@@ -9743,6 +10618,7 @@ rule _ASPack_v107b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint
 }
+
 rule _MS_RunTime_Library_OS2__FORTRAN_Compiler_1989_
 {
 	meta:
@@ -9752,6 +10628,7 @@ rule _MS_RunTime_Library_OS2__FORTRAN_Compiler_1989_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v200_alpha_38_
 {
 	meta:
@@ -9761,6 +10638,7 @@ rule _PECompact_v200_alpha_38_
 	condition:
 		$0
 }
+
 rule _Microsoft_Visual_Cpp_v50v60_MFC_
 {
 	meta:
@@ -9770,6 +10648,7 @@ rule _Microsoft_Visual_Cpp_v50v60_MFC_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_CodeLock__Anorganix_
 {
 	meta:
@@ -9780,6 +10659,7 @@ rule _PseudoSigner_01_CodeLock__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_Microsoft_Visual_Cpp_60_Debug_Version__Anorganix_
 {
 	meta:
@@ -9791,6 +10671,7 @@ rule _PseudoSigner_01_Microsoft_Visual_Cpp_60_Debug_Version__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _Unknown_packer_03_
 {
 	meta:
@@ -9800,6 +10681,7 @@ rule _Unknown_packer_03_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v123b3__v1241_
 {
 	meta:
@@ -9809,6 +10691,7 @@ rule _PECompact_v123b3__v1241_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_021_beta__Dwing_
 {
 	meta:
@@ -9818,6 +10701,7 @@ rule _Upack_021_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unknown_by_SMT_
 {
 	meta:
@@ -9827,6 +10711,7 @@ rule _Unknown_by_SMT_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_DxPack_10__Anorganix_
 {
 	meta:
@@ -9837,6 +10722,7 @@ rule _PseudoSigner_01_DxPack_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _AVPACK_v120_
 {
 	meta:
@@ -9846,6 +10732,7 @@ rule _AVPACK_v120_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DxPack_10_
 {
 	meta:
@@ -9855,6 +10742,7 @@ rule _DxPack_10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Hafen1641_
 {
 	meta:
@@ -9864,6 +10752,7 @@ rule _Vx_Hafen1641_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PocketPC_MIB_
 {
 	meta:
@@ -9873,6 +10762,7 @@ rule _PocketPC_MIB_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEncrypt_v10_
 {
 	meta:
@@ -9882,6 +10772,7 @@ rule _PEncrypt_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _pirit_v15_
 {
 	meta:
@@ -9891,6 +10782,7 @@ rule _pirit_v15_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Go32Stub_v200T_DOSExtender_
 {
 	meta:
@@ -9900,6 +10792,7 @@ rule _Go32Stub_v200T_DOSExtender_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SuperDAT_
 {
 	meta:
@@ -9909,6 +10802,7 @@ rule _SuperDAT_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v037_beta__Dwing_
 {
 	meta:
@@ -9918,6 +10812,7 @@ rule _Upack_v037_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXPressor_v13__CGSoftLabs_h_
 {
 	meta:
@@ -9927,6 +10822,7 @@ rule _eXPressor_v13__CGSoftLabs_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPack_V11__LiuXingPing_
 {
 	meta:
@@ -9936,6 +10832,7 @@ rule _NsPack_V11__LiuXingPing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BobPack_v100__BoB__BobSoft_
 {
 	meta:
@@ -9945,6 +10842,7 @@ rule _BobPack_v100__BoB__BobSoft_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_300a__Silicon_Realms_Toolworks_
 {
 	meta:
@@ -9955,6 +10853,7 @@ rule _Armadillo_300a__Silicon_Realms_Toolworks_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _MS_RunTime_Library_1990_1992_09_
 {
 	meta:
@@ -9964,6 +10863,7 @@ rule _MS_RunTime_Library_1990_1992_09_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v039_final__Sign_by_hot_UNP_
 {
 	meta:
@@ -9974,6 +10874,7 @@ rule _Upack_v039_final__Sign_by_hot_UNP_
 	condition:
 		$0 or $1
 }
+
 rule _VideoLanClient__UnknownCompiler_
 {
 	meta:
@@ -9983,6 +10884,7 @@ rule _VideoLanClient__UnknownCompiler_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEnguinCrypt_v10_
 {
 	meta:
@@ -9992,6 +10894,7 @@ rule _PEnguinCrypt_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Inno_Setup_Module_
 {
 	meta:
@@ -10002,6 +10905,7 @@ rule _Inno_Setup_Module_
 	condition:
 		$0 at entrypoint or $1
 }
+
 rule _Vx_GRUNT1Family_
 {
 	meta:
@@ -10011,6 +10915,7 @@ rule _Vx_GRUNT1Family_
 	condition:
 		$0 at entrypoint
 }
+
 rule _modified_HACKSTOP_v111f_
 {
 	meta:
@@ -10020,6 +10925,7 @@ rule _modified_HACKSTOP_v111f_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_60_SFX_Custom_
 {
 	meta:
@@ -10029,6 +10935,7 @@ rule _Microsoft_Visual_Cpp_60_SFX_Custom_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v3xx_
 {
 	meta:
@@ -10039,6 +10946,7 @@ rule _Armadillo_v3xx_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _EXEStealth_275__WebtoolMaster_
 {
 	meta:
@@ -10048,6 +10956,7 @@ rule _EXEStealth_275__WebtoolMaster_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CipherWall_SelfExtratorDecryptor_Console_v15_
 {
 	meta:
@@ -10058,6 +10967,7 @@ rule _CipherWall_SelfExtratorDecryptor_Console_v15_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _dUP2__diablo2oo2_
 {
 	meta:
@@ -10067,6 +10977,7 @@ rule _dUP2__diablo2oo2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v12_
 {
 	meta:
@@ -10076,6 +10987,7 @@ rule _ASProtect_v12_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Diminisher_V01__Teraphy_
 {
 	meta:
@@ -10085,6 +10997,7 @@ rule _PE_Diminisher_V01__Teraphy_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v120_Eng__dulekxt__Microsoft_Visual_Cpp_60_
 {
 	meta:
@@ -10095,6 +11008,7 @@ rule _FSG_v120_Eng__dulekxt__Microsoft_Visual_Cpp_60_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FreeBasic_014_
 {
 	meta:
@@ -10104,6 +11018,7 @@ rule _FreeBasic_014_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Themida_18xx__Oreans_Technologies_
 {
 	meta:
@@ -10113,6 +11028,7 @@ rule _Themida_18xx__Oreans_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_VOB_ProtectCD_5__Anorganix_
 {
 	meta:
@@ -10123,6 +11039,7 @@ rule _PseudoSigner_01_VOB_ProtectCD_5__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ASPack_v10802_
 {
 	meta:
@@ -10135,6 +11052,7 @@ rule _ASPack_v10802_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint
 }
+
 rule _COMPACK_v45_2_
 {
 	meta:
@@ -10144,6 +11062,7 @@ rule _COMPACK_v45_2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v177_
 {
 	meta:
@@ -10154,6 +11073,7 @@ rule _Armadillo_v177_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _CrypKey_V61X_DLL__CrypKey_Canada_Inc_
 {
 	meta:
@@ -10163,6 +11083,7 @@ rule _CrypKey_V61X_DLL__CrypKey_Canada_Inc_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v140b5__v140b6_
 {
 	meta:
@@ -10172,6 +11093,7 @@ rule _PECompact_v140b5__v140b6_
 	condition:
 		$0 at entrypoint
 }
+
 rule _AHpack_01__FEUERRADER_h_
 {
 	meta:
@@ -10182,6 +11104,7 @@ rule _AHpack_01__FEUERRADER_h_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PECompact_v090_
 {
 	meta:
@@ -10191,6 +11114,7 @@ rule _PECompact_v090_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_PENightMare_2_Beta__Anorganix_
 {
 	meta:
@@ -10201,6 +11125,7 @@ rule _PseudoSigner_01_PENightMare_2_Beta__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Safeguard_10__Simonzh_
 {
 	meta:
@@ -10210,6 +11135,7 @@ rule _Safeguard_10__Simonzh_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_CodeSafe_20__Anorganix_
 {
 	meta:
@@ -10220,6 +11146,7 @@ rule _PseudoSigner_02_CodeSafe_20__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _WWPACK_v300_v301_Relocations_pack_
 {
 	meta:
@@ -10229,6 +11156,7 @@ rule _WWPACK_v300_v301_Relocations_pack_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MicroJoiner_17__coban2k_
 {
 	meta:
@@ -10238,6 +11166,7 @@ rule _MicroJoiner_17__coban2k_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_072_
 {
 	meta:
@@ -10247,6 +11176,7 @@ rule _UPX_072_
 	condition:
 		$0 at entrypoint
 }
+
 rule _y0das_Crypter_v1x__Modified_
 {
 	meta:
@@ -10256,6 +11186,7 @@ rule _y0das_Crypter_v1x__Modified_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Nullsoft_Install_System_v20b4_
 {
 	meta:
@@ -10266,6 +11197,7 @@ rule _Nullsoft_Install_System_v20b4_
 	condition:
 		$0 or $1
 }
+
 rule _ExeBundle_v30_standard_loader_
 {
 	meta:
@@ -10276,6 +11208,7 @@ rule _ExeBundle_v30_standard_loader_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FucknJoy_v10c__UsAr_
 {
 	meta:
@@ -10286,6 +11219,7 @@ rule _FucknJoy_v10c__UsAr_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PowerBASICWin_800_
 {
 	meta:
@@ -10295,6 +11229,7 @@ rule _PowerBASICWin_800_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPXHiT_001__sibaway7yahoocom_
 {
 	meta:
@@ -10304,6 +11239,7 @@ rule _UPXHiT_001__sibaway7yahoocom_
 	condition:
 		$0
 }
+
 rule _PseudoSigner_02_BJFNT_12__Anorganix_
 {
 	meta:
@@ -10314,6 +11250,7 @@ rule _PseudoSigner_02_BJFNT_12__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _MEW_10_by_Northfox_
 {
 	meta:
@@ -10323,6 +11260,7 @@ rule _MEW_10_by_Northfox_
 	condition:
 		$0
 }
+
 rule _UPX_v051_
 {
 	meta:
@@ -10332,6 +11270,7 @@ rule _UPX_v051_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEBundle_v244_
 {
 	meta:
@@ -10341,6 +11280,7 @@ rule _PEBundle_v244_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXEPACK_v531009_LINK_v369_
 {
 	meta:
@@ -10350,6 +11290,7 @@ rule _EXEPACK_v531009_LINK_v369_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_Borland_Cpp_1999__Anorganix_
 {
 	meta:
@@ -10360,6 +11301,7 @@ rule _PseudoSigner_02_Borland_Cpp_1999__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v133_
 {
 	meta:
@@ -10369,6 +11311,7 @@ rule _FSG_v133_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXELOCK_666_15_
 {
 	meta:
@@ -10378,6 +11321,7 @@ rule _EXELOCK_666_15_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v126b1__v126b2_
 {
 	meta:
@@ -10387,6 +11331,7 @@ rule _PECompact_v126b1__v126b2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NeoLite_v200_
 {
 	meta:
@@ -10396,6 +11341,7 @@ rule _NeoLite_v200_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v110b1_
 {
 	meta:
@@ -10405,6 +11351,7 @@ rule _PECompact_v110b1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v285_
 {
 	meta:
@@ -10414,6 +11361,7 @@ rule _Armadillo_v285_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_V111__ap0x_
 {
 	meta:
@@ -10423,6 +11371,7 @@ rule _RLPack_V111__ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EZIP_v10_
 {
 	meta:
@@ -10433,6 +11382,7 @@ rule _EZIP_v10_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_Armadillo_300__Anorganix_
 {
 	meta:
@@ -10443,6 +11393,7 @@ rule _PseudoSigner_01_Armadillo_300__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _DBPE_v210_
 {
 	meta:
@@ -10454,6 +11405,7 @@ rule _DBPE_v210_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _Armadillo_v275a_
 {
 	meta:
@@ -10463,6 +11415,7 @@ rule _Armadillo_v275a_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v252_
 {
 	meta:
@@ -10473,6 +11426,7 @@ rule _Armadillo_v252_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Predator2448_
 {
 	meta:
@@ -10482,6 +11436,7 @@ rule _Vx_Predator2448_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CrypKey_V56X_DLL__Kenonic_Controls_Ltd_
 {
 	meta:
@@ -10491,6 +11446,7 @@ rule _CrypKey_V56X_DLL__Kenonic_Controls_Ltd_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Private_EXE_Protector_18_
 {
 	meta:
@@ -10500,6 +11456,7 @@ rule _Private_EXE_Protector_18_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEtite_v14_
 {
 	meta:
@@ -10510,6 +11467,7 @@ rule _PEtite_v14_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ExeBundle_v30_small_loader_
 {
 	meta:
@@ -10520,6 +11478,7 @@ rule _ExeBundle_v30_small_loader_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Setup2Go_Installer_Stub_
 {
 	meta:
@@ -10529,6 +11488,7 @@ rule _Setup2Go_Installer_Stub_
 	condition:
 		$0
 }
+
 rule _Armadillo_v200b2200b3_
 {
 	meta:
@@ -10539,6 +11499,7 @@ rule _Armadillo_v200b2200b3_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Obsidium_v10061_
 {
 	meta:
@@ -10548,6 +11509,7 @@ rule _Obsidium_v10061_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UpxLock_10__12__CyberDoom__TeamX__BoB__BobSoft_
 {
 	meta:
@@ -10557,6 +11519,7 @@ rule _UpxLock_10__12__CyberDoom__TeamX__BoB__BobSoft_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v108x_
 {
 	meta:
@@ -10566,6 +11529,7 @@ rule _ASPack_v108x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKLITE_v114_v115_v120_3_
 {
 	meta:
@@ -10575,6 +11539,7 @@ rule _PKLITE_v114_v115_v120_3_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_Microsoft_Visual_Cpp_70_DLL__Anorganix_
 {
 	meta:
@@ -10585,6 +11550,7 @@ rule _PseudoSigner_02_Microsoft_Visual_Cpp_70_DLL__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PEArmor_046__Hying_
 {
 	meta:
@@ -10594,6 +11560,7 @@ rule _PEArmor_046__Hying_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESpin_V071__cyberbob_
 {
 	meta:
@@ -10603,6 +11570,7 @@ rule _PESpin_V071__cyberbob_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Backfont900_
 {
 	meta:
@@ -10612,6 +11580,7 @@ rule _Vx_Backfont900_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Metrowerks_CodeWarrior_v20_GUI_
 {
 	meta:
@@ -10621,6 +11590,7 @@ rule _Metrowerks_CodeWarrior_v20_GUI_
 	condition:
 		$0
 }
+
 rule _EP_ExE_Pack_V10__Elite_Coding_Group_
 {
 	meta:
@@ -10630,6 +11600,7 @@ rule _EP_ExE_Pack_V10__Elite_Coding_Group_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PENightMare_2_Beta_
 {
 	meta:
@@ -10639,6 +11610,7 @@ rule _PENightMare_2_Beta_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MASM__TASM_
 {
 	meta:
@@ -10648,6 +11620,7 @@ rule _MASM__TASM_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Cracked_by_AutoHack_1_
 {
 	meta:
@@ -10657,6 +11630,7 @@ rule _Cracked_by_AutoHack_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_XCR_011__Anorganix_
 {
 	meta:
@@ -10667,6 +11641,7 @@ rule _PseudoSigner_02_XCR_011__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PC_Shrinker_v029_
 {
 	meta:
@@ -10676,6 +11651,7 @@ rule _PC_Shrinker_v029_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PIRIT_v15_
 {
 	meta:
@@ -10685,6 +11661,7 @@ rule _PIRIT_v15_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEEncrypt_v40b_JunkCode_
 {
 	meta:
@@ -10694,6 +11671,7 @@ rule _PEEncrypt_v40b_JunkCode_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v071__v072_
 {
 	meta:
@@ -10703,6 +11681,7 @@ rule _UPX_v071__v072_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v25_Retail__Bitsum_Technologies_
 {
 	meta:
@@ -10712,6 +11691,7 @@ rule _PECompact_v25_Retail__Bitsum_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CrypKey_V56X__Kenonic_Controls_Ltd_
 {
 	meta:
@@ -10721,6 +11701,7 @@ rule _CrypKey_V56X__Kenonic_Controls_Ltd_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Trivial46_
 {
 	meta:
@@ -10730,6 +11711,7 @@ rule _Vx_Trivial46_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_LCC_Win32_1x__Anorganix_
 {
 	meta:
@@ -10740,6 +11722,7 @@ rule _PseudoSigner_01_LCC_Win32_1x__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _HACKSTOP_v113_
 {
 	meta:
@@ -10749,6 +11732,7 @@ rule _HACKSTOP_v113_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ExeShield_Protector_V36__wwwexeshieldcom_
 {
 	meta:
@@ -10759,6 +11743,7 @@ rule _ExeShield_Protector_V36__wwwexeshieldcom_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_v260c_
 {
 	meta:
@@ -10768,6 +11753,7 @@ rule _Armadillo_v260c_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_VBOX_43_MTE__Anorganix_
 {
 	meta:
@@ -10778,6 +11764,7 @@ rule _PseudoSigner_02_VBOX_43_MTE__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v70_
 {
 	meta:
@@ -10788,6 +11775,7 @@ rule _Microsoft_Visual_Cpp_v70_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _EXE__yy66_
 {
 	meta:
@@ -10797,6 +11785,7 @@ rule _EXE__yy66_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DzA_Patcher_v13_Loader_
 {
 	meta:
@@ -10807,6 +11796,7 @@ rule _DzA_Patcher_v13_Loader_
 	condition:
 		$0 or $1
 }
+
 rule _Vx_Eddie2000_
 {
 	meta:
@@ -10816,6 +11806,7 @@ rule _Vx_Eddie2000_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v102b_
 {
 	meta:
@@ -10827,6 +11818,7 @@ rule _ASPack_v102b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _ExeTools_v21_Encruptor_by_DISMEMBER_
 {
 	meta:
@@ -10836,6 +11828,7 @@ rule _ExeTools_v21_Encruptor_by_DISMEMBER_
 	condition:
 		$0 at entrypoint
 }
+
 rule _HideProtect_V10X_SoftWar_Company_
 {
 	meta:
@@ -10845,6 +11838,7 @@ rule _HideProtect_V10X_SoftWar_Company_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Frusion__biff_
 {
 	meta:
@@ -10854,6 +11848,7 @@ rule _Frusion__biff_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Microsoft_Visual_Basic_50__60__Anorganix_
 {
 	meta:
@@ -10864,6 +11859,7 @@ rule _PseudoSigner_01_Microsoft_Visual_Basic_50__60__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _CA_Visual_Objects_20__25_
 {
 	meta:
@@ -10873,6 +11869,7 @@ rule _CA_Visual_Objects_20__25_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DIET_v100_v100d_
 {
 	meta:
@@ -10882,6 +11879,7 @@ rule _DIET_v100_v100d_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v305c4_Extractable_
 {
 	meta:
@@ -10891,6 +11889,7 @@ rule _WWPACK_v305c4_Extractable_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SecuPack_v15_
 {
 	meta:
@@ -10900,6 +11899,7 @@ rule _SecuPack_v15_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_November_17768_
 {
 	meta:
@@ -10909,6 +11909,7 @@ rule _Vx_November_17768_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NeoLite_v20_
 {
 	meta:
@@ -10918,6 +11919,7 @@ rule _NeoLite_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v0399__Dwing_
 {
 	meta:
@@ -10928,6 +11930,7 @@ rule _Upack_v0399__Dwing_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PeCompact_2xx_Slim_Loader__BitSum_Technologies_
 {
 	meta:
@@ -10937,6 +11940,7 @@ rule _PeCompact_2xx_Slim_Loader__BitSum_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEArmor_046__China_Cracking_Group_
 {
 	meta:
@@ -10946,6 +11950,7 @@ rule _PEArmor_046__China_Cracking_Group_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FreePascal_104_Win32__Berczi_Gabor_Pierre_Muller__Peter_Vreman_
 {
 	meta:
@@ -10955,6 +11960,7 @@ rule _FreePascal_104_Win32__Berczi_Gabor_Pierre_Muller__Peter_Vreman_
 	condition:
 		$0
 }
+
 rule _RECSmall_v102_
 {
 	meta:
@@ -10964,6 +11970,7 @@ rule _RECSmall_v102_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ENIGMA_Protector_V11_Sukhov_Vladimir_
 {
 	meta:
@@ -10973,6 +11980,7 @@ rule _ENIGMA_Protector_V11_Sukhov_Vladimir_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v04x__v05x_
 {
 	meta:
@@ -10982,6 +11990,7 @@ rule _tElock_v04x__v05x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Hafen809_
 {
 	meta:
@@ -10991,6 +12000,7 @@ rule _Vx_Hafen809_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v07x__v084_
 {
 	meta:
@@ -11000,6 +12010,7 @@ rule _tElock_v07x__v084_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE2COM_Packed_
 {
 	meta:
@@ -11009,6 +12020,7 @@ rule _EXE2COM_Packed_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Macromedia_Windows_Flash_ProjectorPlayer_v30_
 {
 	meta:
@@ -11018,6 +12030,7 @@ rule _Macromedia_Windows_Flash_ProjectorPlayer_v30_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_PENightMare_2_Beta__Anorganix_
 {
 	meta:
@@ -11028,6 +12041,7 @@ rule _PseudoSigner_02_PENightMare_2_Beta__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPX_v062_DLL_
 {
 	meta:
@@ -11037,6 +12051,7 @@ rule _UPX_v062_DLL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Pe123__v2006412_
 {
 	meta:
@@ -11046,6 +12061,7 @@ rule _Pe123__v2006412_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXEPACK_v405_v406_
 {
 	meta:
@@ -11055,6 +12071,7 @@ rule _EXEPACK_v405_v406_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WinZip_32bit_SFX_v8x_module_
 {
 	meta:
@@ -11064,6 +12081,7 @@ rule _WinZip_32bit_SFX_v8x_module_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unknown_packer_02_
 {
 	meta:
@@ -11073,6 +12091,7 @@ rule _Unknown_packer_02_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Packman_0001__Bubbasoft_h_
 {
 	meta:
@@ -11082,6 +12101,7 @@ rule _Packman_0001__Bubbasoft_h_
 	condition:
 		$0
 }
+
 rule _EXE2COM_With_CRC_check_
 {
 	meta:
@@ -11091,6 +12111,7 @@ rule _EXE2COM_With_CRC_check_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VMProtect_07x__08__PolyTech_
 {
 	meta:
@@ -11100,6 +12121,7 @@ rule _VMProtect_07x__08__PolyTech_
 	condition:
 		$0
 }
+
 rule _CICompress_v10_
 {
 	meta:
@@ -11110,6 +12132,7 @@ rule _CICompress_v10_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ExeShield_36__wwwexeshieldcom_
 {
 	meta:
@@ -11119,6 +12142,7 @@ rule _ExeShield_36__wwwexeshieldcom_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Spin_v04x_
 {
 	meta:
@@ -11128,6 +12152,7 @@ rule _PE_Spin_v04x_
 	condition:
 		$0
 }
+
 rule _Thinstall_v2460__Jitit_
 {
 	meta:
@@ -11137,6 +12162,7 @@ rule _Thinstall_v2460__Jitit_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_TravJack883_
 {
 	meta:
@@ -11146,6 +12172,7 @@ rule _Vx_TravJack883_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v20_
 {
 	meta:
@@ -11155,6 +12182,7 @@ rule _FSG_v20_
 	condition:
 		$0
 }
+
 rule _Vx_Gotcha879_
 {
 	meta:
@@ -11164,6 +12192,7 @@ rule _Vx_Gotcha879_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Exe_Shield_v29_
 {
 	meta:
@@ -11174,6 +12203,7 @@ rule _Exe_Shield_v29_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _LSI_C86_RunTime_Libray_
 {
 	meta:
@@ -11183,6 +12213,7 @@ rule _LSI_C86_RunTime_Libray_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MinGW_v32x_Dll_main_
 {
 	meta:
@@ -11192,6 +12223,7 @@ rule _MinGW_v32x_Dll_main_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_FaxFreeTopo_
 {
 	meta:
@@ -11201,6 +12233,7 @@ rule _Vx_FaxFreeTopo_
 	condition:
 		$0 at entrypoint
 }
+
 rule _from_NORMAN_AntiVirus_Utilites_
 {
 	meta:
@@ -11210,6 +12243,7 @@ rule _from_NORMAN_AntiVirus_Utilites_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DSHIELD_
 {
 	meta:
@@ -11219,6 +12253,7 @@ rule _DSHIELD_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v036_alpha__Sign_by_hot_UNP_
 {
 	meta:
@@ -11228,6 +12263,7 @@ rule _Upack_v036_alpha__Sign_by_hot_UNP_
 	condition:
 		$0
 }
+
 rule _Trivial173_by_SMTSMF_
 {
 	meta:
@@ -11237,6 +12273,7 @@ rule _Trivial173_by_SMTSMF_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Lockless_Intro_Pack_
 {
 	meta:
@@ -11246,6 +12283,7 @@ rule _Lockless_Intro_Pack_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v10803_
 {
 	meta:
@@ -11259,6 +12297,7 @@ rule _ASPack_v10803_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint or $4 at entrypoint
 }
+
 rule _SLVc0deProtector_11x__SLV__ICU_
 {
 	meta:
@@ -11268,6 +12307,7 @@ rule _SLVc0deProtector_11x__SLV__ICU_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_Microsoft_Visual_Basic_50__60__Anorganix_
 {
 	meta:
@@ -11278,6 +12318,7 @@ rule _PseudoSigner_02_Microsoft_Visual_Basic_50__60__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _NoodleCrypt_v20_
 {
 	meta:
@@ -11288,6 +12329,7 @@ rule _NoodleCrypt_v20_
 	condition:
 		$0 at entrypoint or $1
 }
+
 rule _Armadillo_v250b3_
 {
 	meta:
@@ -11297,6 +12339,7 @@ rule _Armadillo_v250b3_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Crypt_v102_
 {
 	meta:
@@ -11306,6 +12349,7 @@ rule _PE_Crypt_v102_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Gleam_100_
 {
 	meta:
@@ -11315,6 +12359,7 @@ rule _Gleam_100_
 	condition:
 		$0
 }
+
 rule _PEPROTECT_09_
 {
 	meta:
@@ -11324,6 +12369,7 @@ rule _PEPROTECT_09_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_ASProtect__Anorganix_
 {
 	meta:
@@ -11334,6 +12380,7 @@ rule _PseudoSigner_02_ASProtect__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PowerBASICWin_70x_
 {
 	meta:
@@ -11343,6 +12390,7 @@ rule _PowerBASICWin_70x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FreePascal_104_Win32_DLL__Berczi_Gabor_Pierre_Muller__Peter_Vreman_
 {
 	meta:
@@ -11352,6 +12400,7 @@ rule _FreePascal_104_Win32_DLL__Berczi_Gabor_Pierre_Muller__Peter_Vreman_
 	condition:
 		$0
 }
+
 rule _FASM_v13x_
 {
 	meta:
@@ -11361,6 +12410,7 @@ rule _FASM_v13x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v220_
 {
 	meta:
@@ -11371,6 +12421,7 @@ rule _Armadillo_v220_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Upack_012_betaDwing_
 {
 	meta:
@@ -11380,6 +12431,7 @@ rule _Upack_012_betaDwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v70_64_Bit_
 {
 	meta:
@@ -11389,6 +12441,7 @@ rule _Microsoft_Visual_Cpp_v70_64_Bit_
 	condition:
 		$0
 }
+
 rule _IMPPacker_10__Mahdi_Hezavehi_IMPOSTER_h_
 {
 	meta:
@@ -11398,6 +12451,7 @@ rule _IMPPacker_10__Mahdi_Hezavehi_IMPOSTER_h_
 	condition:
 		$0
 }
+
 rule _ASPack_v21_
 {
 	meta:
@@ -11407,6 +12461,7 @@ rule _ASPack_v21_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_vxx_
 {
 	meta:
@@ -11418,6 +12473,7 @@ rule _Microsoft_Visual_Cpp_vxx_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v60_Debug_Version_
 {
 	meta:
@@ -11427,6 +12483,7 @@ rule _Microsoft_Visual_Cpp_v60_Debug_Version_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_Full_Edition_117_DLL__Ap0x_
 {
 	meta:
@@ -11436,6 +12493,7 @@ rule _RLPack_Full_Edition_117_DLL__Ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _LameCrypt_v10_
 {
 	meta:
@@ -11445,6 +12503,7 @@ rule _LameCrypt_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _iPBProtect_v013_
 {
 	meta:
@@ -11454,6 +12513,7 @@ rule _iPBProtect_v013_
 	condition:
 		$0
 }
+
 rule _PKLITE_v114_v120_
 {
 	meta:
@@ -11463,6 +12523,7 @@ rule _PKLITE_v114_v120_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DAEMON_Protect_v067_
 {
 	meta:
@@ -11472,6 +12533,7 @@ rule _DAEMON_Protect_v067_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MinGW_v32x_main_
 {
 	meta:
@@ -11481,6 +12543,7 @@ rule _MinGW_v32x_main_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EmbedPE_V1X__cyclotron_
 {
 	meta:
@@ -11490,6 +12553,7 @@ rule _EmbedPE_V1X__cyclotron_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Stealth_v27_
 {
 	meta:
@@ -11499,6 +12563,7 @@ rule _EXE_Stealth_v27_
 	condition:
 		$0 at entrypoint
 }
+
 rule _HPA_
 {
 	meta:
@@ -11508,6 +12573,7 @@ rule _HPA_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_v103__v104_Modified_
 {
 	meta:
@@ -11517,6 +12583,7 @@ rule _UPX_v103__v104_Modified_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v300_
 {
 	meta:
@@ -11527,6 +12594,7 @@ rule _Armadillo_v300_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPXFreak_V01__HMX0101_
 {
 	meta:
@@ -11536,6 +12604,7 @@ rule _UPXFreak_V01__HMX0101_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Nullsoft_Install_System_v20b2_v20b3_
 {
 	meta:
@@ -11545,6 +12614,7 @@ rule _Nullsoft_Install_System_v20b2_v20b3_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v253_
 {
 	meta:
@@ -11556,6 +12626,7 @@ rule _Armadillo_v253_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt_
 {
 	meta:
@@ -11568,6 +12639,7 @@ rule _FSG_v110_Eng__dulekxt_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint
 }
+
 rule _PseudoSigner_01_WATCOM_CCpp_EXE__Anorganix_
 {
 	meta:
@@ -11578,6 +12650,7 @@ rule _PseudoSigner_01_WATCOM_CCpp_EXE__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _MicroJoiner_11__coban2k_
 {
 	meta:
@@ -11587,6 +12660,7 @@ rule _MicroJoiner_11__coban2k_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_V194__Markus_Oberhumer__Laszlo_Molnar__John_Reiser_
 {
 	meta:
@@ -11596,6 +12670,7 @@ rule _UPX_V194__Markus_Oberhumer__Laszlo_Molnar__John_Reiser_
 	condition:
 		$0
 }
+
 rule _PseudoSigner_01_32Lite_003__Anorganix_
 {
 	meta:
@@ -11606,6 +12681,7 @@ rule _PseudoSigner_01_32Lite_003__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Sonik_Youth_
 {
 	meta:
@@ -11615,6 +12691,7 @@ rule _Vx_Sonik_Youth_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Lattice_C_v30_
 {
 	meta:
@@ -11624,6 +12701,7 @@ rule _Lattice_C_v30_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v038_beta__Dwing_
 {
 	meta:
@@ -11633,6 +12711,7 @@ rule _Upack_v038_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CRYPT_Version_17_c_Dismember_
 {
 	meta:
@@ -11642,6 +12721,7 @@ rule _CRYPT_Version_17_c_Dismember_
 	condition:
 		$0 at entrypoint
 }
+
 rule _TPACK_v05c_m1_
 {
 	meta:
@@ -11651,6 +12731,7 @@ rule _TPACK_v05c_m1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEtite_vxx_
 {
 	meta:
@@ -11660,6 +12741,7 @@ rule _PEtite_vxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Ding_Boys_PElock_Phantasm_v15b3_
 {
 	meta:
@@ -11669,6 +12751,7 @@ rule _Ding_Boys_PElock_Phantasm_v15b3_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_ARCV4_
 {
 	meta:
@@ -11678,6 +12761,7 @@ rule _Vx_ARCV4_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v110b6_
 {
 	meta:
@@ -11687,6 +12771,7 @@ rule _PECompact_v110b6_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_C_50_
 {
 	meta:
@@ -11696,6 +12781,7 @@ rule _Microsoft_Visual_C_50_
 	condition:
 		$0
 }
+
 rule _Turbo_C_
 {
 	meta:
@@ -11705,6 +12791,7 @@ rule _Turbo_C_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v1242__v1243_
 {
 	meta:
@@ -11714,6 +12801,7 @@ rule _PECompact_v1242__v1243_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WARNING__TROJAN__XiaoHui_
 {
 	meta:
@@ -11723,6 +12811,7 @@ rule _WARNING__TROJAN__XiaoHui_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PROTECT_EXECOM_v60_
 {
 	meta:
@@ -11732,6 +12821,7 @@ rule _PROTECT_EXECOM_v60_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_Full_Edition_117__Ap0x_
 {
 	meta:
@@ -11741,6 +12831,7 @@ rule _RLPack_Full_Edition_117__Ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Eddie1530_
 {
 	meta:
@@ -11750,6 +12841,7 @@ rule _Vx_Eddie1530_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Special_EXE_Pasword_Protector_v101_Eng__Pavol_Cerven_
 {
 	meta:
@@ -11760,6 +12852,7 @@ rule _Special_EXE_Pasword_Protector_v101_Eng__Pavol_Cerven_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_XRCV1015_
 {
 	meta:
@@ -11769,6 +12862,7 @@ rule _Vx_XRCV1015_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Crinkler_V03V04__Rune_LHStubbe_and_Aske_Simon_Christensen_
 {
 	meta:
@@ -11778,6 +12872,7 @@ rule _Crinkler_V03V04__Rune_LHStubbe_and_Aske_Simon_Christensen_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Packman_v0001_
 {
 	meta:
@@ -11787,6 +12882,7 @@ rule _Packman_v0001_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Intro_v10_
 {
 	meta:
@@ -11796,6 +12892,7 @@ rule _PE_Intro_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MEW_11_SE_v12__NorthfoxHCC_
 {
 	meta:
@@ -11805,6 +12902,7 @@ rule _MEW_11_SE_v12__NorthfoxHCC_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Nullsoft_PIMP_Install_System_v13x_
 {
 	meta:
@@ -11814,6 +12912,7 @@ rule _Nullsoft_PIMP_Install_System_v13x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Alex_Protector_v10__Alex_
 {
 	meta:
@@ -11823,6 +12922,7 @@ rule _Alex_Protector_v10__Alex_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Shrinker_32_
 {
 	meta:
@@ -11832,6 +12932,7 @@ rule _Shrinker_32_
 	condition:
 		$0
 }
+
 rule _Microsoft_Visual_Cpp_80_
 {
 	meta:
@@ -11841,6 +12942,7 @@ rule _Microsoft_Visual_Cpp_80_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Turbo_Pascal_v30_1985_
 {
 	meta:
@@ -11850,6 +12952,7 @@ rule _Turbo_Pascal_v30_1985_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Install_Stub_32bit_
 {
 	meta:
@@ -11859,6 +12962,7 @@ rule _Install_Stub_32bit_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Lock_NT_v204_
 {
 	meta:
@@ -11868,6 +12972,7 @@ rule _PE_Lock_NT_v204_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v252_beta2_
 {
 	meta:
@@ -11877,6 +12982,7 @@ rule _Armadillo_v252_beta2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v265b1_
 {
 	meta:
@@ -11886,6 +12992,7 @@ rule _Armadillo_v265b1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MS_RunTime_Library_1992_14_
 {
 	meta:
@@ -11895,6 +13002,7 @@ rule _MS_RunTime_Library_1992_14_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MEW_11_SE_v11_
 {
 	meta:
@@ -11904,6 +13012,7 @@ rule _MEW_11_SE_v11_
 	condition:
 		$0
 }
+
 rule _Microsoft_Visual_Cpp_v70_DLL_
 {
 	meta:
@@ -11914,6 +13023,7 @@ rule _Microsoft_Visual_Cpp_v70_DLL_
 	condition:
 		$0 at entrypoint or $1
 }
+
 rule _tElock_v041x_
 {
 	meta:
@@ -11923,6 +13033,7 @@ rule _tElock_v041x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Manager_Version_30_1994_c_Solar_Designer_
 {
 	meta:
@@ -11932,6 +13043,7 @@ rule _EXE_Manager_Version_30_1994_c_Solar_Designer_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ExeJoiner_V10__Yoda_f2f_
 {
 	meta:
@@ -11941,6 +13053,7 @@ rule _ExeJoiner_V10__Yoda_f2f_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Horse1776_
 {
 	meta:
@@ -11950,6 +13063,7 @@ rule _Vx_Horse1776_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_Full_Edition_117_LZMA__Ap0x_
 {
 	meta:
@@ -11959,6 +13073,7 @@ rule _RLPack_Full_Edition_117_LZMA__Ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _yodas_Protector_102__103__Ashkbiz_Danehkar_
 {
 	meta:
@@ -11968,6 +13083,7 @@ rule _yodas_Protector_102__103__Ashkbiz_Danehkar_
 	condition:
 		$0 at entrypoint
 }
+
 rule _kryptor_6_
 {
 	meta:
@@ -11977,6 +13093,7 @@ rule _kryptor_6_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v10804_
 {
 	meta:
@@ -11987,6 +13104,7 @@ rule _ASPack_v10804_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Exact_Audio_Copy_
 {
 	meta:
@@ -11996,6 +13114,7 @@ rule _Exact_Audio_Copy_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PMODEW_v112_116_121_133_DOS_extender_
 {
 	meta:
@@ -12005,6 +13124,7 @@ rule _PMODEW_v112_116_121_133_DOS_extender_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_UPX_06__Anorganix_
 {
 	meta:
@@ -12015,6 +13135,7 @@ rule _PseudoSigner_02_UPX_06__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Upack_v032_beta__Dwing_
 {
 	meta:
@@ -12024,6 +13145,7 @@ rule _Upack_v032_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_BJFNT_11b__Anorganix_
 {
 	meta:
@@ -12034,6 +13156,7 @@ rule _PseudoSigner_02_BJFNT_11b__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_430a__Silicon_Realms_Toolworks_h_
 {
 	meta:
@@ -12044,6 +13167,7 @@ rule _Armadillo_430a__Silicon_Realms_Toolworks_h_
 	condition:
 		$0 or $1
 }
+
 rule _REALbasic_
 {
 	meta:
@@ -12053,6 +13177,7 @@ rule _REALbasic_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_12_
 {
 	meta:
@@ -12062,6 +13187,7 @@ rule _Petite_12_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXPressor_11__CGSoftLabs_
 {
 	meta:
@@ -12071,6 +13197,7 @@ rule _eXPressor_11__CGSoftLabs_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Spalsher_v10__v30_
 {
 	meta:
@@ -12080,6 +13207,7 @@ rule _Spalsher_v10__v30_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WATCOM_CCpp_
 {
 	meta:
@@ -12089,6 +13217,7 @@ rule _WATCOM_CCpp_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NeoLite_v10_
 {
 	meta:
@@ -12099,6 +13228,7 @@ rule _NeoLite_v10_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_v184_
 {
 	meta:
@@ -12109,6 +13239,7 @@ rule _Armadillo_v184_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPX_v062_
 {
 	meta:
@@ -12119,6 +13250,7 @@ rule _UPX_v062_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Hasp_dongle_Alladin_
 {
 	meta:
@@ -12128,6 +13260,7 @@ rule _Hasp_dongle_Alladin_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RCryptor_v16d__Vaska_
 {
 	meta:
@@ -12137,6 +13270,7 @@ rule _RCryptor_v16d__Vaska_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unknown_packer_01_
 {
 	meta:
@@ -12146,6 +13280,7 @@ rule _Unknown_packer_01_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_108_
 {
 	meta:
@@ -12155,6 +13290,7 @@ rule _ASPack_108_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Stranik_13_ModulaCPascal_
 {
 	meta:
@@ -12164,6 +13300,7 @@ rule _Stranik_13_ModulaCPascal_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ChSfx_small_v11_
 {
 	meta:
@@ -12173,6 +13310,7 @@ rule _ChSfx_small_v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Turbo_C_1987_
 {
 	meta:
@@ -12182,6 +13320,7 @@ rule _Turbo_C_1987_
 	condition:
 		$0 at entrypoint
 }
+
 rule _yodas_Protector_v1032_exescrcom__Ashkbiz_Danehkar_h_
 {
 	meta:
@@ -12191,6 +13330,7 @@ rule _yodas_Protector_v1032_exescrcom__Ashkbiz_Danehkar_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Cracked_by_Autohack_2_
 {
 	meta:
@@ -12200,6 +13340,7 @@ rule _Cracked_by_Autohack_2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _nSpack_V2x__LiuXingPing_
 {
 	meta:
@@ -12209,6 +13350,7 @@ rule _nSpack_V2x__LiuXingPing_
 	condition:
 		$0
 }
+
 rule _tElock_v042_
 {
 	meta:
@@ -12218,6 +13360,7 @@ rule _tElock_v042_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Exe_Stealth_275a__WebtoolMaster_
 {
 	meta:
@@ -12227,6 +13370,7 @@ rule _Exe_Stealth_275a__WebtoolMaster_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v252b2_
 {
 	meta:
@@ -12236,6 +13380,7 @@ rule _Armadillo_v252b2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Adys_Glue_110_
 {
 	meta:
@@ -12245,6 +13390,7 @@ rule _Adys_Glue_110_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Spin_v0b_
 {
 	meta:
@@ -12254,6 +13400,7 @@ rule _PE_Spin_v0b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_V1258__Obsidium_Software_
 {
 	meta:
@@ -12263,6 +13410,7 @@ rule _Obsidium_V1258__Obsidium_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PrincessSandy_v10_eMiNENCE_Process_Patcher_Patch_
 {
 	meta:
@@ -12272,6 +13420,7 @@ rule _PrincessSandy_v10_eMiNENCE_Process_Patcher_Patch_
 	condition:
 		$0
 }
+
 rule _Alloy_v1x2000_
 {
 	meta:
@@ -12281,6 +13430,7 @@ rule _Alloy_v1x2000_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_LCC_Win32_DLL__Anorganix_
 {
 	meta:
@@ -12291,6 +13441,7 @@ rule _PseudoSigner_01_LCC_Win32_DLL__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ASProtect_v11_BRS_
 {
 	meta:
@@ -12300,6 +13451,7 @@ rule _ASProtect_v11_BRS_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v098__tHE_EGOiSTE_h_
 {
 	meta:
@@ -12309,6 +13461,7 @@ rule _tElock_v098__tHE_EGOiSTE_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_ExeSmasher__Anorganix_
 {
 	meta:
@@ -12319,6 +13472,7 @@ rule _PseudoSigner_02_ExeSmasher__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PECompact_v092_
 {
 	meta:
@@ -12328,6 +13482,7 @@ rule _PECompact_v092_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Exe_Shield_v17_
 {
 	meta:
@@ -12338,6 +13493,7 @@ rule _Exe_Shield_v17_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _pex_V099__params_
 {
 	meta:
@@ -12347,6 +13503,7 @@ rule _pex_V099__params_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESpin_v11__Cyberbob_h_
 {
 	meta:
@@ -12356,6 +13513,7 @@ rule _PESpin_v11__Cyberbob_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RCryptor_v13__v14__Vaska_
 {
 	meta:
@@ -12365,6 +13523,7 @@ rule _RCryptor_v13__v14__Vaska_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v131_
 {
 	meta:
@@ -12375,6 +13534,7 @@ rule _FSG_v131_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PE_Ninja_v10__pDzA_kRAker_TNT_
 {
 	meta:
@@ -12384,6 +13544,7 @@ rule _PE_Ninja_v10__pDzA_kRAker_TNT_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPacK_V37__LiuXingPing_
 {
 	meta:
@@ -12393,6 +13554,7 @@ rule _NsPacK_V37__LiuXingPing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Microsoft_Visual_Cpp_50p_MFC__Anorganix_
 {
 	meta:
@@ -12403,6 +13565,7 @@ rule _PseudoSigner_01_Microsoft_Visual_Cpp_50p_MFC__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01__Anorganix_
 {
 	meta:
@@ -12413,6 +13576,7 @@ rule _PseudoSigner_01__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _RCryptor_v11__Vaska_
 {
 	meta:
@@ -12422,6 +13586,7 @@ rule _RCryptor_v11__Vaska_
 	condition:
 		$0
 }
+
 rule _UPX_v070_
 {
 	meta:
@@ -12433,6 +13598,7 @@ rule _UPX_v070_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _Can2Exe_v001_
 {
 	meta:
@@ -12442,6 +13608,7 @@ rule _Can2Exe_v001_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WinZip_32bit_6x_
 {
 	meta:
@@ -12451,6 +13618,7 @@ rule _WinZip_32bit_6x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _vfpexeNc_V500__Wang_JianGuo_
 {
 	meta:
@@ -12460,6 +13628,7 @@ rule _vfpexeNc_V500__Wang_JianGuo_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_v098b2_
 {
 	meta:
@@ -12469,6 +13638,7 @@ rule _tElock_v098b2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v110b7_
 {
 	meta:
@@ -12478,6 +13648,7 @@ rule _PECompact_v110b7_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CodeCrypt_v015b_
 {
 	meta:
@@ -12487,6 +13658,7 @@ rule _CodeCrypt_v015b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vterminal_V10X__Lei_Peng_
 {
 	meta:
@@ -12496,6 +13668,7 @@ rule _Vterminal_V10X__Lei_Peng_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Nullsoft_Install_System_v198_
 {
 	meta:
@@ -12505,6 +13678,7 @@ rule _Nullsoft_Install_System_v198_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Spalsher_10__30__Amok_
 {
 	meta:
@@ -12514,6 +13688,7 @@ rule _Spalsher_10__30__Amok_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEtite_v12_
 {
 	meta:
@@ -12523,6 +13698,7 @@ rule _PEtite_v12_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_60__70__ASM_
 {
 	meta:
@@ -12532,6 +13708,7 @@ rule _FSG_v110_Eng__dulekxt__Microsoft_Visual_Cpp_60__70__ASM_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v__If_you_know_this_version_post_on_PEiD_board_h2_
 {
 	meta:
@@ -12542,6 +13719,7 @@ rule _ASProtect_v__If_you_know_this_version_post_on_PEiD_board_h2_
 	condition:
 		$0 or $1
 }
+
 rule _PseudoSigner_02_FSG_131__Anorganix_
 {
 	meta:
@@ -12552,6 +13730,7 @@ rule _PseudoSigner_02_FSG_131__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _XtremeProtector_v105_
 {
 	meta:
@@ -12561,6 +13740,7 @@ rule _XtremeProtector_v105_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v101b_
 {
 	meta:
@@ -12571,6 +13751,7 @@ rule _ASPack_v101b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _EXECryptor_2117__StrongbitSoftComplete_Development_h_
 {
 	meta:
@@ -12580,6 +13761,7 @@ rule _EXECryptor_2117__StrongbitSoftComplete_Development_h_
 	condition:
 		$0
 }
+
 rule _VProtector_V10B__vcasm_
 {
 	meta:
@@ -12589,6 +13771,7 @@ rule _VProtector_V10B__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_440__Silicon_Realms_Toolworks_h_
 {
 	meta:
@@ -12599,6 +13782,7 @@ rule _Armadillo_440__Silicon_Realms_Toolworks_h_
 	condition:
 		$0 or $1
 }
+
 rule _ORiEN_V212__Fisun_AV_
 {
 	meta:
@@ -12608,6 +13792,7 @@ rule _ORiEN_V212__Fisun_AV_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ThemidaWinLicense_V1802_p___Oreans_Technologies_
 {
 	meta:
@@ -12617,6 +13802,7 @@ rule _ThemidaWinLicense_V1802_p___Oreans_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _beria_v007_public_WIP__symbiont_
 {
 	meta:
@@ -12626,6 +13812,7 @@ rule _beria_v007_public_WIP__symbiont_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v104b_
 {
 	meta:
@@ -12635,6 +13822,7 @@ rule _ASPack_v104b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v032_Beta_Patch__Sign_by_hot_UNP_
 {
 	meta:
@@ -12644,6 +13832,7 @@ rule _Upack_v032_Beta_Patch__Sign_by_hot_UNP_
 	condition:
 		$0
 }
+
 rule _MEW_11_SE_v12_
 {
 	meta:
@@ -12653,6 +13842,7 @@ rule _MEW_11_SE_v12_
 	condition:
 		$0
 }
+
 rule _tElock_v100_
 {
 	meta:
@@ -12662,6 +13852,7 @@ rule _tElock_v100_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Packman_0001__bubba_
 {
 	meta:
@@ -12671,6 +13862,7 @@ rule _Packman_0001__bubba_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_Macromedia_Flash_Projector_60__Anorganix_
 {
 	meta:
@@ -12681,6 +13873,7 @@ rule _PseudoSigner_02_Macromedia_Flash_Projector_60__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Crunch_v5__BitArts_
 {
 	meta:
@@ -12691,6 +13884,7 @@ rule _Crunch_v5__BitArts_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PECompact_v0977_
 {
 	meta:
@@ -12700,6 +13894,7 @@ rule _PECompact_v0977_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Winkript_v10_
 {
 	meta:
@@ -12709,6 +13904,7 @@ rule _Winkript_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VProtector_V11A__vcasm_
 {
 	meta:
@@ -12718,6 +13914,7 @@ rule _VProtector_V11A__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v120_Eng__dulekxt__Borland_Delphi__Borland_Cpp_
 {
 	meta:
@@ -12728,6 +13925,7 @@ rule _FSG_v120_Eng__dulekxt__Borland_Delphi__Borland_Cpp_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPXcrypter__archphaseNWC_
 {
 	meta:
@@ -12737,6 +13935,7 @@ rule _UPXcrypter__archphaseNWC_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DBPE_vxxx_
 {
 	meta:
@@ -12746,6 +13945,7 @@ rule _DBPE_vxxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v260a_
 {
 	meta:
@@ -12755,6 +13955,7 @@ rule _Armadillo_v260a_
 	condition:
 		$0 at entrypoint
 }
+
 rule _aPack_v082_
 {
 	meta:
@@ -12764,6 +13965,7 @@ rule _aPack_v082_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MSLRH_v01__emadicius_
 {
 	meta:
@@ -12773,6 +13975,7 @@ rule _MSLRH_v01__emadicius_
 	condition:
 		$0
 }
+
 rule _Armadillo_v201_
 {
 	meta:
@@ -12783,6 +13986,7 @@ rule _Armadillo_v201_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _HEALTH_v51_by_Muslim_MPolyak_
 {
 	meta:
@@ -12792,6 +13996,7 @@ rule _HEALTH_v51_by_Muslim_MPolyak_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BeRoEXEPacker_V100__BeRo_
 {
 	meta:
@@ -12801,6 +14006,7 @@ rule _BeRoEXEPacker_V100__BeRo_
 	condition:
 		$0
 }
+
 rule _Unknown_encryptor_2__PK7Tjrvx_
 {
 	meta:
@@ -12810,6 +14016,7 @@ rule _Unknown_encryptor_2__PK7Tjrvx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Hasp_4_envelope_dongle_Alladin_
 {
 	meta:
@@ -12819,6 +14026,7 @@ rule _Hasp_4_envelope_dongle_Alladin_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NSPack_3x__Liu_Xing_Ping_
 {
 	meta:
@@ -12828,6 +14036,7 @@ rule _NSPack_3x__Liu_Xing_Ping_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v10_
 {
 	meta:
@@ -12837,6 +14046,7 @@ rule _ASProtect_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VOB_ProtectCD_5_
 {
 	meta:
@@ -12846,6 +14056,7 @@ rule _VOB_ProtectCD_5_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Diminisher_v01_
 {
 	meta:
@@ -12856,6 +14067,7 @@ rule _PE_Diminisher_v01_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _NTkrnl_Secure_Suite_V01__NTkrnl_Software_
 {
 	meta:
@@ -12865,6 +14077,7 @@ rule _NTkrnl_Secure_Suite_V01__NTkrnl_Software_
 	condition:
 		$0
 }
+
 rule _Password_Protector_c_MiniSoft_1992_
 {
 	meta:
@@ -12874,6 +14087,7 @@ rule _Password_Protector_c_MiniSoft_1992_
 	condition:
 		$0 at entrypoint
 }
+
 rule _AsCrypt_v01__SToRM__needs_to_be_added_
 {
 	meta:
@@ -12886,6 +14100,7 @@ rule _AsCrypt_v01__SToRM__needs_to_be_added_
 	condition:
 		$0 or $1 or $2 or $3
 }
+
 rule _EXE32Pack_v13x_
 {
 	meta:
@@ -12895,6 +14110,7 @@ rule _EXE32Pack_v13x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Stones_PE_Encryptor_v10_
 {
 	meta:
@@ -12904,6 +14120,7 @@ rule _Stones_PE_Encryptor_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_02_32Lite_003__Anorganix_
 {
 	meta:
@@ -12914,6 +14131,7 @@ rule _PseudoSigner_02_32Lite_003__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_02_JDPack_1x__JDProtect_09__Anorganix_
 {
 	meta:
@@ -12924,6 +14142,7 @@ rule _PseudoSigner_02_JDPack_1x__JDProtect_09__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _WWPACK_v305c4_Extractable_p_Virus_Shield_
 {
 	meta:
@@ -12933,6 +14152,7 @@ rule _WWPACK_v305c4_Extractable_p_Virus_Shield_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DotFix_NiceProtect_vna_
 {
 	meta:
@@ -12942,6 +14162,7 @@ rule _DotFix_NiceProtect_vna_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v09782_
 {
 	meta:
@@ -12951,6 +14172,7 @@ rule _PECompact_v09782_
 	condition:
 		$0 at entrypoint
 }
+
 rule _GHF_Protector__GPcH_
 {
 	meta:
@@ -12960,6 +14182,7 @@ rule _GHF_Protector__GPcH_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_V12__Obsidium_Software_
 {
 	meta:
@@ -12969,6 +14192,7 @@ rule _Obsidium_V12__Obsidium_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPack_V14__LiuXingPing_
 {
 	meta:
@@ -12978,6 +14202,7 @@ rule _NsPack_V14__LiuXingPing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Stelth_PE_101__Anorganix_
 {
 	meta:
@@ -12988,6 +14213,7 @@ rule _PseudoSigner_01_Stelth_PE_101__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_NcuLi1688_
 {
 	meta:
@@ -12997,6 +14223,7 @@ rule _Vx_NcuLi1688_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_FSG_131__Anorganix_
 {
 	meta:
@@ -13007,6 +14234,7 @@ rule _PseudoSigner_01_FSG_131__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_Morphine_12__Anorganix_
 {
 	meta:
@@ -13018,6 +14246,7 @@ rule _PseudoSigner_01_Morphine_12__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _Stones_PE_Encruptor_v113_
 {
 	meta:
@@ -13027,6 +14256,7 @@ rule _Stones_PE_Encruptor_v113_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PACKWIN_v101p_
 {
 	meta:
@@ -13036,6 +14266,7 @@ rule _PACKWIN_v101p_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Neolite_v20_
 {
 	meta:
@@ -13045,6 +14276,7 @@ rule _Neolite_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upx_v12__Marcus__Lazlo_
 {
 	meta:
@@ -13054,6 +14286,7 @@ rule _Upx_v12__Marcus__Lazlo_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Nullsoft_PIMP_Install_System_v1x_
 {
 	meta:
@@ -13063,6 +14296,7 @@ rule _Nullsoft_PIMP_Install_System_v1x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BamBam_v001_
 {
 	meta:
@@ -13072,6 +14306,7 @@ rule _BamBam_v001_
 	condition:
 		$0
 }
+
 rule _TMTPascal_v040_
 {
 	meta:
@@ -13081,6 +14316,7 @@ rule _TMTPascal_v040_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECrypt_102_
 {
 	meta:
@@ -13090,6 +14326,7 @@ rule _PECrypt_102_
 	condition:
 		$0 at entrypoint
 }
+
 rule _diProtector_V1X__diProtector_Software_
 {
 	meta:
@@ -13099,6 +14336,7 @@ rule _diProtector_V1X__diProtector_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Windows_Update_CAB_SFX_module_
 {
 	meta:
@@ -13108,6 +14346,7 @@ rule _Microsoft_Windows_Update_CAB_SFX_module_
 	condition:
 		$0
 }
+
 rule _MinGW_v32x_WinMain_
 {
 	meta:
@@ -13117,6 +14356,7 @@ rule _MinGW_v32x_WinMain_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NX_PE_Packer_v10_
 {
 	meta:
@@ -13126,6 +14366,7 @@ rule _NX_PE_Packer_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXECryptor_v1401_
 {
 	meta:
@@ -13136,6 +14377,7 @@ rule _EXECryptor_v1401_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Libraries_by_John_Socha_
 {
 	meta:
@@ -13145,6 +14387,7 @@ rule _Libraries_by_John_Socha_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_022__023_beta__Dwing_
 {
 	meta:
@@ -13155,6 +14398,7 @@ rule _Upack_022__023_beta__Dwing_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _SimplePack_111_Method_2NT__bagieTMX_h_
 {
 	meta:
@@ -13164,6 +14408,7 @@ rule _SimplePack_111_Method_2NT__bagieTMX_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CrackStop_v101_c_Stefan_Esser_1997_
 {
 	meta:
@@ -13173,6 +14418,7 @@ rule _CrackStop_v101_c_Stefan_Esser_1997_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Zortech_C_
 {
 	meta:
@@ -13182,6 +14428,7 @@ rule _Zortech_C_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_Modified_stub_
 {
 	meta:
@@ -13191,6 +14438,7 @@ rule _UPX_Modified_stub_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Simple_UPX_Cryptor_v3042005_multi_layer_encryption__MANtiCORE_
 {
 	meta:
@@ -13201,6 +14449,7 @@ rule _Simple_UPX_Cryptor_v3042005_multi_layer_encryption__MANtiCORE_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PECompact_v184_
 {
 	meta:
@@ -13210,6 +14459,7 @@ rule _PECompact_v184_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_13_
 {
 	meta:
@@ -13219,6 +14469,7 @@ rule _Petite_13_
 	condition:
 		$0
 }
+
 rule _PC_Shrinker_v045_
 {
 	meta:
@@ -13228,6 +14479,7 @@ rule _PC_Shrinker_v045_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_v1111_
 {
 	meta:
@@ -13237,6 +14489,7 @@ rule _Obsidium_v1111_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CRYPToCRACKs_PE_Protector_V092__Lukas_Fleischer_
 {
 	meta:
@@ -13246,6 +14499,7 @@ rule _CRYPToCRACKs_PE_Protector_V092__Lukas_Fleischer_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Cygwin32_
 {
 	meta:
@@ -13255,6 +14509,7 @@ rule _Cygwin32_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Packed_with_PKLITE_v150_with_CRC_check_1_
 {
 	meta:
@@ -13264,6 +14519,7 @@ rule _Packed_with_PKLITE_v150_with_CRC_check_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EP_v10_
 {
 	meta:
@@ -13274,6 +14530,7 @@ rule _EP_v10_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _AntiVirus_Vaccine_v103_
 {
 	meta:
@@ -13283,6 +14540,7 @@ rule _AntiVirus_Vaccine_v103_
 	condition:
 		$0 at entrypoint
 }
+
 rule _XtremeProtector_v106_
 {
 	meta:
@@ -13292,6 +14550,7 @@ rule _XtremeProtector_v106_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Wise_Installer_Stub_
 {
 	meta:
@@ -13303,6 +14562,7 @@ rule _Wise_Installer_Stub_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2
 }
+
 rule _WinUpack_v030_beta__By_Dwing_h_
 {
 	meta:
@@ -13312,6 +14572,7 @@ rule _WinUpack_v030_beta__By_Dwing_h_
 	condition:
 		$0
 }
+
 rule _EXECryptor_v13045_
 {
 	meta:
@@ -13323,6 +14584,7 @@ rule _EXECryptor_v13045_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _Microsoft_C_
 {
 	meta:
@@ -13332,6 +14594,7 @@ rule _Microsoft_C_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Gleam_100__Anorganix_
 {
 	meta:
@@ -13342,6 +14605,7 @@ rule _PseudoSigner_01_Gleam_100__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Kuku886_
 {
 	meta:
@@ -13351,6 +14615,7 @@ rule _Vx_Kuku886_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_vxx_
 {
 	meta:
@@ -13361,6 +14626,7 @@ rule _ASProtect_vxx_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PECompact_v160__v165_
 {
 	meta:
@@ -13370,6 +14636,7 @@ rule _PECompact_v160__v165_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v029_beta__Dwing_
 {
 	meta:
@@ -13379,6 +14646,7 @@ rule _Upack_v029_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_13__c1998_Ian_Luck_h_
 {
 	meta:
@@ -13388,6 +14656,7 @@ rule _Petite_13__c1998_Ian_Luck_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PCShrink_071_beta_
 {
 	meta:
@@ -13397,6 +14666,7 @@ rule _PCShrink_071_beta_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Soft_Defender_v11x__Randy_Li_
 {
 	meta:
@@ -13406,6 +14676,7 @@ rule _Soft_Defender_v11x__Randy_Li_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SimplePack_111_Method_1__bagieTMX_h_
 {
 	meta:
@@ -13415,6 +14686,7 @@ rule _SimplePack_111_Method_1__bagieTMX_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Quake518_
 {
 	meta:
@@ -13424,6 +14696,7 @@ rule _Vx_Quake518_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Crypt32_Console_v10_v101_v102_
 {
 	meta:
@@ -13433,6 +14706,7 @@ rule _PE_Crypt32_Console_v10_v101_v102_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_PE_Pack_099__Anorganix_
 {
 	meta:
@@ -13443,6 +14717,7 @@ rule _PseudoSigner_01_PE_Pack_099__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPX_V200V290__Markus_Oberhumer__Laszlo_Molnar__John_Reiser_
 {
 	meta:
@@ -13452,6 +14727,7 @@ rule _UPX_V200V290__Markus_Oberhumer__Laszlo_Molnar__John_Reiser_
 	condition:
 		$0
 }
+
 rule _BJFnt_v13_
 {
 	meta:
@@ -13462,6 +14738,7 @@ rule _BJFnt_v13_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PECompact_v168__v184_
 {
 	meta:
@@ -13471,6 +14748,7 @@ rule _PECompact_v168__v184_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PROPACK_v208_
 {
 	meta:
@@ -13480,6 +14758,7 @@ rule _PROPACK_v208_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Heloween1172_
 {
 	meta:
@@ -13489,6 +14768,7 @@ rule _Vx_Heloween1172_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPXScrambler_RC_v1x_
 {
 	meta:
@@ -13498,6 +14778,7 @@ rule _UPXScrambler_RC_v1x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v102a_
 {
 	meta:
@@ -13508,6 +14789,7 @@ rule _ASPack_v102a_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_v200_
 {
 	meta:
@@ -13518,6 +14800,7 @@ rule _Armadillo_v200_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPX_Modifier_v01x_
 {
 	meta:
@@ -13527,6 +14810,7 @@ rule _UPX_Modifier_v01x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MS_RunTime_Library_1988_04_
 {
 	meta:
@@ -13536,6 +14820,7 @@ rule _MS_RunTime_Library_1988_04_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WinUpack_v039_final_relocated_image_base__By_Dwing_c2005_h2_
 {
 	meta:
@@ -13545,6 +14830,7 @@ rule _WinUpack_v039_final_relocated_image_base__By_Dwing_c2005_h2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_60__80_
 {
 	meta:
@@ -13556,6 +14842,7 @@ rule _Microsoft_Visual_Cpp_60__80_
 	condition:
 		$0 or $1 or $2
 }
+
 rule _GPInstall_v50332_
 {
 	meta:
@@ -13566,6 +14853,7 @@ rule _GPInstall_v50332_
 	condition:
 		$0 or $1
 }
+
 rule _Anskya_Binder_v11__Anskya_
 {
 	meta:
@@ -13575,6 +14863,7 @@ rule _Anskya_Binder_v11__Anskya_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SVK_Protector_v132_Eng__Pavol_Cerven_
 {
 	meta:
@@ -13584,6 +14873,7 @@ rule _SVK_Protector_v132_Eng__Pavol_Cerven_
 	condition:
 		$0 at entrypoint
 }
+
 rule _REC_v034_3_
 {
 	meta:
@@ -13593,6 +14883,7 @@ rule _REC_v034_3_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v133_
 {
 	meta:
@@ -13602,6 +14893,7 @@ rule _PECompact_v133_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEtite_v22_
 {
 	meta:
@@ -13611,6 +14903,7 @@ rule _PEtite_v22_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_ACProtect_109__Anorganix_
 {
 	meta:
@@ -13622,6 +14915,7 @@ rule _PseudoSigner_01_ACProtect_109__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _ASProtect_v11_
 {
 	meta:
@@ -13631,6 +14925,7 @@ rule _ASProtect_v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VIRUS__IWormKLEZ_
 {
 	meta:
@@ -13640,6 +14935,7 @@ rule _VIRUS__IWormKLEZ_
 	condition:
 		$0
 }
+
 rule _CHECKPRG_c_1992_
 {
 	meta:
@@ -13649,6 +14945,7 @@ rule _CHECKPRG_c_1992_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WARNING__TROJAN__RobinPE_
 {
 	meta:
@@ -13658,6 +14955,7 @@ rule _WARNING__TROJAN__RobinPE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__MASM32__TASM32_
 {
 	meta:
@@ -13669,6 +14967,7 @@ rule _FSG_v110_Eng__dulekxt__MASM32__TASM32_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _PECompact_v110b4_
 {
 	meta:
@@ -13678,6 +14977,7 @@ rule _PECompact_v110b4_
 	condition:
 		$0 at entrypoint
 }
+
 rule _nPack_v11_250_Beta__NEOx_
 {
 	meta:
@@ -13687,6 +14987,7 @@ rule _nPack_v11_250_Beta__NEOx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Shield_V06__SMoKE_
 {
 	meta:
@@ -13696,6 +14997,7 @@ rule _EXE_Shield_V06__SMoKE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESpin_v1304__Cyberbob_h_
 {
 	meta:
@@ -13705,6 +15007,7 @@ rule _PESpin_v1304__Cyberbob_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEtite_v13_
 {
 	meta:
@@ -13714,6 +15017,7 @@ rule _PEtite_v13_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Microsoft_Visual_Basic_60_DLL__Anorganix_
 {
 	meta:
@@ -13724,6 +15028,7 @@ rule _PseudoSigner_01_Microsoft_Visual_Basic_60_DLL__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_Eddie1800_
 {
 	meta:
@@ -13733,6 +15038,7 @@ rule _Vx_Eddie1800_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EncryptPE_V22006710__WFS_
 {
 	meta:
@@ -13742,6 +15048,7 @@ rule _EncryptPE_V22006710__WFS_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPacK_V33__LiuXingPing_
 {
 	meta:
@@ -13751,6 +15058,7 @@ rule _NsPacK_V33__LiuXingPing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_C_v20_
 {
 	meta:
@@ -13760,6 +15068,7 @@ rule _Microsoft_Visual_C_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_V03X__Dwing_
 {
 	meta:
@@ -13769,6 +15078,7 @@ rule _Upack_V03X__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ILUCRYPT_v4015_exe_
 {
 	meta:
@@ -13778,6 +15088,7 @@ rule _ILUCRYPT_v4015_exe_
 	condition:
 		$0 at entrypoint
 }
+
 rule _kkrunchy_v017__F_Giesen_
 {
 	meta:
@@ -13787,6 +15098,7 @@ rule _kkrunchy_v017__F_Giesen_
 	condition:
 		$0
 }
+
 rule _PseudoSigner_02_Watcom_CCpp_DLL__Anorganix_
 {
 	meta:
@@ -13797,6 +15109,7 @@ rule _PseudoSigner_02_Watcom_CCpp_DLL__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ENIGMA_Protector__Sukhov_Vladimir_
 {
 	meta:
@@ -13806,6 +15119,7 @@ rule _ENIGMA_Protector__Sukhov_Vladimir_
 	condition:
 		$0
 }
+
 rule _PE_Packer_
 {
 	meta:
@@ -13815,6 +15129,7 @@ rule _PE_Packer_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VcasmProtector_10_
 {
 	meta:
@@ -13824,6 +15139,7 @@ rule _VcasmProtector_10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Escargot_V01__ppMeat_
 {
 	meta:
@@ -13833,6 +15149,7 @@ rule _Escargot_V01__ppMeat_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DotFix_Nice_Protect_21__GPcH_Soft_
 {
 	meta:
@@ -13842,6 +15159,7 @@ rule _DotFix_Nice_Protect_21__GPcH_Soft_
 	condition:
 		$0
 }
+
 rule _Microsoft_Visual_Cpp_vxx_DLL_
 {
 	meta:
@@ -13851,6 +15169,7 @@ rule _Microsoft_Visual_Cpp_vxx_DLL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unknown_Packer__Northfox_
 {
 	meta:
@@ -13860,6 +15179,7 @@ rule _Unknown_Packer__Northfox_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_1200__Obsidium_Software_
 {
 	meta:
@@ -13869,6 +15189,7 @@ rule _Obsidium_1200__Obsidium_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _BeRo_Tiny_Pascal__BeRo__Farbrausch_
 {
 	meta:
@@ -13878,6 +15199,7 @@ rule _BeRo_Tiny_Pascal__BeRo__Farbrausch_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WinKript_v10__Mr_Crimson_h_
 {
 	meta:
@@ -13887,6 +15209,7 @@ rule _WinKript_v10__Mr_Crimson_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Free_Pascal_09910_
 {
 	meta:
@@ -13896,6 +15219,7 @@ rule _Free_Pascal_09910_
 	condition:
 		$0
 }
+
 rule _ACProtect_V13X__risco_
 {
 	meta:
@@ -13905,6 +15229,7 @@ rule _ACProtect_V13X__risco_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_71_
 {
 	meta:
@@ -13916,6 +15241,7 @@ rule _Microsoft_Visual_Cpp_71_
 	condition:
 		$0 or $1 or $2
 }
+
 rule _PseudoSigner_01_NorthStar_PE_Shrinker_13__Anorganix_
 {
 	meta:
@@ -13926,6 +15252,7 @@ rule _PseudoSigner_01_NorthStar_PE_Shrinker_13__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_01_PEtite_2x_level_0__Anorganix_
 {
 	meta:
@@ -13936,6 +15263,7 @@ rule _PseudoSigner_01_PEtite_2x_level_0__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _UPX_com_
 {
 	meta:
@@ -13945,6 +15273,7 @@ rule _UPX_com_
 	condition:
 		$0 at entrypoint
 }
+
 rule _vprotector_12__vcasm_
 {
 	meta:
@@ -13954,6 +15283,7 @@ rule _vprotector_12__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v108_
 {
 	meta:
@@ -13965,6 +15295,7 @@ rule _ASPack_v108_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _SimplePack_V1X_Method1__bagie_
 {
 	meta:
@@ -13974,6 +15305,7 @@ rule _SimplePack_V1X_Method1__bagie_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PE_Protect_v09_
 {
 	meta:
@@ -13984,6 +15316,7 @@ rule _PE_Protect_v09_
 	condition:
 		$0 or $1 at entrypoint
 }
+
 rule _FSG_v120_Eng__dulekxt__Microsoft_Visual_Cpp_60__70_
 {
 	meta:
@@ -13994,6 +15327,7 @@ rule _FSG_v120_Eng__dulekxt__Microsoft_Visual_Cpp_60__70_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _MSLRH_v031a_
 {
 	meta:
@@ -14003,6 +15337,7 @@ rule _MSLRH_v031a_
 	condition:
 		$0
 }
+
 rule _nPack_V111502006Beta__NEOxuinC_
 {
 	meta:
@@ -14013,6 +15348,7 @@ rule _nPack_V111502006Beta__NEOxuinC_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FreeBASIC_v011_
 {
 	meta:
@@ -14022,6 +15358,7 @@ rule _FreeBASIC_v011_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Shegerd_Dongle_V478__MSCo_
 {
 	meta:
@@ -14031,6 +15368,7 @@ rule _Shegerd_Dongle_V478__MSCo_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_DLL_
 {
 	meta:
@@ -14043,6 +15381,7 @@ rule _Microsoft_Visual_Cpp_DLL_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint
 }
+
 rule _eXPressor_v13__CGSoftLabs_
 {
 	meta:
@@ -14052,6 +15391,7 @@ rule _eXPressor_v13__CGSoftLabs_
 	condition:
 		$0
 }
+
 rule _PE_Lock_NT_v202c_
 {
 	meta:
@@ -14061,6 +15401,7 @@ rule _PE_Lock_NT_v202c_
 	condition:
 		$0 at entrypoint
 }
+
 rule _JDPack_
 {
 	meta:
@@ -14070,6 +15411,7 @@ rule _JDPack_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v131_Eng__dulekxt_
 {
 	meta:
@@ -14080,6 +15422,7 @@ rule _FSG_v131_Eng__dulekxt_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _DBPE_v153_
 {
 	meta:
@@ -14089,6 +15432,7 @@ rule _DBPE_v153_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_VirusConstructorIVPbased_
 {
 	meta:
@@ -14098,6 +15442,7 @@ rule _Vx_VirusConstructorIVPbased_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_v21_2_
 {
 	meta:
@@ -14107,6 +15452,7 @@ rule _Petite_v21_2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Metrowerks_CodeWarrior_v20_Console_
 {
 	meta:
@@ -14116,6 +15462,7 @@ rule _Metrowerks_CodeWarrior_v20_Console_
 	condition:
 		$0
 }
+
 rule _Anticrack_Software_Protector_v109_ACProtect_
 {
 	meta:
@@ -14126,6 +15473,7 @@ rule _Anticrack_Software_Protector_v109_ACProtect_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _aPack_v062_
 {
 	meta:
@@ -14135,6 +15483,7 @@ rule _aPack_v062_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_VBOX_43_MTE__Anorganix_
 {
 	meta:
@@ -14145,6 +15494,7 @@ rule _PseudoSigner_01_VBOX_43_MTE__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Obsidium_v13037__Obsidium_Software_h_
 {
 	meta:
@@ -14154,6 +15504,7 @@ rule _Obsidium_v13037__Obsidium_Software_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_GRUNT2Family_
 {
 	meta:
@@ -14163,6 +15514,7 @@ rule _Vx_GRUNT2Family_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_024_beta__Dwing_
 {
 	meta:
@@ -14172,6 +15524,7 @@ rule _Upack_024_beta__Dwing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v094_
 {
 	meta:
@@ -14181,6 +15534,7 @@ rule _PECompact_v094_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Hide_PE_101__BGCorp_
 {
 	meta:
@@ -14191,6 +15545,7 @@ rule _Hide_PE_101__BGCorp_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PolyCrypt_PE__214b215__JLab_Software_Creations_hsigned_
 {
 	meta:
@@ -14200,6 +15555,7 @@ rule _PolyCrypt_PE__214b215__JLab_Software_Creations_hsigned_
 	condition:
 		$0
 }
+
 rule _EXECryptor_2x__SoftComplete_Developement_
 {
 	meta:
@@ -14209,6 +15565,7 @@ rule _EXECryptor_2x__SoftComplete_Developement_
 	condition:
 		$0
 }
+
 rule _DrWeb_VirusFinding_Engine__InSoft_EDVSysteme_
 {
 	meta:
@@ -14218,6 +15575,7 @@ rule _DrWeb_VirusFinding_Engine__InSoft_EDVSysteme_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXpressor_v145__CGSoftLabs_
 {
 	meta:
@@ -14228,6 +15586,7 @@ rule _eXpressor_v145__CGSoftLabs_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _AINEXE_v230_
 {
 	meta:
@@ -14237,6 +15596,7 @@ rule _AINEXE_v230_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKZIPSFX_v11_198990_
 {
 	meta:
@@ -14246,6 +15606,7 @@ rule _PKZIPSFX_v11_198990_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_21_
 {
 	meta:
@@ -14255,6 +15616,7 @@ rule _Petite_21_
 	condition:
 		$0
 }
+
 rule _ASPack_v103b_
 {
 	meta:
@@ -14265,6 +15627,7 @@ rule _ASPack_v103b_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Obsidium_V1300__Obsidium_Software_
 {
 	meta:
@@ -14275,6 +15638,7 @@ rule _Obsidium_V1300__Obsidium_Software_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _NoodleCrypt_v200_Eng__NoodleSpa_
 {
 	meta:
@@ -14284,6 +15648,7 @@ rule _NoodleCrypt_v200_Eng__NoodleSpa_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Stealth_v11_
 {
 	meta:
@@ -14293,6 +15658,7 @@ rule _EXE_Stealth_v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _aPack_v098b_exe_
 {
 	meta:
@@ -14302,6 +15668,7 @@ rule _aPack_v098b_exe_
 	condition:
 		$0
 }
+
 rule _iLUCRYPT_v4018_exe_
 {
 	meta:
@@ -14311,6 +15678,7 @@ rule _iLUCRYPT_v4018_exe_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEPACK_099_
 {
 	meta:
@@ -14320,6 +15688,7 @@ rule _PEPACK_099_
 	condition:
 		$0 at entrypoint
 }
+
 rule _TPACK_v05c_m2_
 {
 	meta:
@@ -14329,6 +15698,7 @@ rule _TPACK_v05c_m2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RAZOR_1911_encruptor_
 {
 	meta:
@@ -14338,6 +15708,7 @@ rule _RAZOR_1911_encruptor_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v110b5_
 {
 	meta:
@@ -14347,6 +15718,7 @@ rule _PECompact_v110b5_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PeStubOEP_v1x_
 {
 	meta:
@@ -14358,6 +15730,7 @@ rule _PeStubOEP_v1x_
 	condition:
 		$0 or $1 or $2
 }
+
 rule _PE_Lock_v106_
 {
 	meta:
@@ -14367,6 +15740,7 @@ rule _PE_Lock_v106_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VProtector_V10A__vcasm_
 {
 	meta:
@@ -14376,6 +15750,7 @@ rule _VProtector_V10A__vcasm_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEiDBundle_v102__BoB__BobSoft_
 {
 	meta:
@@ -14385,6 +15760,7 @@ rule _PEiDBundle_v102__BoB__BobSoft_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Unpacked_BSSFX_Archive_v19_
 {
 	meta:
@@ -14394,6 +15770,7 @@ rule _Unpacked_BSSFX_Archive_v19_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VBOX_v42_MTE_
 {
 	meta:
@@ -14403,6 +15780,7 @@ rule _VBOX_v42_MTE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Yodas_Protector_v1032_Beta2__Ashkbiz_Danehkar_
 {
 	meta:
@@ -14412,6 +15790,7 @@ rule _Yodas_Protector_v1032_Beta2__Ashkbiz_Danehkar_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_V2X_Bitsum_Technologies_
 {
 	meta:
@@ -14421,6 +15800,7 @@ rule _PECompact_V2X_Bitsum_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEiDBundle_v100__BoB__BobSoft_
 {
 	meta:
@@ -14430,6 +15810,7 @@ rule _PEiDBundle_v100__BoB__BobSoft_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Packman_V10__Brandon_LaCombe_
 {
 	meta:
@@ -14439,6 +15820,7 @@ rule _Packman_V10__Brandon_LaCombe_
 	condition:
 		$0 at entrypoint
 }
+
 rule _eXPressor_V10__CGSoftLabs_
 {
 	meta:
@@ -14449,6 +15831,7 @@ rule _eXPressor_V10__CGSoftLabs_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_02_DEF_10__Anorganix_
 {
 	meta:
@@ -14459,6 +15842,7 @@ rule _PseudoSigner_02_DEF_10__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PESpin_v07__Cyberbob_h_
 {
 	meta:
@@ -14468,6 +15852,7 @@ rule _PESpin_v07__Cyberbob_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Thinstall_24x__25x__Jitit_Software_
 {
 	meta:
@@ -14477,6 +15862,7 @@ rule _Thinstall_24x__25x__Jitit_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Stones_PE_Encryptor_v113_
 {
 	meta:
@@ -14486,6 +15872,7 @@ rule _Stones_PE_Encryptor_v113_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_099__10_private__tE_
 {
 	meta:
@@ -14495,6 +15882,7 @@ rule _tElock_099__10_private__tE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EEXE_Version_112_
 {
 	meta:
@@ -14504,6 +15892,7 @@ rule _EEXE_Version_112_
 	condition:
 		$0 at entrypoint
 }
+
 rule _TAV_
 {
 	meta:
@@ -14513,6 +15902,7 @@ rule _TAV_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DOS16M_DOS_Extender_c_Tenberry_Software_Inc_19871995_
 {
 	meta:
@@ -14522,6 +15912,7 @@ rule _DOS16M_DOS_Extender_c_Tenberry_Software_Inc_19871995_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SVKProtector_v111_
 {
 	meta:
@@ -14531,6 +15922,7 @@ rule _SVKProtector_v111_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FACRYPT_v10_
 {
 	meta:
@@ -14540,6 +15932,7 @@ rule _FACRYPT_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RCryptor_v13b__Vaska_
 {
 	meta:
@@ -14549,6 +15942,7 @@ rule _RCryptor_v13b__Vaska_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPR_Stripper_v2x_unpacked_
 {
 	meta:
@@ -14558,6 +15952,7 @@ rule _ASPR_Stripper_v2x_unpacked_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Obsidium_V125__Obsidium_Software_
 {
 	meta:
@@ -14567,6 +15962,7 @@ rule _Obsidium_V125__Obsidium_Software_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RLPack_V112V114_aPlib_043__ap0x_
 {
 	meta:
@@ -14576,6 +15972,7 @@ rule _RLPack_V112V114_aPlib_043__ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule __Protector_v1111_DDeMPE_Engine_v09_DDeMCI_v092_
 {
 	meta:
@@ -14586,6 +15983,7 @@ rule __Protector_v1111_DDeMPE_Engine_v09_DDeMCI_v092_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Vx_KBDflags1024_
 {
 	meta:
@@ -14595,6 +15993,7 @@ rule _Vx_KBDflags1024_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Slowload_
 {
 	meta:
@@ -14604,6 +16003,7 @@ rule _Vx_Slowload_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v25_Retail_Slim_Loader__Bitsum_Technologies_
 {
 	meta:
@@ -14613,6 +16013,7 @@ rule _PECompact_v25_Retail_Slim_Loader__Bitsum_Technologies_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Eddiebased1745_
 {
 	meta:
@@ -14622,6 +16023,7 @@ rule _Vx_Eddiebased1745_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MS_RunTime_Library_1992_13_
 {
 	meta:
@@ -14631,6 +16033,7 @@ rule _MS_RunTime_Library_1992_13_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPX_Inliner_v10_by_GPcH_
 {
 	meta:
@@ -14640,6 +16043,7 @@ rule _UPX_Inliner_v10_by_GPcH_
 	condition:
 		$0
 }
+
 rule _Upack_Unknown_DLL___Sign_by_hot_UNP_
 {
 	meta:
@@ -14649,6 +16053,7 @@ rule _Upack_Unknown_DLL___Sign_by_hot_UNP_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESHiELD_v0251_
 {
 	meta:
@@ -14658,6 +16063,7 @@ rule _PESHiELD_v0251_
 	condition:
 		$0 at entrypoint
 }
+
 rule _yC_v13_by_Ashkbiz_Danehkar_
 {
 	meta:
@@ -14667,6 +16073,7 @@ rule _yC_v13_by_Ashkbiz_Danehkar_
 	condition:
 		$0
 }
+
 rule _Turbo_Cpp_30_1990_
 {
 	meta:
@@ -14676,6 +16083,7 @@ rule _Turbo_Cpp_30_1990_
 	condition:
 		$0 at entrypoint
 }
+
 rule _DIET_v102b_v110a_v120_
 {
 	meta:
@@ -14685,6 +16093,7 @@ rule _DIET_v102b_v110a_v120_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPacK_V36__LiuXingPing_
 {
 	meta:
@@ -14694,6 +16103,7 @@ rule _NsPacK_V36__LiuXingPing_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Private_Personal_Packer_PPP_v102__ConquestOfTroycom_
 {
 	meta:
@@ -14703,6 +16113,7 @@ rule _Private_Personal_Packer_PPP_v102__ConquestOfTroycom_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEtite_v20_
 {
 	meta:
@@ -14712,6 +16123,7 @@ rule _PEtite_v20_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PESpin_v03_Eng__cyberbob_
 {
 	meta:
@@ -14722,6 +16134,7 @@ rule _PESpin_v03_Eng__cyberbob_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PseudoSigner_02_CodeLock__Anorganix_
 {
 	meta:
@@ -14732,6 +16145,7 @@ rule _PseudoSigner_02_CodeLock__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Armadillo_v190a_
 {
 	meta:
@@ -14742,6 +16156,7 @@ rule _Armadillo_v190a_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _PKLITE_v200c_
 {
 	meta:
@@ -14751,6 +16166,7 @@ rule _PKLITE_v200c_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VMProtect_V1X__PolyTech_
 {
 	meta:
@@ -14760,6 +16176,7 @@ rule _VMProtect_V1X__PolyTech_
 	condition:
 		$0
 }
+
 rule _Special_EXE_Password_Protector_v10_
 {
 	meta:
@@ -14769,6 +16186,7 @@ rule _Special_EXE_Password_Protector_v10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NsPack_V2X__LiuXingPing_
 {
 	meta:
@@ -14778,6 +16196,7 @@ rule _NsPack_V2X__LiuXingPing_
 	condition:
 		$0
 }
+
 rule _Obsidium_v1250__Obsidium_Software_h_
 {
 	meta:
@@ -14788,6 +16207,7 @@ rule _Obsidium_v1250__Obsidium_Software_h_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ARM_Protector_v01_by_SMoKE_
 {
 	meta:
@@ -14798,6 +16218,7 @@ rule _ARM_Protector_v01_by_SMoKE_
 	condition:
 		$0 or $1
 }
+
 rule _PEtite_v21_
 {
 	meta:
@@ -14807,6 +16228,7 @@ rule _PEtite_v21_
 	condition:
 		$0 at entrypoint
 }
+
 rule _RCryptor_v15_Private__Vaska_
 {
 	meta:
@@ -14816,6 +16238,7 @@ rule _RCryptor_v15_Private__Vaska_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Upack_v032_Beta__Sign_by_hot_UNP_
 {
 	meta:
@@ -14826,6 +16249,7 @@ rule _Upack_v032_Beta__Sign_by_hot_UNP_
 	condition:
 		$0 or $1
 }
+
 rule _E_language_
 {
 	meta:
@@ -14835,6 +16259,7 @@ rule _E_language_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Caz1204_
 {
 	meta:
@@ -14844,6 +16269,7 @@ rule _Vx_Caz1204_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PUNiSHER_V15_Demo_FEUERRADER_
 {
 	meta:
@@ -14853,6 +16279,7 @@ rule _PUNiSHER_V15_Demo_FEUERRADER_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UG2002_Cruncher_v03b3_
 {
 	meta:
@@ -14862,6 +16289,7 @@ rule _UG2002_Cruncher_v03b3_
 	condition:
 		$0 at entrypoint
 }
+
 rule _FSG_v110_Eng__dulekxt__Borland_Delphi__Microsoft_Visual_Cppx_
 {
 	meta:
@@ -14871,6 +16299,7 @@ rule _FSG_v110_Eng__dulekxt__Borland_Delphi__Microsoft_Visual_Cppx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Uddy2617_
 {
 	meta:
@@ -14880,6 +16309,7 @@ rule _Vx_Uddy2617_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PEPaCK_v10__C_Copyright_1998_by_ANAKiN_h_
 {
 	meta:
@@ -14889,6 +16319,7 @@ rule _PEPaCK_v10__C_Copyright_1998_by_ANAKiN_h_
 	condition:
 		$0
 }
+
 rule _Shrinker_v33_
 {
 	meta:
@@ -14898,6 +16329,7 @@ rule _Shrinker_v33_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_Noon1163_
 {
 	meta:
@@ -14907,6 +16339,7 @@ rule _Vx_Noon1163_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WebCops_DLL__LINK_Data_Security_
 {
 	meta:
@@ -14916,6 +16349,7 @@ rule _WebCops_DLL__LINK_Data_Security_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PeX_099__bartCrackPl_
 {
 	meta:
@@ -14925,6 +16359,7 @@ rule _PeX_099__bartCrackPl_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PROTECT_EXECOM_v50_
 {
 	meta:
@@ -14934,6 +16369,7 @@ rule _PROTECT_EXECOM_v50_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v250_
 {
 	meta:
@@ -14944,6 +16380,7 @@ rule _Armadillo_v250_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _ASProtect_133__21_Registered__Alexey_Solodovnikov_
 {
 	meta:
@@ -14953,6 +16390,7 @@ rule _ASProtect_133__21_Registered__Alexey_Solodovnikov_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKLITE_v150_1_
 {
 	meta:
@@ -14962,6 +16400,7 @@ rule _PKLITE_v150_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _HACKSTOP_v100_
 {
 	meta:
@@ -14971,6 +16410,7 @@ rule _HACKSTOP_v100_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXECryptor_V22X__softcompletecom_
 {
 	meta:
@@ -14980,6 +16420,7 @@ rule _EXECryptor_V22X__softcompletecom_
 	condition:
 		$0
 }
+
 rule _MS_RunTime_Library_1990_10_
 {
 	meta:
@@ -14989,6 +16430,7 @@ rule _MS_RunTime_Library_1990_10_
 	condition:
 		$0 at entrypoint
 }
+
 rule _tElock_099__tE_
 {
 	meta:
@@ -14998,6 +16440,7 @@ rule _tElock_099__tE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Basic_v60_DLL_
 {
 	meta:
@@ -15007,6 +16450,7 @@ rule _Microsoft_Visual_Basic_v60_DLL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_XCR_011__Anorganix_
 {
 	meta:
@@ -15017,6 +16461,7 @@ rule _PseudoSigner_01_XCR_011__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _BJFnt_v11b_
 {
 	meta:
@@ -15026,6 +16471,7 @@ rule _BJFnt_v11b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PC_Guard_for_Win32_v500__SofProBlagoje_Ceklic_h_
 {
 	meta:
@@ -15035,6 +16481,7 @@ rule _PC_Guard_for_Win32_v500__SofProBlagoje_Ceklic_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PseudoSigner_01_Borland_Delphi_30__Anorganix_
 {
 	meta:
@@ -15046,6 +16493,7 @@ rule _PseudoSigner_01_Borland_Delphi_30__Anorganix_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint
 }
+
 rule _DEF_v100_Eng__bartxt_
 {
 	meta:
@@ -15056,6 +16504,7 @@ rule _DEF_v100_Eng__bartxt_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_70_Custom_
 {
 	meta:
@@ -15065,6 +16514,7 @@ rule _Microsoft_Visual_Cpp_70_Custom_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v2xx_CopyMem_II_
 {
 	meta:
@@ -15074,6 +16524,7 @@ rule _Armadillo_v2xx_CopyMem_II_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXECryptor_224__StrongbitSoftComplete_Development_h2_
 {
 	meta:
@@ -15083,6 +16534,7 @@ rule _EXECryptor_224__StrongbitSoftComplete_Development_h2_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CryptCom_v11_
 {
 	meta:
@@ -15092,6 +16544,7 @@ rule _CryptCom_v11_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PCPEC_alpha_
 {
 	meta:
@@ -15101,6 +16554,7 @@ rule _PCPEC_alpha_
 	condition:
 		$0 at entrypoint
 }
+
 rule _nSpack_V23__LiuXingPing_
 {
 	meta:
@@ -15110,6 +16564,7 @@ rule _nSpack_V23__LiuXingPing_
 	condition:
 		$0
 }
+
 rule _Armadillo_v190_
 {
 	meta:
@@ -15120,6 +16575,7 @@ rule _Armadillo_v190_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _TXT2COM_
 {
 	meta:
@@ -15129,6 +16585,7 @@ rule _TXT2COM_
 	condition:
 		$0 at entrypoint
 }
+
 rule _SoftWrap_
 {
 	meta:
@@ -15138,6 +16595,7 @@ rule _SoftWrap_
 	condition:
 		$0 at entrypoint
 }
+
 rule _MingWin32__Dev_Cpp_v4x_h_
 {
 	meta:
@@ -15147,6 +16605,7 @@ rule _MingWin32__Dev_Cpp_v4x_h_
 	condition:
 		$0 at entrypoint
 }
+
 rule _UPXHiT_v001_
 {
 	meta:
@@ -15156,6 +16615,7 @@ rule _UPXHiT_v001_
 	condition:
 		$0
 }
+
 rule _PESHiELD_02_
 {
 	meta:
@@ -15165,6 +16625,7 @@ rule _PESHiELD_02_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASPack_v107b_DLL_
 {
 	meta:
@@ -15174,6 +16635,7 @@ rule _ASPack_v107b_DLL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _NTKrnlPacker__Ashkbiz_Danehkar_
 {
 	meta:
@@ -15183,6 +16645,7 @@ rule _NTKrnlPacker__Ashkbiz_Danehkar_
 	condition:
 		$0
 }
+
 rule _WARNING__TROJAN__HuiGeZi_
 {
 	meta:
@@ -15192,6 +16655,7 @@ rule _WARNING__TROJAN__HuiGeZi_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CauseWay_DOS_Extender_v325_
 {
 	meta:
@@ -15201,6 +16665,7 @@ rule _CauseWay_DOS_Extender_v325_
 	condition:
 		$0 at entrypoint
 }
+
 rule _CrunchPE_v20xx_
 {
 	meta:
@@ -15210,6 +16675,7 @@ rule _CrunchPE_v20xx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _VIRUS__IWormHybris_
 {
 	meta:
@@ -15219,6 +16685,7 @@ rule _VIRUS__IWormHybris_
 	condition:
 		$0
 }
+
 rule _VIRUS__IWormBagle_
 {
 	meta:
@@ -15228,6 +16695,7 @@ rule _VIRUS__IWormBagle_
 	condition:
 		$0
 }
+
 rule _ACProtect_v135__risco_software_Inc__Anticrack_Software_h_
 {
 	meta:
@@ -15237,6 +16705,7 @@ rule _ACProtect_v135__risco_software_Inc__Anticrack_Software_h_
 	condition:
 		$0
 }
+
 rule _IMPostor_Pack_10__Mahdi_Hezavehi_
 {
 	meta:
@@ -15246,6 +16715,7 @@ rule _IMPostor_Pack_10__Mahdi_Hezavehi_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKLITE_v150_Device_driver_compression_
 {
 	meta:
@@ -15255,6 +16725,7 @@ rule _PKLITE_v150_Device_driver_compression_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE2COM_regular_
 {
 	meta:
@@ -15264,6 +16735,7 @@ rule _EXE2COM_regular_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Turbo_Basic_v10_1987_
 {
 	meta:
@@ -15273,6 +16745,7 @@ rule _Turbo_Basic_v10_1987_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_CAB_SFX_module_
 {
 	meta:
@@ -15282,6 +16755,7 @@ rule _Microsoft_CAB_SFX_module_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Stealth_v273_
 {
 	meta:
@@ -15292,6 +16766,7 @@ rule _EXE_Stealth_v273_
 	condition:
 		$0 or $1
 }
+
 rule _RLPack_V10beta__ap0x_
 {
 	meta:
@@ -15301,6 +16776,7 @@ rule _RLPack_V10beta__ap0x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WWPACK_v300_v301_Extractable_
 {
 	meta:
@@ -15310,6 +16786,7 @@ rule _WWPACK_v300_v301_Extractable_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Armadillo_v190b4_
 {
 	meta:
@@ -15320,6 +16797,7 @@ rule _Armadillo_v190b4_
 	condition:
 		$0 at entrypoint or $1 at entrypoint
 }
+
 rule _FSG_v110_Eng__bartxt__Watcom_CCpp_EXE_
 {
 	meta:
@@ -15329,6 +16807,7 @@ rule _FSG_v110_Eng__bartxt__Watcom_CCpp_EXE_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Petite_v21_1_
 {
 	meta:
@@ -15338,6 +16817,7 @@ rule _Petite_v21_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _kkrunchy__Ryd_
 {
 	meta:
@@ -15347,6 +16827,7 @@ rule _kkrunchy__Ryd_
 	condition:
 		$0 at entrypoint
 }
+
 rule _StarForce_V3X_DLL__StarForce_Copy_Protection_System_
 {
 	meta:
@@ -15356,6 +16837,7 @@ rule _StarForce_V3X_DLL__StarForce_Copy_Protection_System_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v122_
 {
 	meta:
@@ -15365,6 +16847,7 @@ rule _PECompact_v122_
 	condition:
 		$0 at entrypoint
 }
+
 rule _ASProtect_v12x_
 {
 	meta:
@@ -15374,6 +16857,7 @@ rule _ASProtect_v12x_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Thinstall_vxx_
 {
 	meta:
@@ -15383,6 +16867,7 @@ rule _Thinstall_vxx_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Cpp_v71_DLL_
 {
 	meta:
@@ -15395,6 +16880,7 @@ rule _Microsoft_Visual_Cpp_v71_DLL_
 	condition:
 		$0 at entrypoint or $1 at entrypoint or $2 at entrypoint or $3 at entrypoint
 }
+
 rule _tElock_v080_
 {
 	meta:
@@ -15404,6 +16890,7 @@ rule _tElock_v080_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PKLITE_v200b_
 {
 	meta:
@@ -15413,6 +16900,7 @@ rule _PKLITE_v200b_
 	condition:
 		$0 at entrypoint
 }
+
 rule _XPack_152__164_
 {
 	meta:
@@ -15422,6 +16910,7 @@ rule _XPack_152__164_
 	condition:
 		$0 at entrypoint
 }
+
 rule _EXE_Stealth_v274__WebToolMaster_
 {
 	meta:
@@ -15431,6 +16920,7 @@ rule _EXE_Stealth_v274__WebToolMaster_
 	condition:
 		$0 at entrypoint
 }
+
 rule _vfpexeNc_v600__Wang_JianGuo_
 {
 	meta:
@@ -15440,6 +16930,7 @@ rule _vfpexeNc_v600__Wang_JianGuo_
 	condition:
 		$0 at entrypoint
 }
+
 rule _WATCOM_CCpp_DLL_
 {
 	meta:
@@ -15449,6 +16940,7 @@ rule _WATCOM_CCpp_DLL_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PECompact_v099_
 {
 	meta:
@@ -15458,6 +16950,7 @@ rule _PECompact_v099_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_XPEH4768_
 {
 	meta:
@@ -15467,6 +16960,7 @@ rule _Vx_XPEH4768_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Vx_ACME_Clonewar_Mutant_
 {
 	meta:
@@ -15476,6 +16970,7 @@ rule _Vx_ACME_Clonewar_Mutant_
 	condition:
 		$0 at entrypoint
 }
+
 rule _PCGuard_v500d_
 {
 	meta:
@@ -15485,6 +16980,7 @@ rule _PCGuard_v500d_
 	condition:
 		$0 at entrypoint
 }
+
 rule _aPack_v098b_com_
 {
 	meta:
@@ -15494,6 +16990,7 @@ rule _aPack_v098b_com_
 	condition:
 		$0
 }
+
 rule _SLR_OPTLINK_1_
 {
 	meta:
@@ -15503,6 +17000,7 @@ rule _SLR_OPTLINK_1_
 	condition:
 		$0 at entrypoint
 }
+
 rule _Microsoft_Visual_Basic_v50__v60_
 {
 	meta:
@@ -15513,6 +17011,7 @@ rule _Microsoft_Visual_Basic_v50__v60_
 	condition:
 		$0 or $1
 }
+
 rule _eXPressor_v15x__CGSoftLabs_h_
 {
 	meta:
@@ -15522,3 +17021,4 @@ rule _eXPressor_v15x__CGSoftLabs_h_
 	condition:
 		$0 at entrypoint
 }
+
