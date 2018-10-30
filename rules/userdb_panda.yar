@@ -729,7 +729,7 @@ rule _RLPack_v073beta__ap0x_h_
 rule _PcShare__v40___
 {
 	meta:
-		description = "PcShare ÎÄ¼þÀ¦°óÆ÷ v4.0 -> ÎÞ¿É·ÇÒé"
+		description = "PcShare æ–‡ä»¶æ†ç»‘å™¨ v4.0 -> æ— å¯éžè®®"
 	strings:
 		$0 = {55 8B EC 6A FF 68 90 34 40 00 68 B6 28 40 00 64 A1}
 	condition:
@@ -930,7 +930,7 @@ rule _MS_RunTime_Library_1992_11_
 rule _FreePascal_200_Win32__Brczi_Gbor_Pierre_Muller__Peter_Vreman_
 {
 	meta:
-		description = "FreePascal 2.0.0 Win32 -> (Bérczi Gábor, Pierre Muller & Peter Vreman)"
+		description = "FreePascal 2.0.0 Win32 -> (Bé–žczi Gé†”or, Pierre Muller & Peter Vreman)"
 	strings:
 		$0 = {C6 05 ?? ?? ?? ?? 01 E8 74 00 00 00 C6 05 00 80 40 00 00 E8 68 00 00 00 50 E8 00 00 00 00 FF 25 D8 A1 40 00 90 90 90 90 90 90 90 90 90 90 90 90 55 89 E5 83 EC 04 89 5D FC E8 92 00 00 00 E8 ED 00 00 00 89 C3 B9 ?? 70 40 00 89 DA B8 00 00 00 00 E8 0A 01 00}
 		$1 = {C6 05 00 80 40 00 01 E8 74 00 00 00 C6 05 00 80 40 00 00 E8 68 00 00 00 50 E8 00 00 00 00 FF 25 D8 A1 40 00 90 90 90 90 90 90 90 90 90 90 90 90 55 89 E5 83 EC 04 89 5D FC E8 92 00 00 00 E8 ED 00 00 00 89 C3 B9 ?? 70 40 00 89 DA B8 00 00 00 00 E8 0A 01 00}
@@ -3531,7 +3531,7 @@ rule _nMacro_recorder_10_
 rule _E__
 {
 	meta:
-		description = "EÓÎµØ´ø-> ÔÂºÚ·ç¸ß"
+		description = "Eæ¸¸åœ°å¸¦-> æœˆé»‘é£Žé«˜"
 	strings:
 		$0 = {55 8B EC B8 ?? ?? ?? ?? E8 ?? ?? ?? ?? 53 56 57 0F 31 8B D8 0F 31 8B D0 2B D3 C1 EA 10 B8 ?? ?? ?? ?? 0F 6E C0 B8 ?? ?? ?? ?? 0F 6E C8 0F F5 C1 0F 7E C0 0F 77 03 C2 ?? ?? ?? ?? ?? FF E0}
 	condition:
@@ -5068,7 +5068,7 @@ rule _VcasmProtector_11__12__vcasm_
 rule _UPXSCRAMBLER_306__OnToL_
 {
 	meta:
-		description = "UPX-SCRAMBLER 3.06 -> ©OnT®oL"
+		description = "UPX-SCRAMBLER 3.06 -> ãŽ¡nTç•‚L"
 	strings:
 		$0 = {E8 00 00 00 00 59 83 C1 07 51 C3 C3 BE ?? ?? ?? ?? 83 EC 04 89 34 24 B9 80 00 00 00 81 36 ?? ?? ?? ?? 50 B8 04 00 00 00 50 03 34 24 58 58 83 E9 03 E2 E9 EB D6}
 	condition:
@@ -10791,7 +10791,7 @@ rule _Microsoft_Visual_Cpp_v70_
 rule _EXE__yy66_
 {
 	meta:
-		description = "ÐÄÆæEXEºÏ²¢Æ÷ -> yy66"
+		description = "å¿ƒå¥‡EXEåˆå¹¶å™¨ -> yy66"
 	strings:
 		$0 = {68 78 18 40 00 E8 F0 FF FF FF 00 00 00 00 00 00 30}
 	condition:
