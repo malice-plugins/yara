@@ -2794,7 +2794,8 @@ rule _aPack_v098_m_
 		$0
 }
 
-rule _Armadillo_v171_
+// Disabled due to false positives
+/*rule _Armadillo_v171_
 {
 	meta:
 		description = "Armadillo v1.71"
@@ -2802,7 +2803,7 @@ rule _Armadillo_v171_
 		$0 = {55 8B EC 6A FF 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 64 A1}
 	condition:
 		$0 at entrypoint
-}
+}*/
 
 rule _yodas_Crypter_13__Ashkbiz_Danehkar_
 {
