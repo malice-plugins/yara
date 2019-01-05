@@ -244,22 +244,6 @@
         ]
       },
       {
-        "Rule": "PEiD_00138_Armadillo_v1_71_",
-        "Namespace": "malice",
-        "Tags": null,
-        "Meta": {
-          "description": "[Armadillo v1.71]",
-          "ep_only": "false"
-        },
-        "Strings": [
-          {
-            "Name": "$a",
-            "Offset": 23110,
-            "Data": "VYvsav9oIGJAAGjGW0AAZKE="
-          }
-        ]
-      },
-      {
         "Rule": "PEiD_00497_dUP_v2_x_Patcher_____www_diablo2oo2_cjb_net_",
         "Namespace": "malice",
         "Tags": null,
@@ -397,21 +381,6 @@
             "Name": "$0",
             "Offset": 14866,
             "Data": "xgXAhEAAT+hrBAAA"
-          }
-        ]
-      },
-      {
-        "Rule": "_Armadillo_v171_",
-        "Namespace": "malice",
-        "Tags": null,
-        "Meta": {
-          "description": "Armadillo v1.71"
-        },
-        "Strings": [
-          {
-            "Name": "$0",
-            "Offset": 23110,
-            "Data": "VYvsav9oIGJAAGjGW0AAZKE="
           }
         ]
       },
