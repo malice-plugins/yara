@@ -14,6 +14,7 @@ package yara
 #include <yara.h>
 
 #ifdef _WIN32
+#include <stdint.h>
 // Helper function that is merely used to cast fd from int to HANDLE.
 // CGO treats HANDLE (void*) to an unsafe.Pointer. This confuses the
 // go1.4 garbage collector, leading to runtime errors such as:
@@ -27,7 +28,7 @@ int _yr_rules_scan_fd(
     void* user_data,
     int timeout)
 {
-  return yr_rules_scan_fd(rules, (YR_FILE_DESCRIPTOR)fd, flags, callback, user_data, timeout);
+  return yr_rules_scan_fd(rules, (YR_FILE_DESCRIPTOR)(intptr_t)fd, flags, callback, user_data, timeout);
 }
 #else
 #define _yr_rules_scan_fd yr_rules_scan_fd
@@ -58,7 +59,9 @@ func (r *Rules) ScanFileDescriptor(fd uintptr, flags ScanFlags, timeout time.Dur
 // emitted by libyara, the appropriate method on the ScanCallback
 // object is called.
 func (r *Rules) ScanFileDescriptorWithCallback(fd uintptr, flags ScanFlags, timeout time.Duration, cb ScanCallback) (err error) {
-	id := callbackData.Put(cb)
+	cbc := &scanCallbackContainer{ScanCallback: cb}
+	defer cbc.destroy()
+	id := callbackData.Put(cbc)
 	defer callbackData.Delete(id)
 	err = newError(C._yr_rules_scan_fd(
 		r.cptr,
