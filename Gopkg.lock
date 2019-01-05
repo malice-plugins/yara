@@ -72,7 +72,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:1d495dace08d0462cac180cd80ffb8712bdedf7ce4a01898c7d332b5dcc27c35"
+  digest = "1:eca5bb450045062473e0687bf46176597b411bfcace003a8bb503050e4864e84"
   name = "github.com/malice-plugins/pkgs"
   packages = [
     "database",
@@ -80,7 +80,7 @@
     "utils",
   ]
   pruneopts = "UT"
-  revision = "8b60ba5208b1f40281d09751d83dafd0e7db6e15"
+  revision = "ac91edd7338644fe8c91a52e569f6f0d4431fdb2"
 
 [[projects]]
   digest = "1:0356f3312c9bd1cbeda81505b7fd437501d8e778ab66998ef69f00d7f9b3a0d7"
@@ -162,7 +162,7 @@
     "windows",
   ]
   pruneopts = "UT"
-  revision = "82a175fd1598e8a172e58ebdf5ed262bb29129e5"
+  revision = "badf5585203e739f88c2c6cd34188a6f54b5d619"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
