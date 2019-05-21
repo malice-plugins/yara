@@ -9746,6 +9746,7 @@ rule _PENightMare_v13_
 		$0 at entrypoint
 }
 
+/* false positive - https://www.zscaler.com/blogs/research/your-windows-8-packed
 rule _Armadillo_v1xx__v2xx_
 {
 	meta:
@@ -9755,6 +9756,7 @@ rule _Armadillo_v1xx__v2xx_
 	condition:
 		$0 at entrypoint
 }
+*/
 
 rule _WATCOM_CCpp_32_RunTime_System_19881995_
 {
